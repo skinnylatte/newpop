@@ -1,0 +1,16 @@
+---
+layout: layout.njk
+title: the best demo
+---
+
+<ul>
+	
+{% for post in collections.blog | reverse %}  
+	<li>
+		<a href="{{ post.url }}"><h2>{{ post.data.title }}</h2></a> 
+		<div>{{ post.templateContent | safe }}</div>
+	</li>
+{% endfor %}
+</ul>
+
+

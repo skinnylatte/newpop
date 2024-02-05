@@ -1,0 +1,9 @@
+---
+tags: til
+layout: post.njk
+date: 2024-01-30
+title: fish eyes
+---
+
+- [Lucas Sin shares how Cantonese chefs gauge water temp](https://youtu.be/sZgauQe1pwY?t=470): shrimp eyes (80C), crab eyes (90C), fish eyes (99C about to go into a rolling boil). The video is also a good instructional resource on how to prepare and cook shrimp, especially Hangzhou style tea shrimp. Good recipe to come back to and try.
+- [Hennepin County, Minneapolis has reduced its chronically homeless population by 80%](https://archive.ph/bb5wa) in just five years via a combination of funding, deep community engagement and a housing-first approach that’s matched with real housing resources. Besides cutting chronic homelessness, Hennepin County has also managed to reduce its unsheltered population by 22% since 2019, while the country’s totals moved in the opposite direction.
