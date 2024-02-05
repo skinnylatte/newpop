@@ -1,7 +1,26 @@
-module.exports = function (eleventyConfig) {
+// Import prior to `module.exports` within `.eleventy.js`
+const { DateTime } = require("luxon");
 
-	// copy src/style.css to _site/style.css
-	eleventyConfig.addPassthroughCopy("src/style.css");
+// adding markdown filters
+const markdownIt = require("markdown-it");
+
+
+// adding passthrough declarations and directories
+
+module.exports = function (eleventyConfig) {
+	// markdown options
+	let options = {
+		html: true,
+		breaks: true,
+		linkify: true
+	};
+
+	["src/style.css", "src/photos/uploads"].forEach(path => {
+		eleventyConfig.addPassthroughCopy(path);
+	});
+	eleventyConfig.addFilter("postDate", (dateObj) => {
+  return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
+});
 
 	// set custom directories for input, output includes and data
 	return {
@@ -15,3 +34,4 @@ module.exports = function (eleventyConfig) {
 		}
 	};
 };
+
