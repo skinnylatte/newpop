@@ -12,28 +12,7 @@ categories:
 - "film"
 - "stories"
 - "photos"
-images:
-- https://cdn.uploads.micro.blog/8917/2023/001071680027-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680028-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680026-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680024-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680021-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680013-positive.jpg
-photos:
-- https://cdn.uploads.micro.blog/8917/2023/001071680027-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680028-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680026-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680024-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680021-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/001071680013-positive.jpg
-photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/8917/2023/001071680027-positive.jpg
-- url: https://cdn.uploads.micro.blog/8917/2023/001071680028-positive.jpg
-- url: https://cdn.uploads.micro.blog/8917/2023/001071680026-positive.jpg
-- url: https://cdn.uploads.micro.blog/8917/2023/001071680024-positive.jpg
-- url: https://cdn.uploads.micro.blog/8917/2023/001071680021-positive.jpg
-- url: https://cdn.uploads.micro.blog/8917/2023/001071680013-positive.jpg
-url: /2023/12/10/surabaya-by-ojek.html
+url: /2023/12/10/surabaya-by-ojek
 ---
 My oldest friend in the world lives in Surabaya, Indonesia. I try to see her as much as possible. Now that I live ten thousand miles away, it's a little harder, but if I'm back in Singapore I try to head that way: it's easy and cheap to get there from Singapore.
 
@@ -45,27 +24,27 @@ I wanted to [get to a wet market](https://maps.app.goo.gl/RhrUYdJ9iDa21RnG6) jus
 
 Here are some photos from the back of a bike, and from a market.
 
-<img src="uploads/2023/001071680027-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of traffic in surabaya from the back of a motorbike, pillion. in front, several motorbikes and their passengers stopped at traffic">
+<img src="uploads/001071680027-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of traffic in surabaya from the back of a motorbike, pillion. in front, several motorbikes and their passengers stopped at traffic">
 
 *If you've lived in Indonesia like I have, the first word you'll learn is 'macet': traffic jam.*
 
-<img src="uploads/2023/001071680028-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of street signs in surabaya">
+<img src="uploads/001071680028-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of street signs in surabaya">
 
 *Street signs.*
 
-<img src="uploads/2023/001071680026-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of a door and skylight windows from inside a wet market. it says Pintu D, which is Indonesian for Door D">
+<img src="uploads/001071680026-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of a door and skylight windows from inside a wet market. it says Pintu D, which is Indonesian for Door D">
 
 *'Pak sy sdh sampe Pintu Day ya. bpk di mn?' ("I'm at the pickup point, door D. Where are you?" Text messages to ojek drivers)*
 
-<img src="uploads/2023/001071680024-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of the interior of a wet market in indonesia, showing many shops with indonesian signs">
+<img src="uploads/001071680024-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of the interior of a wet market in indonesia, showing many shops with indonesian signs">
 
 *Wet markets have such a delicious mix of fresh foods and cooked foods.*
 
-<img src="uploads/2023/001071680021-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of a person's feet, hovering near where there are noodles and soup being prepared on a tray">
+<img src="uploads/001071680021-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of a person's feet, hovering near where there are noodles and soup being prepared on a tray">
 
 *The halal food in Indonesia is delicious of course, but the not-halal food in Indonesian cities with a large Chinese community like Surabaya, Medan, etc is also top tier. I went there to get me some noodles from [Mie Cong Sim](https://maps.app.goo.gl/A3KrAcquo3VTHpR37).*
 
-<img src="uploads/2023/001071680013-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of dozens of motorbikes parked on the street">
+<img src="uploads/001071680013-positive.jpg" width="600" height="397" alt="a scan of a black and white photo of dozens of motorbikes parked on the street">
 
 *Banyak motor dimana-mana.*
 

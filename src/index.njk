@@ -1,16 +1,25 @@
 ---
 layout: layout.njk
 title: the best demo
+
 ---
 
 <ul>
-	
+
 {% for post in collections.blog | reverse %}  
 	<li>
-		<a href="{{ post.url }}"><h2>{{ post.data.title }}</h2></a> 
+	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date | postDate  }}</h3>
 		<div>{{ post.templateContent | safe }}</div>
-	</li>
+	</li><hr>
 {% endfor %}
 </ul>
+
+{% if pagination.href.previous %}
+  <a href="{{ pagination.href.previous }}">Previous Page</a>
+{% endif %}
+
+{% if pagination.href.next %}
+  <a href="{{ pagination.href.next }}">Next Page</a>
+{% endif %}
 
 

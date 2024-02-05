@@ -1,0 +1,20 @@
+---
+layout: photos.njk
+title: photos
+---
+
+<h1>Photos</h1>
+
+<p>Pics pics pics.</p>
+
+
+<ul>
+	
+{% for post in collections.photos | reverse %}  
+<li>
+	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date | postDate  }}</h3>
+		<div>{{ post.templateContent | safe }}</div>
+	</li><hr>
+{% endfor %}
+</ul>
+

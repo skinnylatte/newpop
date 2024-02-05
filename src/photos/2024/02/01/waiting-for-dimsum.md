@@ -12,12 +12,6 @@ categories:
 - "film"
 - "stories"
 - "photos"
-images:
-- https://cdn.uploads.micro.blog/8917/2024/b87933df13.jpg
-photos:
-- https://cdn.uploads.micro.blog/8917/2024/b87933df13.jpg
-photos_with_metadata:
-- url: https://cdn.uploads.micro.blog/8917/2024/b87933df13.jpg
 url: /2024/02/01/waiting-for-dimsum.html
 ---
 Whenever I can, I make the 45 minute walk to Chinatown in San Francisco to Dim Sum Bistro, my favorite 'cheap dimsum' spot. Sometimes, I take photos too.
@@ -26,7 +20,7 @@ I say this every chance I get: dimsum isn't always 'cheap' food. Dimsum can be f
 
 Cheap dimsum also has a place. But it should still be fresh and of relatively high quality. The menu should be large and the 'skin' of dumplings shouldn't be too thick. On these metrics, many of the other Chinatown dimsum places don't pass muster for me. But Dim Sum Bistro always delivers. So I'm glad it's here, and I'm glad I can have good, cheap dimsum.
 
-<img src="uploads/2024/b87933df13.jpg" width="600" height="402" alt="a scan of a black and white photo of a machine in a dimsum shop that takes orders and payment. on the wall, menu pictures and items and a person leaning on the wall">
+<img src="uploads/b87933df13.jpg" width="600" height="402" alt="a scan of a black and white photo of a machine in a dimsum shop that takes orders and payment. on the wall, menu pictures and items and a person leaning on the wall">
 
 Dim Sum Bistro<br />
 675 Broadway ([Map](https://maps.app.goo.gl/m2qwxvefAMvqPN4g7))

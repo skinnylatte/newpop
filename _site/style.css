@@ -1,88 +1,73 @@
-.topnav ul {
-	list-style-type: none;
-	padding: 15px 10px;
-	float: center;;
+/* medium screens */
+
+@media all and (min-width: 600px) {
+	.aside: { flex 1 auto; } 
 }
 
-.topnav a {
-	float: left;
-	width: 150px;
-	display: block;
+/* large screens */
+
+@media all and (min-width: 800px) {
+	.wrapper { flex: 3 0px }
+	.aside { order: 1 }
+	.content { order :2 }
+	.footer { order: 3 }
+}
+.header ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.header a {
 	color: black;
 	text-align: center;
-	background-color: yellow;
+	background-color: tomato;
 	text-decoration: none;
 	font-size: 1.8rem;
+}
+
+.content {
+	display: flex;
+	justify-content: flex-end;
 }
 
 .content ul {
 	list-style-type: none;
 }
 
-.blogroll {
-	background-color: silver;
-	border-radius: 15px;
-	text-align: left;
-}
 
-.blogroll ul {
-	list-style-type:none;
-}
-
-.blogroll a {
-	color: brown;
-	text-decoration: none;
-}
-
-.blogroll a:hover {
-	color: blue;
-	text-decoration: underline;
-}
-
-.blogroll h2 {
-	color: blue;
-	padding: 10px;
-	margin: 15px;
-	text-decoration: underline;
-}
-
-.container {
-	height: 100vh;
-	display: flex;
-	gap: 25px;
-}
-.left {
-	width: 400px;
-	height: 80vh;
+.wrapper {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
-.post-pagination {
-	padding: 55px;
+.wrapper > * {
+	flex: 1 100%;
+
 }
 
-.hero {
-	padding: 25px;
+.aside {
+	margin-right: auto;
 }
 
 .hero-image img {
 	border-radius: 15px;
 }
 
-.hero-right-text {
-	font-family: "Palatino", serif;
+.footer {
+	background-color: lightgreen;
+
 }
 h1 {
-	font-family: "Palatino", serif;
+	font-family: "Georgia", "Times New Roman", serif;
 }
 
 h2 {
-	font-family: "Palatino";
+	font-family: "Georgia", "Times New Roman", serif;
 	color: red;
 }
 
 body {
-	font-family: "Gill Sans", sans-serif;
+	font-family: "Helvetica", "Verdana", sans-serif;
 	font-size: 1.2rem;
 }

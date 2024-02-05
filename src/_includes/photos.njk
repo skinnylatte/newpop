@@ -18,26 +18,11 @@
 		<li><a href="/">Contact</a></li>
 </nav>
 
-<div class="container">
 
 <div class="content">
-	<h2>{{ title }}</h2>
-</p>
 	{{ content | safe }}
 </div>
 
-<div class="post-pagination">
-	{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-{% if previousPost %}
-  <a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
-{% endif %} <a href="{{'/' | url }}">Home</a> 
-
-{% set nextPost = collections.blog | getNextCollectionItem(page) %}
-{% if nextPost %}
-  &vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
-{% endif %}
-</div>
-</div>
 
 
 </body>

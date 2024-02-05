@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" Content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="{{ site.authorName }}">
+	<meta name="description" content="{{ site.description }}">
 	<link rel="stylesheet" href="/style.css">
 	<title>{{ title }}</title>
 </head>
 <body>
 
-<nav class="topnav">
+<nav class="header">
 	<ul>
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
@@ -18,32 +20,24 @@
 		<li><a href="/">Contact</a></li>
 </nav>
 
-<div class="container">
-<div class="left">
+<div class="wrapper">
 
-<div class="hero">
+<section class="aside">
 	<div class="hero-image">
 		<h1>Popagandhi</h1>
 		<img src="https://picsum.photos/300/250">
-</div> 
+	</div>
+</section> 
 
-<div class="hero-right-text">Adrianna Tan is a writer, photographer and civic technologist.</div>
-<div class="blogroll">
-	<h2>Blogroll</h2>
-	<ul>
-		<li><a href="https://winnielim.org">Winnie Lim</a></li>
-		<li><a href="https://anildash.com">Anil Dash</a></li>
-	</ul>
-
-</div>	
-
-</div>
-</div>
-<div class="content">
+<section class="content">
 
 	{{ content | safe }}
 
+</section>
+
+
 </div>
-</div>
+<section class="footer">Copyright</section>
+
 </body>
 </html>
