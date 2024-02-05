@@ -22,6 +22,7 @@ module.exports = function (eleventyConfig) {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
 });
 
+
 	// set custom directories for input, output includes and data
 	return {
 		// when a passthrough file is modified, rebuild the pages

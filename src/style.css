@@ -23,11 +23,12 @@
 	background-color: tomato;
 	text-decoration: none;
 	font-size: 1.8rem;
+	padding: 15px;
 }
 
 .content {
 	display: flex;
-	justify-content: flex-end;
+	margin-left: auto;
 }
 
 .content ul {
@@ -38,7 +39,6 @@
 .wrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
 .wrapper > * {
@@ -48,6 +48,7 @@
 
 .aside {
 	margin-right: auto;
+	flex: 1 1 350px;
 }
 
 .hero-image img {
