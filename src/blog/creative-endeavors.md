@@ -8,7 +8,7 @@ tags:
     - creativity
     - photography
 url: /posts/year-of-creative-endeavors
-layout: single-post.njk
+layout: layout.njk
 
 ---
 
