@@ -1,46 +1,46 @@
 /* medium screens */
 
+
 @media all and (min-width: 600px) {
-	.aside: { flex 1 auto; } 
+	.wrapper { display: flex; flex-direction: row }
 }
+
 
 /* large screens */
 
 @media all and (min-width: 800px) {
-	.wrapper { flex: 3 0px }
-	.aside { order: 1 }
-	.content { order :2 }
-	.footer { order: 3 }
-}
-
-.header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
+	.header { order: 1; display: flex; justify-content: space-between; align-items: right; flex-direction: row }
+	.aside { order: 2 }
+	.content { order:3; padding: 45px; margin: 10px }
+	.footer { order: 4 }
+	.nav ul { display: flex; flex-direction: row }
 }
 
 .nav ul {
 	list-style-type: none;
-	display: flex;
 }
 
 .nav a {
 	color: #008080;
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	padding: 15px;
 }
 
-.socials {
+.socials ul { 
+	list-style-type: none; 
 	display: flex;
-	padding: 25px;
+	padding: 15pxpx;
+	margin-left: 15px;
 }
 
-.content {
-	display: flex;
-	margin-left: auto;
+.socials li {
+	padding: 5px;
+}
+
+.socials a {
+	color: #F08080;
 }
 
 .content ul {
@@ -55,19 +55,16 @@
 	color: #008080;
 }
 
-.wrapper {
-	display: flex;
-	flex-direction: row;
-}
 
-.wrapper > * {
+.container > * {
 	flex: 1 100%;
-
 }
+
 
 .aside {
 	margin-right: auto;
 	flex: 1 1 350px;
+	padding: 50px;
 }
 
 .hero-image img {
@@ -87,7 +84,7 @@
 
 h1 {
 	font-family: 'Merriweather', serif;
-	font-size: 4rem;
+	font-size: 2rem;
 	color: #F08080;
 }
 
