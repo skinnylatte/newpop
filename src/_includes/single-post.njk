@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" Content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="{{ site.authorName }}">
+	<meta name="description" content="{{ site.description }}">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<title>{{ site.siteTitle }}</title>
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">
+<nav class="nav">
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/photos">Photos</a></li>
+		<li><a href="/til">TIL</a></li>
+		<li><a href="/contact">Contact</a></li>
+	</ul>
+</nav>
+<section class="socials">
+	<ul>
+
+	<li><a href="https://hachyderm.io/@skinnylatte"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+	<path fill="currentColor" d="M480 173.59c0-104.13-68.26-134.65-68.26-134.65C377.3 23.15 318.2 16.5 256.8 16h-1.51c-61.4.5-120.46 7.15-154.88 22.94c0 0-68.27 30.52-68.27 134.65c0 23.85-.46 52.35.29 82.59C34.91 358 51.11 458.37 145.32 483.29c43.43 11.49 80.73 13.89 110.76 12.24c54.47-3 85-19.42 85-19.42l-1.79-39.5s-38.93 12.27-82.64 10.77c-43.31-1.48-89-4.67-96-57.81a108.44 108.44 0 0 1-1-14.9a558.91 558.91 0 0 0 96.39 12.85c32.95 1.51 63.84-1.93 95.22-5.67c60.18-7.18 112.58-44.24 119.16-78.09c10.42-53.34 9.58-130.17 9.58-130.17m-80.54 134.16h-50V185.38c0-25.8-10.86-38.89-32.58-38.89c-24 0-36.06 15.53-36.06 46.24v67h-49.66v-67c0-30.71-12-46.24-36.06-46.24c-21.72 0-32.58 13.09-32.58 38.89v122.37h-50V181.67q0-38.65 19.75-61.39c13.6-15.15 31.4-22.92 53.51-22.92c25.58 0 44.95 9.82 57.75 29.48L256 147.69l12.45-20.85c12.81-19.66 32.17-29.48 57.75-29.48c22.11 0 39.91 7.77 53.51 22.92q19.79 22.72 19.75 61.39Z" />
+</svg></a></li>
+
+<li><a href="https://photos.cookiefan.club/skinnylatte"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path fill="currentColor" d="M12.001 2c5.523 0 10 4.477 10 10s-4.477 10-10 10s-10-4.477-10-10s4.477-10 10-10m1.031 6.099h-2.624c-.988 0-1.789.776-1.789 1.733v6.748l2.595-2.471h1.818c1.713 0 3.101-1.345 3.101-3.005s-1.388-3.005-3.1-3.005" />
+</svg></a></li>
+
+<li><a href="https://buttondown.email/skinnylatte"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 16v8c0 1.5 1.5 3 3 3h16c1.5 0 3-1.5 3-3v-8M5 16h5.5s1 3.5 5.5 3.5s5.5-3.5 5.5-3.5H27M5 16v3.5M5 16l1-5m21 5l-1-5M13.5 9h5m-5 4h5m-9 0V5h13v8" />
+</svg></a></li>
+</ul>
+</section>
+</div>
+
+<div class="wrapper">
+
+<section class="aside">
+	<div class="hero-image">
+		<h1>Popagandhi</h1>
+		<img src="https://picsum.photos/300/250">
+		<p>{{ site.description }}</p>
+	</div>
+</section> 
+
+<section class="content">
+
+<article class="blog-post">
+	<h3>{{ title }}</h3>
+</p>
+	{{ content | safe }}
+</article>
+
+<div class="post-pagination">
+	{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+{% if previousPost %}
+  <a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
+{% endif %} <a href="{{'/' | url }}">Home</a> 
+
+{% set nextPost = collections.blog | getNextCollectionItem(page) %}
+{% if nextPost %}
+  &vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
+{% endif %}
+
+</section>
+
+
+</div>
+<section class="footer">&copy; Copyright {{ site.copyrightYear }}</section>
+</div>
+
+</body>
+</html>

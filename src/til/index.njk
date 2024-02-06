@@ -3,18 +3,23 @@ layout: layout.njk
 title: til
 ---
 
-<h1>TIL</h1>
-
-<p>todayilearned todayilearned todayilearned</p>
-
-
 <ul>
-	
-{% for post in collections.til %}  
+
+{% for post in collections.til | reverse %}  
 	<li>
-	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date | postDate  }}</h3>
-		<div>{{ post.templateContent | safe }}</div>	</li>
+	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+	      <span class="date-metadata">{{ post.date | postDate  }}</span>
+		<div class="post">{{ post.templateContent | safe }}</div>
+	</li><hr>
 {% endfor %}
 </ul>
+
+{% if pagination.href.previous %}
+  <a href="{{ pagination.href.previous }}">Previous Page</a>
+{% endif %}
+
+{% if pagination.href.next %}
+  <a href="{{ pagination.href.next }}">Next Page</a>
+{% endif %}
 
 
