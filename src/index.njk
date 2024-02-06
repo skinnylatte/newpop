@@ -8,8 +8,9 @@ title: the best demo
 
 {% for post in collections.blog | reverse %}  
 	<li>
-	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date | postDate  }}</h3>
-		<div>{{ post.templateContent | safe }}</div>
+	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+	      <span class="date-metadata">{{ post.date | postDate  }}</span>
+		<div class="post">{{ post.templateContent | safe }}</div>
 	</li><hr>
 {% endfor %}
 </ul>
