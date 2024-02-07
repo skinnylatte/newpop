@@ -1,0 +1,66 @@
+---
+title: "New Beets"
+date: 2022-03-01T17:23:33-08:00
+draft: false
+description: A few ways to move away from Spotify and other suckiness.
+tags: 
+    - tech
+    - music
+    - spotify
+    - beets
+    - linux
+    - blog
+permalink: /2022-03-01-new-beets
+layout: post.njk
+---
+
+In case you have not heard, Spotify sucks. A lot.
+
+Here's a summary of my post-Spotify exploration of music. I'm still trying to decide how I want to consume music in the future, but what I'm currently thinking about is:
+
+- Apple Music for 'all you can eat' music streaming and music discovery
+- Accompanied by Plex music library and PlexAmp on phone for music that I want to collect and keep
+
+I'm starting to buy interesting music on Bandcamp, especially newer stuff, new music types and collaboration, things that may never get published as a CD or other record. 
+
+I'm using the SF Public Library's incredible music collection (vinyl and CD!) to borrow and listen to older music that I may have missed out on, or music that I want to listen to in higher fidelity, on different equipment.
+
+### Moving Spotify playlists to Apple Music or Tidal
+
+Using services like TuneMyMusic, I was able to easily move my playlists to Apple Music and Tidal. I evaluated both services before deciding on Apple Music. Tidal did not do a good job recognizing or having access to some of my non-English music. Apple Music did not miss a beat. I'm very firmly entrenched in the Apple walled garden, so it was also a good reason to get Apple One (so everyone in my family can also have Apple Music). If you don't use iOS, you may want to evaluate other alternatives.
+
+I decided to pony up the $5 fee on TuneMyMusic to move my music to Apple Music. It was a one-off action that took a few hours to complete. After that, I canceled my subscription as I have no need to keep my playlists in sync. 
+
+There are probably ways to do this cheaply or freely with command line tools, but I did not have time to look into it.
+
+### Buying music on Bandcamp
+
+I'm lucky to be friends with many music nerds and music lovers who have carefully curated playlists and music collections. Some of them also share their favorite new music on Bandcamp.
+
+I started buying a few albums there. I'm still finding my way around Bandcamp (it looks like I'm buying stuff that I really like, and also experimental stuff I maybe don't like as much, but find interesting enough to keep). 
+
+I don't like listening to the albums on the Bandcamp website or app, so it's handy that they let you download lossless files of the music you buy.
+
+### Setting up Plex and PlexAmp
+
+Since I already had a Plex media server setup, it was simply a matter of setting up a new folder and library for music files.
+
+I learned that the metadata from Bandcamp files isn't the best: Plex does best when you can organize files in a hierarchical Artist / Album folder structure, and for music that may not exist that way (like a lot of digital-only music on Bandcamp), Plex just doesn't pick up the music metadata neatly.
+
+### Using Beets, a command line superpower tool for music lovers
+
+I decided to give [Beets](https://beets.io) a go. The project was mature and many people swore by it. Its [documentation was also excellent](https://beets.readthedocs.io/en/stable/).
+
+First, I had to set up the `config.yaml` file. Here's my [config file](https://gist.github.com/skinnylatte/def4a7b04e9ae85b79d60be19ef7a03b), in case it helps.
+
+Then, I had to install the right plugins. For my use case, the [beetcamp](https://github.com/snejus/beetcamp), [acousticbrainz](https://beets.readthedocs.io/en/stable/plugins/acousticbrainz.html) and [discogs](https://beets.readthedocs.io/en/stable/plugins/discogs.html) plugins were the most useful. 
+
+I successfully re-imported all of my music files into my Plex music library like this:
+
+```
+beet import ~/some-path-to-music
+```
+
+After installing the right plugins, I was able to find matches for all of the music, including some very obscure old stuff. You can even set up the [PlexUpdate plugin](https://beets.readthedocs.io/en/stable/plugins/plexupdate.html) to let Plex know to update the music library every time music gets imported with beets.
+
+I'm very happy with this setup, and will probably continue to grow my music collection in this way.

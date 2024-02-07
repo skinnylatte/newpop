@@ -1,0 +1,38 @@
+---
+title: "America is the restaurant that gives me food poisoning."
+date: 2022-11-03T15:01:02+08:00
+draft: false
+description: But I moved here anyway.
+tags: 
+    - life
+    - america
+    - singapore
+    - blog
+permalink: /2022-11-america
+layout: post.njk
+
+---
+
+Sometimes I think of countries as restaurants. Every country has a different concept. Every country has something to offer. Some have menus, some do not. Some are large multi-concept food halls, others are exclusive white tablecloth places where people have to fight for the scraps—outside. 
+
+My country, Singapore, is a prix fixe restaurant where there is a daily special. One soup, one main. You can take it or leave it. If you have more money, you can upgrade some parts. But it's still a fixed menu. You can't change it very much. You can't go anywhere. You can only stand up and sit down. The waiters are quick to shoo you out, or push you back down, whenever you feel like you might want to do something different.
+
+I now live in the US, which feels like a multi-concept sort of place. On level 1, there's  food hall like one of those in a mall with funny names. All kinds of things, but nothing that will keep you satiated for long. Just fast food and snacks. Make your way to the top, and you'll find a stuffy dining room. Realistically, most people will spend all of their time between levels 2 and 99. You can take the elevator, climb the stairs, do whatever you want. There are lots of ways to go anywhere and you can go at any time. You can do whatever you want. Some people throw poop into their food, and eat it, and that's fine too.
+
+In the prix fixe restaurant, you eat the same thing everyday and maybe you get bored. You never get food poisoning. Everything is safe. In the food hall for insomniac people, you can eat lying down, shoes off, with your feet if you like. There are no rules, there are no bouncers. But you get food poisoning every other day. Unless you're on the top floor with all of the silver spooners. There, you get proper chicken, not the hormone-filled ones that taste awful. You get real vegetables. Life up there is pretty sweet, nicer than the top floor of any other restaurant in the world.
+
+It's June 2022, and I am in Singapore. I am lying under my blanket feeling angry about the state of America. There are more mass shootings than I can count this week. I can't imagine what parents feel about losing their children to gun violence. I think about how when I walk by the thousands of homeless people in the city I live in, I see glimpses of their past lives. The backpacks they must have carried to work, and how they now store everything they own. The fancy camping tents they probably slept in when camping for leisure, that are now the only shelters over their heads. Why do I keep going back to somewhere where I get food poisoning all the time?
+
+I don't have the answers. I think, though, that after a lifetime of being safe and repressed, it was interesting and novel to live somewhere that was the opposite. The country that always give us food poisoning also has delicious food and incredible experiences on every level between 1 and 99, whereas most other countries only have a few. A few ways of being. A few ways to exist. But the diarrhea is bad and sometimes there are no rest rooms. 
+
+That for people like me, who could never fit in the box of that my country demanded of me, I don't know where else I can go. That every time I board the plane between both cities, I am making the choice between physical and psychological safety, rarely both.
+
+You learn to duck under the people flinging poop around. But at home, you can only sit down or shut up. Some people say surely there must be an in-between country that isn't either / or. Maybe. But what I'm afraid of is that many of the in-between countries hide their poop so well, and things look great, until you get there and then you have to sit down or shut up again because you're not from there. Because you should be grateful you no longer live in the other places. 
+
+I'm now of the opinion that there are no good countries, the best you can do is try to make a decent life for yourself anywhere. If you have the opportunity to pick, like I do, that's already a huge privilege. If you're queer, multi-national, like us, the number of possible places to live is tiny. You've got to make the most of the ones that work. But as the world turns hard towards authoritarianism and fascism, I don't feel like there are any good places to hide. I don't believe there is a single country worth moving to that is going to be able to avoid that wave. I also don't believe anyone who says,  "my country is better than that one": they always come from a position of privilage, and my position as an immigrant to their country is never going to be the same. They also never, ever know what they are talking about, if they're not queer and intersectional in the same way we are. 
+
+On this trip home, it was nice to not have to think about food poisoning. I know exactly what my life back home will be, what it will look like, maybe even where I will live and what I will do. It's been tempting to imagine going back to that. But I also know that in a place where I can only sit down and shut up, repress my gayness, hide my photos of my family at work, where I must be gay but not too much, where I can be out but not too loudly, where I can live as a queer person but not have rights, I'm reluctantly crawling back into the place that gives me diarrhea every single day. 
+
+My country says: it's hypothetical that you'll ever have food poisoning here, because everything is perfect here, so why are you mad at me, and why do you leave me? 
+
+I'm mad that I have to live somewhere that gives me food poisoning. But at least there, my wife and I can be together, as my wife, even if we have to poop more than usual.

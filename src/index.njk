@@ -1,26 +1,32 @@
 ---
 layout: layout.njk
 title: the best demo
-
+pagination:
+  size: 5
+  data: collections.blog
+  reverse: true
+  alias: posts
+permalink: "/{% if pagination.pageNumber != 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 
 <ul>
-
-{% for post in collections.blog | reverse %}  
-	<li>
-	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-	      <span class="date-metadata">{{ post.date | postDate  }}</span>
-		<div class="post">{{ post.templateContent | safe }}</div>
-	</li><hr>
+{% for post in posts %}
+    <li><article class="blog-post">
+            <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+            <span class="date-metadata">{{ post.date | postDate  }}</span>
+            <div class="post">{{ post.templateContent | safe }}</div>
+         </article>   
+    </li>
 {% endfor %}
 </ul>
 
+<div class="pagination">
 {% if pagination.href.previous %}
-  <a href="{{ pagination.href.previous }}">Previous Page</a>
+  <ul><li><a href="{{ pagination.href.previous }}">Previous Page</a></li></ul>
 {% endif %}
 
 {% if pagination.href.next %}
-  <a href="{{ pagination.href.next }}">Next Page</a>
+<ul><li>
+  <a href="{{ pagination.href.next }}">Next Page</a></li></ul>
 {% endif %}
-
-
+</div>

@@ -3,6 +3,7 @@
 
 @media all and (min-width: 600px) {
 	.wrapper { display: flex; flex-direction: row }
+	.content img { width: 300px }
 }
 
 
@@ -45,16 +46,21 @@
 
 .content ul {
 	list-style-type: none;
+	padding: 25px;
 }
 
-.content ul li {
-	padding-bottom: 10px;
+.blog-post ul li {
+	padding-bottom: 25px;
+	list-style-type: square;
 }
 
 .content a {
 	color: #008080;
 }
 
+.content img {
+	width: 650px;
+}
 
 .container > * {
 	flex: 1 100%;
@@ -75,17 +81,39 @@
 	background-color: #f5f5f5;
 	display: flex;
 	justify-content: space-between;
+	padding: 25px ;
 
 }
 
-.post {
+.other-things, .blogroll {	
+	list-style-type: none;
+}
+
+.other-things li {
 	padding: 10px;
 }
+.other-things a {
+	text-decoration: none;
+}
+
+.pagination {
+	display: flex;
+}
+
+.pagination li {
+	
+}
+
 
 h1 {
 	font-family: 'Merriweather', serif;
 	font-size: 2rem;
 	color: #F08080;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #008080;
 }
 
 h3 {
@@ -104,4 +132,8 @@ body {
 	font-size: 1.1rem;
 	color: #333333;
 	background-color: #f5f5f5;
+}
+
+.blog-post ol li {
+	padding: 5px;
 }

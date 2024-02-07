@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
 		linkify: true
 	};
 
-	["src/favicon.ico", "src/style.css", "src/photos/uploads"].forEach(path => {
+	["src/favicon.ico", "src/style.css", "src/photos/uploads", "src/img"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 	eleventyConfig.addFilter("postDate", (dateObj) => {
