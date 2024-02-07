@@ -2,8 +2,7 @@
 
 
 @media all and (min-width: 600px) {
-	.wrapper { display: flex; flex-direction: row }
-	.content img { width: 300px }
+	.wrapper { display: flex; flex-direction: row }	
 }
 
 
@@ -66,15 +65,20 @@
 	flex: 1 100%;
 }
 
-
+.date-metadata {
+	color: white;
+	background-color: grey;
+	width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+}
 .aside {
 	margin-right: auto;
-	flex: 1 1 350px;
 	padding: 50px;
 }
 
-.hero-image img {
-	border-radius: 15px;
+.profile img {
+	border-radius: 25%;
 }
 
 .footer {
@@ -87,12 +91,12 @@
 
 .other-things, .blogroll {	
 	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	margin-left: -40px;
 }
 
-.other-things li {
-	padding: 10px;
-}
-.other-things a {
+.other-things, .blogroll a {
 	text-decoration: none;
 }
 
@@ -100,9 +104,6 @@
 	display: flex;
 }
 
-.pagination li {
-	
-}
 
 
 h1 {
@@ -127,6 +128,11 @@ h3 a {
 	color: #008080;;
 }
 
+h2, h2 a {
+	color: #F08080;
+	text-decoration: none;
+}
+
 body {
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 1.1rem;
@@ -136,4 +142,8 @@ body {
 
 .blog-post ol li {
 	padding: 5px;
+}
+
+.blog-post {
+	padding-bottom: 20px;
 }

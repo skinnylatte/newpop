@@ -1,12 +1,7 @@
 ---
-layout: photos.njk
-title: photos
+layout: layout.njk
+title: Photos
 ---
-
-<h1>Photos</h1>
-
-<p>Pics pics pics.</p>
-
 
 <ul>
 	
@@ -14,7 +9,7 @@ title: photos
 <li>
 	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date | postDate  }}</h3>
 		<div>{{ post.templateContent | safe }}</div>
-	</li><hr>
+	</li>
 {% endfor %}
 </ul>
 
