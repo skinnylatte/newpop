@@ -1,0 +1,10 @@
+---
+title: Archives
+---
+
+<h2>Tags</h2>
+<ul>
+  {% for tag in collections.tagList %}
+    <li><a href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
+  {% endfor %}
+</ul>

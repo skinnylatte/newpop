@@ -21,7 +21,16 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("postDate", (dateObj) => {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
 });
-
+	// create a list of tags
+	eleventyConfig.addCollection("tagList", function(collectionApi){
+	let tags = new Set();
+  collectionApi.getAll().forEach(function(item) {
+    if ("tags" in item.data) {
+      item.data.tags.filter(tag => !['all', 'posts'].includes(tag)).forEach(tag => tags.add(tag));
+    }
+  });
+  return Array.from(tags);
+});
 
 	// set custom directories for input, output includes and data
 	return {

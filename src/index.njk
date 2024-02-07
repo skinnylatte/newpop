@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: the best demo
+title: {{ site.siteTitle }}
 pagination:
   size: 5
   data: collections.blog
@@ -12,21 +12,12 @@ permalink: "/{% if pagination.pageNumber != 0 %}{{ pagination.pageNumber + 1 }}/
 <ul>
 {% for post in posts %}
     <li><article class="blog-post">
-            <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-            <span class="date-metadata">{{ post.date | postDate  }}</span>
+            <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+            <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
             <div class="post">{{ post.templateContent | safe }}</div>
          </article>   
     </li>
 {% endfor %}
 </ul>
 
-<div class="pagination">
-{% if pagination.href.previous %}
-  <ul><li><a href="{{ pagination.href.previous }}">Previous Page</a></li></ul>
-{% endif %}
-
-{% if pagination.href.next %}
-<ul><li>
-  <a href="{{ pagination.href.next }}">Next Page</a></li></ul>
-{% endif %}
-</div>
+{% include "_pagepagination.html" %}

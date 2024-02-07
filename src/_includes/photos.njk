@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" Content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/style.css">
-	<title>{{ title }} | Photos</title>
-</head>
+{% include "_head.html" %}
 <body>
 
-<nav class="topnav">
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="/photos">Photos</a></li>
-		<li><a href="/til">TIL</a></li>
-		<li><a href="/">Contact</a></li>
-</nav>
-
+<div class="container">
+{% include "_header.html" %}	
 
 <div class="content">
 	{{ content | safe }}
 </div>
 
-
+</div>
 
 </body>
 </html>
