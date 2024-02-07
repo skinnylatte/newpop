@@ -48,6 +48,9 @@
 	padding: 25px;
 }
 
+.speaking-list li {
+	list-style-type: square;
+}
 .blog-post ul li {
 	padding-bottom: 25px;
 	list-style-type: square;
@@ -58,7 +61,8 @@
 }
 
 .content img {
-	width: 650px;
+	width: 450px;
+	border-radius: 15px;
 }
 
 .container > * {
