@@ -3,21 +3,21 @@ layout: layout.njk
 title: about
 ---
 
+### About me
+
 Hi, I'm Adrianna.
 
-You may know me from my main blog, [Popagandhi](https://popagandhi.com), or from [Mastodon](https://hachyderm.io/@skinnylatte). (Previously, I was better known as @skinnylatte on the bird site too.)
+I've been publishing here since 2003. You might have known me in different iterations: angry young queer, optimistic college student, world traveler, entrepreneur, foodie, athlete, startup person, non-profit founder and now, civic technologist.
 
-The main site at [Popagandhi ](https://popagandhi.com) is my long form blog with essays and posts about tech, life, the world. This space here is an experiment in documenting a 2022-2023 attempt to get back into creative things.
+![A photo of Adrianna](/img/2024-me-square.jpg)
 
-In the early 00s and 10s I had the amazing opportunity to have traveled the world working on creative projects. Alongside my software career, I was always in the nosy business of assisting photojournalists and writers, translating for them, taking them to interesting places around Southeast and South Asia, which I call home. Sometimes I also got published as a writer or photographer. I was most interested in the cultural and food stories of the following countries.
+After a lost decade publishing content *elsewhere* (big tech social media companies), I'm now reinventing my web presence again. Though it feels more like coming home to a familiar feeling: through every version of myself on the Internet, building websites and learning new skills have been the constant.
 
-<img src="https://micro.popagandhi.com/uploads/2022/ed877bbe51.jpg" width="600" height="450" alt="photo of the author sitting at a sewing machine talking to people" />
-<br />
-<caption><em>Adrianna in 2007 in Nilphamari district, Bangladesh, working with a photojournalist on a microfinancing story</em></caption>
+That's how I make my living, too. In my day job, I lead the product team at San Francisco Digital Services, the digital team for the City and County of San Francisco. 
 
-Singapore, Malaysia, Thailand, Myanmar, Indonesia, Vietnam, Cambodia, India, Bangladesh and elsewhere were my spots; places I knew intimately. Sometime in the mid 10s, I had a terrible burn out from health and other issues and I completely stopped working in this area, focusing only on software.
+In the mornings, nights and evenings: I run, swim, bike, cook, talk and think about food, coffee, tea and the history and politics of all of those things. I toot, take photos, make zines, work on darkroom photo printing, go birding, play saxophone and piano.
 
-The nice thing about this sort of work is that you can pick up where you left off. Now, I am in San Francisco. It's a different type of excitement from my previous life. But I am motivated to tell stories again: with my words, pictures, videos.
+Mostly, I am enjoying life in San Francisco with my wife, dog, cat and my ridiculous number of hobbies.
 
-I don't know where this is going to go, but I think it will be fun.
+
 
