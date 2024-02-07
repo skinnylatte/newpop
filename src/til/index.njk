@@ -7,7 +7,7 @@ title: til
 
 {% for post in collections.til | reverse %}  
 	<li>
-	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+	      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
 	      <span class="date-metadata">{{ post.date | postDate  }}</span>
 		<div class="post">{{ post.templateContent | safe }}</div>
 	</li><hr>

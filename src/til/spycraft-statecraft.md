@@ -1,6 +1,6 @@
 ---
 tags: til
-layout: single-post.njk
+layout: post.njk
 date: 2024-01-31
 title: spycraft and statecraft
 ---
