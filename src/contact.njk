@@ -3,5 +3,27 @@ layout: layout.njk
 title: Contact me
 ---
 
+<h2>Contact me</h2>
 
-This is a contact page
+<p>Use this form to contact me (slowest). Send me a message on Mastodon or LinkedIn (fastest).</p>
+
+<p>I'm available for <a href="/speaking">speaking opportunities</a>, <a href="/writing">writing assignments</a>, and offers of good food or company.</p>
+
+<p>The best way to get me to respond is to tell me you have free ice cream.</p>
+
+<div class="contact-form">
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label for="name">Your Name: <input type="text" name="name" id="name" /></label>
+  </p>
+  <p>
+    <label for="email">Your Email: <input type="email" name="email" id="email" /></label>
+  </p>
+  <p>
+    <label for="message">Message: <textarea name="message" id="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+</div>

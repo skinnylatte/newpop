@@ -3,11 +3,17 @@ layout: layout.njk
 title: Photos
 ---
 
+<div class="page-top">
+<p>Photography is one of my favorite ways to see the world.</p>
+<p>Check out my beloved camera collection, read about my workflow or my artistic vision, or buy my zine.</p>
+</div>
+
 <ul>
 	
 {% for post in collections.photos | reverse %}  
 <li>
-	      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date | postDate  }}</h3>
+	      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+	      <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
 		<div>{{ post.templateContent | safe }}</div>
 	</li>
 {% endfor %}

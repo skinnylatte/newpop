@@ -61,7 +61,7 @@
 }
 
 .content img {
-	width: 450px;
+	width: 600px;
 	border-radius: 15px;
 }
 
@@ -72,7 +72,7 @@
 .date-metadata {
 	color: white;
 	background-color: grey;
-	width: 300px;
+	width: 250px;
 	padding: 10px;
 	border-radius: 10px;
 }
@@ -85,6 +85,11 @@
 	border-radius: 25%;
 }
 
+.page-top {
+	padding: 25px;
+	background-color: yellow;
+	border-radius: 15px;
+}
 .footer {
 	background-color: #f5f5f5;
 	display: flex;
@@ -124,7 +129,7 @@ h1 a {
 h3 {
 	font-family: 'Merriweather', serif;
 	color: #008080;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 }
 
 h3 a {
@@ -135,6 +140,7 @@ h3 a {
 h2, h2 a {
 	color: #F08080;
 	text-decoration: none;
+	font-size: 1.8rem;
 }
 
 body {
@@ -151,3 +157,23 @@ body {
 .blog-post {
 	padding-bottom: 20px;
 }
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

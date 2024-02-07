@@ -3,23 +3,19 @@ layout: layout.njk
 title: til
 ---
 
-<ul>
+<div class="page-top">
+<p>I read a lot of random things.</p>
+<p>It seemed like a good idea to share them.</p>
+</div>
 
+<ul>
+	
 {% for post in collections.til | reverse %}  
-	<li>
+<li>
 	      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-	      <span class="date-metadata">{{ post.date | postDate  }}</span>
-		<div class="post">{{ post.templateContent | safe }}</div>
-	</li><hr>
+	      <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
+		<div>{{ post.templateContent | safe }}</div>
+	</li>
 {% endfor %}
 </ul>
-
-{% if pagination.href.previous %}
-  <a href="{{ pagination.href.previous }}">Previous Page</a>
-{% endif %}
-
-{% if pagination.href.next %}
-  <a href="{{ pagination.href.next }}">Next Page</a>
-{% endif %}
-
 
