@@ -88,8 +88,8 @@
 .date-metadata {
 	color: white;
 	display: inline-block;
-	background-color: grey;
-	padding: 10px;
+	background-color: darkslategrey;
+	padding: 15px;
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
