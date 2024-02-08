@@ -127,6 +127,7 @@
 	margin-left: -40px;
 }
 
+
 .add-blogroll {
 	background-color: crimson;
 	border-radius: 15px;
@@ -137,9 +138,13 @@
 	margin-left: -25px;
 }
 
+.aside h2 {
+	color: black;
+}
+
 .aside a {
 	text-decoration: none;
-	color: seagreen;
+	color: darkgreen;
 }
 
 .add-blogroll a {
