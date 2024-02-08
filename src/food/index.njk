@@ -15,7 +15,7 @@ title: Food
 <li>
 	      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
 	      <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
-		<div>{{ post.templateContent | safe }}</div>
+		  <div class="post">{{ post.templateContent | safe }}</div>
 	</li>
 {% endfor %}
 </ul>
