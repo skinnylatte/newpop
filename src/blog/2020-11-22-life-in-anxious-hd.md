@@ -10,6 +10,7 @@ tags:
   - COVID
   - queerness
   - blog
+  - bestof
 layout: post.njk
 ---
 Before I came to this country I led a very different life.

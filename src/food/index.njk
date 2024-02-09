@@ -1,6 +1,11 @@
 ---
 layout: layout.njk
 title: Food
+pagination:
+  size: 5
+  data: collections.food
+  reverse: true
+  alias: posts
 ---
 
 <div class="page-top">
@@ -8,15 +13,10 @@ title: Food
 <p>Not just because I love to eat: I also think that food is politics, history, culture, and the best lens through which I can learn about the world.</p>
 <p>I've been lucky to have eaten extensively across the world. I've also worked on several cookbooks. Now, I write an <a href="https://buttondown.email/skinnylatte">occasional food newsletter</a>, obsessively review tacos, and develop recipes that are at once traditional and outright absurd.</p>
 </div>
-
-<ul>
 	
-{% for post in collections.food | reverse %}  
-<li>
-	      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-	      <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
-		  <div class="post">{{ post.templateContent | safe }}</div>
-	</li>
-{% endfor %}
+<ul>
+{% include "_post_templateContent.njk" %}
 </ul>
 
+
+{% include "_pagepagination.html" %}

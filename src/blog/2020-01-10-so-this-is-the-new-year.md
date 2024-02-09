@@ -4,12 +4,14 @@ date: 2020-01-10T14:34:07-08:00
 description: "The dream of the noughties is over. An experiment to write more, post it here, call it a blog, and call it a day."
 draft: false 
 tags:
-    - america
-    - immigration
-    - tech
-    - writing
-    - love
-    - blog
+  - america
+  - immigration
+  - tech
+  - writing
+  - love
+  - blog
+  - identity
+  - yearinreview
 layout: post.njk
 
 ---

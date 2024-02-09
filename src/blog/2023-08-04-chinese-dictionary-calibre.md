@@ -4,12 +4,12 @@ date: 2023-08-04T14:41:03-07:00
 draft: false 
 description: Note to my past self on how to add a Chinese dictionary so that I can read Chinese ebooks more easily.
 tags: 
-    - chinese
-    - language
-    - software
-    - ebooks
-    - tutorial
-    - blog
+  - chinese
+  - language
+  - software
+  - ebooks
+  - tutorial
+  - blog
 permalink: /posts/2023-08-04-chinese-dictionary
 layout: post.njk
 ---

@@ -1,0 +1,19 @@
+---
+layout: layout.njk
+title: Bikes
+pagination:
+  size: 5 
+  data: collections.bikes
+  reverse: true
+  alias: posts
+---
+
+<div class="page-top">
+<p>I like bikes. I like riding. I like bikecamping.</p>
+</div>
+
+<ul>
+{% include "_post_templateContent.njk" %}
+</ul>
+
+{% include "_pagepagination.html" %}

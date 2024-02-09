@@ -4,14 +4,15 @@ date: 2020-06-12T19:09:25-07:00
 draft: false
 description: In August 2018, we got married in Auckland and moved to San Francisco a few weeks after. To say that was a whirlwind might be under-stating it.
 tags: 
-    - life
-    - covid19
-    - coronavirus
-    - family
-    - love
-    - pets
-    - quarantinediaries
-    - blog
+  - life
+  - covid19
+  - coronavirus
+  - family
+  - love
+  - pets
+  - quarantinediaries
+  - blog
+  - pandemic
 permalink: /2020/06/12/we-got-married
 layout: post.njk
 ---

@@ -1,6 +1,12 @@
 ---
 layout: layout.njk
 title: til
+pagination:
+  size: 5
+  data: collections.til
+  reverse: true
+  alias: posts
+collectionOnThisPage: blog
 ---
 
 <div class="page-top">
@@ -9,13 +15,8 @@ title: til
 </div>
 
 <ul>
-	
-{% for post in collections.til | reverse %}  
-<li>
-	      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-	      <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
-		  <div class="post">{{ post.templateContent | safe }}</div>
-	</li>
-{% endfor %}
+{% include "_post_templateContent.njk" %}
 </ul>
 
+
+{% include "_pagepagination.html" %}

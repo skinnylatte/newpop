@@ -4,12 +4,13 @@ date: 2023-10-03T22:43:38+08:00
 draft: false
 description: Since 2021, the US Embassy in Singapore has allowed eligible Singaporeans to use the Interview Waiver process for the H1-B1. I finally got to use it for the first time. I would highly recommend it.
 tags: 
-    - life
-    - immigration
-    - usa
-    - america
-    - paperwork
-    - blog
+  - life
+  - immigration
+  - usa
+  - america
+  - paperwork
+  - blog
+  - visas
 permalink: /posts/interview-waiver-experience
 layout: post.njk
 
@@ -21,7 +22,7 @@ In renewing my visa in Singapore this September, I opted for the new-ish intervi
 
 Although I have never had a rejection, going to the US embassy is always a stressful time. You see so many people (usually non-Singaporeans) getting their work or school dreams dashed at the window. You can hear everything. The high stress, high security: I would very much like to never go there again.
 
-The interview waiver process was made available to me at the last step of the visa application, in the USTravelDocs portal. When [scheduling step 6 here](https://popagandhi.com/posts/2023-09-06-how-to-get-a-visa/), USTravelDocs will ask you a bunch of questions to determine if you are eligible for the interview waiver.
+The interview waiver process was made available to me at the last step of the visa application, in the USTravelDocs portal. When [scheduling step 6](https://popagandhi.com/posts/2023-09-06-how-to-get-a-visa/), USTravelDocs will ask you a bunch of questions to determine if you are eligible for the interview waiver.
 
 The main thing to note is that only Singaporeans and permanent residents are likely to be eligible. While the main applicant for H1-B1 has to be a Singapore citizen, if your dependents (spouse or children) are not Singapore citizens, then they will not qualify for the interview waiver. Definitely allow more time for an embassy interview if that's the case. 
 
@@ -37,7 +38,7 @@ Because I find the USTravelDocs so ridiculously difficult to navigate, I am past
 
 Check that the information is still accurate before you rely on it though, I may not be updating this page with new information.
 
-![Photo of a sign that says Aramex Chinatown dropoff times](/img/2023-visainfocounter.jpg "Photo of a sign that says Aramex Chinatown dropoff times") 
+![Photo of a sign that says Aramex Chinatown dropoff times](/img/2023-visainfocounter.jpg "Information accurate as of October 2023") 
 
 - Aramex at Chinatown, located at [Bstone Travel](https://maps.app.goo.gl/eboHtGyTvA3g431b8), People's Park Centre, 101 Upper Cross Street, #B1-31, Singapore 058357
 - Opening hours: 10am to 5.30pm, Monday to Friday

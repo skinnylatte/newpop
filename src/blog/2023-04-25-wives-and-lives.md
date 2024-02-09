@@ -3,13 +3,18 @@ title: "Wives and Lives"
 date: 2023-04-25T12:51:54-07:00
 draft: false
 tags: 
-    - lgbtq
-    - lifeandlove
-    - california 
-    - immigrant 
-    - singapore
-    - malaysia
-    - blog
+  - lgbtq
+  - lifeandlove
+  - california 
+  - immigrant 
+  - singapore
+  - malaysia
+  - blog
+  - identity
+  - lgbt 
+  - lesbian
+  - bisexual
+  - bestof
 permalink: /posts/2023-04-wives-and-lives
 description: Some emotional thoughts on what it means to be a queer immigrant in California, now that I know what I know.
 layout: post.njk

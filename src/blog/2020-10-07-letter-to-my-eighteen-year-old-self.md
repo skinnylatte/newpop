@@ -12,6 +12,9 @@ tags:
   - california
   - pets
   - blog
+  - letter
+  - letter-to-myself
+  - queer-life
 layout: post.njk
 ---
 In my younger years, meaning when I was a tween, I became acutely aware that my life would be different. I dated boys because I was supposed to, but whenever they said they loved me or that they wanted to marry me, I just shuddered. I don't like it when men sweat, I told them. 

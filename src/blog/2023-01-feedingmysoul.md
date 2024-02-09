@@ -4,11 +4,11 @@ date: 2023-01-31T14:50:07-08:00
 draft: false
 description: It is not too late to know what is most important in life. 
 tags: 
-    - life
-    - photography
-    - projects
-    - music
-    - blog
+  - life
+  - photography
+  - projects
+  - music
+  - blog
 permalink: /posts/2023-01-feeding-my-soul
 layout: post.njk
 ---

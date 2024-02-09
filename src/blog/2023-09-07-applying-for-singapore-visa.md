@@ -4,10 +4,12 @@ date: 2023-09-07T16:05:55-07:00
 draft: false 
 description: A guide to applying for and receiving a Singapore visa for a person you know who may need one.
 tags: 
-    - life
-    - travel
-    - singapore
-    - blog
+  - life
+  - travel
+  - singapore
+  - blog
+  - tutorial
+  - visas
 permalink: /posts/how-to-apply-for-a-singapore-visa-for-your-friend
 layout: post.njk
 
@@ -33,7 +35,7 @@ The following instructions are for Singapore citizens and PRs who have SingPass.
 
 Save the application as a PDF. It will take 3 working days to receive a response, but in my experience it has been usually faster than that (next day has been the norm).
 
-You can look up the status of your visa application [here](https://eservices.ica.gov.sg/ipsave/index.xhtml).
+You can [look up the status of your visa application](https://eservices.ica.gov.sg/ipsave/index.xhtml) here.
 
 So far, I have applied for friends from many countries and I have not received a single rejection.
 

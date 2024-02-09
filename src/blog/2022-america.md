@@ -4,10 +4,10 @@ date: 2022-11-03T15:01:02+08:00
 draft: false
 description: But I moved here anyway.
 tags: 
-    - life
-    - america
-    - singapore
-    - blog
+  - life
+  - america
+  - singapore
+  - blog
 permalink: /2022-11-america
 layout: post.njk
 

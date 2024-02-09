@@ -4,12 +4,12 @@ date: 2022-03-01T17:23:33-08:00
 draft: false
 description: A few ways to move away from Spotify and other suckiness.
 tags: 
-    - tech
-    - music
-    - spotify
-    - beets
-    - linux
-    - blog
+  - tech
+  - music
+  - spotify
+  - beets
+  - linux
+  - blog
 permalink: /2022-03-01-new-beets
 layout: post.njk
 ---

@@ -1,0 +1,66 @@
+---
+layout: post.njk
+tags:
+  - lifeandlove
+  - singapore
+  - blog
+  - travel
+  - hungary
+  - culturekitchen
+date: "2012-09-06T06:19:02Z"
+title: Boomerang
+permalink: /2012/09/boomerang/
+---
+
+National Day came and went. I haven't written any of those essays [I promised to](http://popagandhi.com/2012/08/the-nation-essays/). _Sheepish._ I _will_ write them, I just need a little bit more time.
+
+I did, however, contribute a piece to the Straits Times after PM Lee's National Day Rally speech, which I streamed from a house by the lake in… Hungary. I know, I'm still waiting for my life this year to get less random. I don't think that's going to happen.
+
+If you're interested, you can read it here: [link](http://popagandhi.com/wp-content/uploads/2012/09/st_ndr1.jpeg) (opens a jpg image).
+
+Speaking of random, and Hungary, I am currently hiding out in a secret location there.
+
+
+What am I doing?
+
+Huddling in a house with a team of talented designers and developers, and we are building an ambitious app in a little over two and a half weeks. It's called [Photogotchi](http://photogotchi.com) and it will be available in mid-September. Yet another example of how the little dots connect for me over and over again, one of the contestants on the autorickshaw rally that I went on a few years ago runs this amazing program where he sends a group of people from all over the world to go to a location in Hungary and live, work and eat together for three weeks, and basically live and breathe tech for that period. You learn a lot: how to work in a group, how to work non-stop fuelled by Hungarian energy drinks (burn, baby, burn..!), how to play hard and even cook for your team and do your laundry like your life depended on it (my current dilemma every couple of days). Most importantly you get to be a part of a motivated team that breathes code, design and ships product — every aspect of it. I'm getting a lot out of this, and if you're interested you should definitely apply next year to the [App Campus program](http://campus.carnationgroup.com/). It helps that Hungary is as amazing as I thought it would be.
+
+When I'm done here, I move on to Finland. Yep, Finland yet again, even if it was only six months ago that I was there. I'm in love with that country, its people, and I've made so many wonderful friends that I just had to go again just because I was going to be on the same continent! [Finnair](http://finnair.com), my new favourite airline, takes me there for an affordable price.
+
+When I'm finished with Finland (if I ever do), I'll move on to San Francisco, where I'll get to see new friends and old, visit companies I deeply admire, and learn as much as I can from the best brains in my industry. Then I'll head to Washington DC to see a very dear friend who currently works at the embassy there. Then it'll be my birthday, and it'll happen in New York City. This sounds cheesy but I feel like I have been waiting my whole life to finally make it there (just like the song), and I have an incredible schedule lined up already, mostly comprising of meeting [people who have inspired me](http://zeldman.com), having a superb 27th birthday party surrounded by some dear friends, [going to classes](http://generalassemb.ly/), and doing new things.
+
+If it isn't already obvious, I am on a mission. I have to sort out myself, reconfigure my life and priorities, and two weeks into my travels and challenges I am already halfway there: I'm closing off bits of a past best left behind, bravely — some say foolhardily — navigating new, unseen waters. I'm in a different headspace from the one I was in six months, a year ago.
+
+Even though it looks like, and God knows it felt like, I was wading in a cloud of randomness for the past six months, my method to this madness has been simple: figure shit out, get stuff done. Fix what wasn't working, improve my skills.
+
+What I did (God help me if I sound like a pop self-help type now) was easy enough for anybody to do. The main tenets: Ask. Do. Give.
+
+It amazes me how far one can get just by asking. It opens doors you previously didn't know existed. When I made some of the very big decisions I had to make, on business, love and others, I was temporarily frozen by the fear — _what happens next?_ I didn't know. The fear was crippling. But eventually I came to see that if I didn't let fear cripple me in so many other aspects of my life, I certainly wasn't going to let it win in the most important areas, the ones that affected me directly. I made decisions, some of which I'm not particularly proud or happy to have made, but that were necessary — to me — with less collateral damage now than if I make them years from now. I didn't know what was going to happen, in terms of work, money, life. But I've come to think that maybe I really am one of the luckiest people ever — everything fell into place, and got going, pretty much with a life of its own in which I was a mere spectator who occasionally hit a &#8216;yes' or &#8216;no' or &#8216;let's move on' button. None of that would have happened if I hadn't developed the shameless ability to ask. The right people at the right places. What's the worst that could happen? A no? So I did, and I'm all the better for it.
+
+I actively identified a few key areas in my life that needed to be fixed, and tried to find inspiration on how to go about fixing them.
+
+I knew that I had boundless energy when it came to starting things up, but not when it came to completing things — to running the race through to the end. The tedium and minutiae of everyday life bored the hell out of me. So I learned to delegate, and I learned to separate the important from the less so.
+
+I knew that I had no trouble making a lot of money, but plenty of trouble understanding the flow of money, so I went to a handful of trusted older acquaintances and friends and basically said to them: here I am, this is where I am at, this is the situation, this is where I want to be in 5 years, 10 years — in your shoes. Teach me what to do with money in beneficial ways, and not only to myself. One day I'll write a ridiculous self-help finance book on this process.
+
+I knew that I had no shortage of ideas, all of which excited me and made me jump out of bed — but I needed to make them show for something. That tied in with how I previously and historically always ran out of steam and had no ability to see things through to their full potential. I threw a couple of things at it to try to fix it — mostly through consistency and coffee-fuelled attempts at hard work — but seen through the perspective of what I need to achieve within the next year, there are always creative ways to fix any problems, and in the next few months I will be able to hold actual things in my hands and say: I made this, and I finished it.
+
+Doing stuff has never been difficult for me. I'm the crazy friend who gets sent these emails saying "I have this great idea. What should I do?" And my only answer is: _do it_. Or if I can afford to, _let me help you._ This quarter, whatever stars are aligned (if you believe in that hufflepuff), they're certainly all pointing at how I'm learning to pick my battles and to keep doing stuff, but only the stuff that really matters in the end. Steve Jobs' famous line to Sculley rings true in my mind at every milestone: _do I want to sell sugared water?_ Or do the important stuff? In some truly funny ways I think I'd let my grip on reality cripple my ability to see the big picture. Being bogged down by the small stuff, the details — I stopped being able to dream. Of course the dreamer in me now at 27 versus the one at 17 is a very different one: _I already know the small stuff and I won't sweat it._ But I don't ignore them or wish them away. So now, I do, with the tempered mania of a recovering hyperthyroid patient on metaphoric and literal energy drinks (but properly medicated, don't worry, mum) — banging away at my keyboard, and the world, and all these things I am going to do in it.
+
+This is the point where I say with an Austrian bodybuilder's accent, I think — _I am back._ Bitches.
+
+A theme that has persisted in my mind recently is that of how I need to give back. To my community. To the people who made me. My family, my country, my adopted country (India). I have launched or am launching initiatives in all of these. These are battles that are worth it. One project is [Culture Kitchen](http://thisis.sg/culturekitchen/), a food and art project that aims to connect Singapore to the rest of the world through delicious food and intriguing, sometimes edible art. Is Singapore becoming more xenophobic? Maybe. Is there any justification for it? Never. It becomes xenophobia when it stops being about the policies, and when it starts being about the people — anybody. The guy in the train speaking in a foreign language you don't understand. The waitress who doesn't speak the correct language. But how can we undo this? I don't know. What I do know is that I think saying "you are xenophobic", even when truly well-deserved, already splits the people in camps. In its own ironic way, that also puts people into defensive modes — us versus them, all over again. We must always, always call out xenophobia and never tolerate it. But we must also stem its growth with a light touch. Just as how I will always call out homophobia when I see it, whether it is directed at me or not, on a personal level when I meet somebody from a background that hasn't given him or her any opportunities to meet real gay people, I would rather give him a chance and be the living example of the gay person he could never hate, than flat out deny him the ability to re-evaluate his opinion. I also have the _kumbayah_ belief — hope? pipe dream? — that Singaporeans, and our electorate, are by and large rational beings who are averse to extremism on either side of the spectrum. Yes, there is some danger that we are following the global trend of slipping towards unfounded nationalism based on birth and race. But I think we can avoid that by starting to have open, honest conversations. Do I think [Culture Kitchen](http://thisis.sg/culturekitchen/) will be able to fix anything? I wouldn't dare be so self-important. I think my job is done not when I change the mind of somebody who is already anti-immigration and/or xenophobic (is there a difference?), but it is when it inspires other citizen-led projects, and when it plants the seed in the mind of just one person — _hey, I never knew that about this country. We actually have these things in common. Let me find out more._
+
+In addition to [Culture Kitchen](http://thisis.sg/culturekitchen/) I will also have a host of other small mini-projects at [ThisIs.sg](http://thisis.sg), which is currently not ready but the basics are there: _small island, big heart. Quirky projects celebrating the Singapore spirit._. As a young Singaporean who has chosen a somewhat different path, I am always asked by even younger Singaporeans, "how did you do this?" Since I know so many other kindred spirits who are doing likewise, in their own fields, across a spectrum of various industries and activities, I thought I would collect them all in one place and have them answer such questions in a publicly accessible database. It is my hope that with these, others will see that it's actually not that scary, not that hard, to follow their dreams, to do stuff, to start first by figuring out what matters to them. God knows I could have done with something like that myself when I was younger and clueless.
+
+So. Giving back. There are tons of other initiatives that we've dreamed up, and that we're laying the groundwork on, but for now there's all of this. And then some. I wish I started an active giving process much earlier, but here we are.
+
+In between all these projects, shuttling back and forth between various countries, and other things, I haven't had very much time to sort out the homefront. My dog is now in Singapore, and will be out of quarantine soon. When she does get out and come home to live with me in my family home, I think it will be my first real shot at _real life_ this year.
+
+It's been a crazy year but at least you can't call it uninteresting in the slightest way.
+
+Just yesterday I [tweeted as a monster](http://twitter.com/photogotchi), designed a game, went to [float on a crocodile boat](http://instagram.com/p/PK-jsCmnXa/) in lake Balaton, and came back to the house to help set up an NGO.
+
+Perhaps the biggest discovery this year may be that I possibly and probably have an attention deficit disorder too?
+
+Thank you, mad world, for giving me all the shots I have. I am having a ball of a time. _And I have to go away to figure out where I'm going to live_. I said that to a friend, two decades older, and she simply laughed and said "that's so Millennial of you." I'm glad I'm a Millennial ([even ChannelNewsAsia thinks so](http://www.youtube.com/watch?v=khYFNGBDf6U)) — it's damn confusing, but it's a damn awesome time to be doing all these things with the world as your oyster, baked, fried or freshly shucked.

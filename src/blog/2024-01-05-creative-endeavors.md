@@ -3,16 +3,16 @@ title: A Year of Creative Endeavors
 date: 2024-01-05
 description: Some thoughts on a joyful year of making beautiful things.
 tags: 
-    - blog
-    - life
-    - creativity
-    - photography
+  - blog
+  - life
+  - creativity
+  - photography
 permalink: /posts/year-of-creative-endeavors
 layout: post.njk
 
 ---
 
-1. In 2023, [I got to explore a whole year of creativity](https://micro.popagandhi.com/2023/12/06/learning-seeing-hearing.html), namely in film photography, photographic darkroom printing, piano and saxophone-playing, and drawing
+1. In 2023, [I got to explore a whole year of creativity](/2023/12/06/learning-seeing-hearing.html), namely in film photography, photographic darkroom printing, piano and saxophone-playing, and drawing
 2. Film photography felt like an old friend I was coming back to: I was already shooting film 20 years ago, but dropped off for the digital world
 3. In moving to San Francisco, I also found a community of film photography experts and enthusiasts around whom I could build a creative practice
 4. It's much easier to continue pursuing a hobby when there are events to attend, people to share, and spaces to go to for it
@@ -27,5 +27,3 @@ layout: post.njk
 13. When I sit in a completely dark darkroom, that's one of the only times I am away from a screen
 14. The hour or three that I spend in one helps me center my thoughts around creating something beautiful that can bring happiness to someone else (my wife, for example, really likes having prints so she can decorate our home with it. I also love giving prints to friends)
 15. Given that I stepped away from photography for a decade or so because I was burned out by the practice of commercial photography, which killed my love for it and which also made me uninterested in picking up a camera for a very long time, I'm very happy with... *this*, whatever this is!
-
-[Check out my creative microblog (mostly photos)](https://micro.popagandhi.com).

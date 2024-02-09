@@ -4,12 +4,12 @@ date: 2022-03-06T17:23:33-08:00
 draft: false
 description: Learning to play the saxophone in my late 30s.
 tags: 
-    - saxophone
-    - music
-    - learning
-    - youtube
-    - growth
-    - blog
+  - saxophone
+  - music
+  - learning
+  - youtube
+  - growth
+  - blog
 permalink: /2022-03-06-saxophone-diaries
 layout: post.njk
 ---

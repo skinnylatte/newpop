@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@zachleat/pagefind-search": "^1.0.3",
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.0.0"
   }

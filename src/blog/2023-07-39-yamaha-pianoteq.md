@@ -4,10 +4,10 @@ date: 2023-07-29T14:00:07-07:00
 draft: false 
 description: Playing around with piano vsts.
 tags: 
-    - music
-    - piano
-    - software
-    - blog
+  - music
+  - piano
+  - software
+  - blog
 permalink: /posts/2023-07-29-yamaha-pianoteq
 layout: post.njk
 

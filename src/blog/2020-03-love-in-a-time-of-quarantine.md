@@ -4,14 +4,15 @@ date: 2020-03-17T19:09:24-07:00
 draft: false
 description: These unprecedented times. 
 tags: 
-    - life
-    - covid19
-    - coronavirus
-    - family
-    - love
-    - pets
-    - quarantinediaries
-    - blog
+  - life
+  - covid19
+  - coronavirus
+  - family
+  - love
+  - pets
+  - quarantinediaries
+  - blog
+  - pandemic
 permalink: /2020/03/17/love-in-a-time-of-quarantine
 layout: post.njk
 

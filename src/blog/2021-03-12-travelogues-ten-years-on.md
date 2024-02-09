@@ -7,7 +7,10 @@ description: "Once I could, I traveled fanatically and obsessively. I traveled
   didn’t feel ready. I didn’t feel like I knew a lot. I was 18, and I didn’t
   know a thing at all. Maybe I still don’t, but with the passage of time I feel
   better equipped to tell those stories without only the romance. "
-tags: blog
+tags: 
+  - blog
+  - travel
+  - cambodia
 layout: post.njk
 ---
 It was the summer of 2004.

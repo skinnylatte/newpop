@@ -4,11 +4,12 @@ date: 2023-02-23T16:00:07-08:00
 draft: false
 description: Some thoughts on disability, chronic illness, autism, and learning to ask for help.
 tags: 
-    - life
-    - adhd
-    - attention
-    - health
-    - blog
+  - life
+  - adhd
+  - attention
+  - health
+  - blog
+  - disability
 permalink: /posts/2023-02-attention-span
 layout: post.njk
 ---

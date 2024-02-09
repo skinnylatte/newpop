@@ -4,11 +4,12 @@ date: 2022-04-13T15:09:57-07:00
 draft: false
 description: How I use Tailscale instead of a commercial VPN
 tags: 
-    - technology
-    - vpn
-    - computers
-    - networks
-    - blog
+  - technology
+  - vpn
+  - computers
+  - networks
+  - blog
+  - tutorial
 permalink: /2022-04-tailscale
 layout: post.njk
 ---
