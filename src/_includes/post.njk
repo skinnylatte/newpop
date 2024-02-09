@@ -14,24 +14,11 @@
 
 <article class="blog-post">
 	<h2>{{ title }}</h2>
-</p>
 	{{ content | safe }}
 </article>
-
-<div class="post-pagination">
-	{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-{% if previousPost %}
-  <a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
-{% endif %} <a href="{{'/' | url }}">Home</a> 
-
-{% set nextPost = collections.blog | getNextCollectionItem(page) %}
-{% if nextPost %}
-  &vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
-{% endif %}
+{% include "_postpagination.html" %}
 
 </section>
-
-
 </div>
 <section class="footer">&copy; Copyright {{ site.copyrightYear }}</section>
 </div>

@@ -107,10 +107,13 @@
 
 .page-top {
 	padding: 25px;
-	background: linear-gradient(160deg, crimson, papayawhip);
+	background: linear-gradient(160deg, crimson, brown);
 	color: white;
 	border: 1px dotted black;
+}
 
+.page-top a {
+	color: cornsilk;
 }
 .footer {
 	background-color: #f5f5f5;
