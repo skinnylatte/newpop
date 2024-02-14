@@ -1,14 +1,13 @@
 ---
 layout: post.njk
 title: "Graphic novel review: All Quiet in Vikaspuri"
-date: 2023-01-24T12:38:20-0800
-lastmod: 2023-01-24T12:38:54-0800
+date: 2023-01-24
 tags: 
   - blog
   - books
   - bookreview
   - reviews
-permalink: /2023/01/24/graphic-novel-review.html
+permalink: /posts/all-quiet-in-vikaspuri
 ---
 Finished reading: [All Quiet in Vikaspuri](https://micro.blog/books/9789351775744) by Sarnath Banerjee 📚
 

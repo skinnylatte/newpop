@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "My First Time in Myanmar"
-date: 2023-02-16T09:00:35-0800
-lastmod: 2023-02-16T09:00:35-0800
+date: 2023-02-16
 tags:
   - photos
   - myanmar

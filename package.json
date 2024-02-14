@@ -16,5 +16,8 @@
     "@zachleat/pagefind-search": "^1.0.3",
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }

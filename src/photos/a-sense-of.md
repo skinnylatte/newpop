@@ -1,6 +1,6 @@
 ---
 title: "A Sense of Home"
-date: 2023-02-25T13:05:20-0800
+date: 2023-02-25
 tags: photos
 permalink: /2023/02/25/a-sense-of.html
 layout: post.njk

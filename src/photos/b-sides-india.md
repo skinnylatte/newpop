@@ -1,7 +1,6 @@
 ---
 title: "B Sides (India)"
-date: 2023-07-17T13:08:33-0800
-lastmod: 2023-07-17T13:08:34-0800
+date: 2023-07-17
 tags: photos
 permalink: /2023/07/17/b-sides-india.html
 layout: post.njk

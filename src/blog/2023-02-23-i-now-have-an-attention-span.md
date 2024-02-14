@@ -1,6 +1,6 @@
 ---
 title: "I Now Have an Attention Span"
-date: 2023-02-23T16:00:07-08:00
+date: 2023-02-23
 draft: false
 description: Some thoughts on disability, chronic illness, autism, and learning to ask for help.
 tags: 

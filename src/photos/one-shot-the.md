@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "One Shot: The Farallones"
-date: 2023-01-07T15:59:11-0800
-lastmod: 2023-01-07T15:59:11-0800
+date: 2023-01-07
 tags:
   - photos
   - birds

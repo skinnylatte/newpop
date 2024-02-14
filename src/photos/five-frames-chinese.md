@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Five Frames: Chinese Gods"
-date: 2023-01-06T17:18:50-0800
-lastmod: 2023-01-06T17:18:50-0800
+date: 2023-01-06
 tags: 
   - photos
   - singapore

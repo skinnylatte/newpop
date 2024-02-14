@@ -1,8 +1,6 @@
 ---
 title: "Bencoolen Street"
-microblog: false
-date: 2023-09-22T04:32:21-0800
-lastmod: 2023-09-22T04:32:21-0800
+date: 2023-09-22
 tags: photos
 permalink: /2023/09/22/bencoolen-street.html
 layout: post.njk

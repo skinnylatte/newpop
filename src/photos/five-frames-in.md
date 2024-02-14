@@ -1,8 +1,7 @@
 ---
 layout: post.njk	
 title: "Five Frames in Camp Mather with my Yashica 124G and Portra 160"
-date: 2023-09-08T09:06:42-0800
-lastmod: 2023-09-08T09:13:18-0800
+date: 2023-09-08
 tags: 
   - photos
   - travel

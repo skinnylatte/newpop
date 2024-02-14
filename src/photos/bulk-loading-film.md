@@ -1,11 +1,7 @@
 ---
 layout: post.njk
 title: "Bulk Loading Film"
-microblog: false
-guid: http://skinnylatte.micro.blog/2023/06/27/bulk-loading-film.html
-post_id: 3304537
-date: 2023-06-27T15:32:15-0800
-lastmod: 2023-06-27T15:32:15-0800
+date: 2023-06-27
 tags: photos
 permalink: /2023/06/27/bulk-loading-film.html
 ---

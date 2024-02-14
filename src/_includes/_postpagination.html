@@ -1,5 +1,6 @@
 <div class="post-pagination">
-	{% set previousPost = collections.blog  | getPreviousCollectionItem(page) %}
+
+{% set previousPost = collections.blog  | getPreviousCollectionItem(page) %}
 {% if previousPost %}
   <a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
 {% endif %} <a href="{{'/' | url }}">Home</a> 
@@ -9,3 +10,4 @@
   &vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
 {% endif %}
 
+</div>

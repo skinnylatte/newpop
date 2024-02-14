@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Music for the Soul"
-date: 2023-01-30T10:59:39-0800
-lastmod: 2023-01-30T10:59:39-0800
+date: 2023-01-30
 tags:
   - photos
   - music

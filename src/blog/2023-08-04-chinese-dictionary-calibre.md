@@ -1,7 +1,6 @@
 ---
 title: "How to add a Chinese dictionary to Calibre"
-date: 2023-08-04T14:41:03-07:00
-draft: false 
+date: 2023-08-04
 description: Note to my past self on how to add a Chinese dictionary so that I can read Chinese ebooks more easily.
 tags: 
   - chinese

@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Five Frames Chinatown"
-date: 2023-09-28T17:52:35-0800
-lastmod: 2023-09-28T18:25:11-0800
+date: 2023-09-28
 tags: 
   - photos
   - travel

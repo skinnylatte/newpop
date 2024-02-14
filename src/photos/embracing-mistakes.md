@@ -1,8 +1,7 @@
 ---
 layout: post.njk	
 title: "Embracing mistakes "
-date: 2023-04-04T09:11:17-0800
-lastmod: 2023-04-04T09:51:54-0800
+date: 2023-04-04
 tags: 
   - photos
   - food

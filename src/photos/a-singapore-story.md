@@ -1,7 +1,6 @@
 ---
 title: "A Singapore Story"
-date: 2023-03-17T10:30:38-0800
-lastmod: 2023-03-17T10:48:21-0800
+date: 2023-03-17
 tags: photos
 permalink: /2023/03/17/a-singapore-story.html
 layout: post.njk

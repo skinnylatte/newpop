@@ -1,7 +1,6 @@
 ---
 title: "B Sides (Myanmar)"
-date: 2023-07-18T12:26:58-0800
-lastmod: 2023-07-18T12:26:58-0800
+date: 2023-07-18
 tags: photos
 permalink: /2023/07/18/b-sides-myanmar.html
 layout: post.njk

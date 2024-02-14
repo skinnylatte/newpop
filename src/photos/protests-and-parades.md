@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Protests and Parades"
-date: 2023-04-07T13:33:42-0800
-lastmod: 2023-04-07T13:33:42-0800
+date: 2023-04-07
 tags:
   - photos
   - protests

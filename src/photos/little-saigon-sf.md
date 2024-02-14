@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Little Saigon, SF"
-date: 2023-02-03T15:27:49-0800
-lastmod: 2023-02-03T15:36:36-0800
+date: 2023-02-03
 tags:
   - photos
   - sanfrancisco

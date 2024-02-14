@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Kampong Glam, Singapore"
-date: 2023-06-11T10:47:58-0800
-lastmod: 2023-06-11T10:47:58-0800
+date: 2023-06-11
 tags:
   - photos
   - singapore

@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Lower Polk, SF"
-date: 2023-03-30T15:35:57-0800
-lastmod: 2023-03-30T15:41:19-0800
+date: 2023-03-30
 tags:
   - photos
   - sanfrancisco

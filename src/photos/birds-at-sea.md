@@ -1,10 +1,6 @@
 ---
 title: "Birds at Sea"
-microblog: false
-guid: http://skinnylatte.micro.blog/2023/09/09/birds-at-sea.html
-post_id: 3533236
-date: 2023-09-09T16:08:44-0800
-lastmod: 2023-09-09T16:08:44-0800
+date: 2023-09-09
 tags: photos
 images:
 - https://cdn.uploads.micro.blog/8917/2023/DSC2979-positive.jpg

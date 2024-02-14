@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Slide Film Tourism"
-date: 2023-11-16T11:37:34-0800
-lastmod: 2023-11-16T11:37:34-0800
+date: 2023-11-16
 tags:
   - photos
   - sanfrancisco

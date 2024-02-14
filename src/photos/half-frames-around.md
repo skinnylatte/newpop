@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Half Frames Around The Tenderloin"
-date: 2023-01-04T12:00:51-0800
-lastmod: 2023-01-08T22:20:41-0800
+date: 2023-01-04
 tags: 
   - photos
   - sanfrancisco

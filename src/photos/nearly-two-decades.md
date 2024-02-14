@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Nearly Two Decades Ago"
-date: 2023-07-07T12:11:42-0800
-lastmod: 2023-07-07T12:11:42-0800
+date: 2023-07-07
 tags:
   - photos
   - cambodia

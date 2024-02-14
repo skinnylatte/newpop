@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Five Frames with Nikonos V"
-date: 2023-05-20T16:07:11-0800
-lastmod: 2023-07-18T12:15:55-0800
+date: 2023-05-20
 tags:
   - photos
   - nikonos

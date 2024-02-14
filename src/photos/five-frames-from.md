@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Five Frames from Ceylon"
-date: 2023-01-01T20:53:43-0800
-lastmod: 2023-01-10T14:03:47-0800
+date: 2023-01-01
 tags: 
   - photos
   - travel

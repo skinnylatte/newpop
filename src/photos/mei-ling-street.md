@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Mei Ling Street"
-date: 2023-09-27T03:58:14-0800
-lastmod: 2023-09-27T03:58:14-0800
+date: 2023-09-27
 tags:
   - photos
   - singapore

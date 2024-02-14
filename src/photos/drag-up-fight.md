@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Drag Up, Fight Back"
-date: 2023-04-10T09:18:37-0800
-lastmod: 2023-04-10T10:42:16-0800
+date: 2023-04-10
 tags: photos
 permalink: /2023/04/10/drag-up-fight.html
 ---

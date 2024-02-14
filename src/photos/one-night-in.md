@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "One Night in the Mission"
-date: 2023-03-31T10:38:08-0800
-lastmod: 2023-03-31T10:38:08-0800
+date: 2023-03-31
 tags:
   - photos
   - mission

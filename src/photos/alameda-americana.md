@@ -1,6 +1,6 @@
 ---
 title: "Alameda Americana"
-date: 2023-09-17T00:07:21-0800
+date: 2023-09-17
 tags: photos
 permalink: /2023/09/17/alameda-americana.html
 layout: post.njk

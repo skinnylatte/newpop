@@ -1,14 +1,13 @@
 ---
-layout: post.njk
 title: "Mycology: Fantastic Fungi"
-date: 2023-01-24T12:45:32-0800
-lastmod: 2023-01-26T22:21:39-0800
+date: 2023-01-24
 tags:
   - books
   - blog
   - reviews
   - bookreviews
-permalink: /2023/01/24/mycology-fantastic-fungi.html
+layout: post.njk
+permalink: /posts/fantastic-fungi
 ---
 Finished reading: [Fantastic Fungi](https://micro.blog/books/9781683837046) by Paul Stamets 📚
 

@@ -1,14 +1,13 @@
 ---
 layout: post.njk
 title: "Manga review: Moyasimon volume 1"
-date: 2023-01-02T16:34:01-0800
-lastmod: 2023-01-02T16:34:01-0800
+date: 2023-01-02
 tags:
   - blog
   - books
   - bookreviews
   - reviews
-permalink: /2023/01/02/manga-review-moyasimon.html
+permalink: /posts/manga-review-moyasimon
 ---
 Finished reading: [Moyasimon](https://micro.blog/books/9780345514721) by Masayuki Ishikawa 📚
 

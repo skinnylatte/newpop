@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Fisheye at Pak Ou Caves"
-date: 2023-02-24T16:51:15-0800
-lastmod: 2023-02-24T17:11:32-0800
+date: 2023-02-24
 tags: 
   - photos
   - travel

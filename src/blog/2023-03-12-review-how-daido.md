@@ -1,15 +1,14 @@
 ---
 layout: post.njk
 title: "Review: How Daido Moriyama Takes Photographs"
-date: 2023-03-12T11:23:22-0800
-lastmod: 2023-03-12T11:28:32-0800
+date: 2023-03-12
 tags:
   - blog
   - photos
   - books
   - bookreview
   - reviews
-permalink: /2023/03/12/review-how-daido.html
+permalink: /posts/how-daido-moriyama-takes-photographs
 ---
 Finished reading: [Daido Moriyama: How I Take Photographs](https://micro.blog/books/9781786274243) by Takeshi Nakamoto 📚
 

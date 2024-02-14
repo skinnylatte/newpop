@@ -12,10 +12,14 @@
 {% include "_aside.html" %}
 <section class="content">
 
-<article class="blog-post">
+<div class="post">
+
 	<h2>{{ title }}</h2>
+	<div class="date-metadata">Published on {{ date | postDate  }}</div>
+
 	{{ content | safe }}
-</article>
+	
+</div>
 {% include "_postpagination.html" %}
 
 </section>

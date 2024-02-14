@@ -1,8 +1,7 @@
 ---
 layout: post.njk	
 title: "Hari Gawai, some years ago"
-date: 2023-02-14T15:01:54-0800
-lastmod: 2023-02-14T15:01:54-0800
+date: 2023-02-14
 tags:
   - photos
   - travel

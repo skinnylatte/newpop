@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "My favorite place in San Francisco"
-date: 2023-03-23T12:00:55-0800
-lastmod: 2023-03-23T12:00:55-0800
+date: 2023-03-23
 tags:
   - photos
   - sanfrancisco

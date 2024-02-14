@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Fill Your Life with Music (And Fairies)"
-date: 2023-02-20T10:50:52-0800
-lastmod: 2023-02-20T10:50:52-0800
+date: 2023-02-20
 tags: photos
 permalink: /2023/02/20/fill-your-life.html
 ---

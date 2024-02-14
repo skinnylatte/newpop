@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Motion Picture Film, Mistakes, Fun"
-date: 2023-06-10T11:24:08-0800
-lastmod: 2023-06-20T15:23:44-0800
+date: 2023-06-10
 tags:
   - photos
   - sanfrancisco

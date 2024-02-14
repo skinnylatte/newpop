@@ -7,9 +7,8 @@ tags:
   - life
   - creativity
   - photography
-permalink: /posts/year-of-creative-endeavors
 layout: post.njk
-
+permalink: /posts/year-of-creative-endeavors
 ---
 
 1. In 2023, [I got to explore a whole year of creativity](/2023/12/06/learning-seeing-hearing.html), namely in film photography, photographic darkroom printing, piano and saxophone-playing, and drawing

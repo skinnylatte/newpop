@@ -1,14 +1,13 @@
 ---
 layout: post.njk
 title: "Savoring Hijabi Butch Blues"
-date: 2023-05-25T15:50:10-0800
-lastmod: 2023-05-25T15:50:10-0800
+date: 2023-05-25
 tags:
   - blog
   - books
   - bookreview
   - reviews
-permalink: /2023/05/25/savoring-hijabi-butch.html
+permalink: /posts/savoring-hijabi-butch
 ---
 Finished reading: [Savor](https://micro.blog/books/9780593355206) by Fatima Ali 📚 and [Hijab Butch Blues](https://micro.blog/books/9780593448762) by Lamya H 📚
 

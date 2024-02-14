@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Outtakes from a cookbook"
-date: 2022-12-31T16:47:54-0800
-lastmod: 2023-01-06T17:25:19-0800
+date: 2022-12-31
 tags:
   - photos
   - food

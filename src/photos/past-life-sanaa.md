@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Past Life: Sana'a Street Life"
-date: 2023-01-26T20:24:04-0800
-lastmod: 2023-01-26T20:24:04-0800
+date: 2023-01-26
 tags:
   - photos
   - travel

@@ -1,8 +1,7 @@
 ---
 l.njkayout: post.njk
 title: "My wedding in film and digital"
-date: 2022-12-31T17:14:25-0800
-lastmod: 2023-01-06T17:25:24-0800
+date: 2022-12-31
 tags:
   - photos
   - wedding
@@ -23,9 +22,9 @@ Which one looks like film and which one looks digital?
 
 <img src="/photos/uploads/5d1135eed5.jpg" width="600" height="401" alt="a color photo of a queer female couple in wedding whites in a jungle setting" />
 
-<caption><em>She was telling me a joke.</em></caption>
+She was telling me a joke.
 
 <img src="/photos/uploads/79b835b820.jpg" width="600" height="400" alt="a color photo of a queer female couple in wedding whites walking along an old railway bridge" />
 
-<caption><em>Walking along the railway tracks that connected our cities.</em></caption> 
+Walking along the railway tracks that connected our cities.
 

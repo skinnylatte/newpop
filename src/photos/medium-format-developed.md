@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Medium Format, Developed Medium Well"
-date: 2023-04-25T20:12:56-0800
-lastmod: 2023-04-25T20:12:56-0800
+date: 2023-04-25
 tags:
   - photos
   - mediumformat

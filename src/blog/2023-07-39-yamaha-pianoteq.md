@@ -1,7 +1,6 @@
 ---
 title: "Making the Yamaha P-125 digital piano sound better"
 date: 2023-07-29T14:00:07-07:00
-draft: false 
 description: Playing around with piano vsts.
 tags: 
   - music

@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Chinese Bakeries of San Francisco"
-date: 2023-02-08T21:58:31-0800
-lastmod: 2023-02-08T21:59:25-0800
+date: 2023-02-08
 tags: photos
 permalink: /2023/02/08/chinese-bakeries-of.html
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post.njk	
 title: "Doors of Surabaya"
-date: 2023-09-26T03:23:38-0800
-lastmod: 2023-09-26T03:23:38-0800
+date: 2023-09-26
 tags: photos
 permalink: /2023/09/26/doors-of-surabaya.html
 ---

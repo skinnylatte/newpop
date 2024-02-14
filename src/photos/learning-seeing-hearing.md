@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Learning, Seeing, Hearing"
-date: 2023-12-06T17:53:36-0800
-lastmod: 2023-12-06T17:58:51-0800
+date: 2023-12-06
 tags: 
   - photos
   - learning

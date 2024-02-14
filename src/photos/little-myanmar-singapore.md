@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Little Myanmar, Singapore"
-date: 2023-10-02T09:07:43-0800
-lastmod: 2023-10-02T09:13:11-0800
+date: 2023-10-02
 tags:
   - photos
   - myanmar

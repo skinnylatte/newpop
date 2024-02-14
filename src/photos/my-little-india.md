@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "My Little India"
-date: 2023-09-29T15:42:53-0800
-lastmod: 2023-09-29T15:42:53-0800
+date: 2023-09-29
 type: post
 tags:
   - photos

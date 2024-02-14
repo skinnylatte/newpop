@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Chasing the Light "
-date: 2023-12-09T23:31:52-0800
-lastmod: 2023-12-09T23:31:52-0800
+date: 2023-12-09
 tags: photos
 permalink: /2023/12/09/chasing-the-light.html
 ---

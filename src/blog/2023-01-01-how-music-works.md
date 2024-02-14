@@ -1,15 +1,14 @@
 ---
 layout: post.njk
 title: "How Music Works"
-date: 2023-01-01T01:10:16-0800
-lastmod: 2023-01-01T01:14:50-0800
+date: 2023-01-01
 tags: 
   - blog
   - books
   - bookreview
   - reviews
   - music
-permalink: /2023/01/01/how-music-works.html
+permalink: /posts/how-music-works
 ---
 Finished reading: [How Music Works](https://micro.blog/books/9780804188944) by David Byrne 📚
 

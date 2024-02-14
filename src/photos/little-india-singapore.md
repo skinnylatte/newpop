@@ -1,8 +1,8 @@
 ---
 layout: post.njk
 title: "Little India, Singapore"
-date: 2023-09-12T16:11:20-0800
-lastmod: 2023-09-12T17:52:21-0800
+date: 2023-09-12
+lastmod: 2023-09-12
 tags:
   - travel
   - singapore

@@ -1,7 +1,6 @@
 ---
 layout: post.njk
-date: 2023-10-23T09:48:13-0800
-lastmod: 2023-10-23T09:49:27-0800
+date: 2023-10-23
 tags: photos
 title: Bukit Merah Days
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post.njk
 title: "Hello 35mm my old friend"
-date: 2022-12-31T15:39:18-0800
-lastmod: 2022-12-31T16:23:03-0800
+date: 2022-12-31
 tags: 
   - photos
   - selfie
