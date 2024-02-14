@@ -4,10 +4,16 @@ const { DateTime } = require("luxon");
 // adding markdown filters
 const markdownIt = require("markdown-it");
 
+//adding rss
+const pluginRss = require("@11ty/eleventy-plugin-rss")
+
 
 // adding passthrough declarations and directories
 
 module.exports = function (eleventyConfig) {
+  // add rss
+  eleventyConfig.addPlugin(pluginRss);
+
 	// markdown options
 	let options = {
 		html: true,
@@ -21,7 +27,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("postDate", (dateObj) => {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
 });
-	// create a list of tags
+	// create a list of tags for archive page
 	eleventyConfig.addCollection("tagList", function(collectionApi){
 	let tags = new Set();
   collectionApi.getAll().forEach(function(item) {
@@ -31,6 +37,11 @@ module.exports = function (eleventyConfig) {
   });
   return Array.from(tags);
 });
+
+	// create a custom feed list for rss
+	eleventyConfig.addCollection("feedposts", function(collectionApi){
+		return collectionApi.getFilteredByGlob(["/blog/*.md", "/photos/*.md", "/food/*.md", "/bikes/*.md"])
+	})
 
 	// set custom directories for input, output includes and data
 	return {
