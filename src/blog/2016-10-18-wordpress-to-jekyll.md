@@ -4,7 +4,6 @@ tags:
   - blog
 date: "2016-10-18T18:15:53Z"
 title: Wordpress to Jekyll
-permalink: /2016/10/wordpress-to-jekyll/
 description: "A brief flirtation with Jekyll, my first static site generator. I've moved on to happier tools since."
 layout: post.njk
 

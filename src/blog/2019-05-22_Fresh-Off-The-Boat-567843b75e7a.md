@@ -8,7 +8,6 @@ tags:
   - immigration
   - blog
   - identity
-permalink: "/2019/05/-fresh-off-the-boat"
 layout: post.njk
 ---
 

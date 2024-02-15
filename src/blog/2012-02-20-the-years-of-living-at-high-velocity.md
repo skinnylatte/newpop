@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2012-02-20T16:23:44Z"
 title: The Years of Living at High Velocity
-permalink: /2012/02/the-years-of-living-at-high-velocity/
 ---
 
 _Or how I am not dealing with hyperthyroidism_

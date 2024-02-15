@@ -10,7 +10,6 @@ tags:
   - queer-life
 date: "2013-08-21T16:32:36Z"
 title: The One About Having It All
-permalink: /2013/08/the-one-about-having-it-all/
 ---
 
 _Also available on [Medium](https://medium.com/gender-justice-feminism/8c995b098f41)._

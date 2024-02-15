@@ -9,7 +9,6 @@ tags:
   - projects
   - music
   - blog
-permalink: /posts/2023-01-feeding-my-soul
 layout: post.njk
 ---
 

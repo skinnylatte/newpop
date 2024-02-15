@@ -7,7 +7,6 @@ tags:
   - reviews
   - bookreviews
 layout: post.njk
-permalink: /posts/fantastic-fungi
 ---
 Finished reading: [Fantastic Fungi](https://micro.blog/books/9781683837046) by Paul Stamets 📚
 

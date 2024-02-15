@@ -11,7 +11,6 @@ tags:
   - sobriety
   - blog
 layout: post.njk
-permalink: /posts/so-far-so-sober
 ---
 It feels like not very many years ago that hackathons, free beer and drunken nights out with startups were, for a brief moment in time, cool.
 

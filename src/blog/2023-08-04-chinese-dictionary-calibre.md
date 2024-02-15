@@ -9,7 +9,6 @@ tags:
   - ebooks
   - tutorial
   - blog
-permalink: /posts/2023-08-04-chinese-dictionary
 layout: post.njk
 ---
 

@@ -8,7 +8,6 @@ tags:
   - teenager
 date: "2005-04-11T05:47:06Z"
 title: Excavation
-permalink: /2005/04/excavation/
 ---
 
 _Where I dig into my archives and repost stuff I like. This one's from April 2005._

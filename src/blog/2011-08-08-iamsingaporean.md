@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2011-08-08T15:45:13Z"
 title: '#iamsingaporean'
-permalink: /2011/08/iamsingaporean/
 ---
 
 <img src="http://res.cloudinary.com/dmchbvarm/image/upload/v1456563028/singapore_skyline_night_panorama_2011_edahmo.png" alt="" title="Singapore Skyline" width="640" height="302" class="size-full wp-image-233">

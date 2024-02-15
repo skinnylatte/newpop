@@ -10,7 +10,6 @@ tags:
   - blog
   - tutorial
   - visas
-permalink: /posts/how-to-apply-for-a-singapore-visa-for-your-friend
 layout: post.njk
 
 ---

@@ -8,7 +8,6 @@ tags:
   - lgbt
   - queer
   - blog
-permalink: /2023-what-pride-means-to-me
 layout: post.njk
 ---
 ![Screenshot of a photo of Adrianna and Sabrena a queer couple](/img/2023pridepic.jpg "Screenshot of a photo of a queer couple") 

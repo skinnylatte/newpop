@@ -10,7 +10,6 @@ tags:
     - blog
 date: "2014-02-14T02:31:38Z"
 title: The Geography of Hope
-permalink: /2014/02/the-geography-of-hope/
 
 ---
 

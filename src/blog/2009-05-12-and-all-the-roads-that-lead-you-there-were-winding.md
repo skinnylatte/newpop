@@ -10,7 +10,6 @@ tags:
   - bestof
 date: "2009-05-12T06:36:53Z"
 title: And All The Roads That Lead You There Were Winding
-permalink: /2009/05/and-all-the-roads-that-lead-you-there-were-winding/
 ---
 
 I came to the Middle East to do just one thing: see a part of the world that I felt I needed to learn more about. Its language was alien, but familiar – many Malay and Hindi words have roots in Arabic. Its customs and food strange, but not dissimilar – much of the Indian subcontinent that I love and call home was influenced, for the better and the worse, by centuries of Mughal rule. Dubai and Singapore had many things in common, and then not at all.

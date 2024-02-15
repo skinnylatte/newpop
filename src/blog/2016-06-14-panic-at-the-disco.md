@@ -7,7 +7,6 @@ tags:
   - blog
 date: "2016-06-14T01:36:41Z"
 title: Panic at the Disco
-permalink: /2016/06/panic-at-the-disco/
 description: "Why the Orlando gay club shooting in 2016 hit close to home for every queer person around the world. It certainly did for me."
 layout: post.njk
 ---

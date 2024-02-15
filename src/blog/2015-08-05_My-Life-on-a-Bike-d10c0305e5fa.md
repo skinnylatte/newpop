@@ -10,7 +10,6 @@ tags:
   - gojek
   - blog
   - wobe
-permalink: "/2015/08/my-life-on-a-bike"
 ---
 
 Every morning, I get on a bike to work. Except I don't ride it. I bargain with someone on the street, or [use an app](http://www.go-jek.com) to book one at other times. _Do you want masker?_ They ask. It's the Indonesian word for face mask. _Gak mau masker, makasih pak. Sekarang pergi ke Jalan Hang Tuah bisa?_ A string of words that I sometimes don't know I know, come out of my mouth. Every morning, I am on the road at a time when the entire city has already decided to get moving. I am in traffic. A lot. You can't miss it, really. I am not a morning person, but I am always thankful for this. _This_ is being on a bike going to work in one of the world's most exciting cities at the moment for what I am doing. _This_ is not having to stand in an MRT every morning for 30 minutes, [packt like sardines in a crushed tin box](https://www.youtube.com/watch?v=KXvrGsxU_II). _This_ is having difficult problems to solve, every single day. Being able to solve most of them.

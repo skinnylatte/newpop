@@ -4,7 +4,6 @@ date: 2018-06-25T11:15:53-07:00
 description: >-
   Soul Story makes incredible Korean skincare that I swear by. Help a woman-run
   business expand.
-permalink: "2018/06/soul-story" 
 tags: 
   - crowdfunding
   - business

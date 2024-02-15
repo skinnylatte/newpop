@@ -9,7 +9,6 @@ tags:
   - bestof
 date: "2016-04-27T21:24:58Z"
 title: In Small Rooms with Betawi Women
-permalink: /2016/04/in-small-rooms-with-old-women/
 
 ---
 

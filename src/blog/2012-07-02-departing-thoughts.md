@@ -9,7 +9,6 @@ tags:
   - breakups
 date: "2012-07-02T00:39:59Z"
 title: Departing Thoughts
-permalink: /2012/07/departing-thoughts/
 ---
 
 1. I must watch too many scifi movies. I'd rarely been convinced of the malleability of time, but these days I measure out everything in two-week units. Time seems to race ahead of me. It always has, now more than before.

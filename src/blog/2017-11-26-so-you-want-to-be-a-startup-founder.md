@@ -1,5 +1,4 @@
 ---
-permalink: "2017/11/so-you-want-to-be-a-startup-founder"
 date: "2017-11-26T18:15:53Z"
 title: So You Want To Be A Startup Founder
 description: "Sometimes, I speak at universities that want me to 'inspire their young'."

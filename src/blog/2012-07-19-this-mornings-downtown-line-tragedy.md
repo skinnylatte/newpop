@@ -7,7 +7,6 @@ tags:
   - blog
 date: "2012-07-19T03:22:03Z"
 title: This Morning's Downtown Line Tragedy
-permalink: /2012/07/this-mornings-downtown-line-tragedy/
 ---
 
 **Closure of donation drive: TWC2 will stop collecting donations for the victims of the #downtownlinetragedy tonight (Friday 27 July 2012, 2359hrs). For more information [please read this link](http://popagandhi.com/2012/07/downtownlinetragedy-donation-drive-to-close-tonight/)**

@@ -14,7 +14,6 @@ tags:
   - bestof
 date: "2009-06-30T06:26:45Z"
 title: There Is Always Chicken Curry at Funerals
-permalink: /2009/06/chicken-curry/
 ---
 
 **Last Rites**

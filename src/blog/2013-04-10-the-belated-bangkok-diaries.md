@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2013-04-10T23:31:23Z"
 title: The Belated Bangkok Diaries
-permalink: /2013/04/the-belated-bangkok-diaries/
 ---
 
 _In several status updates_

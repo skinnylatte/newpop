@@ -11,7 +11,6 @@ tags:
   - lgbtq
   - lgbt
   - polyamory
-permalink: "/2015/08/the-manual-of-intimacy"
 ---
 
 First, meet a girl for the first time on the lawn in front of her house. Sit very closely by each other. Say hello, I'm a poet. What do you do?

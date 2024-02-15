@@ -13,7 +13,6 @@ tags:
     - internet
     - web
     - blog
-permalink: /2022-11-goodbye-twitter
 layout: post.njk
 ---
 

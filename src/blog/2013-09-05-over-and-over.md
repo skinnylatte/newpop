@@ -10,7 +10,6 @@ tags:
   - blog
 date: "2013-09-05T18:22:10Z"
 title: Over and Over
-permalink: /2013/09/over-and-over/
 ---
 
 1. Some days ago, a boy I used to date as a wee teenager (yes, a boy!) reached out to me on Facebook. It's funny where we are now: he's now a hotshot international banker, I'm now an international vagrant (I don't really know how else to describe myself), instead of the awkward, school-uniformed boy and girl we once were. I found this episode especially funny because (1) I used to date boys! Which amuses me (2) exactly 14 years have passed since we used to 'go out'; we were 14 when we started going out. These days I am more acutely aware of how much older I am getting, and the fact that Class 95 now plays the songs I grew up with when they play "the classics" doesn't make it any better. In a couple of days we'll probably meet for steak and wine with some mutual friends. He's found some photos of us, circa 1999, and thinks it will be funny to laugh at our younger, hotter selves.<br />It will.

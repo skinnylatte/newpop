@@ -10,7 +10,6 @@ tags:
   - queer-life
 date: "2013-08-21T15:41:25Z"
 title: Love, Singapore
-permalink: /2013/08/love-singapore/
 ---
 
 _I wrote a small piece for Elle Singapore (Sept 2013) about what it's like to be lesbian in Singapore. Available on the newsstands now, page 147._

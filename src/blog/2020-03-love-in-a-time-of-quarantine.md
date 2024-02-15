@@ -13,7 +13,6 @@ tags:
   - quarantinediaries
   - blog
   - pandemic
-permalink: /2020/03/17/love-in-a-time-of-quarantine
 layout: post.njk
 
 ---

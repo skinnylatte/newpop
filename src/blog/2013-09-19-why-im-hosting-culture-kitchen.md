@@ -10,7 +10,6 @@ tags:
   - culturekitchen
 date: "2013-09-19T12:28:52Z"
 title: Why I'm Hosting Culture Kitchen
-permalink: /2013/09/why-im-hosting-culture-kitchen/
 ---
 
 This is a project which has been on my mind for some time now. We've been planning it for a while. A part of this is a response to a worrying trend of anti-foreigner sentiment (c.f. the responses to a drive to raise funds for victims of last year's Downtown Line accident: [here](http://popagandhi.com/2012/07/this-mornings-downtown-line-tragedy/) and [here](http://sg.news.yahoo.com/s-pore-bloggers-in-donation-drive-for-bugis-construction-site-tragedy.html)).

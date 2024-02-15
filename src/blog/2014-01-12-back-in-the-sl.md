@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-01-12T13:26:57Z"
 title: Back in the SL
-permalink: /2014/01/back-in-the-sl/
 tags:
     - travel
     - srilanka

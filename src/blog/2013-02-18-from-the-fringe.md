@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2013-02-18T13:32:33Z"
 title: From the Fringe
-permalink: /2013/02/from-the-fringe/
 ---
 
 I've had more thoughts on the anti-white paper protest since the weekend, I'll need to write it down into a slightly longer piece. But here's what I posted on Facebook that got passed around a fair bit.

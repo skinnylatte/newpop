@@ -7,7 +7,6 @@ tags:
   - helsinki
 date: "2012-03-27T16:42:02Z"
 title: Chocolate, Nudity, Helsinki
-permalink: /2012/03/chocolate-nudity-helsinki/
 ---
 
 I have seen some places in my short travelling life, but rarely a place that offers me chocolate and naked women within two hours of arriving.

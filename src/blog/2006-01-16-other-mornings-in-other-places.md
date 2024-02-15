@@ -7,7 +7,6 @@ tags:
   - cambodia
   - bestof
 title: Other Mornings in Other Places
-permalink: /2006/01/other-mornings-in-other-places/
 ---
 
 What I have noticed about being away, and still can’t shake off, is how mornings in each foreign place are so strikingly different from what one is used to; how different they are from each other — how foreign the word _foreign_ sounds after a while. I like to believe it never hits you you are away until you wake up feeling displaced. Or that you haven’t really made a place your home until waking up comes so naturally and matter-of-factly there is nothing to it; until what was not your bed now feels like yours, and is even adorned with your peculiar smell.

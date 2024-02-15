@@ -13,7 +13,6 @@ tags:
   - quarantinediaries
   - blog
   - pandemic
-permalink: /2020/06/12/we-got-married
 layout: post.njk
 ---
 

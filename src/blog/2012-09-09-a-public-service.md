@@ -6,7 +6,6 @@ tags:
   - blog
 date: "2012-09-09T05:18:01Z"
 title: A Public Service
-permalink: /2012/09/a-public-service/
 ---
 
 Recently, a friend from Bangalore messaged me on Facebook and asked me for some help. Her family friend, who was not very educated, had paid a lot of money to an agent in Bangalore to get work in Singapore. He had his work permit issued, and was told to leave for Singapore as soon as possible. There was a gap of a week: he had to leave immediately, they told him. She found this a little dubious, and asked me to help verify if the work permit was real, if he was being taken for a ride.

@@ -10,7 +10,6 @@ tags:
   - health
   - blog
   - disability
-permalink: /posts/2023-02-attention-span
 layout: post.njk
 ---
 

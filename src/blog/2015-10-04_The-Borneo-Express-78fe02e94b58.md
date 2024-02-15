@@ -7,7 +7,6 @@ tags:
   - life
   - family
   - blog
-permalink: "/2015/08/the-borneo-express"
 layout: post.njk
 ---
 

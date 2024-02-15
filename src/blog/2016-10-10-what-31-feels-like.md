@@ -6,7 +6,6 @@ tags:
   - blog
 date: "2016-10-10T18:15:53Z"
 title: What 31 Feels Like
-permalink: /2016/10/what-31-feels-like/
 description: "Discovering that birthdays in your 30s are rather different."
 layout: post.njk
 ---

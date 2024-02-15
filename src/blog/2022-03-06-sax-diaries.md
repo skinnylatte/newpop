@@ -10,7 +10,6 @@ tags:
   - youtube
   - growth
   - blog
-permalink: /2022-03-06-saxophone-diaries
 layout: post.njk
 ---
 

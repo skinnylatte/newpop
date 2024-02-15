@@ -11,7 +11,6 @@ tags:
   - paperwork
   - blog
   - visas
-permalink: /posts/interview-waiver-experience
 layout: post.njk
 
 ---

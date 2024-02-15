@@ -11,7 +11,6 @@ tags:
   - grief
 date: "2009-07-10T06:32:43Z"
 title: And The Living is Easy
-permalink: /2009/07/and-the-living-is-easy/
 ---
 
 Weddings, funerals and fortune tellers depress me.

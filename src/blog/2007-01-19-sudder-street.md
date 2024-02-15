@@ -11,7 +11,6 @@ tags:
   - blog
 date: "2007-01-19T06:05:20Z"
 title: Sudder Street
-permalink: /2007/01/sudder-street/
 ---
 
 _Reposting stuff I like from the archives. This is from 2007._

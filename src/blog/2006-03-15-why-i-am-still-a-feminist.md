@@ -10,7 +10,6 @@ tags:
   - lgbt
   - gender
 title: Why I Am Still A Feminist
-permalink: /2006/03/why-i-am-still-a-feminist/
 ---
 
 _Reposting stuff I like from the archives. This is from 2006. It has also been republished in print in [GASPP](http://gaspp.wordpress.com/), A Gay Anthology of Singapore Poetry and Prose._

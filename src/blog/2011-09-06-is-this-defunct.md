@@ -6,7 +6,6 @@ tags:
   - social-media
 date: "2011-09-06T16:44:41Z"
 title: Is This Defunct?
-permalink: /2011/09/is-this-defunct/
 ---
 
 My father was having a conversation with one of the students at the university where he works. Apparently one of them was a frequent visitor to this site. He told my dad as much and said I don't write anymore, that this site is pretty much defunct.

@@ -8,7 +8,6 @@ tags:
   - blog
   - dev
 title: Is the Self-Hosted Blog Dead?
-permalink: /2016/03/is-the-self-hosted-blog-dead/
 layout: post.njk
 ---
 

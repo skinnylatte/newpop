@@ -8,7 +8,6 @@ tags:
   - bestof
 date: "2005-12-10T06:14:56Z"
 title: Incandescent
-permalink: /2005/12/incandescent/
 ---
 
 _Reposting stuff from the past. This one from 2005._

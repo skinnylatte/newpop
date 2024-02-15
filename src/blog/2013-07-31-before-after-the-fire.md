@@ -11,7 +11,6 @@ tags:
   - bestof
 date: "2013-07-31T22:01:04Z"
 title: Before & After The Fire
-permalink: /2013/07/before-after-the-fire/
 ---
 
 _[1961](http://www.nus.edu.sg/nuspress/subjects/ASAA/978-9971-69-645-0.html)._

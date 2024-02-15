@@ -11,7 +11,6 @@ tags:
   - travel
   - wobe
   - blog
-permalink: "/2015/08/lying-on-a-sack-of-rice"
 ---
 
 I had one of those days today. The day when your to-do list is piled so high that you can't see the end of the tunnel. The day when your caterer cancels your big order a few days before [Culture Kitchen](http://culturekitchen.sg). The day when all of your mega business problems are on the verge of getting solved, but almost. The day when you feel your heart pulling in a million directions, but there are no right answers, there never were.

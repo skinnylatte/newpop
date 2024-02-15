@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2006-12-05T06:02:57Z"
 title: A Bus and Chai Story
-permalink: /2006/12/a-bus-and-chai-story/
 ---
 
 _Reposting stuff I like from my archives. This is from 2006._

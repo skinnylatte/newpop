@@ -10,7 +10,6 @@ tags:
   - lists
 date: "2012-11-26T02:27:47Z"
 title: Five of Each
-permalink: /2012/11/five-of-each/
 ---
 
 **Five Places I Visited and Loved in the Past 12 Months**

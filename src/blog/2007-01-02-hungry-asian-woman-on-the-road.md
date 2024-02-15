@@ -7,7 +7,6 @@ tags:
   - travel
 date: "2007-01-02T06:13:30Z"
 title: Hungry Asian Woman On The Road
-permalink: /2007/01/hungry-asian-woman-on-the-road/
 ---
 
 _Reposting stuff from the past. This one's from 2007._

@@ -8,7 +8,6 @@ tags:
   - bangladesh
   - india
   - bestof
-permalink: /2006/08/amar-shonar-bangla/
 ---
 
 _Where I dig into my archives and repost stuff I like. This one’s from August 2006, when I'd spent some time in both sides of Bengal._

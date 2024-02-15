@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2011-02-13T03:58:29Z"
 title: We Have No Dungarees, Saar
-permalink: /2011/02/we-have-no-dungarees-saar/
 ---
 
 _Madras, India_

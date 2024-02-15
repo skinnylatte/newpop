@@ -9,7 +9,6 @@ tags:
   - culturekitchen
 date: "2012-09-06T06:19:02Z"
 title: Boomerang
-permalink: /2012/09/boomerang/
 ---
 
 National Day came and went. I haven't written any of those essays [I promised to](http://popagandhi.com/2012/08/the-nation-essays/). _Sheepish._ I _will_ write them, I just need a little bit more time.

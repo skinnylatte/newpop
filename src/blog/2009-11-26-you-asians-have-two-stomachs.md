@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2009-11-26T12:20:06Z"
 title: You Asians Have Two Stomachs
-permalink: /2009/11/you-asians-have-two-stomachs/
 ---
 
 Some friends from Turkey came to visit this past weekend. I had a great time hanging out with Melissa and Emirhan in Antalya when I stopped by en route to Istanbul (from Damascus), so I naturally returned the favour and put them up at my place. After three dinners (not at the same time, albeit the same night), Emirhan gave up at the sight of three relatively small Asian girls chomping away at their 20th meal of the day and said it must be that we all have two stomachs, the other one being the one that leads straight to refuse.

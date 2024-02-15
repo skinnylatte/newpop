@@ -1,7 +1,6 @@
 ---
 date: "2014-01-14T18:35:44Z"
 title: Strange Damascus Memories
-permalink: /2014/01/strange-damascus-memories/
 tags:
     - travel
     - middleeast

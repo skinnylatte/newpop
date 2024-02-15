@@ -13,7 +13,6 @@ tags:
   - bestof
 date: "2009-06-24T06:35:32Z"
 title: Ah Gong and I
-permalink: /2009/06/ah-gong-and-i/
 ---
 
 Let’s just say I don’t do death.

@@ -9,7 +9,6 @@ tags:
   - music
   - events
   - blog
-permalink: /2020/01/21/envelopsf
 layout: post.njk
 
 ---

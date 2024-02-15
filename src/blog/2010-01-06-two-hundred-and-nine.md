@@ -12,7 +12,6 @@ tags:
   - grandpa
 date: "2010-01-06T06:29:20Z"
 title: Two Hundred and Nine
-permalink: /2010/01/two-hundred-and-nine/
 ---
 
 _A year in review_

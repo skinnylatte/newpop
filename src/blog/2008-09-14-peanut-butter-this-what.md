@@ -8,7 +8,6 @@ tags:
   - bestof
 date: "2008-09-14T12:12:04Z"
 title: Peanut Butter, This What?
-permalink: /2008/09/peanut-butter-this-what/
 ---
 
 _postcard from Banten_

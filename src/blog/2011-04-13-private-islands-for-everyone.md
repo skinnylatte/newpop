@@ -7,7 +7,6 @@ tags:
   - writingelsewhere
 date: "2011-04-13T22:01:52Z"
 title: Private Islands for Everyone
-permalink: /2011/04/private-islands-for-everyone/
 ---
 
 <img src="http://res.cloudinary.com/dmchbvarm/image/upload/c_crop,h_290,w_290,x_175,y_0/v1456563115/110413_livemintluxe_xae6ij.jpg" alt="" title="110413_livemintluxe" width="290" height="290" class="size-thumbnail wp-image-175" />

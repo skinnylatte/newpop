@@ -1,7 +1,6 @@
 ---
 date: "2013-11-08T12:39:31Z"
 title: Blazing the Trail
-permalink: /2013/11/blazing-the-trail/
 tags:
     - links
     - publishedelsewhere

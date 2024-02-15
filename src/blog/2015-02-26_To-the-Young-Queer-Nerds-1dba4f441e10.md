@@ -11,7 +11,6 @@ tags:
   - letter
   - letter-to-myself
   - lgbtq 
-permalink: "/2015/02/to-the-young-queer-nerds"
 ---
 
 Dear (your name here),

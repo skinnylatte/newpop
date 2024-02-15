@@ -6,7 +6,6 @@ tags:
   - blog
 date: "2013-03-12T01:30:49Z"
 title: Gyanada Foundation Soft Launch
-permalink: /2013/03/gyanada-foundation-soft-launch/
 ---
 
 I've thrown myself headlong into work — real work, and then foundation work.

@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-01-06T13:35:35Z"
 title: Another List of Things
-permalink: /2014/01/another-list-of-things/
 tags:
     - life
     - newyork

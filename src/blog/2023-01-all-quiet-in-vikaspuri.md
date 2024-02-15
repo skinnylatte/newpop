@@ -7,7 +7,6 @@ tags:
   - books
   - bookreview
   - reviews
-permalink: /posts/all-quiet-in-vikaspuri
 ---
 Finished reading: [All Quiet in Vikaspuri](https://micro.blog/books/9789351775744) by Sarnath Banerjee 📚
 

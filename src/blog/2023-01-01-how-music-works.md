@@ -8,7 +8,6 @@ tags:
   - bookreview
   - reviews
   - music
-permalink: /posts/how-music-works
 ---
 Finished reading: [How Music Works](https://micro.blog/books/9780804188944) by David Byrne 📚
 

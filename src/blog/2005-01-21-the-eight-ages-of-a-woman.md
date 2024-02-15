@@ -8,7 +8,6 @@ tags:
  - lgbtq
  - lifeandlove
 title: The Eight Ages of a Woman
-permalink: /2005/01/the-eight-ages-of-a-woman/
 ---
 
 _Blast from the past: digging into my archives and republishing the stuff I like. This was originally from 2004, and [reposted again](http://popagandhi.com/anotherlife/132/eight-ages-of-a-woman/) in 2005. And again now._

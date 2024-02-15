@@ -9,7 +9,6 @@ tags:
   - wobe
   - blog
   - indonesia
-permalink: "/2015/02/don-t-work-with-assholes"
 ---
 
 There's a wealth of literature out there about this, but it can never be said _enough_. Too many people work with assholes.

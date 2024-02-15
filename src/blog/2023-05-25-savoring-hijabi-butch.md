@@ -7,7 +7,6 @@ tags:
   - books
   - bookreview
   - reviews
-permalink: /posts/savoring-hijabi-butch
 ---
 Finished reading: [Savor](https://micro.blog/books/9780593355206) by Fatima Ali 📚 and [Hijab Butch Blues](https://micro.blog/books/9780593448762) by Lamya H 📚
 

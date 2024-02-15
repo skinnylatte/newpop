@@ -7,7 +7,6 @@ tags:
   - malaysia
 date: "2012-11-19T04:18:58Z"
 title: Left & Leaving
-permalink: /2012/11/left-leaving/
 ---
 
 _in hindsight_

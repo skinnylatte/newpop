@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2013-01-28T01:42:47Z"
 title: It Was All New
-permalink: /2013/01/it-was-all-new/
 ---
 
 I have a tattoo on my lower back. It was given to me by the grandson of a tribal village chief. I grimaced for hours on the floor as he used the primitive tools and ingredients that had tattooed his Iban people for centuries, on me, a girl from a big city.

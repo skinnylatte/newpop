@@ -1,5 +1,4 @@
 ---
-permalink: "2017/08/signals-and-noise"
 date: "2017-08-23T18:15:53Z"
 title: Signals and Noise
 description: "I was a startup founder for several years. Most of that time was unglamorous, terrible and difficult. It was one of the hardest things I'd done. I wanted to share, at that point, what that was all about."

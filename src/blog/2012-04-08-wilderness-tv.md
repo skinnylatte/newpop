@@ -11,7 +11,6 @@ tags:
   - blog
 date: "2012-04-08T05:27:49Z"
 title: Wilderness TV
-permalink: /2012/04/wilderness-tv/
 ---
 
 I can't say I've been away from my phone or Mac for more than 24 hours, not at any point in the last 10 years. I can't say I have at all. They feel like such natural extensions of my arm, they are almost artificial appendages themselves, not just of my body but also of my brain. I needed to switch off and I needed a drastic way to do it.

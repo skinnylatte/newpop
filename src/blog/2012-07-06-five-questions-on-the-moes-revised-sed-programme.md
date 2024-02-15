@@ -10,7 +10,6 @@ tags:
   - blog
 date: "2012-07-06T03:55:31Z"
 title: Five Questions on the MOE's revised SEd programme
-permalink: /2012/07/five-questions-on-the-moes-revised-sed-programme/
 ---
 
 Singapore's Ministry of Education recently revealed its new sexuality education programme, now called SEd. (Read more about it on: [Today Online](http://www.todayonline.com/Singapore/EDC120627-0000072/A-new-sex-education-programme), [MOE's press release](http://www.moe.gov.sg/media/press/2012/06/holistic-approach-to-sexuality-education.php), [MOE's SEd minisite](http://www.moe.gov.sg/education/programmes/social-emotional-learning/sexuality-education/))

@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-11-11T15:52:10Z"
 title: Some Updates
-permalink: /2014/11/some-updates/
 tags:
   - life
   - indonesia

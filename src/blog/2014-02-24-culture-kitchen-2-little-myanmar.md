@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-02-24T15:58:33Z"
 title: 'Culture Kitchen 2: Little Myanmar'
-permalink: /2014/02/culture-kitchen-2-little-myanmar/
 tags:
     - singapore
     - politics

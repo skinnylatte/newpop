@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2009-11-19T12:21:05Z"
 title: The Torino Express
-permalink: /2009/11/the-torino-express/
 ---
 
 _Beirut_

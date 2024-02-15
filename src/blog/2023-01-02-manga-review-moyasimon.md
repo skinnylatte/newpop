@@ -7,7 +7,6 @@ tags:
   - books
   - bookreviews
   - reviews
-permalink: /posts/manga-review-moyasimon
 ---
 Finished reading: [Moyasimon](https://micro.blog/books/9780345514721) by Masayuki Ishikawa 📚
 

@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2008-12-01T12:16:59Z"
 title: Bombay Burning
-permalink: /2008/12/bombay-burning/
 ---
 
 I don’t have to tell you what happened in Mumbai. You already know it. I wasn’t there that day, and although I may at some point in the future, I have never lived here. Not in the real sense of ‘living’ somewhere, with bank accounts and rented residences, or jobs. But Mumbai is my city, my friends are Mumbaikars, and I feel every bit one myself: I still call it Bombay, because Bombay is romantic and real and Mumbai isn’t; I love the city, have my favourite haunts in Bombay, both north and south, and know the city well.

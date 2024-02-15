@@ -10,7 +10,6 @@ tags:
   - thyroid
 date: "2012-06-22T01:39:36Z"
 title: The Places We'll Go
-permalink: /2012/06/the-places-well-go/
 ---
 
 Five years ago, [I said](http://popagandhi.com/2007/02/chasing-the-monsoon/): "Ask me again a year, three, or five from now and all I will remember is driving up, around, up, around, up, around, in the swirling clouds as the rain lashed at my windows and I feared for my life, balanced so daintily in this tin can navigating itself on the hairpin road."

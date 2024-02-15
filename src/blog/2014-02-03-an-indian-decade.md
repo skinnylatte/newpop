@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-02-03T01:18:47Z"
 title: An Indian Decade
-permalink: /2014/02/an-indian-decade/
 tags:
   - travel
   - india

@@ -7,7 +7,6 @@ tags:
   - jobs
   - startup
   - blog
-permalink: "/2015/10/a-sucker-punch-in-the-gut"
 layout: post.njk
 ---
 

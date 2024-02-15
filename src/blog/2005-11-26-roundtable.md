@@ -7,7 +7,6 @@ tags:
   - bestof
 date: "2005-11-26T05:58:31Z"
 title: Roundtable
-permalink: /2005/11/roundtable/
 ---
 
 _Where I post stuff from the archives, the stuff I like. This is from 2005._

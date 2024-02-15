@@ -17,7 +17,6 @@ tags:
   - writingelsewhere
   - bestof
 title: A Drinkable History of My Family
-permalink: /2011/06/a-drinkable-history-of-my-family/
 ---
 
 _The following piece is an original piece written specially for [Ceriph #3](http://www.ceriph.net/home.htm), published by Math Paper Press. It's on sale at my favourite bookstore, [BooksActually](http://booksactually.com), and also at Kinokuniya._.

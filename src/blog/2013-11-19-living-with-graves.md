@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2013-11-19T18:37:28Z"
 title: Living with Graves
-permalink: /2013/11/living-with-graves/
 tags:
     - life
     - health

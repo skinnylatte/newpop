@@ -6,7 +6,6 @@ tags:
   - blog
 date: "2012-07-09T12:53:36Z"
 title: "Past Forward: A Heritage Blogging and Social Media Workshop"
-permalink: /2012/07/pastforward-a-heritage-blogging-and-social-media-workshop/
 ---
 
 My friend [Yu-Mei](http://blog.toomanythoughts.org/) is putting together a blogging and social media workshop as part of [HeritageFest](http://www.heritagefest.sg/en/), a NHB event.

@@ -8,7 +8,6 @@ tags:
   - books
   - bookreview
   - reviews
-permalink: /posts/how-daido-moriyama-takes-photographs
 ---
 Finished reading: [Daido Moriyama: How I Take Photographs](https://micro.blog/books/9781786274243) by Takeshi Nakamoto 📚
 

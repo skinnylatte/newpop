@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-03-16T03:18:05Z"
 title: What I Learned
-permalink: /2014/03/what-i-learned/
 tags: 
     - life
     - love

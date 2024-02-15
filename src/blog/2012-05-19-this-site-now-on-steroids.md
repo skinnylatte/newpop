@@ -6,7 +6,6 @@ tags:
   - blog
 date: "2012-05-19T21:54:37Z"
 title: This Site, Now On Steroids
-permalink: /2012/05/this-site-now-on-steroids/
 ---
 
 Those of you with elephant memories will remember what this site was 7 years ago. The web was a very different place. This blog was a different blog, I was a different kind of kid (19 years old! Yowch), and the ecosystem was other sites like this with no Facebook, Twitter, not in the ways we now have them anyway. The only external outlet we all plugged out to was Flickr, and we know how that [went down](http://gizmodo.com/5910223/how-yahoo-killed-flickr-and-lost-the-internet). It's hard to believe we once lived in a world when Yahoo! was still important.

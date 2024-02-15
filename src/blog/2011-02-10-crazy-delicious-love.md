@@ -9,7 +9,6 @@ tags:
   - lifeandlove
 date: "2011-02-10T01:32:15Z"
 title: Crazy, Delicious Love
-permalink: /2011/02/crazy-delicious-love/
 ---
 
 One of the projects that's been super fun to work on has been the birth of the Klang Valley's first homemade ice cream outfit, [The Last Polka](http://thelastpolka.com). M and E run the ice cream empire, I help out with the other bits, like the&#8230; tasting of the ice cream. And the copywriting.

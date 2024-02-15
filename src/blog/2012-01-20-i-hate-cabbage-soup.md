@@ -10,7 +10,6 @@ tags:
     - blog
 date: "2012-01-20T20:49:32Z"
 title: I Hate Cabbage Soup
-permalink: /2012/01/i-hate-cabbage-soup/
 ---
 
 White cabbage is death. If there is a Creator, it is one of his less glorious moments. The only thing worse than white cabbage is white cabbage soup. I am a soup maniac, but white cabbage soup I do not touch with a ten foot pole. I cannot even sit at the same table when it is being drunk. The sight and smell of it makes me want to throw up. Because of these vile leaves, I am unreasonably opposed to all food that is white in colour but is not a carbohydrate or dairy product.

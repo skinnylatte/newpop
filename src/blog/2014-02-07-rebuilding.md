@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-02-07T16:40:51Z"
 title: Rebuilding
-permalink: /2014/02/rebuilding/
 tags:
     - travel
     - blog

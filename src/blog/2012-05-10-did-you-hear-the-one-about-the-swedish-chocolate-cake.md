@@ -10,7 +10,6 @@ tags:
   - bikes
 date: "2012-05-10T14:12:26Z"
 title: Did you hear the one about the Swedish chocolate cake?
-permalink: /2012/05/did-you-hear-the-one-about-the-swedish-chocolate-cake/
 ---
 
 I'm home now of course, whatever home means, and I've been retelling a couple of stories. The same ones, but many of them, just because I've had such a crazy time in the Nordics.

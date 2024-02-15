@@ -8,7 +8,6 @@ tags:
   - indonesia
   - language
   - blog
-permalink: "/2015/08/split-language-disorders"
 ---
 
 It is a well-documented fact: multi-lingual people have [multiple personalities](http://www.newrepublic.com/article/117485/multilinguals-have-multiple-personalities). I am no different, though I was only recently cognizant of that. Of how my languages affect the way I perceive myself, present myself to the world. How I trade, make contracts; how I fall in love.

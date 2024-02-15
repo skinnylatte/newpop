@@ -1,7 +1,6 @@
 ---
 title: This Modern Love
 date: '2018-07-18T18:15:53Z'
-permalink: "2018/07/this-modern-love"
 tags: 
   - love
   - abuse

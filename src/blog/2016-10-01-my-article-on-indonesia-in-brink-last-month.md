@@ -9,7 +9,6 @@ tags:
   - writingelsewhere
 date: "2016-10-01T18:17:40Z"
 title: My article on Indonesia in Brink, last month
-permalink: /2016/10/my-article-on-indonesia-in-brink-last-month/
 description: "An article I wrote about the Indonesian middle class and tech"
 layout: post.njk
 ---

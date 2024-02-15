@@ -10,7 +10,6 @@ tags:
   - monsoon
 date: "2007-02-10T05:55:38Z"
 title: Chasing the Monsoon
-permalink: /2007/02/chasing-the-monsoon/
 ---
 
 _Where I dig through my archives and repost the stuff I like. This is from 2007._

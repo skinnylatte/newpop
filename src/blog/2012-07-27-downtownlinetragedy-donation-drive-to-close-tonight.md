@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2012-07-27T12:26:35Z"
 title: '#downtownlinetragedy Donation Drive to Close Tonight'
-permalink: /2012/07/downtownlinetragedy-donation-drive-to-close-tonight/
 ---
 
 The donation drive for last week's #downtownlinetragedy victims will close tonight, Friday, 27 July, at 2359hrs.

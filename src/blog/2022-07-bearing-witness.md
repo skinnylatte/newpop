@@ -9,7 +9,6 @@ tags:
     - humanrights
     - lgbt
     - blog
-permalink: /2022-07-not-enough-to-bear-witness
 layout: post.njk
 ---
 Two days after the Supreme Court of the United States took this country backwards, with one of the more extreme justices stating that he wished to also examine the constitutional right to same-sex marriage and contraception, I found myself having the same conversation over and over.

@@ -7,7 +7,6 @@ tags:
   - piano
   - software
   - blog
-permalink: /posts/2023-07-29-yamaha-pianoteq
 layout: post.njk
 
 ---

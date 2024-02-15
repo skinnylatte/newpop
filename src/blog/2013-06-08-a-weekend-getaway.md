@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2013-06-08T00:41:46Z"
 title: A Weekend Getaway
-permalink: /2013/06/a-weekend-getaway/
 ---
 
 As many of you will know by now, I have spent a substantial part of the past decade travelling through India. I still feel like I'm barely done with scratching the surface. There's just so much to see in that vast, amazing country that I call my second home.

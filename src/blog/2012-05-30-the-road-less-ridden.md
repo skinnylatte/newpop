@@ -8,7 +8,6 @@ tags:
   - blog
 date: "2012-05-30T01:30:45Z"
 title: The Road Less Ridden
-permalink: /2012/05/the-road-less-ridden/
 ---
 
 In my [mother tongue](http://en.wikipedia.org/wiki/Teochew_dialect) we have a brilliant turn of phrase. _Geh kiang_. Separately, they mean _fake clever_. Together, it means some approximation of 'smart alec', but that's not quite good enough. It's hardly translatable at all. 'Smart alec' does not embody the degree of stupidity we are usually referring to when we say 'geh kiang'.

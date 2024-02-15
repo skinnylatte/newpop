@@ -15,7 +15,6 @@ tags:
   - lesbian
   - bisexual
   - bestof
-permalink: /posts/2023-04-wives-and-lives
 description: Some emotional thoughts on what it means to be a queer immigrant in California, now that I know what I know.
 layout: post.njk
 ---

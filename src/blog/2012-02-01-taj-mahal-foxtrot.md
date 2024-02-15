@@ -8,7 +8,6 @@ tags:
   - travel
 date: "2012-02-01T01:48:52Z"
 title: Taj Mahal Foxtrot
-permalink: /2012/02/taj-mahal-foxtrot/
 ---
 
 _A note from New Delhi_

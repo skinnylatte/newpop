@@ -10,7 +10,6 @@ tags:
   - networks
   - blog
   - tutorial
-permalink: /2022-04-tailscale
 layout: post.njk
 ---
 In a previous life, I had to use VPNs extensively. I was traveling all the time and often found myself needing to do online banking tasks in one country while I was in another. I also frequently visited some countries that blocked most commercial VPNs.

@@ -6,7 +6,6 @@ tags:
   - blog
 date: "2016-05-31T20:51:24Z"
 title: Kolkata Kalling
-permalink: /2016/05/kolkata-kalling/
 description: "In 2004 I came to Kolkata for the first time. To say it made an impression would be an understatement. From time to time, I still return to it." 
 layout: post.njk
 ---

@@ -3,7 +3,6 @@ layout: post.njk
 tags: blog
 date: "2003-01-26T06:24:10Z"
 title: An Exercise of Faith
-permalink: /2003/01/an-exercise-of-faith/
 ---
 
 [_This was published in QLRS in Jan 2003_](http://www.qlrs.com/poem.asp?id=269).

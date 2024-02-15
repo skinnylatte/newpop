@@ -8,7 +8,6 @@ tags:
   - rickshaw-challenge
 date: "2011-02-21T01:55:03Z"
 title: The Great Southern Trunk Road
-permalink: /2011/02/the-great-southern-trunk-road/
 ---
 
 _Madras to Thiruvannaamalai, 185km_

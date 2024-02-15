@@ -8,7 +8,6 @@ tags:
   - bestof
 date: "2006-01-08T06:11:10Z"
 title: Art and Lies, And
-permalink: /2006/01/art-and-lies-and/
 ---
 
 _Reposting stuff I like from the archives. This one's from 2006._

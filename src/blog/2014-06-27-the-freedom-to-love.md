@@ -9,7 +9,6 @@ tags:
   - blog
 date: "2014-06-27T17:38:24Z"
 title: The Freedom to Love
-permalink: /2014/06/the-freedom-to-love/
 
 ---
 

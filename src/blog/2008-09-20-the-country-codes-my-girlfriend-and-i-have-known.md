@@ -7,7 +7,6 @@ tags:
   - travel
 date: "2008-09-20T12:09:29Z"
 title: The Country Codes My Girlfriend And I Have Known
-permalink: /2008/09/the-country-codes-my-girlfriend-and-i-have-known/
 ---
 
 Some people do long distance relationships. Most don’t.

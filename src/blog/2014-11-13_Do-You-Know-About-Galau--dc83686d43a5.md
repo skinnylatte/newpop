@@ -7,7 +7,6 @@ tags:
   - indonesia
   - music
   - blog
-permalink: "/2014/11/do-you-know-about-galau"
 ---
 
 I was just telling someone tonight: I _force_ myself to meet a different stranger in Jakarta every single day that I'm here.

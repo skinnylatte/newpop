@@ -2,7 +2,6 @@
 layout: post.njk
 date: "2014-02-11T18:07:40Z"
 title: Don't Lugi Be Happy
-permalink: /2014/02/dont-lugi-be-happy/
 tags:
     - life
     - love
