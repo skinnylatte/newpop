@@ -9,7 +9,6 @@ tags:
   - malaysia
   - ricoh
   - food
-permalink: /2023/03/15/walk-around-a.html
 ---
 Wet markets have a bad reputation, because of the 'rona, but their name really just comes from being the opposite of a 'dry market' (like a market that sells pots and pans and such). They are very common in many parts of Asia and don't have wildlife. For many of us, a wet market is our first port of call to make the delicious foods from our part of the world.
 

@@ -9,7 +9,6 @@ tags:
   - asian
   - aapi
   - littlesaigon
-permalink: /2023/02/03/little-saigon-sf.html
 ---
 <img src="/photos/uploads/cd24679345.jpg" width="600" height="397" alt="a color photograph of the fridge section at a Cambodian grocery store in Little Saigon, San Francisco" />
 

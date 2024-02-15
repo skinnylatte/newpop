@@ -7,7 +7,6 @@ tags:
   - sanfrancisco
   - motionpicturefilm
   - kodak
-permalink: /2023/06/10/motion-picture-film.html
 ---
 Like so many film photographers outraged by the cost of color film these days, I've thrown myself headlong into the world of shooting stills on motion picture film. Kodak Vision 3 films can be purchased in bulk, spooled into lengths that bulk rollers can use, and then self-rolled into canisters at your own leisure. Instead of the $12-18 per roll abomination of standard color films, you can get motion picture film for $10 a roll if you buy them pre-rolled online, and $5-8 per roll if you do it yourself.
 

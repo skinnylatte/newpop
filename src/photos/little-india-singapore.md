@@ -10,7 +10,6 @@ tags:
   - littleindia
   - food
   - photos
-permalink: /2023/09/12/little-india-singapore.html
 ---
 The last time I was home in Singapore, I did one of my favorite alone activities: I walked a lot, and ended up in Little India. I did a 7km walk starting at sunset, and wound up there just in time for all kinds of fun. Since Mustafa Centre is 24 hours, and my favorite naan shop (Usman, along Desker Road) is open till 3 or 4, I am never in much of a hurry.
 

@@ -9,7 +9,6 @@ tags:
   - food
   - minolta
   - kentmere
-permalink: /2023/03/31/one-night-in.html
 ---
 I used to be a creature of the night, but no longer. I used to be out all the time, but rarely now. Partly, it's that San Francisco is so chilly at night, but also that it's pretty dead at night compared to the much bigger cities I've lived in. I don't quite enjoy walking around, cold, in areas where there just sijmply isn't that much going on at all. For my wife's birthday, we went out to dinner in the Mission and I also brought my Minolta Hi-Matic 7S II. It's fast becoming one of the cameras I use the most: its f1.7 lens, combined with the small form factor and weight, makes it easy for me to pop it into my jacket pocket. It works really well indoors at night, too, with black and white film (and a steady hand.. or an elbow firmly on a table or chair or door, which is my style. I dislike tripods).
 

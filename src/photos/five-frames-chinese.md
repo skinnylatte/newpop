@@ -9,7 +9,6 @@ tags:
   - chinese
   - religion
   - taoism
-permalink: /2023/01/06/five-frames-chinese.html
 ---
 Singapore is technically a secular country. A large number of its ethnic Chinese population practices traditional Taoist rituals, though evangelical Christianity is encroaching quickly. As an ethnic Chinese person raised in Christian traditions, I felt surgically removed from these practices and I wanted to document them and learn about them whenever I could.
 

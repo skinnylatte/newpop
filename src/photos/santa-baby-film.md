@@ -8,7 +8,6 @@ tags:
   - sanfrancisco
   - santa
   - leica
-permalink: /2023/01/03/santa-baby-film.html
 ---
 Happy holidays! We're having weather here in San Francisco, which is a bit of an event. My plan for the next couple of weeks is to stay inside. This city is not made for weather, since we so rarely have any.
 

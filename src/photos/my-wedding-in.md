@@ -8,7 +8,6 @@ tags:
   - lgbt
   - lgbtq
   - personal
-permalink: /2022/12/31/my-wedding-in.html
 ---
 My friend [Javad Tizmaghz](http://javad-ti.com/category/essays/), an excellent photographer and [even better woodworker](https://www.youtube.com/@jiawoodwoodworking4285), took our photos for our wedding.
 

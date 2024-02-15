@@ -5,7 +5,6 @@ guid: http://skinnylatte.micro.blog/2023/12/10/surabaya-by-ojek.html
 post_id: 3782278
 date: 2023-12-10T00:46:40-0800
 lastmod: 2023-12-10T00:49:55-0800
-permalink: /2023/12/10/surabaya-by-ojek
 ---
 My oldest friend in the world lives in Surabaya, Indonesia. I try to see her as much as possible. Now that I live ten thousand miles away, it's a little harder, but if I'm back in Singapore I try to head that way: it's easy and cheap to get there from Singapore.
 

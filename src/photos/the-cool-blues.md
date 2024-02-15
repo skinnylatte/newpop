@@ -9,7 +9,6 @@ tags:
   - motionpicturefilm
   - minolta
   - kodak
-permalink: /2023/04/03/the-cool-blues.html
 ---
 Recently, I had an opportunity to purchase a few rolls of Kodak Vision 3 500T Film (5219). I was warned that it would be almost too 'cool', that it had tones of blue in most photos unless I used a warming filter, or fixed it in post.
 

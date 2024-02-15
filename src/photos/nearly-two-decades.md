@@ -16,7 +16,6 @@ tags:
   - melaka
   - religion
   - transit
-permalink: /2023/07/07/nearly-two-decades.html
 ---
 One of the things I love about film photography is how it gives me a good sense of my exact feelings at precise moments in time. Depending on the film stock and camera I used, looking at old film photos takes me back in ways that I don't experience with other types of photos I have taken in the past.
 

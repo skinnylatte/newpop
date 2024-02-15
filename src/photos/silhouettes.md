@@ -8,7 +8,6 @@ tags:
   - travel
   - india
   - rajasthan
-permalink: /2023/02/12/silhouettes.html
 ---
 Most people love the Golden Hour. I also love the moment just before the sun sets where the light changes so quickly you don't know what you're going to get.
 

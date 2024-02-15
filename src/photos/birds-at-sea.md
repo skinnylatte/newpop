@@ -10,7 +10,6 @@ images:
 - https://cdn.uploads.micro.blog/8917/2023/DSC3747-positive.jpg
 - https://cdn.uploads.micro.blog/8917/2023/DSC3839-positive.jpg
 layout: post.njk
-permalink: /2023/09/09/birds-at-sea.html
 ---
 Once or twice a year, I try to go on a boat ride with some birders. I started birding as a joke ("I'm getting old I need an old person hobby!") but found that I love it.  I especially love pelagic birds (and also shore birds, but to a lesser extent). Something about the raw power of the ocean and the ocean life in and around and above it really inspires me. The first time I went, I saw a feeding frenzy up close: of whales hunting, pushing fish up to the surface, different types of birds diving in and out of the water. It was majestic.
 

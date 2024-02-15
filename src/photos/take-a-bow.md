@@ -11,7 +11,6 @@ tags:
   - kodakp3200
   - sfsymphony
   - music
-permalink: /2023/02/17/take-a-bow.html
 ---
 <img src="/photos/uploads/1bcb6a7eff.jpg" width="600" height="397" alt="A scan of a black and white photograph of a standing ovation for an orchestra" />
 

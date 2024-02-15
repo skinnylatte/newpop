@@ -3,7 +3,6 @@ layout: post.njk
 title: "Chasing the Light "
 date: 2023-12-09
 tags: photos
-permalink: /2023/12/09/chasing-the-light.html
 ---
 As a person from the literal equator, I struggle a lot with winter. Not the cold, since it's not really that cold here in northern California, but with the increasingly shorter days. The best way I can describe it is that I feel as though my brain, happiness, and overall health is powered by the sun. The sun is my battery. The less of it there is, the worse I feel. Every year, without fail.
 

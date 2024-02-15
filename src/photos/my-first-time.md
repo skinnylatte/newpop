@@ -8,7 +8,6 @@ tags:
   - travel
 images:
 - https://cdn.uploads.micro.blog/8917/2023/332101159b.jpg
-permalink: /2023/02/16/my-first-time.html
 ---
 <img src="/photos/uploads/332101159b.jpg" width="600" height="336" alt="a color photograph of a person taking a photo for a local couple in a Burmese bus station" />
 

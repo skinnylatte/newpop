@@ -6,7 +6,6 @@ tags:
   - photos
   - travel
   - laos
-permalink: /2023/02/24/fisheye-at-pak.html
 ---
 <img src="/photos/uploads/d727b7e9a3.jpg" width="600" height="401" alt="a scan of a color photograph shot with a fish eye lens showing the river and boats outside a buddhist cave in Laos in Southeast Asia" />
 

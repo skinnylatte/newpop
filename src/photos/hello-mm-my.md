@@ -5,7 +5,6 @@ date: 2022-12-31
 tags: 
   - photos
   - selfie
-permalink: /2022/12/31/hello-mm-my.html
 ---
 I have always loved film photography. I love everything about it.
 

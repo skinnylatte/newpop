@@ -8,7 +8,6 @@ tags:
   - travel
   - dubai
   - uae
-permalink: /2023/03/29/scenes-from-a.html
 ---
 In 2007, I moved to the United Arab Emirates for my first full time job out of college. I was working at a publisher that specialized in trade magazines. I worked mainly on travel titles, as a deputy editor and also staff photographer. It was a pretty good life (tax-free, high salaries, lots of adventure).
 

@@ -10,7 +10,6 @@ tags:
   - maesalong
   - taiwan
   - kuomintang
-permalink: /2023/01/09/the-market-in.html
 ---
 Mae Salong is one of the most interesting little towns I've ever been to. It is said that many of the town's folks are descended from the southern Kuomintang army during the Chinese civil war. They went south through to Thailand with instructions to wait there in case Generalissimo Chiang wanted to mount a southern attack against the Communists. That day never came.  
 

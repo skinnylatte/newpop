@@ -12,7 +12,6 @@ tags:
   - books
   - bookstore
   - magazines
-permalink: /2023/02/01/the-magazine-sf.html
 ---
 There's a curious shop on a street I walk past daily, that makes it look like we're in the '60s. It sells vintage magazines and other memorabilia. It also has vintage theatrical programs and erotica.
 

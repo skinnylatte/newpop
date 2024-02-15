@@ -9,7 +9,6 @@ tags:
   - india
   - flickr
   - cow
-permalink: /2023/02/15/the-best-camera.html
 ---
 I have been an avid enthusiast of phone photography and videos even before iPhones arrived in the world. To that end, I still chuckle when I think about how in the mid 00s, I not only took cool photos that I still love today, using a Nokia N73, one of them even went on the front page of Flickr for a while!
 

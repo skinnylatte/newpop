@@ -7,7 +7,6 @@ tags:
   - photos
   - travel
   - thailand
-permalink: /2023/02/23/seventeen-years-later.html
 ---
 I'm thankful to my photography hobby, which has been a part of my life in some way or form for the last 20 years. 
 

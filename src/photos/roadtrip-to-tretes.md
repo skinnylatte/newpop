@@ -12,7 +12,6 @@ tags:
   - surabaya
   - java
   - eastjava
-permalink: /2023/09/26/roadtrip-to-tretes.html
 ---
 A memory I will always treasure: the opportunities I've had to visit Tretes. Going to Tretes always means going on a short road trip with my best friend of 25 years. I remember listening to her describe her home to me, when we met as teenagers in Singapore, and dreaming about going there with her one day.
 

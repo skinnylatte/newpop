@@ -7,7 +7,6 @@ tags:
   - photos
   - sanfrancisco
   - nikon
-permalink: /2023/01/31/test-roll-nikon.html
 ---
 As I [previously mentioned](https://popagandhi.com/2023/01/01/what-im-shooting.html), I've had my Nikon L35TWAD for some time but was not able to turn it on until now. I'm glad I managed to do that, because it's been such a joy to use! The idea that you can have two very good lenses: a wide and a telephoto one, in such a tiny package, is wonderful to me.
 

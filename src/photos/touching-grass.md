@@ -11,7 +11,6 @@ tags:
   - sanrafael
   - bikes
   - bikecamping
-permalink: /2023/03/13/touching-grass.html
 ---
 
 I was always a big city person. I liked nature, but not excessively. Now that I'm almost 5 years into being *a Californian*, that's starting to change. I don't just like the outdoors, I love it. I survived (and thrived) at a five day backcountry Yosemite backpacking trip with no toilets or showers. I scaled Half Dome. I go bikecamping a few times a year. 

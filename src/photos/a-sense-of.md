@@ -2,7 +2,6 @@
 title: "A Sense of Home"
 date: 2023-02-25
 tags: photos
-permalink: /2023/02/25/a-sense-of.html
 layout: post.njk
 ---
 <img src="/photos/uploads/3de6eb70c5.jpg" width="600" height="397" alt="a color photograph of the insides of a Vietnamese Chinese restaurant in San Francisco, with Chinese words on the banner" />

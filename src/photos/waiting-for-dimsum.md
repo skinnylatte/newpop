@@ -4,7 +4,6 @@ title: "Waiting for dimsum"
 tags: photos
 date: 2024-02-01
 lastmod: 2024-02-01T14:13:23-0800
-permalink: /2024/02/01/waiting-for-dimsum.html
 
 ---
 Whenever I can, I make the 45 minute walk to Chinatown in San Francisco to Dim Sum Bistro, my favorite 'cheap dimsum' spot. Sometimes, I take photos too.

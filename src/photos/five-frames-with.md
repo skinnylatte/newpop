@@ -11,7 +11,6 @@ tags:
   - northbay
   - ferry
   - transit
-permalink: /2023/05/20/five-frames-with.html
 ---
 To me, the best thing about living in the Bay Area is the easy access to all kinds of nature, by bike and by other means of transportation. You can put your bicycle on nearly every form of public transit (except Muni street car): all buses, almost all trains, and also by ferry. This makes bike-powered weekend trips a lot easier. Our hills are treacherous, and our beer is decent: sometimes you want to skip a hill or roll down one. Put your bike on a ferry, bus, train.
 

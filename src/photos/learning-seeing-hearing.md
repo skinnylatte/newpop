@@ -8,7 +8,6 @@ tags:
   - education
   - music
   - saxophone
-permalink: /2023/12/06/learning-seeing-hearing.html
 ---
 I've been keeping a 'creative notebook' for the better part of the year. I was trying to learn many things at once, and wanted to help make sense of it.
 

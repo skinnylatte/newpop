@@ -7,7 +7,6 @@ tags:
   - sanfrancisco
   - slidefilm
   - friends
-permalink: /2023/11/16/slide-film-tourism.html
 ---
 A few firsts: 
 

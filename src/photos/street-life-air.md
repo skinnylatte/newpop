@@ -8,7 +8,6 @@ tags:
   - travel
   - malaysia
   - food
-permalink: /2023/01/11/street-life-air.html
 ---
 As a child, my parents would put us on a bus or train to Kuala Lumpur to see friends, visit people, or just have a weekend break.
 

@@ -10,7 +10,6 @@ tags:
   - farallones
   - sea
   - ocean
-permalink: /2023/01/07/one-shot-the.html
 ---
 Sometimes you have a bad photography day where there is no light or poor light, you don't get any of the shots you want because you haven't had coffee, or you just don't know your equipment very well.
 

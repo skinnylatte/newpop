@@ -9,7 +9,6 @@ tags:
   - halfframe
   - kodak
   - kodakh35
-permalink: /2023/01/04/half-frames-around.html
 ---
 The Tenderloin neighborhood of San Francisco frequently gets a bad rep, but I could not live anywhere else in this city. I live on a block where I get to speak my first language, the Teochew / Chiu Chow dialect of Chaoshan, with all of the Southeast Asian Chinese people here who own restaurants, grocery stores, and who mostly settled here after the Vietnam War.
 

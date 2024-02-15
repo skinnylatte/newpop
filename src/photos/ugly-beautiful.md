@@ -11,7 +11,6 @@ tags:
   - blackandwhite
   - kentmere
   - minolta
-permalink: /2023/05/01/ugly-beautiful.html
 ---
 Last Friday, I had the unfortunate honor of experiencing (yet another) [race-related incident in San Francisco](https://hachyderm.io/@skinnylatte/110279582306828894). A mentally unwell person pointed a kitchen blow torch at me, with the flame out, and threatened to 'burn me' because I was an 'ugly Chinese ho'. I laughed it off, but I guess she was serious, and then she started pointing that thing at my dog and also calling her an ugly Chinese ho (???). Thankfully, I was able to leave as my bus arrived quickly. 
 

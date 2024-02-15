@@ -10,7 +10,6 @@ tags:
   - littlemyanmar
   - peninsulaplaza
   - photos
-permalink: /2023/10/03/little-myanmar-singapore.html
 ---
 If the Burmese population in Singapore were a city in Myanmar, it'd be one of the top 10 cities. 
 

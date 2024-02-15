@@ -8,7 +8,6 @@ tags:
   - unions
   - protests
   - cityhall
-permalink: /2023/07/29/sf-union-town
 ---
 One of the more surprising things about living in San Francisco is that I'm now a part of a union. Never in my lifetime of working in tech did I imagine that would happen. However, now that I work in the public sector, union life is bustling. I'm very proud to be part of a union. I see its positive impacts everyday, from the pay rises I didn't have to personally bargain for, to the additional time off each year, and in a lot of little things as well.
 

@@ -9,7 +9,6 @@ tags:
   - winter
   - weather
   - sky
-permalink: /2023/02/12/my-month-so.html
 ---
 A series of unprecedented storms swept us in San Francisco in January and February. Dark clouds and gloomy skies are not your typical fare here. I felt just as gloomy, but also thankful for the rain's impact on California's drought situation.
 

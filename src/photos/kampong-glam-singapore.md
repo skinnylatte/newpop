@@ -7,7 +7,6 @@ tags:
   - singapore
   - arabstreet
   - littleindia
-permalink: /2023/06/11/kampong-glam-singapore.html
 ---
 When I was growing up in Singapore I loved going to Kampong Glam, the Arab quarter.
 

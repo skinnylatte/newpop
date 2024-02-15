@@ -11,7 +11,6 @@ tags:
   - easter
   - drag
   - minolta
-permalink: /2023/04/11/tenderloin-tessie.html
 ---
 Almost 50 years ago, a drag queen named Tessie started feeding the homeless in the Tenderloin and so many decades later the tradition continues. I was grateful to be able to volunteer this past Easter at one of the [Tenderloin Tessie events](http://www.tenderlointessie.com).
 

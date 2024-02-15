@@ -10,7 +10,6 @@ tags:
   - motionpicturefilm
   - stpatricksday
   - police
-permalink: /2023/03/20/st-patricks-day.html
 ---
 Some photos from the first roll of film I developed and scanned myself.
 

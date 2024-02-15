@@ -7,7 +7,6 @@ tags:
   - travel
   - srilanka
   - ceylon
-permalink: /2023/01/01/five-frames-from.html
 ---
 Between 2013 and 2016, I went to Colombo quite frequently for work and relaxation. An old friend of mine from school lived there, and it was such an easy flight from Singapore that I found every excuse to go there, really. The scuba diving is phenomenal, too.
 

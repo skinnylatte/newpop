@@ -10,7 +10,6 @@ tags:
   - parades
   - rally
   - cityhall
-permalink: /2023/04/25/medium-format-developed.html
 ---
 I'm not actually a very handy person. It's amazing that I am able to load film at all in a change bag, into a reel, into a tank, and then get pictures out of it. Anyway, this was the first ever medium format color film that I developed myself at home: clearly, I put too little chemistry. I still like the pictures, and I like that I'm now able to post stuff like this instead of being a perfectionist. 
 

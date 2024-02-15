@@ -6,7 +6,6 @@ tags:
   - photos
   - travel
   - singapore
-permalink: /2023/09/29/five-frames-chinatown.html
 ---
 *With motion picture film.*
 

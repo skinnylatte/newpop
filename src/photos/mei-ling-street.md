@@ -9,7 +9,6 @@ tags:
   - meilingst
   - history
   - housing
-permalink: /2023/09/27/mei-ling-street.html
 ---
 Between 2013 and 2018, I lived near the Mei Ling Street estate. I felt like if I was a housing estate, I would be Mei Ling Street. It's old and crumbly, but it's also got [fantastic third wave coffee](https://www.tionghoe.com/), one of [the best cheese shops in Asia](http://www.thecheeseark.com/story/), and a few of my favourite hawker stalls (Sin Kee, Shi Hui Yuan, Ah Pang Seafood, Hui Wei Lor Mee). It's quiet and sleepy, on the surface, but full of interesting stuff if you know where to look!
 

@@ -10,7 +10,6 @@ tags:
   - travel
   - leica
   - blackandwhite
-permalink: /2023/01/29/roadtrips-and-chicken.html
 ---
 In my last year of university I started dating a person who lived 250 miles away from me. It was my first serious relationship, and my last long(ish) distance one. 
 

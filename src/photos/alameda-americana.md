@@ -2,7 +2,6 @@
 title: "Alameda Americana"
 date: 2023-09-17
 tags: photos
-permalink: /2023/09/17/alameda-americana.html
 layout: post.njk
 ---
 It is only in my thirties that I have started to think this: growing up in a city-state where the 'capital of Singapore is Singapore' (from an Alfian Sa'at poem) is a unique experience not understood by many globally. That when nationalistic people in city-states say 'if you don't like it, leave', it's really about leaving your entire country behind. There is nowhere else to go.

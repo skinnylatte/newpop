@@ -11,7 +11,6 @@ tags:
   - kodak
   - motionpicturefilm
   - minolta
-permalink: /2023/04/07/protests-and-parades.html
 ---
 One of the interesting things about living near City Hall is I never know what I'm going to walk into. Some days it's a protest about the declining state of trans rights in this country. Or one by the Burmese or Iranian communities to try to raise awareness of the issues at home. 
 

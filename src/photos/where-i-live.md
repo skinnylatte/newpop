@@ -7,7 +7,6 @@ tags:
   - photos
   - sanfrancisco
   - mission
-permalink: /2023/01/08/where-i-live.html
 ---
 In 2018, my wife and I moved to San Francisco. We love the Mission district and try to spend as much time there as we can, especially for groceries and tacos. ([La Oaxaqueña](https://goo.gl/maps/AKTHmUJMprtfPcAp7) is our favorite.)
 

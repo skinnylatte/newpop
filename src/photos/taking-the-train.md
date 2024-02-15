@@ -9,7 +9,6 @@ tags:
   - nikon
   - transit
   - blackandwhite
-permalink: /2023/03/27/taking-the-train.html
 ---
 While my primary mode of transportation in San Francisco is my bike, I do find myself enjoying the varied modes of transit here as well. They are especially useful during the rain: it has been pouring, for days at a time, during the 'atmospheric rivers' that we are currently facing in California.
 

@@ -10,7 +10,6 @@ tags:
   - fujisuperia400
   - minolta
   - rollei
-permalink: /2023/04/16/saying-goodbye-to.html
 ---
 Fuji Superia 400 has been my stock color film for a long time. I have 10 rolls left, and when that's gone [it doesn't look like I'll be able to find it easily anymore](https://petapixel.com/2023/04/10/new-fujifilm-400-color-negative-film-probably-replaces-superia-x-tra-400/). It was my favorite 'buy it at a drugstore' film, but now that I can't buy it easily, I don't think I will put in the effort to source it. For color, I will probably switch to Ektar and Kodak Vision 3 250D or 500T. Or some combination of all of that.
 

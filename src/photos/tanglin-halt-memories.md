@@ -9,7 +9,6 @@ tags:
  - singapore
  - hdb
  - tanglinhalt
-permalink: /2023/10/03/tanglin-halt-memories.html
 ---
 This neighbourhood is meaningful to me. I spent a lot of time here as a child, running about after church, going to eat all of the food, visiting people, going to get charcoal (from the back of a lorry here) and fresh coconuts (grated at the back of a little market here). 
 

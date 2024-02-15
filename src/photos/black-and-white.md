@@ -3,7 +3,6 @@ layout: post.njk
 title: "Black and White: Three Photos Outside"
 date: 2023-02-07
 tags: photos
-permalink: /2023/02/07/black-and-white.html
 ---
 <img src="/photos/uploads/206a512693.jpg" width="600" height="397" alt="a black and white photo of some women traveling by Segway along Crissy Fields in San Francisco" />
 

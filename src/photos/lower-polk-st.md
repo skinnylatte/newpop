@@ -9,7 +9,6 @@ tags:
   - polkst
   - leica
   - blackandwhite
-permalink: /2023/03/30/lower-polk-st.html
 ---
 Join me on a walk around Lower Polk, a neighborhood directly adjacent to mine. I spend a lot of time here because it has the grocery stores and other shops that I go to the most. I rarely need to take a bus or car anywhere else because I get everything in the Tenderloin and Lower Polk, as well as in and around Nob Hill.
 

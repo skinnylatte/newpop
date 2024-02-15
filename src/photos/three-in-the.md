@@ -7,7 +7,6 @@ tags:
   - photos
   - sanfrancisco
   - tenderloin
-permalink: /2023/03/28/three-in-the.html
 ---
 Look up any travel information for San Francisco and 'helpful' people will tell you: avoid the Tenderloin! It's not safe! There's lots of.. stuff we don't like!
 

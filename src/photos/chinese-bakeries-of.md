@@ -3,7 +3,6 @@ layout: post.njk
 title: "Chinese Bakeries of San Francisco"
 date: 2023-02-08
 tags: photos
-permalink: /2023/02/08/chinese-bakeries-of.html
 ---
 <img src="/photos/uploads/fd9c4d0cee.jpg" width="600" height="397" alt="a color photograph of a chinese bakery in san francisco, sign reads Mee Mee bakery" />
 

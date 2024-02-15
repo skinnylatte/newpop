@@ -10,7 +10,6 @@ tags:
   - taroko
   - blackandwhite
   - leica
-permalink: /2023/01/04/touching-grass-taroko.html
 ---
 Taiwan's [Taroko Gorge](https://en.wikipedia.org/wiki/Taroko_National_Park) near Hualien is a place of great beauty.
 

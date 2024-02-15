@@ -2,7 +2,6 @@
 title: "A Singapore Story"
 date: 2023-03-17
 tags: photos
-permalink: /2023/03/17/a-singapore-story.html
 layout: post.njk
 ---
 I have been away from 'home' full time for almost five years now. Even though I've lived in other countries in the past, I never stopped seeing Singapore as 'home'. 'Home' was where my family, childhood home, friends, food, favorite places, and memories were. I was afloat, in that I was quite literally all over the world, but I was rooted. Every once in a while I floated my way 'home'.

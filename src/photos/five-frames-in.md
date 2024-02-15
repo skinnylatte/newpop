@@ -9,7 +9,6 @@ tags:
   - yosemite
   - campmather
 photos:
-permalink: /2023/09/08/five-frames-in.html
 ---
 One of the more unique things about Bay Area life is that many Bay Area cities have their own 'cabin in the woods' programs in the summer. San Francisco has [Camp Mather](https://sfrecpark.org/443/Camp-Mather), Oakland has [Feather River Camp](https://featherrivercamp.com/), Berkeley has [two camps at Tuolumne River and at Echo Lake](https://berkeleyca.gov/community-recreation/parks-recreation/camps), San Jose has [one near Groveland](https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/family-camp-at-yosemite). 
 

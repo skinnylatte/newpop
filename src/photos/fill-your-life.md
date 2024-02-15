@@ -3,7 +3,6 @@ layout: post.njk
 title: "Fill Your Life with Music (And Fairies)"
 date: 2023-02-20
 tags: photos
-permalink: /2023/02/20/fill-your-life.html
 ---
 <img src="/photos/uploads/2bf77aee59.jpg" width="600" height="397" alt="a scan of a color photograph showing a beautiful woman dressed as a fairy, blowing bubbles at the camera, in a ballroom-like setting filled with people wearing formal attire" />
 
