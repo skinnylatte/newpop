@@ -1,37 +1,41 @@
 ---json
 {
-  "permalink": "feed.xml",
+  "permalink": "feed.json",
   "eleventyExcludeFromCollections": true,
   "metadata": {
     "title": "Popagandhi",
     "subtitle": "long form essays, photos, recipes and other interests by adrianna tan",
     "language": "en",
-    "url": "https://staging.popagandhi.com/feed.xml",
+    "url": "https://staging.popagandhi.com",
     "author": {
       "name": "Adrianna Tan",
-      "email": "skinnylatte@gmail.com"
+      "url": "https://staging.popagandhi.com"
     }
   }
 }
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ metadata.title }}</title>
-    <link>{{ metadata.url }}</link>
-    <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
-    <description>{{ metadata.subtitle }}</description>
-    <language>{{ metadata.language }}</language>
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "{{ metadata.title }}",
+  "language": "{{ metadata.language }}",
+  "home_page_url": "{{ metadata.url }}",
+  "feed_url": "{{ permalink | absoluteUrl(metadata.url) }}",
+  "description": "{{ metadata.subtitle }}",
+  "author": {
+    "name": "{{ metadata.author.name }}",
+    "url": "{{ metadata.author.url }}"
+  },
+  "items": [
     {%- for post in collections.feedposts | reverse %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
-    <item>
-      <title>{{ post.data.title }}</title>
-      <link>{{ absolutePostUrl }}</link>
-      <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
-      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-      <dc:creator>{{ metadata.author.name }}</dc:creator>
-      <guid>{{ absolutePostUrl }}</guid>
-    </item>
+    {
+      "id": "{{ absolutePostUrl }}",
+      "url": "{{ absolutePostUrl }}",
+      "title": "{{ post.data.title }}",
+      "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
+      "date_published": "{{ post.date | dateToRfc3339 }}"
+    }
+    {% if not loop.last %},{% endif %}
     {%- endfor %}
-  </channel>
-</rss>
+  ]
+}

@@ -1,9 +1,9 @@
 ---
+title: Spycraft and statecraft
 tags: 
   - til
   - blog
 date: 2024-01-31
-title: Spycraft and statecraft
 layout: post.njk
 permalink: /posts/spycraft-statecraft
 ---

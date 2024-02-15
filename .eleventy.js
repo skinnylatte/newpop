@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
 		linkify: true
 	};
 
-	["src/favicon.ico", "src/style.css", "src/photos/uploads", "src/img"].forEach(path => {
+	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 	eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -40,8 +40,8 @@ module.exports = function (eleventyConfig) {
 
 	// create a custom feed list for rss
 	eleventyConfig.addCollection("feedposts", function(collectionApi){
-		return collectionApi.getFilteredByGlob(["/blog/*.md", "/photos/*.md", "/food/*.md", "/bikes/*.md"])
-	})
+		return collectionApi.getFilteredByTags("blog", "photos", "bikes");
+	});
 
 	// set custom directories for input, output includes and data
 	return {
