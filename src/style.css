@@ -184,7 +184,7 @@ h1, h2, h3, a {
 }
 
 body {
-	 font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; 
+	 font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif; 
 	 background-color: whitesmoke;
 	 font-size: 1.2rem;
 }
