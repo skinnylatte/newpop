@@ -21,20 +21,19 @@
 }
 
 .nav ul li {
-	border: 1px dotted black;
 	padding: 10px;
 	margin: 5px 10px 5px;
 	display: inline-block;
-	background: linear-gradient(160deg, lemonchiffon, papayawhip);
 }
 
 .nav a {
-	color: seagreen;
+	color: black;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.2rem;
 	padding: 15px;
 	margin: 5px;
+	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; 
 }
 
 .socials ul { 
@@ -67,8 +66,12 @@
 	padding: 5px;
 }
 
+.content h2 a {
+	color: #8C7051;
+}
+
 .content a {
-	color: darkgreen;
+	color: #47682C;
 }
 
 .content img {
@@ -86,11 +89,8 @@
 }
 
 .date-metadata {
-	color: white;
 	display: inline-block;
-	background-color: darkslategrey;
-	padding: 15px;
-	border-radius: 10px;
+	font-size: 0.9rem;
 	margin-bottom: 10px;
 }
 
@@ -107,7 +107,7 @@
 
 .page-top {
 	padding: 25px;
-	background: linear-gradient(160deg, crimson, brown);
+	background: #47682C;
 	color: white;
 	border: 1px dotted black;
 }
@@ -132,7 +132,7 @@
 
 
 .add-blogroll {
-	background-color: crimson;
+	background-color: #EF3054;
 	border-radius: 15px;
 	display: inline-block;
 	padding: 15px;
@@ -142,12 +142,12 @@
 }
 
 .aside h2 {
-	color: black;
+	color: #EF3054;
 }
 
 .aside a {
 	text-decoration: none;
-	color: darkgreen;
+	color: #8C7051;
 }
 
 .add-blogroll a {
@@ -160,9 +160,8 @@
 }
 
 h1, h2, h3 {
-	font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
-  font-weight: normal; 
-  color: darkgreen;
+	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; 
+  color: black;
 }
 
 h1, h2, h3, a {
@@ -173,19 +172,19 @@ h1, h2, h3, a {
 .profile a {
 	color: white;
 	font-size: 3rem;
-	background: linear-gradient(110deg, #008080, darkslategrey);
+	background: #8C7051;
 	transform: skewY(-5deg);
 	display: inline-block;
-	padding: 10px;
+	padding: 25px;
 }
 
-h2 {
+. content h2 {
 	font-weight: normal;
 	font-size: 1.6rem;
 }
 
 body {
-	 font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+	 font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; 
 	 background-color: whitesmoke;
 	 font-size: 1.2rem;
 }

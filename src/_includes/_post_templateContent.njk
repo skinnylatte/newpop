@@ -1,5 +1,6 @@
 {% for post in posts %}  
 
+<main>
 <ul>
 <li>
       <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
@@ -7,4 +8,5 @@
 	<div class="post">{{ post.templateContent | safe }}</div>
 	</li>
 </ul>
+</main>
 {% endfor %}
