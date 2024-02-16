@@ -2,15 +2,7 @@
 layout: post.njk
 title: "Protests and Parades"
 date: 2023-04-07
-tags:
-  - photos
-  - protests
-  - parades
-  - stpatricksday
-  - festivals
-  - kodak
-  - motionpicturefilm
-  - minolta
+tags: ['photos', 'protests', 'parades', 'stpatricksday', 'festivals', 'kodak', 'motionpicturefilm', 'minolta']
 ---
 One of the interesting things about living near City Hall is I never know what I'm going to walk into. Some days it's a protest about the declining state of trans rights in this country. Or one by the Burmese or Iranian communities to try to raise awareness of the issues at home. 
 

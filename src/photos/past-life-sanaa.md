@@ -2,12 +2,7 @@
 layout: post.njk
 title: "Past Life: Sana'a Street Life"
 date: 2023-01-26
-tags:
-  - photos
-  - travel
-  - yemen
-  - sanaa
-  - street
+tags: ['photos', 'yemen', 'travel', 'sanaa', 'street']
 ---
 Getting to see Sana'a in 2009 was an honor. It was one of my favorite cities: ever. Anywhere. I stayed with a friend and I got to wander around sometimes with him and his family, but sometimes alone. It was the weight of history and the air of what was about to happen: I frequently described Yemen as 'better than a set from the Passion of Christ'. It felt old, dusty, but also warm and familiar. 
 

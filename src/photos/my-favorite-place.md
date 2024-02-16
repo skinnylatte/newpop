@@ -2,12 +2,7 @@
 layout: post.njk
 title: "My favorite place in San Francisco"
 date: 2023-03-23
-tags:
-  - photos
-  - sanfrancisco
-  - presidio
-  - outside
-  - nature
+tags: ['photos', 'sanfrancisco', 'presidio', 'outside', 'nature']
 ---
 I love running or biking towards the Golden Gate Bridge. I come here far more than I go to Golden Gate Park (which many of my friends prefer). They're both the same distance, but I come here more because as an island girl I need to see the ocean. (Also, I don't have to go uphill too much)
 

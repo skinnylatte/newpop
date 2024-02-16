@@ -2,13 +2,7 @@
 layout: post.njk
 title: "Music for the Soul"
 date: 2023-01-30
-tags:
-  - photos
-  - music
-  - sanfrancisco
-  - leica
-  - busking
-  - buskers
+tags: ['photos', 'sanfrancisco', 'music', 'leica', 'busking', 'buskers', 'nobhill']
 ---
 I was having a horrible day in August 2020, feeling shut in and defeated. There was no Covid-19 vaccine yet, and we had been sheltering in place in our tiny studio apartment for around 6 months by that time. Going out for a walk with my camera was something that helped me find the little joys of life.
 

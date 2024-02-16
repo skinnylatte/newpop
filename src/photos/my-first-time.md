@@ -2,12 +2,7 @@
 layout: post.njk
 title: "My First Time in Myanmar"
 date: 2023-02-16
-tags:
-  - photos
-  - myanmar
-  - travel
-images:
-- https://cdn.uploads.micro.blog/8917/2023/332101159b.jpg
+tags: ['photos', 'travel', 'myanmar']
 ---
 <img src="/photos/uploads/332101159b.jpg" width="600" height="336" alt="a color photograph of a person taking a photo for a local couple in a Burmese bus station" />
 

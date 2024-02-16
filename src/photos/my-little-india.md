@@ -3,11 +3,7 @@ layout: post.njk
 title: "My Little India"
 date: 2023-09-29
 type: post
-tags:
-  - photos
-  - singapore
-  - travel
-  - littleindia
+tags: ['photos', 'singapore', 'travel', 'food', 'littleindia']
 ---
 Of all of the neighbourhoods in Singapore, I've probably spent the most time in Little India. Not only was I born in a hospital on its edges, I also lived and studied near here for several years. Every trip abroad had to start with a visit to Little India, for foreign currency, electrical adapters, or extra supplies at Mustafa Centre. 
 
