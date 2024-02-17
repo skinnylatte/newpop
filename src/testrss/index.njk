@@ -1,0 +1,20 @@
+---
+layout: layout.njk
+title: Testrss
+pagination:
+  size: 5 
+  data: collections.feed
+  reverse: true
+  alias: posts
+eleventyExcludeFromCollections: true
+---
+
+<div class="page-top">
+<p>Testing RSS</p>
+</div>
+
+<ul>
+{% include "_post_templateContent.njk" %}
+</ul>
+
+{% include "_pagepagination.html" %}

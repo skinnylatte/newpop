@@ -1,0 +1,9 @@
+{
+  "feed": {
+    "subtitle": "long form essays, recipes by adrianna tan",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://staging.popagandhi.com/feed/feed.xml",
+    "id": "https://staging.popagandhi.com/"
+  }
+}

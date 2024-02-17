@@ -8,6 +8,10 @@ const markdownIt = require("markdown-it");
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 
 
+// adding html base plugin
+
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
 // adding passthrough declarations and directories
 
 module.exports = function (eleventyConfig) {
@@ -20,8 +24,11 @@ module.exports = function (eleventyConfig) {
 		breaks: true,
 		linkify: true
 	};
+  // adding html base plugin
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
-	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img"].forEach(path => {
+
+	["src/favicon.ico", "src/style.css", "src/photos/uploads", "src/img"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 	eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -39,9 +46,9 @@ module.exports = function (eleventyConfig) {
 });
 
 	// create a custom feed list for rss
-	eleventyConfig.addCollection("feedposts", function(collectionApi){
-		return collectionApi.getFilteredByTags("blog", "photos", "bikes");
-	});
+	eleventyConfig.addCollection("feed", function(collectionApi){
+		 return collectionApi.getFilteredByGlob(["blog/*.md", "photos/*.md", "bikes/*.md"]);
+    });
 
 	// set custom directories for input, output includes and data
 	return {
