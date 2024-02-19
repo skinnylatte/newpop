@@ -73,7 +73,7 @@ module.exports = function (eleventyConfig) {
 
   //  anchor links on content
   eleventyConfig.setLibrary("md", markdownLibrary);
-  
+
 	// passthrough info
 
 	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img"].forEach(path => {
@@ -112,6 +112,12 @@ module.exports = function (eleventyConfig) {
   });
   return Array.from(tags);
 });
+
+	  // add a filter for limiting the no of posts in rss
+  eleventyConfig.addFilter("head", (array, number) => {
+  return array.slice(-number);
+});
+  
  
 
 	// create a custom collection for feed post
@@ -119,6 +125,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("feedposts", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["./src/posts/*.md", "./src/photos/*.md"]);
 	});
+
 
   // loop through collections created in collections
   
