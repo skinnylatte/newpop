@@ -4,6 +4,55 @@ const { DateTime } = require("luxon");
 // adding markdown filters
 const markdownIt = require("markdown-it");
 
+// adding markdown anchors
+const markdownItAnchor = require("markdown-it-anchor");
+const slugify = require("slugify");
+
+// anchor links
+
+const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
+  class: "anchor",
+  symbol: "<span hidden>#</span>",
+  style: "aria-labelledby",
+});
+
+const markdownItAnchorOptions = {
+  level: [1, 2, 3],
+  slugify: (str) =>
+    slugify(str, {
+      lower: true,
+      strict: true,
+      remove: /["]/g,
+    }),
+  tabIndex: false,
+  permalink(slug, opts, state, idx) {
+    state.tokens.splice(
+      idx,
+      0,
+      Object.assign(new state.Token("div_open", "div", 1), {
+        // Add class "header-wrapper [h1 or h2 or h3]"
+        attrs: [["class", `heading-wrapper ${state.tokens[idx].tag}`]],
+        block: true,
+      })
+    );
+
+    state.tokens.splice(
+      idx + 4,
+      0,
+      Object.assign(new state.Token("div_close", "div", -1), {
+        block: true,
+      })
+    );
+
+    linkAfterHeader(slug, opts, state, idx + 1);
+  },
+};
+
+/* Markdown Overrides */
+let markdownLibrary = markdownIt({
+  html: true,
+}).use(markdownItAnchor, markdownItAnchorOptions);
+
 //adding rss
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 
@@ -22,6 +71,9 @@ module.exports = function (eleventyConfig) {
 		linkify: true
 	};
 
+  //  anchor links on content
+  eleventyConfig.setLibrary("md", markdownLibrary);
+  
 	// passthrough info
 
 	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img"].forEach(path => {
@@ -36,6 +88,19 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 	
+	//  slugify settings
+
+	eleventyConfig.addFilter("slug", (str) => {
+  if (!str) {
+    return;
+  }
+
+  return slugify(str, {
+    lower: true,
+    strict: true,
+    remove: /["]/g,
+  });
+});
 
 	// create a list of tags for archive page
 	eleventyConfig.addCollection("tagList", function(collectionApi){

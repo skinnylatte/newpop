@@ -4,25 +4,25 @@ permalink: "{{ metadata.feed.path }}"
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
   <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
-  <link href="{{ metadata.feed.url }}" rel="self"/>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.feedposts | getNewestCollectionItemDate | postDate }}</updated>
+  <updated>{{ collections.feedposts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.feed.authorName }}</name>
     <email>{{ metadata.feed.authorEmail }}</email>
   </author>
   {%- for post in collections.feedposts | reverse %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | postDate }}</updated>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
 </feed>

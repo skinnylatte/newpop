@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.10",
+    "markdown-it-anchor": "^8.6.7",
+    "slugify": "^1.6.6"
   }
 }
