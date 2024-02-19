@@ -4,6 +4,8 @@
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://staging.popagandhi.com/feed/feed.xml",
-    "id": "https://staging.popagandhi.com/"
+    "id": "https://staging.popagandhi.com/",
+    "authorName": "Adrianna Tan",
+    "authorEmail": "adrianna@jefritan.com"
   }
 }

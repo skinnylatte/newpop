@@ -1,7 +1,14 @@
 ---
 title: "Bencoolen Street"
 date: 2023-09-22
-tags: photos
+tags:
+  - photos
+  - singapore
+  - nikon
+  - 35mm
+  - kodakgold
+  - bugis
+  - littleindia
 layout: post.njk
 ---
 I lived in the Prinsep Street / Bencoolen neighbourhood in the early / mid 2000s. I've always enjoyed the vibrant street life. It is close to everything I love: Little India, Arab Street, Sim Lim Square, Sim Lim Tower, Burlington Square, and more. From early morning till late night, there's always something fun to do and see here.

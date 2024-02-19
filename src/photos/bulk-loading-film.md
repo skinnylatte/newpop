@@ -2,7 +2,12 @@
 layout: post.njk
 title: "Bulk Loading Film"
 date: 2023-06-27
-tags: photos
+tags: 
+  - photos
+  - bulkloading
+  - film
+  - tutorial
+  - howto
 ---
 Like so many people who still shoot film, I am now mostly rolling my own. Bulk loading, once you have the equipment, is really easy. I mostly buy bulk rolls of film stock that I can't get off the shelf, so that's a lot of Kodak 5222, Ektachrome, and also motion picture film.
 

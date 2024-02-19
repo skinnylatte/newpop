@@ -1,20 +1,21 @@
 ---
 layout: layout.njk
-title: Testrss
+title: Now
 pagination:
-  size: 5 
-  data: collections.feed
+  size: 5
+  data: collections.now
   reverse: true
   alias: posts
 eleventyExcludeFromCollections: true
 ---
 
 <div class="page-top">
-<p>Testing RSS</p>
+What I am doing now.
 </div>
-
+	
 <ul>
 {% include "_post_templateContent.njk" %}
 </ul>
+
 
 {% include "_pagepagination.html" %}

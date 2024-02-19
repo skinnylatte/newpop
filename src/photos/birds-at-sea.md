@@ -1,14 +1,14 @@
 ---
 title: "Birds at Sea"
 date: 2023-09-09
-tags: photos
-images:
-- https://cdn.uploads.micro.blog/8917/2023/DSC2979-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/DSC3990-enhanced-nr-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/DSC3930-enhanced-nr-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/DSC3794-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/DSC3747-positive.jpg
-- https://cdn.uploads.micro.blog/8917/2023/DSC3839-positive.jpg
+tags: 
+  - photos
+  - birds
+  - birding
+  - pacificocean
+  - farallones
+  - ocean
+  - sea
 layout: post.njk
 ---
 Once or twice a year, I try to go on a boat ride with some birders. I started birding as a joke ("I'm getting old I need an old person hobby!") but found that I love it.  I especially love pelagic birds (and also shore birds, but to a lesser extent). Something about the raw power of the ocean and the ocean life in and around and above it really inspires me. The first time I went, I saw a feeding frenzy up close: of whales hunting, pushing fish up to the surface, different types of birds diving in and out of the water. It was majestic.

@@ -3,7 +3,14 @@ layout: post.njk
 title: "Well Fed: Two Artisans"
 date: 2023-01-04T13:47:25-0800
 lastmod: 2023-01-05T14:35:18-0800
-tags: photos
+tags: 
+  - photos
+  - asia
+  - travel
+  - europe
+  - spain
+  - malaysia
+  - food
 ---
 As you may know from elsewhere, I *love* food. I am obsessed with it. I love eating, I love food stories, I love writing about food, I love writing about people who make and eat food.
 

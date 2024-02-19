@@ -1,5 +1,8 @@
 ---
-tags: bikes
+tags: 
+  - bikes
+  - bikecamping
+  - outdoors
 layout: post.njk
 date: 2024-02-06
 title: They don't make them like they used to

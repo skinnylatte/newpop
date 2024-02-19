@@ -3,7 +3,11 @@ layout: post.njk
 title: "What I’m Shooting: Nikon F3HP"
 date: 2023-01-03T18:32:52-0800
 lastmod: 2023-01-03T18:32:52-0800
-tags: photos
+tags: 
+  - photos
+  - nikon
+  - nikonf3hp
+  - cameras
 ---
 I started out in film photography in 2003 using a little Nikon F-601, and to many people (including me) the pinnacle of SLRs in the Nikon world is the F3HP. 
 

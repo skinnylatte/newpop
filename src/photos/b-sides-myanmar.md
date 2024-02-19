@@ -1,7 +1,12 @@
 ---
 title: "B Sides (Myanmar)"
 date: 2023-07-18
-tags: photos
+tags: 
+  - photos
+  - phonecam
+  - travel
+  - myanmar 
+  - asia
 layout: post.njk
 ---
 Some time around 2012/2013, I spent most of my time in Myanmar. The country was opening up: Aung San Suu Kyi was out, reform was in the air, Burmese students and exiles were coming home. There was a true spirit of hope and optimism. I was no longer a photographer or writer at that time, but I had developed a set of skills from my time in that world. I had become the person that tech companies sent to 'figure stuff out in new markets'. It was also a lucrative and exciting gig while that lasted. I did that for a couple of years. 

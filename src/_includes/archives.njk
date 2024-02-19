@@ -1,10 +1,62 @@
----
-title: Archives
----
+<!DOCTYPE html>
+<html lang="en">
+{% include "_head.html" %}
 
-<h2>Tags</h2>
+<body>
+
+<div class="container">
+
+{% include "_header.html" %}
+
+<div class="wrapper">
+
+{% include "_aside.html" %}
+
+<section class="content">
+
+
+<div class="page-top">All posts in {{ site.copyrightYear }}</div>
+
 <ul>
-  {% for tag in collections.tagList %}
-    <li><a href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
-  {% endfor %}
+{% for post in collections.postsByYear[posts] | reverse %}
+  <li>
+    {% if post.data.canonical %}
+    <a href="{{ post.data.canonical }}" target="_blank" rel="noopener" class="listing__remote">
+    {% else %}
+    <a href="{{ post.url }}">
+    {% endif %}
+      
+      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+      <div class="date-metadata">Published on {{ post.date | postDate  }}</div>
+
+      <div class="post">{{ post.templateContent | safe }}</div>
+
+    </a>
+  </li>
+{% endfor %}
 </ul>
+
+<div class="yearList">
+  <h2>Blast from the past</h2>
+
+  <p>I've kept the vast majority of posts from the past here.</p>
+
+  <ul>
+  {%- for pageEntry in pagination.pages %}
+      <li>
+        <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>
+          <h3>{{ pageEntry }}</h3>
+          {{ collections.postsByYear[pageEntry] | length }} posts
+        </a>
+      </li>
+  {%- endfor %}
+  </ul>
+</div>
+
+<div class="tagList">
+<p>You can also read by tags.</p>
+</div>
+</section>
+</body>
+
+</html>

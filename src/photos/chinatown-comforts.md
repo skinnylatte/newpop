@@ -2,7 +2,11 @@
 layout: post.njk
 title: "Chinatown Comforts"
 date: 2023-10-19
-tags: photos
+tags: 
+  - photos
+  - chinatown
+  - sanfrancisco
+  - california
 ---
 I find myself spending more and more time in SF and Oakland Chinatowns. I love Chinese bakeries, so those are obviously the best places for me to get my fix. In SF Chinatown, check out [Yummy Bakery](https://maps.app.goo.gl/YMybaWQUo6xuMEnD9) and [Stockton Bakery](https://maps.app.goo.gl/dCc4ZxPFD2Qp34hT6). In Oakland Chinatown I am partial to [Napoleon Super Bakery](https://maps.app.goo.gl/c8JEdeApchVBGr4V8). In all of those spots, pork floss bun, butter cream bun, hot dog bun, egg tarts: those are all classics. At Yummy Bakery definitely try the 'egg white tart', Japanese cheesecake and pineapple (bolo) bun. There are no pineapples in pineapple bun.
 

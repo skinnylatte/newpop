@@ -1,7 +1,14 @@
 ---
 layout: post.njk
 date: 2023-10-23
-tags: photos
+tags: 
+  - photos
+  - singapore
+  - market
+  - wetmarket
+  - food
+  - mediumformat
+  - yashica
 title: Bukit Merah Days
 ---
 When I'm back in Singapore it can be easy to fall into old habits: sleeping in till late, staying out late, doing all of those things I used to do. On my recent trips, I'm trying to remind myself that I've been away for so long  my parents aren't getting younger. My parents' daily routine starts with: picking a different hawker centre every morning to eat at. I try to join them, if I can wake up (they leave extremely early). 

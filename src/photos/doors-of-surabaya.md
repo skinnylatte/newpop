@@ -2,7 +2,16 @@
 layout: post.njk	
 title: "Doors of Surabaya"
 date: 2023-09-26
-tags: photos
+tags: 
+  - photos
+  - indonesia
+  - asia
+  - travel
+  - surabaya
+  - eastjava
+  - doors
+  - nikon
+  - 35mm
 ---
 One of my oldest friends in the world lives in Surabaya. I love visiting her. Not only is the food one of my favorite cuisines (East Java food is my favorite Indonesian regional food, and it can be hard to get abroad), the city is also a place I enjoy photographing. Eat, shoot, eat, shoot. That's basically all I do there.
 

@@ -2,7 +2,14 @@
 layout: post.njk
 title: "Drag Up, Fight Back"
 date: 2023-04-10
-tags: photos
+tags:
+  - photos
+  - mediumformat
+  - yashica
+  - trans
+  - protests
+  - sanfrancisco
+  - california
 ---
 I had a drag-filled weekend that was full of trans joy. For that, I am grateful.
 

@@ -1,7 +1,6 @@
 ---
 title: "Interview Waiver Experience for H1-B1 Visa"
-date: 2023-10-03T22:43:38+08:00
-draft: false
+date: 2023-10-03
 description: Since 2021, the US Embassy in Singapore has allowed eligible Singaporeans to use the Interview Waiver process for the H1-B1. I finally got to use it for the first time. I would highly recommend it.
 tags: 
   - life

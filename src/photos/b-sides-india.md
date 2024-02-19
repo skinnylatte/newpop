@@ -1,7 +1,12 @@
 ---
 title: "B Sides (India)"
 date: 2023-07-17
-tags: photos
+tags: 
+  - photos
+  - india
+  - travel
+  - asia
+  - phonecam
 layout: post.njk
 ---
 When I think back to the life I led in my 20s, I will be forever grateful and amazed that I got to do the things that I did. How did I figure out how to travel around the world, eating, working, writing, taking photos? I don't think that life exists anymore. Not in the same way anyway. But I really milked it for what I could.

@@ -18,6 +18,7 @@
     "markdown-it": "^14.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy-plugin-rss": "^1.2.0"
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "dayjs": "^1.11.10"
   }
 }

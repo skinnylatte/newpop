@@ -1,5 +1,7 @@
 ---
-tags: bikes
+tags: 
+  - bikes
+  - bikecamping
 layout: post.njk
 date: 2024-02-07
 title: Bikecamping in the Bay Area

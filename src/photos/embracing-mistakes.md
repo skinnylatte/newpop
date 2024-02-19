@@ -5,6 +5,8 @@ date: 2023-04-04
 tags: 
   - photos
   - food
+  - ilfosol
+  - plustek
 ---
 I have a problem: I tend to be a perfectionist. Sometimes, when something doesn't turn out well I get so annoyed that I don't touch it again forever. Or for a long time. (Recently, I learned that people with autism and ADHD like me have severe '[rejection sensitivity](https://www.psychologytoday.com/us/blog/your-way-adhd/202106/adhd-and-rejection-sensitivity-dysphoria)'). Being mindful of this, I'm trying to actively embrace mistakes.
 

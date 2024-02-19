@@ -1,0 +1,5 @@
+{
+	"tags": "blog",
+	"layout": "post.njk",
+	"permalink": "/{{ page.date }}/{{ page.filePathStem }}/"
+}

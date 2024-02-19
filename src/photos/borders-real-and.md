@@ -2,7 +2,13 @@
 layout: post.njk
 title: Borders Real and Imagined
 date: 2023-03-02
-tags: photos
+tags: 
+  - photos
+  - chinatown
+  - sanfrancisco
+  - color
+  - transamerica
+  - history
 ---
 <img src="/photos/uploads/d69b7e2dd1.jpg" width="600" height="397" alt="a color photo of the border of Chinatown San Francisco and the Financial District with Chinese shops in the foreground and TransAmerica pyramid in the background, a Muni bus at the bus stop at an intersection, people standing around or crossing the street" />
 

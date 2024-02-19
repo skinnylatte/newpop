@@ -7,12 +7,9 @@ const markdownIt = require("markdown-it");
 //adding rss
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 
+// requiring collections js
+const collections = require("./collections.js");
 
-// adding html base plugin
-
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-
-// adding passthrough declarations and directories
 
 module.exports = function (eleventyConfig) {
   // add rss
@@ -24,16 +21,22 @@ module.exports = function (eleventyConfig) {
 		breaks: true,
 		linkify: true
 	};
-  // adding html base plugin
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+	// passthrough info
 
-	["src/favicon.ico", "src/style.css", "src/photos/uploads", "src/img"].forEach(path => {
+	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
+
+	// dates
+
 	eleventyConfig.addFilter("postDate", (dateObj) => {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
 });
+
+	eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+	
+
 	// create a list of tags for archive page
 	eleventyConfig.addCollection("tagList", function(collectionApi){
 	let tags = new Set();
@@ -44,12 +47,20 @@ module.exports = function (eleventyConfig) {
   });
   return Array.from(tags);
 });
+ 
 
-	// create a custom feed list for rss
-	eleventyConfig.addCollection("feed", function(collectionApi){
-		 return collectionApi.getFilteredByGlob(["blog/*.md", "photos/*.md", "bikes/*.md"]);
-    });
+	// create a custom collection for feed post
 
+	eleventyConfig.addCollection("feedposts", function (collectionApi) {
+		return collectionApi.getFilteredByGlob(["./src/posts/*.md", "./src/photos/*.md"]);
+	});
+
+  // loop through collections created in collections
+  
+  Object.keys(collections).forEach((collectionName) => {
+    eleventyConfig.addCollection(collectionName, collections[collectionName]);
+  });
+  
 	// set custom directories for input, output includes and data
 	return {
 		// when a passthrough file is modified, rebuild the pages

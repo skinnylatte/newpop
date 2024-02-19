@@ -2,7 +2,17 @@
 layout: post.njk
 title: "Black and White: Three Photos Outside"
 date: 2023-02-07
-tags: photos
+tags: 
+  - photos
+  - fujiacros100
+  - fuji
+  - blackandwhite
+  - olympus
+  - xa2
+  - presidio
+  - crissyfields
+  - sanfrancisco
+  - california
 ---
 <img src="/photos/uploads/206a512693.jpg" width="600" height="397" alt="a black and white photo of some women traveling by Segway along Crissy Fields in San Francisco" />
 

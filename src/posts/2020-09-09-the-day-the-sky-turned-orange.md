@@ -1,6 +1,6 @@
 ---
 title: The Day the Sky Turned Orange
-date: 2020-09-09T04:36:09.369Z
+date: 2020-09-09
 description: Woke up this morning to an orange sky. It's 2 in the afternoon, and it's still orange. Here are some photos to remember the day by.
 tags:
   - photos
