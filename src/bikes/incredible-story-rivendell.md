@@ -22,7 +22,6 @@ Here was the build that we planned together:
 |-------------------|-------------------------------------------------------------------------------|
 | Handlebars        | randonneur 25.4 400mm                                                         |
 | Brake Levers      | Gran Compe 202 Non Aero Brake Levers, Drilled                                 |
-| Stem              | https://www.rivbike.com/products/stem-546aah-l982kr                           |
 | Downtube Shifters | Dia-Compe ENE Down Tube Shifters                                              |
 | Cranks            | Rene Herse Double Crank 46-30 - 171mm                                         |
 | Pedals            | MKS Monarch                                                                   |
@@ -33,13 +32,11 @@ Here was the build that we planned together:
 | brakes            | shimano 105                                                                   |
 | cassette          | microshift 11-36                                                              |
 | tires             | 26″ x 1.25″ Elk Pass Tire                                                     |
-| tubes             |                                                                               |
-| housing           | tbd - we have black, purple, pink, orange, yellow and a bright green in stock |
 | cables            | two brake and 2 shifter                                                       |
-| front derailleur  | our dura ace                                                                  |
+| front derailleur  |  dura ace                                                                  |
 | rear derailleur   | Shimano deore long cage                                                       |
 | chain             | 9 speed in stock                                                              |
-| bottom bracket    | if the one you have doesn't work - you'll need a 110 (maybe 107)              |
+
 
 After a few arduous months, it was finally done. I rode it, happily, for many months.
 
