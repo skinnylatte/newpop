@@ -54,4 +54,6 @@ A few friends who know a thing or two about used bikes told me they were certain
 
 Randomly, I got a Reddit message from someone who said he had seen my bike at Laney Market in Oakland, and bought it. He told me that he worked in bike industry and that, when he saw it at the flea market, knew for sure it was stolen, so he decided he would try to find me. We met near a BART station and he returned the bike to me (I Venmo-ed him what he paid for it, and a bit more). I had also received a few calls from people who had spotted it at Laney Market, but by the time I made it out there I could not find it myself. I'm thankful to the community and to folks for looking out for this bike for me. I love it to bits.
 
-I'm now determined to ride the hell out of this bike.
+The bike was returned to me in a really good condition. It was almost as if no one had ridden it at all. Someone had tried to cover its distinctive lugs with ugly markers. That's mostly faded out on its own. I didn't need to do very much when I got the bike back, beyond the flat tires.
+
+I'm now determined to ride the hell out of this bike. Thank you, bicycle gods, for looking out for me!
