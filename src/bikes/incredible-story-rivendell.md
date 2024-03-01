@@ -46,12 +46,12 @@ A few things gave me hope:
 
 - I was encouraged to [post about the stolen bike and its description on BikeIndex](https://groups.google.com/g/rbw-owners-bunch)
 - I also posted on the [RBW Owners Bunch mailing list](https://groups.google.com/g/rbw-owners-bunch)
-- I posted it widely on Craigslist, Instagram, Twitter, Reddit and elsewhere
+- I posted it widely on Craigslist, Instagram, Twitter, Reddit (/r/BABike) and elsewhere
 
 A few friends who know a thing or two about used bikes told me they were certain the bike would find its way back to me some day, because my bike was so unique that it would be difficult for the thief to sell; and it would be difficult for anyone thinking about buying it to not know it was stolen.
 
 4 or 5 months passed, and I continued making sure my post about the bike was updated on Craigslist, Reddit and elsewhere.
 
-Randomly, I got a message from someone who said he had seen my bike at Laney Market in Oakland, and bought it. He told me that he worked in bike industry and that, when he saw it at the flea market, knew for sure it was stolen, so he decided he would try to find me. We met near a BART station and he returned the bike to me (I Venmo-ed him what he paid for it, and a bit more).
+Randomly, I got a Reddit message from someone who said he had seen my bike at Laney Market in Oakland, and bought it. He told me that he worked in bike industry and that, when he saw it at the flea market, knew for sure it was stolen, so he decided he would try to find me. We met near a BART station and he returned the bike to me (I Venmo-ed him what he paid for it, and a bit more). I had also received a few calls from people who had spotted it at Laney Market, but by the time I made it out there I could not find it myself. I'm thankful to the community and to folks for looking out for this bike for me. I love it to bits.
 
 I'm now determined to ride the hell out of this bike.
