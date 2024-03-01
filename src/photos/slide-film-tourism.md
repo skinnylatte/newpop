@@ -14,15 +14,15 @@ A few firsts:
 * I shot slide film for the first time
 * I saw a very old friend from my Dubai days, for the first time in a decade
    
-<img src="/photos/uploads/000375300010-positive.jpg" width="600" height="591" alt="a scan of a color slide photo of a tourist atraction in san francisco. it has children sitting on a vertical amusement park ride.">
+<img src="/img/000375300010-positive.jpg" width="600" height="591" alt="a scan of a color slide photo of a tourist atraction in san francisco. it has children sitting on a vertical amusement park ride.">
 
 Ticket to ride.
 
-<img src="/photos/uploads/000375300005-positive.jpg" width="600" height="591" alt="a scan of a color slide photo of a tourist atraction in san francisco. many people are standing in line for the carousel ride">
+<img src="/img/000375300005-positive.jpg" width="600" height="591" alt="a scan of a color slide photo of a tourist atraction in san francisco. many people are standing in line for the carousel ride">
 
 Carousel.
 
-<img src="/photos/uploads/000375300002-positive.jpg" width="600" height="591" alt="a scan of a color slide photo of some boats at fishermans wharf in san francisco">
+<img src="/img/000375300002-positive.jpg" width="600" height="591" alt="a scan of a color slide photo of some boats at fishermans wharf in san francisco">
 
 Boats.
 

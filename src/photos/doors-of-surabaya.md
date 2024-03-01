@@ -19,23 +19,23 @@ This was my first time there with a film camera. I brought my trusty tiny Nikon 
 
 I even got the film sent off and developed at [a local lab](https://www.instagram.com/impossible_lab/) in Surabaya, which I was happy with.
 
-<img src="/photos/uploads/000206240006.jpg" width="600" height="397" alt="a scan of a color photo showing a large old green door with metal handles">
+<img src="/img/000206240006.jpg" width="600" height="397" alt="a scan of a color photo showing a large old green door with metal handles">
 
 Green.
 
-<img src="/photos/uploads/000206240012.jpg" width="600" height="397" alt="a scan of a color photo showing an old pale blue door and dirty cement and metal bars">
+<img src="/img/000206240012.jpg" width="600" height="397" alt="a scan of a color photo showing an old pale blue door and dirty cement and metal bars">
 
 Old.
 
-<img src="/photos/uploads/000206240008.jpg" width="600" height="397" alt="a scan of a color photo showing a Chinese Indonesian noodle shop in old Surabaya with Chinese and Indonesian words. The door is green with yellow features">
+<img src="/img/000206240008.jpg" width="600" height="397" alt="a scan of a color photo showing a Chinese Indonesian noodle shop in old Surabaya with Chinese and Indonesian words. The door is green with yellow features">
 
 Noodles.
 
-<img src="/photos/uploads/000206240016.jpg" width="600" height="397" alt="a scan of a color photo showing a no parking sign written in the Indonesian language">
+<img src="/img/000206240016.jpg" width="600" height="397" alt="a scan of a color photo showing a no parking sign written in the Indonesian language">
 
 No parking.
 
-<img src="/photos/uploads/000206240020-2.jpg" width="600" height="397" alt="a scan of a color photo showing rainbow colored pillars outside a kindergarten in Indonesia">
+<img src="/img/000206240020-2.jpg" width="600" height="397" alt="a scan of a color photo showing rainbow colored pillars outside a kindergarten in Indonesia">
 
 Rainbow.
 

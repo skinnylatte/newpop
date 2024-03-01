@@ -15,22 +15,22 @@ Fuji Superia 400 has been my stock color film for a long time. I have 10 rolls l
 
 Until then, some photos celebrating Fuji Superia 400.
 
-<img src="/photos/uploads/cc3f445ec2.jpg" width="600" height="402" alt="a scan of a color photo of a night time view of a San Francisco night life area with the neon lights of a Hawaiian bar saying Mauna Loa" />
+<img src="/img/cc3f445ec2.jpg" width="600" height="402" alt="a scan of a color photo of a night time view of a San Francisco night life area with the neon lights of a Hawaiian bar saying Mauna Loa" />
 
 I like Fuji's colors with neon lights, especially reds. (Minolta Hi-Matic 7S II, handheld)
 
-<img src="/photos/uploads/6d55bcce5c.jpg" width="600" height="402" alt="a scan of a color photo of the door of Atelier Crenn, a Michelin starred restaurant in San Francisco" />
+<img src="/img/6d55bcce5c.jpg" width="600" height="402" alt="a scan of a color photo of the door of Atelier Crenn, a Michelin starred restaurant in San Francisco" />
 
 A friend came to town and invited me to an epic dinner. (Minolta Hi-Matic 7S II, handheld)
 
-<img src="/photos/uploads/4e63ddf548.jpg" width="600" height="402" alt="a scan of a color photo of sashimi and ube bread on the table with Japanese mat and placements" />
+<img src="/img/4e63ddf548.jpg" width="600" height="402" alt="a scan of a color photo of sashimi and ube bread on the table with Japanese mat and placements" />
 
 The next day, I had a delicious tasting menu at [Ox + Tiger](https://oxandtiger.co), a Filipino-Japanese restaurant in San Francisco. (Minolta Hi-Matic 7S II, handheld)
 
-<img src="/photos/uploads/7aa9462960.jpg" width="600" height="402" alt="a scan of a color photo of the San Francisco skyline with a boat in the bottom right of the photo" />
+<img src="/img/7aa9462960.jpg" width="600" height="402" alt="a scan of a color photo of the San Francisco skyline with a boat in the bottom right of the photo" />
 
 View of the San Francisco skyline from Yerba Buena island. (Rollei QZ 35T)
 
-<img src="/photos/uploads/d544159b67.jpg" width="600" height="402" alt="a scan of a color photo of grass and sea and sky" />
+<img src="/img/d544159b67.jpg" width="600" height="402" alt="a scan of a color photo of grass and sea and sky" />
 
 The greens and blues of San Francisco bay. (Rollei QZ 35T)

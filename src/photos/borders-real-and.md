@@ -10,7 +10,7 @@ tags:
   - transamerica
   - history
 ---
-<img src="/photos/uploads/d69b7e2dd1.jpg" width="600" height="397" alt="a color photo of the border of Chinatown San Francisco and the Financial District with Chinese shops in the foreground and TransAmerica pyramid in the background, a Muni bus at the bus stop at an intersection, people standing around or crossing the street" />
+<img src="/img/d69b7e2dd1.jpg" width="600" height="397" alt="a color photo of the border of Chinatown San Francisco and the Financial District with Chinese shops in the foreground and TransAmerica pyramid in the background, a Muni bus at the bus stop at an intersection, people standing around or crossing the street" />
 
 San Francisco's Chinatown is one of the oldest ones in the United States. Chinese people, mostly from the "Sze Yap" region of Toishan and surrounding areas, came to northern California almost two centuries ago. They were boxed in in certain areas, within cities and regions, both in the city and outside it.
 

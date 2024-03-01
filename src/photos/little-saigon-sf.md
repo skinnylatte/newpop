@@ -10,7 +10,7 @@ tags:
   - aapi
   - littlesaigon
 ---
-<img src="/photos/uploads/cd24679345.jpg" width="600" height="397" alt="a color photograph of the fridge section at a Cambodian grocery store in Little Saigon, San Francisco" />
+<img src="/img/cd24679345.jpg" width="600" height="397" alt="a color photograph of the fridge section at a Cambodian grocery store in Little Saigon, San Francisco" />
 
 Photo taken on Olympus XA2 on Fuji Superia 400, developed and scanned by Underdog Film Lab.
 

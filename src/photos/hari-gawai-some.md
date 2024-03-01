@@ -14,15 +14,15 @@ One of the things I love about my home region is how it's home to so many unique
 
 We were lucky to have been invited. Way too much local alcohol was made and consumed, and while my liver can't make this type of journey anymore (since I no longer drink), I have many fond memories of the longhouse we stayed in, and the families we met.
 
-<img src="/photos/uploads/1b33042204.jpg" width="600" height="400" alt="a color photograph of a young woman dressed in traditional Iban dress for the harvest festival" />
+<img src="/img/1b33042204.jpg" width="600" height="400" alt="a color photograph of a young woman dressed in traditional Iban dress for the harvest festival" />
 
 A young woman dressed in traditional Iban dress for Hari Gawai.
 
-<img src="/photos/uploads/c7f13bfefc.jpg" width="600" height="400" alt="a color photograph of a child looking on smiling as his cousins run by" />
+<img src="/img/c7f13bfefc.jpg" width="600" height="400" alt="a color photograph of a child looking on smiling as his cousins run by" />
 
 A child looks on as his cousins play, in a long house. We slept with everyone, with a mattress pulled out, on one side of the long house.
 
-<img src="/photos/uploads/dd935c9a8a.jpg" width="600" height="400" alt="a color photograph of a person rowing a longtail boat" />
+<img src="/img/dd935c9a8a.jpg" width="600" height="400" alt="a color photograph of a person rowing a longtail boat" />
 
 Getting there required expert navigation of the Skrang river. We were in good hands with the *penghulu* himself, and his sons, carrying us up the river from a small town a few hour away.
 

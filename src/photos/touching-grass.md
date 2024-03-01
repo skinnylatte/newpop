@@ -15,7 +15,7 @@ tags:
 
 I was always a big city person. I liked nature, but not excessively. Now that I'm almost 5 years into being *a Californian*, that's starting to change. I don't just like the outdoors, I love it. I survived (and thrived) at a five day backcountry Yosemite backpacking trip with no toilets or showers. I scaled Half Dome. I go bikecamping a few times a year. 
 
-<img src="/photos/uploads/dcc7363aa1.jpg" width="600" height="411" alt="a scan of a medium format photograph of some tents and bicycles in the woods" />
+<img src="/img/dcc7363aa1.jpg" width="600" height="411" alt="a scan of a medium format photograph of some tents and bicycles in the woods" />
 
 *Shot on Fuji GW690II on Portra 800, developed and scanned by Underdog Film Lab*
 

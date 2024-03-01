@@ -16,11 +16,11 @@ Being in community and surrounded by the intimacy of language and culture has gi
 
 My photographs will often reflect this, and here I really like these half frame photos I took around here with my Kodak H35 toy camera.
 
-<img src="/photos/uploads/2c5ea91eac.jpg" width="600" height="397" alt="A half frame photo diptych of City Hall with a Burmese protest outside it and a view of Larkin St" />
+<img src="/img/2c5ea91eac.jpg" width="600" height="397" alt="A half frame photo diptych of City Hall with a Burmese protest outside it and a view of Larkin St" />
 
 <p>The Burmese community comes out to City Hall often to advocate for help for their country.</p>
 
-<img src="/photos/uploads/159d70e99f.jpg" width="600" height="397" alt="A half frame photo diptych of a Vietnamese Chinese noodle shop in the Tenderloin and a mural of a bull next to it" />
+<img src="/img/159d70e99f.jpg" width="600" height="397" alt="A half frame photo diptych of a Vietnamese Chinese noodle shop in the Tenderloin and a mural of a bull next to it" />
 
 <p>The people who run this noodle shop not only sound exactly like my grandparents, they also make food like my grandparents'.</p>
 

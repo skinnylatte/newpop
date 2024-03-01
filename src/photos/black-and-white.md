@@ -14,7 +14,7 @@ tags:
   - sanfrancisco
   - california
 ---
-<img src="/photos/uploads/206a512693.jpg" width="600" height="397" alt="a black and white photo of some women traveling by Segway along Crissy Fields in San Francisco" />
+<img src="/img/206a512693.jpg" width="600" height="397" alt="a black and white photo of some women traveling by Segway along Crissy Fields in San Francisco" />
 
 This is one of the photos that made me very glad I had a film camera in my pocket. I was able to jog alongside these friends, who were having so much fun on a Segway tour of San Francisco's Crissy Fields area near the Golden Gate Bridge, and they were very kind to pose for a photo for me.
 
@@ -24,11 +24,11 @@ It was my first time using the Fuji Acros 100 II film, though. It's very sharp, 
 
 More photos:
 
-<img src="/photos/uploads/209438ad67.jpg" width="600" height="397" alt="a black and white photograph of some yachts outside Fort Mason" />
+<img src="/img/209438ad67.jpg" width="600" height="397" alt="a black and white photograph of some yachts outside Fort Mason" />
 
 *Yachts outside Fort Mason.*
 
-<img src="/photos/uploads/92107b5ebc.jpg" width="600" height="397" alt="a black and white photograph of some signs that say Lyon, Marina and Mason in front of some trees" />
+<img src="/img/92107b5ebc.jpg" width="600" height="397" alt="a black and white photograph of some signs that say Lyon, Marina and Mason in front of some trees" />
 
 *Which way? Near the Palace of Fine Arts.*
 

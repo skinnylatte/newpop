@@ -16,23 +16,23 @@ I think my child's consciousness of the outside world was first formed here. I f
 
 Now that it's all been set aside for redevelopment, I feel a little sad. Some bits of it remain. But I know that when I return next, it's all going to be different, or gone. Such is life in Singapore.
 
-<img src="/photos/uploads/000180450008.jpg" width="600" height="590" alt="">
+<img src="/img/000180450008.jpg" width="600" height="590" alt="">
 
 I lost too much money to these machines, as a child.
 
-<img src="/photos/uploads/000180470008-2.jpg" width="600" height="590" alt="2. A scan of a color photo of a public housing estate with uniform windows in singapore">
+<img src="/img/000180470008-2.jpg" width="600" height="590" alt="2. A scan of a color photo of a public housing estate with uniform windows in singapore">
 
 Public housing apartments in Singapore's Tanglin Halt estate.
 
-<img src="/photos/uploads/000180470006-2.jpg" width="600" height="590" alt="a scan of a color photo of a pastel salmon pink, yellow and blue feature on the side of a building in a public housing project in Singapore">
+<img src="/img/000180470006-2.jpg" width="600" height="590" alt="a scan of a color photo of a pastel salmon pink, yellow and blue feature on the side of a building in a public housing project in Singapore">
 
 Going, going, gone.
 
-<img src="/photos/uploads/000180470009-2.jpg" width="600" height="590" alt="A scan of a color photo of an abandoned public housing neighborhood in Singapore with pastel colors and a dome">
+<img src="/img/000180470009-2.jpg" width="600" height="590" alt="A scan of a color photo of an abandoned public housing neighborhood in Singapore with pastel colors and a dome">
 
 All going to be gone.
 
-<img src="/photos/uploads/000180470011-2.jpg" width="600" height="608" alt="A scan of a color photo of a roti prata seller in Singapore ">
+<img src="/img/000180470011-2.jpg" width="600" height="608" alt="A scan of a color photo of a roti prata seller in Singapore ">
 
 The [old school prata man](https://maps.app.goo.gl/5bXLYQZzzWn26KzJ8) remains.
 

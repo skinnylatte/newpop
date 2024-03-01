@@ -17,7 +17,7 @@ Before we found a living arrangement (that involved me moving to her city), we m
 
 That relationship eventually fizzled out after several years, but I got from it: Cookie, a deep love for that country, and many years of happy food and travel memories.
 
-<img src="/photos/uploads/039958e313.jpg" width="600" height="401" alt="a black and white photo of a food scene inside a famous Malacca restaurant known for their chicken rice balls" />
+<img src="/img/039958e313.jpg" width="600" height="401" alt="a black and white photo of a food scene inside a famous Malacca restaurant known for their chicken rice balls" />
 
 _A black and white photo taken in Melaka around 2007. Probably with a Leica M3 and 50mm Summilux, unsure which film stock (I'm guessing it's Tri-X)._
 

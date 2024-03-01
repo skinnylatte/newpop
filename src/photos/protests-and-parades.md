@@ -12,23 +12,23 @@ I was interested in the parade and curious to know how it would proceed in the r
 
 Tomorrow, I'm going to go to a rally for trans rights. It's cool that I can just stroll over to show my support for things like that.
 
-<img src="/photos/uploads/b69a01fafc.jpg" width="600" height="396" alt="a scan of a color photograph of a homeless person walking by a large contingent of police in San Francisco who are attending St Patricks Day festivities" />
+<img src="/img/b69a01fafc.jpg" width="600" height="396" alt="a scan of a color photograph of a homeless person walking by a large contingent of police in San Francisco who are attending St Patricks Day festivities" />
 
 The entire street was closed.
 
-<img src="/photos/uploads/7dff229905.jpg" width="600" height="396" alt="a scan of a color photograph of two cops holding flags. one american and one irish" />
+<img src="/img/7dff229905.jpg" width="600" height="396" alt="a scan of a color photograph of two cops holding flags. one american and one irish" />
 
 San Francisco is the hub of the Irish diaspora in the West Coast. The police force has also been a favored profession for that community.
 
-<img src="/photos/uploads/de8b2a1a51.jpg" width="600" height="396" alt="a scan of a color photograph of a red classic car with the grand marshall of the parade in it" />
+<img src="/img/de8b2a1a51.jpg" width="600" height="396" alt="a scan of a color photograph of a red classic car with the grand marshall of the parade in it" />
 
 Classic cars are my thing.
 
-<img src="/photos/uploads/b0fcdc073e.jpg" width="600" height="396" alt="a scan of a color photograph of an old lady walking through a park looking at people who are playing with their dogs in a dog park" />
+<img src="/img/b0fcdc073e.jpg" width="600" height="396" alt="a scan of a color photograph of an old lady walking through a park looking at people who are playing with their dogs in a dog park" />
 
 Rainy days are here again.
 
-<img src="/photos/uploads/07d2365420.jpg" width="600" height="396" alt="a scan of a color photograph of a multi-color playground in San Francisco" />
+<img src="/img/07d2365420.jpg" width="600" height="396" alt="a scan of a color photograph of a multi-color playground in San Francisco" />
 
 I really like the colors on the motion picture film. This photo would not be as interesting on regular color film!
 

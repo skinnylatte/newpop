@@ -17,27 +17,27 @@ So when I heard there was going to be a rally outside SF City Hall in support of
 
 Although I now own a full frame DSLR (for bird photography), I ran there instead with a Yashica Mat-124G TLR camera from 1970, and three rolls of Kodak T-Max 400 film. Later that night, I developed the film in Rodinal in my bathroom. While I'm interested in some applications of AI (it has been useful in automating some tasks, for example), I am less positive about the creative applications. I started to learn to develop film this year, warts and all, partly as a response for that. It calms me to have a physical copy of a film negative that I can hold.
 
-<img src="/photos/uploads/000012-2.jpg" width="600" height="600" alt="a scan of a black and white photo showing a man holding a sign that says SAG-AFTRA on strike, with his side profile turned towards the camera. he is smiling">
+<img src="/img/000012-2.jpg" width="600" height="600" alt="a scan of a black and white photo showing a man holding a sign that says SAG-AFTRA on strike, with his side profile turned towards the camera. he is smiling">
 
 Many people enthusiastically supporting the SAG-AFTRA strike.
 
-<img src="/photos/uploads/000009-2.jpg" width="600" height="600" />
+<img src="/img/000009-2.jpg" width="600" height="600" />
 
 Plenty of slogans.
 
-<img src="/photos/uploads/000009-3.jpg" width="600" height="600" alt="a scan of a black and white photo showing a woman holding a SAG-AFTRA on Strike placard, she has her side view of her face turned to the camera and she looks serious">
+<img src="/img/000009-3.jpg" width="600" height="600" alt="a scan of a black and white photo showing a woman holding a SAG-AFTRA on Strike placard, she has her side view of her face turned to the camera and she looks serious">
 
 Placards.
 
-<img src="/photos/uploads/000008-4.jpg" width="600" height="600" alt="a scan of a black and white photo showing a gathering of people outside SF City Hall holding signs supporting the strike. In the background, half the photo has a scene of the field and Bill Graham auditorium building and a steam geyser with steam coming out of the road">
+<img src="/img/000008-4.jpg" width="600" height="600" alt="a scan of a black and white photo showing a gathering of people outside SF City Hall holding signs supporting the strike. In the background, half the photo has a scene of the field and Bill Graham auditorium building and a steam geyser with steam coming out of the road">
 
 It was a good crowd.
 
-<img src="/photos/uploads/000006.jpg" width="600" height="600" alt="a scan of a black and white photo showing a woman holding a handmade sign written on a piece of ruled paper that says A(cting) I(ndividuals) Against AI">
+<img src="/img/000006.jpg" width="600" height="600" alt="a scan of a black and white photo showing a woman holding a handmade sign written on a piece of ruled paper that says A(cting) I(ndividuals) Against AI">
 
 All kinds of signs!
 
-<img src="/photos/uploads/000008-5.jpg" width="600" height="600" alt="a scan of a black and white photo showing a placard that says PSL (a socialist party), injury to one is an injury to all next to a SAG-AFTRA sign">
+<img src="/img/000008-5.jpg" width="600" height="600" alt="a scan of a black and white photo showing a placard that says PSL (a socialist party), injury to one is an injury to all next to a SAG-AFTRA sign">
 
 All of our workplace rights today were won through similar collective actions in the past. 
 

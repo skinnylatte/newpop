@@ -16,23 +16,23 @@ So the idea that one can simply leave your city and find another one, is a way o
 
 I spend some of my days in Alameda, a town accessible from San Francisco by ferry. Some people take the ferry to work. I've always found it quaint. It feels like the kind of small town America you might see on TV. I don't really see elements of this lifestyle (or urban setting) where I live in San Francisco. Some times, it's just nice to be able to be briefly away from what you know. 
 
-<img src="/photos/uploads/20230917-alameda-birding-nikonos-kodak5222-rodinal-010-positive.jpg" width="600" height="425" alt="a scan of a black and white photo showing people standing on a wooden boardwalk looking at birds">
+<img src="/img/20230917-alameda-birding-nikonos-kodak5222-rodinal-010-positive.jpg" width="600" height="425" alt="a scan of a black and white photo showing people standing on a wooden boardwalk looking at birds">
 
 Birding at Elsie Roemer bird sanctuary.
 
-<img src="/photos/uploads/20230917-alameda-birding-nikonos-kodak5222-rodinal-013-positive.jpg" width="600" height="410" alt="a scan of a black and white photo showing a beach hut on a beach in Alameda, California">
+<img src="/img/20230917-alameda-birding-nikonos-kodak5222-rodinal-013-positive.jpg" width="600" height="410" alt="a scan of a black and white photo showing a beach hut on a beach in Alameda, California">
 
 Don't be deceived: beaches in Northern California look gorgeous, but the water is much too cold!
 
-<img src="/photos/uploads/20230917-alameda-birding-nikonos-kodak5222-rodinal-016-positive.jpg" width="600" height="407" alt="a scan of a black and white photo showing stone textures on pillars on a building">
+<img src="/img/20230917-alameda-birding-nikonos-kodak5222-rodinal-016-positive.jpg" width="600" height="407" alt="a scan of a black and white photo showing stone textures on pillars on a building">
 
 Textures.
 
-<img src="/photos/uploads/20230917-alameda-birding-nikonos-kodak5222-rodinal-021-positive.jpg" width="600" height="438" alt="a scan of a black and white photo showing an old school home with a car covered with a sheet outside, the sheet has a clear outline of a retro style car.">
+<img src="/img/20230917-alameda-birding-nikonos-kodak5222-rodinal-021-positive.jpg" width="600" height="438" alt="a scan of a black and white photo showing an old school home with a car covered with a sheet outside, the sheet has a clear outline of a retro style car.">
 
 Retro cars and homes.
 
-<img src="/photos/uploads/20230917-alameda-birding-nikonos-kodak5222-rodinal-005-positive.jpg" width="600" height="406" alt="a scan of a black and white photo showing some blocky apartments lined with cars outside">
+<img src="/img/20230917-alameda-birding-nikonos-kodak5222-rodinal-005-positive.jpg" width="600" height="406" alt="a scan of a black and white photo showing some blocky apartments lined with cars outside">
 
 Shoreline apartments.
 

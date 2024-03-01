@@ -20,23 +20,23 @@ I also recently came into the possession of a Nikonos V. The seller was very apo
 
 As someone who enjoys manual metering, I am not afraid of film cameras without batteries and meters. The camera is perfect on land as well as in water. I quite like the heft of it: I think it will be my standard biking and camping camera. I have no worries at all about rolling into a pile of dirt, or falling into water. The 35mm f2.5 lens it came with is also very capable.
 
-<img src="/photos/uploads/dac661ce52.jpg" width="600" height="393" alt="A scan of a color photograph of two women looking at San Francisco ferry building as a ferry pulls away from the harbor" />
+<img src="/img/dac661ce52.jpg" width="600" height="393" alt="A scan of a color photograph of two women looking at San Francisco ferry building as a ferry pulls away from the harbor" />
 
 *View of San Francisco from the ferry.*
 
-<img src="/photos/uploads/0a51782335.jpg" width="600" height="393" alt="A scan of a color photograph of a man on a ferry, wearing a yellow jacket looking at Alcatraz in the distance" />
+<img src="/img/0a51782335.jpg" width="600" height="393" alt="A scan of a color photograph of a man on a ferry, wearing a yellow jacket looking at Alcatraz in the distance" />
 
 *A person looking at Alcatraz from the ferry.*
 
-<img src="/photos/uploads/495df449b2.jpg" width="600" height="406" alt="A scan of a color photograph of a group of people boating near the Bay Bridge" />
+<img src="/img/495df449b2.jpg" width="600" height="406" alt="A scan of a color photograph of a group of people boating near the Bay Bridge" />
 
 *People on a boat near the Bay Bridge.*
 
-<img src="/photos/uploads/41198dd307.jpg" width="600" height="393" alt="A scan of a color photograph of a ferry causing large waves in the water. View from the deck" />
+<img src="/img/41198dd307.jpg" width="600" height="393" alt="A scan of a color photograph of a ferry causing large waves in the water. View from the deck" />
 
 *On the Larkspur ferry, the bike holding area is on the deck, which makes it fun and easy to look at the view while also being able to keep an eye on your bike.*
 
-<img src="/photos/uploads/e9442612cc.jpg" width="600" height="396" alt="A scan of a color photograph of a group of Falungong activists protesting China at the Ferry Building in San Francisco" />
+<img src="/img/e9442612cc.jpg" width="600" height="396" alt="A scan of a color photograph of a group of Falungong activists protesting China at the Ferry Building in San Francisco" />
 
 *There was a large Falungong rally at the Ferry Building in San Francisco on that day. The Nikonos IV is a capable land documentary camera as well as underwater camera, too.*
 

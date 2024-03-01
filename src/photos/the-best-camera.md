@@ -12,19 +12,19 @@ tags:
 ---
 I have been an avid enthusiast of phone photography and videos even before iPhones arrived in the world. To that end, I still chuckle when I think about how in the mid 00s, I not only took cool photos that I still love today, using a Nokia N73, one of them even went on the front page of Flickr for a while!
 
- <img src="/photos/uploads/12a70186e0.jpg" width="600" height="450" alt="a color photo of a cow standing on a pile of limestone rocks. Blue skies in the background" />
+ <img src="/img/12a70186e0.jpg" width="600" height="450" alt="a color photo of a cow standing on a pile of limestone rocks. Blue skies in the background" />
 
 A photograph of a cow on a pile of limestone. Cherrapunjee, India.
  
-<img src="/photos/uploads/ccf65fcab1.jpg" width="600" height="450" alt="a color photo of a kiln in a limestone mining area in India" />
+<img src="/img/ccf65fcab1.jpg" width="600" height="450" alt="a color photo of a kiln in a limestone mining area in India" />
 
 A photograph of a limestone kiln in Cherrapunjee, India.
 
-<img src="/photos/uploads/d3b141e064.jpg" width="600" height="400" alt="a color photo of a sign that reads, Cherrapunjee, wettest place in the world" />
+<img src="/img/d3b141e064.jpg" width="600" height="400" alt="a color photo of a sign that reads, Cherrapunjee, wettest place in the world" />
 
 A sign that greets you as you enter Cherrapunjee.
 
-<img src="/photos/uploads/5ecb1940d0.jpg" width="600" height="450" alt="a screenshot of a browser showing the cow photo on flickr.com's front page in the early 2000s" />
+<img src="/img/5ecb1940d0.jpg" width="600" height="450" alt="a screenshot of a browser showing the cow photo on flickr.com's front page in the early 2000s" />
 
 I had to take a screenshot.
 

@@ -12,15 +12,15 @@ I find myself spending more and more time in SF and Oakland Chinatowns. I love C
 
 When I see old Chinese people staring at food in windows, I'm assured that that, too, is in my future. I mean I already stare at food in windows, especially in Chinatown, but I am looking forward to many more years of doing that.
 
-<img src="/photos/uploads/20231019-20231019-campmather-sf-leicam3-fuji400-029-positive.jpg" width="600" height="409" alt="a scan of a color photo showing a Chinese man holding up a piece of cloth over the exterior of a building">
+<img src="/img/20231019-20231019-campmather-sf-leicam3-fuji400-029-positive.jpg" width="600" height="409" alt="a scan of a color photo showing a Chinese man holding up a piece of cloth over the exterior of a building">
 
 A walk around Chinatown.
 
-<img src="/photos/uploads/20231019-20231019-campmather-sf-leicam3-fuji400-022-positive.jpg" width="600" height="407" alt="a scan of a color photo showing an old Chinese man looking into the window of a Chinese restaurant version 1">
+<img src="/img/20231019-20231019-campmather-sf-leicam3-fuji400-022-positive.jpg" width="600" height="407" alt="a scan of a color photo showing an old Chinese man looking into the window of a Chinese restaurant version 1">
 
 Abundant delicious foods.
 
-<img src="/photos/uploads/20231019-20231019-campmather-sf-leicam3-fuji400-020-positive.jpg" width="600" height="419" alt="a scan of a color photo showing an old Chinese man looking into the window of a Chinese restaurant version 2">
+<img src="/img/20231019-20231019-campmather-sf-leicam3-fuji400-020-positive.jpg" width="600" height="419" alt="a scan of a color photo showing an old Chinese man looking into the window of a Chinese restaurant version 2">
 
 Chinese delis look like this. [This is a great spot, by the way](https://maps.app.goo.gl/n8gVGjhvXC67wBRA6). The chicken wings by the pound are great value.
 

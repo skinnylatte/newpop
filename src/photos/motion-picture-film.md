@@ -16,19 +16,19 @@ This was from the first roll of Kodak Vision 3 250D that I developed. I used bak
 
 So I will keep shooting motion picture film and keep developing them. 
 
-<img src="/photos/uploads/0b8a1bc589.jpg" width="600" height="410" alt="a scan of a color photograph that shows a poster that says I Love You California with a bear on it, in a bookstore in San Francisco" />
+<img src="/img/0b8a1bc589.jpg" width="600" height="410" alt="a scan of a color photograph that shows a poster that says I Love You California with a bear on it, in a bookstore in San Francisco" />
 
 I love you too, California, San Francisco, and Green Apple books.
 
-<img src="/photos/uploads/87b85a6555.jpg" width="600" height="410" alt="a scan of a color photograph that shows a night time scene of a couple looking through the windows of a donut shop" />
+<img src="/img/87b85a6555.jpg" width="600" height="410" alt="a scan of a color photograph that shows a night time scene of a couple looking through the windows of a donut shop" />
 
 Bob's donuts. A landmark of San Francisco.
 
-<img src="/photos/uploads/c29ed64b63.jpg" width="600" height="411" alt="a scan of a color photograph that shows colorful donuts through a glass window" />
+<img src="/img/c29ed64b63.jpg" width="600" height="411" alt="a scan of a color photograph that shows colorful donuts through a glass window" />
 
 Donuts donuts donuts.
 
-<img src="/photos/uploads/b7d94f39b1.jpg" width="600" height="401" alt="a scan of a color photograph that shows a spoof of a mona lisa image at an art gallery. the mona lisa here is wearing modern clothing. the film negative has scratches across the entire frame" />
+<img src="/img/b7d94f39b1.jpg" width="600" height="401" alt="a scan of a color photograph that shows a spoof of a mona lisa image at an art gallery. the mona lisa here is wearing modern clothing. the film negative has scratches across the entire frame" />
 
 Mona Lisa, modernism, and scratches across the negative.
 

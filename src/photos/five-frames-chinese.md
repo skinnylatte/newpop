@@ -16,23 +16,23 @@ You'll find signs of faith everywhere you go. Outside local 'coffee shops' (kopi
 
 From my archives, some photos of how faith is professed in black and white. First photo is a film photograph, the rest are digital (some kind of Sony Nex camera from 2012).
 
-<img src="/photos/uploads/0cf9778982.jpg" width="600" height="401" alt="A black and white photo of a Taoist altar" />
+<img src="/img/0cf9778982.jpg" width="600" height="401" alt="A black and white photo of a Taoist altar" />
 
 <p>The ground floor of a public housing building is used for weddings and funerals. Here, a scan of a film photograph taken with a Leica M3. The Chinese characters are a call to prosperity.</p>
 
-<img src="/photos/uploads/7e186b237a.jpg" width="600" height="326" alt="A black and white photo of an altar of Chinese gods" />
+<img src="/img/7e186b237a.jpg" width="600" height="326" alt="A black and white photo of an altar of Chinese gods" />
 
 <p>Even in downtown Duxton Hill, hipster central in the middle of the Central Business District, you can see altars everywhere if you look. They tend to be hidden away.</p>
 
-<img src="/photos/uploads/f0d66bc434.jpg" width="600" height="336" alt="A black and white photo of an altar of Chinese gods part 2" />
+<img src="/img/f0d66bc434.jpg" width="600" height="336" alt="A black and white photo of an altar of Chinese gods part 2" />
 
 <p>There are different hierarchies of Taoist gods. The ones on the street tend to be lower ranking, and serve different functions from the 'higher class' gods.</p>
 
-<img src="/photos/uploads/0adc462865.jpg" width="600" height="600" alt="Black and white photo of two women singing on stage" />
+<img src="/img/0adc462865.jpg" width="600" height="600" alt="Black and white photo of two women singing on stage" />
 
 <p>At big Taoist festivals, like the Hungry Ghost Festival, we have traditional singers on stage. Many traditional Chinese arts are deeply entrenched in Taoist practices; or is it that Taoist practitioners tend to be the keeprs of many traditional Chinese rituals and arts.</p>
 
-<img src="/photos/uploads/38c10ddce9.jpg" width="600" height="336" alt="A black and white photo of a close up of Chinese gods" />
+<img src="/img/38c10ddce9.jpg" width="600" height="336" alt="A black and white photo of a close up of Chinese gods" />
 
 <p>A close up of a Taoist altar with various deities.</p>
 

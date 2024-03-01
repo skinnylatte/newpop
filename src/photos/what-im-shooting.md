@@ -13,7 +13,7 @@ I started out in film photography in 2003 using a little Nikon F-601, and to man
 
 Built like a tank, this thing will outlive me, I’m sure of it. 
 
-<img src="/photos/uploads/4790a912a9.jpg" alt="A black and white photo of a Nikon F3HP SLR camera" />
+<img src="/img/4790a912a9.jpg" alt="A black and white photo of a Nikon F3HP SLR camera" />
 
 The mirror slap of an SLR feels a bit anachronistic at this point. I simply haven’t used a camera with a mirror in years. 
 

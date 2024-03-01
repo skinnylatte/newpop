@@ -18,6 +18,6 @@ Before I do that, I'd like to start at the beginning.
 
 17 years ago: this was me in a different place and time. With the same old hobby. Let's see what it all looks like when I pick up where I last left off, shall we?
 
-<img src="/photos/uploads/71f447e5d7.jpg" width="600" height="397" alt="A person taking a photo of themselves in a mirror, holding a retro Yashica Electro 35 camera">
+<img src="/img/71f447e5d7.jpg" width="600" height="397" alt="A person taking a photo of themselves in a mirror, holding a retro Yashica Electro 35 camera">
 
 _A selfie with a Yashica Electro 35, a camera I loved but sold a long time ago._

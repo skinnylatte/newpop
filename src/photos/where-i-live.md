@@ -14,6 +14,6 @@ I'm especially interested in the less gentrified bits of it that remain. A few s
 
 Sometimes, I admire the old department store signs for shops long gone, in buildings still vacant and abandoned. I like grit, real people, and greasy tacos. I like these parts of the Mission.
 
-<img src="/photos/uploads/4b29249c27.jpg" width="600" height="397" alt="A color photograph of a street scene in the Mission district, San Francisco, with a large sign that says Bruno's and a few people standing in front of a heavily graffitied wall" />
+<img src="/img/4b29249c27.jpg" width="600" height="397" alt="A color photograph of a street scene in the Mission district, San Francisco, with a large sign that says Bruno's and a few people standing in front of a heavily graffitied wall" />
 
 _Photo taken on Leica M3 with 50mm Summilux, Kodacolor 200, processed by Underdog Film Lab in Oakland and lightly edited by me for color and contrast._

@@ -14,19 +14,19 @@ I used to be a creature of the night, but no longer. I used to be out all the ti
 
 Here are some shots on Kentmere 400, pushed to 800 in Ilfosol 3 (1:9). I really like the combination of this film and this camera, and my self dev setup at home these days. Scanned on Noritsu LS-600.
 
-<img src="/photos/uploads/12baa863e9.jpg" width="600" height="397" alt="a scan of a black and white photo showing an outdoor garden dining space with space heaters" />
+<img src="/img/12baa863e9.jpg" width="600" height="397" alt="a scan of a black and white photo showing an outdoor garden dining space with space heaters" />
 
 The outdoor space at Blue Plate is quite lovely. So is the key lime pie there.
 
-<img src="/photos/uploads/122a2a3b79.jpg" width="600" height="397" alt="a scan of a black and white photo showing the neon symbols that are the sign of a bar in the Outer Mission" />
+<img src="/img/122a2a3b79.jpg" width="600" height="397" alt="a scan of a black and white photo showing the neon symbols that are the sign of a bar in the Outer Mission" />
 
 I love neon signs. I also love that I was professionally involved in getting these 'parklets' up early pandemic: my team at [sf.gov](https://sf.gov) helped get a joint permitting process out quickly to help businesses move their business outdoors.
 
-<img src="/photos/uploads/b5c01adeb7.jpg" width="600" height="398" alt="a scan of a black and white photo showing the retro sign of the Mission cinema" />
+<img src="/img/b5c01adeb7.jpg" width="600" height="398" alt="a scan of a black and white photo showing the retro sign of the Mission cinema" />
 
 Alamo Drafthouse in the Mission.
 
-<img src="/photos/uploads/a6c7fbfc1b.jpg" width="600" height="397" alt="a scan of a black and white photo showing a few people ordering tacos from a street taco vendor" />
+<img src="/img/a6c7fbfc1b.jpg" width="600" height="397" alt="a scan of a black and white photo showing a few people ordering tacos from a street taco vendor" />
 
 Street tacos are the best tacos. There was a lot of light from one side from the street lamps, but I quite enjoy the effect it casts on the photo.
 

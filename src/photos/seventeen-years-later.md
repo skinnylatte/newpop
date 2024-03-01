@@ -18,7 +18,7 @@ In many ways, my photography journey is indistinguishable from my journey throug
 
 *First year of college*
 
-<img src="/photos/uploads/5ba5cb7142.jpg" width="600" height="450" alt="a woman standing in a tropical island taking a photograph of the trees and sandy path" />
+<img src="/img/5ba5cb7142.jpg" width="600" height="450" alt="a woman standing in a tropical island taking a photograph of the trees and sandy path" />
 
 My first camera was a Nikon F-601. I brought it with me to Koh Chang, a beautiful island in northeast Thailand.
 
@@ -32,13 +32,13 @@ All I knew was that I did not want to be sucked in to the corporate rat race in 
 
 *All through college*
 
-<img src="/photos/uploads/3af798d04f.jpg" width="600" height="397" alt="a person photographing a buddha at a thai temple" />
+<img src="/img/3af798d04f.jpg" width="600" height="397" alt="a person photographing a buddha at a thai temple" />
 
 I kept returning to Thailand. Often with friends, sometimes alone. It was my place of peace and happiness. I had a friend who let me stay with him in Bangkok (RIP Dave! I will always be grateful that we became friends the time and the way that we did). It was also a hub: eventually I started taking on assignments for magazines and newspapers, and being located in Thailand (during my college summer vacation) was perfect. I could get on a $80 flight to India, or take a bus or motorbike to Cambodia, or go meet someone and work with them in Vietnam relatively easily. 
 
 ### Singapore, mid early 2000s
 
-<img src="/photos/uploads/e275a5ff35.jpg" width="600" height="397" alt="a person taking a photo in the mirror in an old fashioned changing room" />
+<img src="/img/e275a5ff35.jpg" width="600" height="397" alt="a person taking a photo in the mirror in an old fashioned changing room" />
 
 When I was home (I actually had full time college to complete, though it often did not feel like it), I sought out exciting things to do. Growing up, I often heard people say 'Singapore is boring' or 'there's nothing to do here' (even from people who were from there), but I refused to believe that was true.
 
@@ -50,7 +50,7 @@ My university wanted me to do an internship at a bank, and I balked. I fought to
 
 *Last year of college*
 
-<img src="/photos/uploads/e0d2486d7b.jpg" width="600" height="401" alt="a black and white photograph of a person taking a photo of themselves in the mirror in Melaka, Malaysia" />
+<img src="/img/e0d2486d7b.jpg" width="600" height="401" alt="a black and white photograph of a person taking a photo of themselves in the mirror in Melaka, Malaysia" />
 
 In my last year of college, I fell in love with a woman who lived 250 miles north of me. We [met sometimes in the middle](https://micro.popagandhi.com/2023/01/29/roadtrips-and-chicken.html). I knew my life was about to change: big time. I guess this photo was a tentative record of that moment. Shortly after, we moved even further away. She moved 8000 kilometres west, and I also moved halfway there. Years later, we would finally live in the same country, the one originally pictured here. We had [such an](https://micro.popagandhi.com/2023/02/14/hari-gawai-some.html) [adventurous life together](https://youtube.com/fortylovetv/videos). I got to see a lot of the world with her, and I got to do many things in this period of my life. We started companies, we made software, we made food, we had a dog. [A dog that's still very much a part of my life today](https://instagram.com/CookieSeniorCav).
 
@@ -58,7 +58,7 @@ In my last year of college, I fell in love with a woman who lived 250 miles nort
 
 *Present day*
 
-<img src="/photos/uploads/c82b7f8361.jpg" width="600" height="397" alt="a color photograph of a queer couple taking a photo in a mirror with a film camera in San Francisco in a gala-like setting with formal attire" />
+<img src="/img/c82b7f8361.jpg" width="600" height="397" alt="a color photograph of a queer couple taking a photo in a mirror with a film camera in San Francisco in a gala-like setting with formal attire" />
 
 I never thought I would move to America. It wasn't my dream, the way it was for so many people. But life brought us here. Specifically, my marriage brought me here. We needed a place to live that was going to be more... [amenable to our lives](https://popagandhi.com/posts/2021-05-21-schrodingers-lesbian/).
 

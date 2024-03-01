@@ -8,7 +8,7 @@ tags:
   - tenderloin
 layout: post.njk
 ---
-<img src="/photos/uploads/3de6eb70c5.jpg" width="600" height="397" alt="a color photograph of the insides of a Vietnamese Chinese restaurant in San Francisco, with Chinese words on the banner" />
+<img src="/img/3de6eb70c5.jpg" width="600" height="397" alt="a color photograph of the insides of a Vietnamese Chinese restaurant in San Francisco, with Chinese words on the banner" />
 
 *Rollei QZ 35T, Ektar 100, developed and scanned by Underdog Film Lab in Oakland.*
 

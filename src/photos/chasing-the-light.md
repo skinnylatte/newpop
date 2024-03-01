@@ -17,15 +17,15 @@ Going out for a run or walk daily has been the only thing that's worked to help 
 
 I see many beautiful things, because San Francisco is beautiful, and being outside in the beauty restores me.
 
-<img src="/photos/uploads/20231207-olympusxa2-fuji400-bellini-runningmissiontl-0012-edit-positive.jpg" width="600" height="408" alt="a scan of a color photo of the golden gate bridge on a sunny day">
+<img src="/img/20231207-olympusxa2-fuji400-bellini-runningmissiontl-0012-edit-positive.jpg" width="600" height="408" alt="a scan of a color photo of the golden gate bridge on a sunny day">
 
 *Sunny, windy days.*
 
-<img src="/photos/uploads/20231207-olympusxa2-fuji400-bellini-runningmissiontl-0006-positive.jpg" width="600" height="405" alt="a scan of a color photo of fort mason in san francisco with a farmers market and a view of the bridge in the background">
+<img src="/img/20231207-olympusxa2-fuji400-bellini-runningmissiontl-0006-positive.jpg" width="600" height="405" alt="a scan of a color photo of fort mason in san francisco with a farmers market and a view of the bridge in the background">
 
 *Market days at Fort Mason.*
 
-<img src="/photos/uploads/20231207-olympusxa2-fuji400-bellini-runningmissiontl-0011-positive.jpg" width="600" height="408" alt="a scan of a color photo of a cyclist biking through fort mason in san francisco with a fluorescent jacket. in the background, the golden gate bridge is slightly obscured">
+<img src="/img/20231207-olympusxa2-fuji400-bellini-runningmissiontl-0011-positive.jpg" width="600" height="408" alt="a scan of a color photo of a cyclist biking through fort mason in san francisco with a fluorescent jacket. in the background, the golden gate bridge is slightly obscured">
 
 *Overcast but still lovely days.*
 

@@ -14,15 +14,15 @@ Well, I live there. By choice. I won't downplay the issues we face here: the liv
 
 Personally, I enjoy this neighborhood's diversity and density. I have never lived somewhere less dense; the TL was literally the only place in the city that felt like home (in terms of taller buildings, and no of people). I don't do well in the suburbs. I struggle mentally and emotionally with the suburbs. I am happy being among people. And buildings. And great food.
 
-<img src="/photos/uploads/f2d3b995b7.jpg" width="600" height="398" alt="a scan of a black and white photograph of a person crossing a street in front of UC Law in San Francisco Civic Center" />
+<img src="/img/f2d3b995b7.jpg" width="600" height="398" alt="a scan of a black and white photograph of a person crossing a street in front of UC Law in San Francisco Civic Center" />
 
 Sun set in the Civic Center area of San Francisco
 
-<img src="/photos/uploads/13a34da159.jpg" width="600" height="397" alt="a scan of a black and white photograph of a hotel neon sign in Civic Center San Francisco" />
+<img src="/img/13a34da159.jpg" width="600" height="397" alt="a scan of a black and white photograph of a hotel neon sign in Civic Center San Francisco" />
 
 This part of the city is full of historical hotels like these. Some of these are now student housing, others are homeless support housing. Others are still rented out by the day. The conditions are not always acceptable.
 
-<img src="/photos/uploads/78be7daeef.jpg" width="600" height="397" alt="a scan of a black and white photograph of a person walking down a street in downtown San Francisco, there are streaks of light around the film negative scan" />
+<img src="/img/78be7daeef.jpg" width="600" height="397" alt="a scan of a black and white photograph of a person walking down a street in downtown San Francisco, there are streaks of light around the film negative scan" />
 
 I have never lived too far from transit. So being in this neighborhood is great because I can go anywhere by transit, if I am not biking. Light streaks and dust on negatives on this frame, but I quite like the character it imparts.
 

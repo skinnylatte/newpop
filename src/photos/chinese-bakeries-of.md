@@ -10,7 +10,7 @@ tags:
   - chinese
   - bakery
 ---
-<img src="/photos/uploads/fd9c4d0cee.jpg" width="600" height="397" alt="a color photograph of a chinese bakery in san francisco, sign reads Mee Mee bakery" />
+<img src="/img/fd9c4d0cee.jpg" width="600" height="397" alt="a color photograph of a chinese bakery in san francisco, sign reads Mee Mee bakery" />
 
 *Photo taken on Leica M3, 50mm Summilux, Ektar 100. Developed and scanned by The Darkroom.*
 

@@ -14,23 +14,23 @@ The last time I was home in Singapore, I did one of my favorite alone activities
 
 It was also mango season. 
 
-<img src="/photos/uploads/r0006634.jpg" width="600" height="399" alt="a color photo of mangoes">
+<img src="/img/r0006634.jpg" width="600" height="399" alt="a color photo of mangoes">
 
 Mango season is my favorite season. And when that happens, I prefer to be in India or Singapore. ([More on mangoes here](https://buttondown.email/skinnylatte/archive/mango-madness/))
 
-<img src="/photos/uploads/r0006638.jpg" width="600" height="399" alt="a color photo of some jasmine flowers for the temple">
+<img src="/img/r0006638.jpg" width="600" height="399" alt="a color photo of some jasmine flowers for the temple">
 
 The smell of jasmine flowers tells me there are devotees and a temple nearby. It also smells of home.
 
-<img src="/photos/uploads/r0006653.jpg" width="600" height="399" alt="a color photograph of a part of Mustafa Centre">
+<img src="/img/r0006653.jpg" width="600" height="399" alt="a color photograph of a part of Mustafa Centre">
 
 Mustafa Centre. How do I even describe how much I love it?
 
-<img src="/photos/uploads/r0006636.jpg" width="600" height="399" alt="a color photo of a sign that says cold craft Indian beer">
+<img src="/img/r0006636.jpg" width="600" height="399" alt="a color photo of a sign that says cold craft Indian beer">
 
 I would have loved this, if I was still into booze.
 
-<img src="/photos/uploads/r0006639.jpg" width="600" height="399" alt="a color photograph of a tailor on the street mending some clothes">
+<img src="/img/r0006639.jpg" width="600" height="399" alt="a color photograph of a tailor on the street mending some clothes">
 
 I've always loved this neighborhood the most because of all of the street life.
 

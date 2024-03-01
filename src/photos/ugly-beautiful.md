@@ -18,23 +18,23 @@ I took the day off to decompress. This situation came hot on the heels of some c
 
 I got coffee, met friends and family for dim sum, pet many dogs. I looked at the bay; I breathed in and out. While the city's beauty cannot make up for some of the ugliness that one experiences as a result of bigotry, I am reminded of how, on balance, I have had a largely good time here; I have experienced a lot of love and support, especially at moments like these; and I have the space to participate in activism to push back precisely on this sort of thing.
 
-<img src="/photos/uploads/eec3c89a1e.jpg" width="600" height="403" alt="a scan of a black and white photo showing a coffee menu at a San Francisco cafe" />
+<img src="/img/eec3c89a1e.jpg" width="600" height="403" alt="a scan of a black and white photo showing a coffee menu at a San Francisco cafe" />
 
 Delicious coffee at [Home](https://goo.gl/maps/1GbYrGBUhJ8duPQa7).
 
-<img src="/photos/uploads/54320b257a.jpg" width="600" height="403" alt="a scan of a black and white photo showing two cartoon characters at a playground hugging and holding a Hula Hoop" />
+<img src="/img/54320b257a.jpg" width="600" height="403" alt="a scan of a black and white photo showing two cartoon characters at a playground hugging and holding a Hula Hoop" />
 
 Playgrounds for the children in my neighborhood.
 
-<img src="/photos/uploads/309c6cdefd.jpg" width="600" height="408" alt="a scan of a black and white photo showing a vintage sign in English and Chinese characters mentioning audio video repair services" />
+<img src="/img/309c6cdefd.jpg" width="600" height="408" alt="a scan of a black and white photo showing a vintage sign in English and Chinese characters mentioning audio video repair services" />
 
 Vintage signs in Chinatown.
 
-<img src="/photos/uploads/e8f73a494f.jpg" width="600" height="405" alt="a scan of a black and white photo showing a large dog trying to sit on his owner at a street side cafe" />
+<img src="/img/e8f73a494f.jpg" width="600" height="405" alt="a scan of a black and white photo showing a large dog trying to sit on his owner at a street side cafe" />
 
 Saw many gorgeous dogs on a gorgeous day.
 
-<img src="/photos/uploads/816f69778a.jpg" width="600" height="404" alt="a scan of a black and white photo showing a neon sign that says You're Already One Of Us" />
+<img src="/img/816f69778a.jpg" width="600" height="404" alt="a scan of a black and white photo showing a neon sign that says You're Already One Of Us" />
 
 And many relevant signs.
 

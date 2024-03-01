@@ -17,15 +17,15 @@ Funny story: I was so mad at how my last few rolls of film turned out that I sto
 
 Some Santa-related photos from the last couple of weeks. I think this was Kodacolor 200, but I can never remember.
 
-<img src="/photos/uploads/8b112e623a.png" width="600" height="397" alt="A Santa figurine on a glass display full of cakes" />
+<img src="/img/8b112e623a.png" width="600" height="397" alt="A Santa figurine on a glass display full of cakes" />
 
 A Santa figurine inside a Thai dessert and coffee shop in San Francisco's Tenderloin neighborhood.
 
-<img src="/photos/uploads/eaa0e51e86.png" width="600" height="397" alt="A Santa figurine reading a book" />
+<img src="/img/eaa0e51e86.png" width="600" height="397" alt="A Santa figurine reading a book" />
 
 A Santa figurine reading a book outside a bar in San Francisco's Polk Street.
 
-<img src="/photos/uploads/80f2061e08.png" width="600" height="397" alt="A Santa blow up hovering outside the second floor window of a club in San Francisco" />
+<img src="/img/80f2061e08.png" width="600" height="397" alt="A Santa blow up hovering outside the second floor window of a club in San Francisco" />
 
 A Santa blow up outside a club in San Francisco.
 

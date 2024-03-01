@@ -10,7 +10,7 @@ tags:
   - fairy
   - events
 ---
-<img src="/photos/uploads/2bf77aee59.jpg" width="600" height="397" alt="a scan of a color photograph showing a beautiful woman dressed as a fairy, blowing bubbles at the camera, in a ballroom-like setting filled with people wearing formal attire" />
+<img src="/img/2bf77aee59.jpg" width="600" height="397" alt="a scan of a color photograph showing a beautiful woman dressed as a fairy, blowing bubbles at the camera, in a ballroom-like setting filled with people wearing formal attire" />
 
 *Photo taken on Minolta Hi-Matic 7S II, Fuji Superia 400, developed and scanned at Underdog Film Lab, Oakland*
 

@@ -20,27 +20,27 @@ Shooting motion picture film is an interesting premise for a film stills photogr
 
 Also, it never fails to amuse me that people think San Francisco is a really modern-looking big city: to me, it's a small town trapped in time, where buildings and entire neighborhoods (except the downtown area) look more or less the same as it did when hippies were running around naked in these areas.
 
-<img src="/photos/uploads/8b3f6d0b76.jpg" width="600" height="396" alt="a scan of a color photograph of a set of colorful garage doors in San Francisco with shades of brown red and light blue. Looks very retro. A sign says No Parking at any time" />
+<img src="/img/8b3f6d0b76.jpg" width="600" height="396" alt="a scan of a color photograph of a set of colorful garage doors in San Francisco with shades of brown red and light blue. Looks very retro. A sign says No Parking at any time" />
 
 *No parking at any time.*
 
-<img src="/photos/uploads/1c2c773349.jpg" width="600" height="396" alt="a scan of a color photograph of  a church in San Francisco that is painted blue set against a blue sky at dusk with pink hue and white clouds"/>
+<img src="/img/1c2c773349.jpg" width="600" height="396" alt="a scan of a color photograph of  a church in San Francisco that is painted blue set against a blue sky at dusk with pink hue and white clouds"/>
 
 *A church in blue and pink and cloud.*
 
-<img src="/photos/uploads/2cc0b6811d.jpg" width="600" height="396" alt="a scan of a color photograph of  the stairs and front doors of a Victorian house in San Francisco that is mostly blue. A few numbers say 881 and 883" />
+<img src="/img/2cc0b6811d.jpg" width="600" height="396" alt="a scan of a color photograph of  the stairs and front doors of a Victorian house in San Francisco that is mostly blue. A few numbers say 881 and 883" />
 
 *Victorians in this neighborhood seem to like blue and white a lot.*
 
-<img src="/photos/uploads/02d3c32f94.jpg" width="600" height="396" alt="a scan of a color photograph of  the stairs and front doors of a yellow purple and blue Victorian house in San Francisco that has a purple lion on the stoop near its columns" />
+<img src="/img/02d3c32f94.jpg" width="600" height="396" alt="a scan of a color photograph of  the stairs and front doors of a yellow purple and blue Victorian house in San Francisco that has a purple lion on the stoop near its columns" />
 
 *And purple.*
 
-<img src="/photos/uploads/24e3a23045.jpg" width="600" height="396" alt="a scan of a color photograph of a neighborhood in Cole Valley San Francisco where the Victorian houses are mostly blue and there is a retro white car parked on the street" />
+<img src="/img/24e3a23045.jpg" width="600" height="396" alt="a scan of a color photograph of a neighborhood in Cole Valley San Francisco where the Victorian houses are mostly blue and there is a retro white car parked on the street" />
 
 *Retro blues.*
 
-<img src="/photos/uploads/f778ca4f18.jpg" width="600" height="396" alt="a scan of a color photograph of a pink and blue Victorian building on a street in San Francisco with two cars parked in front of it, and a yellow building next to it" />
+<img src="/img/f778ca4f18.jpg" width="600" height="396" alt="a scan of a color photograph of a pink and blue Victorian building on a street in San Francisco with two cars parked in front of it, and a yellow building next to it" />
 
 *Pink and yellow.*
 

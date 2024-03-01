@@ -24,23 +24,23 @@ Indeed, that was the vibe of the whole place. On the evenings we were there, adu
 
 Overall, I'm a fan. 
 
-<img src="/photos/uploads/000007-6.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of the Yosemite peaks from tunnel view, showing the peaks in the background and some trees in the foreground">
+<img src="/img/000007-6.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of the Yosemite peaks from tunnel view, showing the peaks in the background and some trees in the foreground">
 
 View of the famous Yosemite peaks from Tunnel View.
 
-<img src="/photos/uploads/000011.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is a butterfly-like insect on a plant">
+<img src="/img/000011.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is a butterfly-like insect on a plant">
 
 Going out to spend time in nature is just a wondrous gift.
 
-<img src="/photos/uploads/000006-2.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of a wooden cabin with the number 96 in the foreground, and trees in the background">
+<img src="/img/000006-2.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of a wooden cabin with the number 96 in the foreground, and trees in the background">
 
 Our little cabin that was home for a few nights.
 
-<img src="/photos/uploads/000004.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of a bench set among some trees and cabins">
+<img src="/img/000004.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of a bench set among some trees and cabins">
 
 Every cabin has a bench like this in front of it. It's a good place to have a snack or just sit, as the cabin doesn't have much of a seating area.
 
-<img src="/photos/uploads/000005.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of a waterfall in yosemite">
+<img src="/img/000005.jpg" width="600" height="600" alt="a scan of a color negative of a medium format photo. photo is of a waterfall in yosemite">
 
 Yosemite in the summer is extremely crowded. If you only have a day you might only be able to see the car-accessible spots in and around Yosemite Valley. But it is still wonderful. This is a photo of Lower Yosemite Falls. Not pictured: the hundreds of people below it.
 

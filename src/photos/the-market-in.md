@@ -17,6 +17,6 @@ My mother and I went to spend a week here together once (she also likes adventur
 
 We went to the market every day for fresh soy milk and *you tiao*. It's a memory I will cherish, and I think I have my mum to thank for why I am really interested in people, adventure, food and stories.
 
-<img src="/photos/uploads/6b6cf1805f.jpg" width="600" height="399" alt="A woman in a rural Thai market standing in front of a camera while others do business in the background" />
+<img src="/img/6b6cf1805f.jpg" width="600" height="399" alt="A woman in a rural Thai market standing in front of a camera while others do business in the background" />
 
 I love the wet markets of Asia, especially in Thailand. There's always so much to see, so much to eat.

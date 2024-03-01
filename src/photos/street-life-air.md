@@ -15,6 +15,6 @@ One of my strongest memories of KL: getting out of the overnight train at the ol
 
 This photograph was probably taken in 2005 with a Yashica Electro 35. I can't wait to go back there and have it again.
 
-<img src="/photos/uploads/fbe5d9c402.jpg" width="600" height="411" alt="A color photograph of a person standing in front of a Malaysian beverage stall with signs on it" />
+<img src="/img/fbe5d9c402.jpg" width="600" height="411" alt="A color photograph of a person standing in front of a Malaysian beverage stall with signs on it" />
 
 Longans are now popular in the west as a sugar alternative: 'monkfruit' sweetener is popular with fitness types. I like the fruity fleshy taste of longan, or 'luo han guo', in a traditionally made beverage like this. To this day, I haven't found a better version than this stall, though nostalgia is a drug.

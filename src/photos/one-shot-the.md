@@ -19,6 +19,6 @@ I had a wonderful trip to the Farallon islands just off San Francisco. We got on
 
 If you ever visit, it's well worth trying to join a trip to the Farallons. We had a good time with [Alvaro's group](https://www.alvarosadventures.com/how-to-pick-a-pelagic-trip.html), where we had some scientists onboard including a scientist who was previously stationed at the Farallon Islands himself, so he had a lot to share. Remember to pack the Dramamine, though. 
 
-<img src="/photos/uploads/bb163fff38.jpg" width="600" height="399" alt="Dozens of penguins sitting on a huge rock, next to sea lions. Overhead, a bird flies past. Some gulls too." />
+<img src="/img/bb163fff38.jpg" width="600" height="399" alt="Dozens of penguins sitting on a huge rock, next to sea lions. Overhead, a bird flies past. Some gulls too." />
 
 The scientists told us about how colonialism led to the decline of many birds in the area, but that conservation efforts of the past decades are starting to help them flourish again.

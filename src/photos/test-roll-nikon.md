@@ -12,6 +12,6 @@ As I [previously mentioned](https://popagandhi.com/2023/01/01/what-im-shooting.h
 
 Here's a test shot at dusk with Fuji Superia 400 film, handheld: I like it a lot. I'm going to take it out for a few more rolls.
 
-<img src="/photos/uploads/db56d191f5.jpg" width="600" height="397" alt="A close up photo of a retro sign that says King Kong Billiards with a large arrow" />
+<img src="/img/db56d191f5.jpg" width="600" height="397" alt="A close up photo of a retro sign that says King Kong Billiards with a large arrow" />
 
 *Nikon L35TWAD point and shoot camera, Fuji Superia 400, developed at Underdog Film Lab in Oakland.*

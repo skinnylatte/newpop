@@ -18,23 +18,23 @@ Every Easter, Thanksgiving and Christmas, the organization puts out a massive ev
 
 I was very impressed with the values that the organizers imparted to the volunteers. Treat everyone with respect, seat them at the table, provide table service, make sure that people have what they need and that they go home with things that will help.
 
-<img src="/photos/uploads/9f601f2a5a.jpg" width="600" height="404" alt="a scan of a color photograph showing a sign on a tree that says Line This Way" />
+<img src="/img/9f601f2a5a.jpg" width="600" height="404" alt="a scan of a color photograph showing a sign on a tree that says Line This Way" />
 
 The line started on the street, on Geary and Franklin.
 
-<img src="/photos/uploads/e7aee000fa.jpg" width="600" height="410" alt="a scan of a color photograph showing a sign that says Free Haircuts" />
+<img src="/img/e7aee000fa.jpg" width="600" height="410" alt="a scan of a color photograph showing a sign that says Free Haircuts" />
 
 There were also free haircuts to be had.
 
-<img src="/photos/uploads/b01a48b846.jpg" width="600" height="409" alt="a scan of a color photograph showing  a volunteer managing some tables with free clothing" />
+<img src="/img/b01a48b846.jpg" width="600" height="409" alt="a scan of a color photograph showing  a volunteer managing some tables with free clothing" />
 
 There was also free clothing, very neatly organized by gender and size.
 
-<img src="/photos/uploads/dac22fd7c8.jpg" width="600" height="410" alt="a scan of a color photograph showing some tables and chairs in an indoor church setting" />
+<img src="/img/dac22fd7c8.jpg" width="600" height="410" alt="a scan of a color photograph showing some tables and chairs in an indoor church setting" />
 
 The venue was wonderful and light-filled.
 
-<img src="/photos/uploads/2843453d36.jpg" width="600" height="404" alt="a scan of a color photograph showing many gift bags on a table" />
+<img src="/img/2843453d36.jpg" width="600" height="404" alt="a scan of a color photograph showing many gift bags on a table" />
 
 We also handed out gift bags with some essential items.
 

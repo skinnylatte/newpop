@@ -13,7 +13,7 @@ I've been keeping a 'creative notebook' for the better part of the year. I was t
 
 Here are some things I wrote in my creative notebook about the three main things I worked on this year in my practice: taking photos, playing alto sax, and learning darkroom as well as inkjet printing.
 
-<img src="/photos/uploads/20230823-kodakportra400-leica-castro-020-positive-square.jpg" width="600" height="600" alt="a scan of a color photo of a colorful bridge in the Castro in San Francisco in a cropped square format">
+<img src="/img/20230823-kodakportra400-leica-castro-020-positive-square.jpg" width="600" height="600" alt="a scan of a color photo of a colorful bridge in the Castro in San Francisco in a cropped square format">
 
 Bridge at Dolores Park, San Francisco. (Leica M3, Kodak 250D).
 
@@ -37,7 +37,7 @@ Bridge at Dolores Park, San Francisco. (Leica M3, Kodak 250D).
 
 ## Learning to play jazz
 
-<img src="/photos/uploads/20231123-minoltahimatic7sii-tmax400-perceptol-12-031-positive.jpg" width="600" height="408" alt="a scan of a black and white photo of Charles Unger, a saxophone jazz player in San Francisco, playing a horn">
+<img src="/img/20231123-minoltahimatic7sii-tmax400-perceptol-12-031-positive.jpg" width="600" height="408" alt="a scan of a black and white photo of Charles Unger, a saxophone jazz player in San Francisco, playing a horn">
 
 Charles Unger of the Charles Unger Experience trying out my Yamaha alto sax. (Minolta Hi-Matic 7S II, Kodak T-Max 400, Perceptol 1:2).
 
@@ -62,7 +62,7 @@ I think I got to do all of that, and have greatly improved my improv skills but 
 
 ## Learning to print (darkroom and inkjet)
 
-<img src="/photos/uploads/000010-7-positive.jpg" width="600" height="600" alt="a scan of a black and white photo of a bride coming out of San Francisco City Hall">
+<img src="/img/000010-7-positive.jpg" width="600" height="600" alt="a scan of a black and white photo of a bride coming out of San Francisco City Hall">
 
 Bride at San Francisco City Hall. (Yashica Mat 124G, Kodak T-Max 400, Rodinal 1:50)
 

@@ -17,15 +17,15 @@ Part of the reason I shoot film and develop it myself is really to learn, and yo
 
 Anyway, some photos from Drag Up, Fight Back rally: all photos shot on Fuji GW690II, some kind of Portra (400?), developed in Cinestill C41 kit, and scanned on an Imacon Flextight 848 scanner.
 
-<img src="/photos/uploads/91b93b0d81.jpg" width="600" height="405" alt="a scan of a color photo showing showing a person wearing an amazing costume with a very dramatic hair set" />
+<img src="/img/91b93b0d81.jpg" width="600" height="405" alt="a scan of a color photo showing showing a person wearing an amazing costume with a very dramatic hair set" />
 
-<img src="/photos/uploads/53fe6056b7.jpg" width="600" height="396" alt="a scan of a color photo showing people marching together at a trans rally" />
+<img src="/img/53fe6056b7.jpg" width="600" height="396" alt="a scan of a color photo showing people marching together at a trans rally" />
 
-<img src="/photos/uploads/b940ce4c58.jpg" width="600" height="396" alt="a scan of a color photo of a person holding a sign that says Drag it out in the open" />
+<img src="/img/b940ce4c58.jpg" width="600" height="396" alt="a scan of a color photo of a person holding a sign that says Drag it out in the open" />
 
-<img src="/photos/uploads/2b38eec731.jpg" width="600" height="411" alt="a scan of a color photo of a person holding a sign about an anti trans law that a Republican in California is trying to pass" />
+<img src="/img/2b38eec731.jpg" width="600" height="411" alt="a scan of a color photo of a person holding a sign about an anti trans law that a Republican in California is trying to pass" />
 
-<img src="/photos/uploads/ae28cccc60.jpg" width="600" height="422" alt="a scan of a color photo of a sign that says Ban Hate Not Drag Queens" />
+<img src="/img/ae28cccc60.jpg" width="600" height="422" alt="a scan of a color photo of a sign that says Ban Hate Not Drag Queens" />
 
 
 

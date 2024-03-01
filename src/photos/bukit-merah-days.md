@@ -19,23 +19,23 @@ The nice thing about a hawker centre is that it's usually attached to a wet and 
 
 While I don't relish waking up at 6 in the morning when I'm on vacation, food, and family is worth it: and in this part of the world, food and family is one and the same.
 
-<img src="/photos/uploads/000007-2-positive.jpg" width="600" height="606" alt="A scan of a medium format square color photo of an older Chinese lady wearing a face mask and tending a store in a market in Singapore">
+<img src="/img/000007-2-positive.jpg" width="600" height="606" alt="A scan of a medium format square color photo of an older Chinese lady wearing a face mask and tending a store in a market in Singapore">
 
 Purveyor of soy sauces, chilli pastes and dried goods in Bukit Merah View market.
 
-<img src="/photos/uploads/000006-positive.jpg" width="600" height="609" alt="A scan of a medium format square color photo of an older Chinese lady wearing a face mask standing at a stall in Singapore looking at dried goods to purchase">
+<img src="/img/000006-positive.jpg" width="600" height="609" alt="A scan of a medium format square color photo of an older Chinese lady wearing a face mask standing at a stall in Singapore looking at dried goods to purchase">
 
 Carrying a retro TLR camera around my neck was fun. Many older people in Singapore looked at it, wide-eyed, and told me that they used to love their Seagull or Yashica cameras too.
 
-<img src="/photos/uploads/000010-2-positive.jpg" width="600" height="602" alt="A scan of a medium format square color photo of two older Chinese people eating noodles with chopsticks">
+<img src="/img/000010-2-positive.jpg" width="600" height="602" alt="A scan of a medium format square color photo of two older Chinese people eating noodles with chopsticks">
 
 Breakfast with my parents.
 
-<img src="/photos/uploads/000015-2-positive.jpg" width="600" height="609" alt="4. A scan of a medium format square color photo of a wanton noodle stall in Singapore that says Yong Chun wanton noodles">
+<img src="/img/000015-2-positive.jpg" width="600" height="609" alt="4. A scan of a medium format square color photo of a wanton noodle stall in Singapore that says Yong Chun wanton noodles">
 
 My distant relatives' [simple, but very good, wanton noodles](https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/yong-chun-wan-ton-noodle). If you're expecting KL style lardy savory wanton noodles, you will be disappointed: this is a basic Cantonese Singaporean style plain wanton noodles with bouncy noodles and good, basic ingredients. 
 
-<img src="/photos/uploads/000004-positive.jpg" width="600" height="605" alt="A scan of a medium format square color photo of a wet market in Singapore with tall buildings behind it"> 
+<img src="/img/000004-positive.jpg" width="600" height="605" alt="A scan of a medium format square color photo of a wet market in Singapore with tall buildings behind it"> 
 
 View of the wet market in Singapore with tall public housing behind it.
 

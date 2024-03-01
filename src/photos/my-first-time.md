@@ -4,7 +4,7 @@ title: "My First Time in Myanmar"
 date: 2023-02-16
 tags: ['photos', 'travel', 'myanmar']
 ---
-<img src="/photos/uploads/332101159b.jpg" width="600" height="336" alt="a color photograph of a person taking a photo for a local couple in a Burmese bus station" />
+<img src="/img/332101159b.jpg" width="600" height="336" alt="a color photograph of a person taking a photo for a local couple in a Burmese bus station" />
 
 *Photo taken on Sony Nex-5 in 2012.*
 

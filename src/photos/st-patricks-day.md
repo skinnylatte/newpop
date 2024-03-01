@@ -19,15 +19,15 @@ While walking to a black and white film development class, I came upon the St Pa
 
 It took some more time to scan. I am still figuring out my dev and scan workflow, and will keep trying different things until I find something I feel I can stick with. 
 
-<img src="/photos/uploads/66d1385d7b.jpg" width="600" height="405" alt="a scan of a black and white photograph of the mayor of cork, ireland, in a car in San Francisco's St Patrick's Day parade" />
+<img src="/img/66d1385d7b.jpg" width="600" height="405" alt="a scan of a black and white photograph of the mayor of cork, ireland, in a car in San Francisco's St Patrick's Day parade" />
 
 The mayor of Cork, Ireland, was visiting San Francisco and took part in the 2023 St Patrick's Day parade.
 
-<img src="/photos/uploads/8b9613e6f3.jpg" width="600" height="396" alt="a scan of a black and white photograph of a group of people participating in the St Patrick's Day parade in San Francisco" />
+<img src="/img/8b9613e6f3.jpg" width="600" height="396" alt="a scan of a black and white photograph of a group of people participating in the St Patrick's Day parade in San Francisco" />
 
 Many people participated, in spite of the weather (the 10th or 11th atmospheric river event in San Francisco!)
 
-<img src="/photos/uploads/c226a6b7e5.jpg" width="600" height="395" alt="a scan of a black and white photograph of a bus that says Galway Association of San Francisco with people in it, and a person walking alongside the bus with a poncho" />
+<img src="/img/c226a6b7e5.jpg" width="600" height="395" alt="a scan of a black and white photograph of a bus that says Galway Association of San Francisco with people in it, and a person walking alongside the bus with a poncho" />
 
 Rain or shine.
 

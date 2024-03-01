@@ -10,4 +10,4 @@ At the time, I made some videos of my trip. You can see me talk about [spending 
 
 You hear about the hospitality of that part of the world but you never truly understand it until you've been a guest. Then it's a memory that you'll never lose.
  
-<img src="/photos/uploads/a1f7ebf7b5.jpg" width="600" height="399" alt="a black and white photo of a street scene in the middle east with a lot of street life in front of some shops" />
+<img src="/img/a1f7ebf7b5.jpg" width="600" height="399" alt="a black and white photo of a street scene in the middle east with a lot of street life in front of some shops" />

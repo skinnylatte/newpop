@@ -9,7 +9,7 @@ tags:
   - rollei
 
 ---
-<img src="/photos/uploads/fc9cef070a.jpg" width="600" height="397" alt="A color photograph of a Chinese restaurant with Chinese text on the windows, and an Asian couple walking in front of it" />
+<img src="/img/fc9cef070a.jpg" width="600" height="397" alt="A color photograph of a Chinese restaurant with Chinese text on the windows, and an Asian couple walking in front of it" />
 
 *Photo taken on Rollei QZ 35T, Ektar 100, developed and scanned by Underdog Film Lab.*
 

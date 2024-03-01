@@ -19,11 +19,11 @@ I don't photograph nature or landscapes very much, so am very out of my depth he
 
 In 2023, I am far more into being outdoors in nature than I was at the time. I will take more photos of the Californian outdoors shortly.
 
-<img src="/photos/uploads/797e6db271.jpg" width="600" height="896" alt="A black and white photo of water rushing through Taroko Gorge in Taiwan" />
+<img src="/img/797e6db271.jpg" width="600" height="896" alt="A black and white photo of water rushing through Taroko Gorge in Taiwan" />
 
 Taroko Gorge from the top.
 
-<img src="/photos/uploads/224b188eab.jpg" width="600" height="896" alt="A black and white photo of rocks and sand in Taroko Gorge in Taiwan" />
+<img src="/img/224b188eab.jpg" width="600" height="896" alt="A black and white photo of rocks and sand in Taroko Gorge in Taiwan" />
 
 Water enters the gorge from the Liwu river.
 

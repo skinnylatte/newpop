@@ -21,19 +21,19 @@ I had a reasonably charmed life as a privileged Dubai expat with a powerful pass
 
 Still, I got to see so much and do so much, all at the age of 22.
 
-<img src="/photos/uploads/586bc9e61d.jpg" width="600" height="399" alt="a digital photograph of a time lapse scene of Sheikh Zayed Road in Dubai with lots of construction and lights" />
+<img src="/img/586bc9e61d.jpg" width="600" height="399" alt="a digital photograph of a time lapse scene of Sheikh Zayed Road in Dubai with lots of construction and lights" />
 
 I lived and worked in one of the newer parts of Dubai near Media City that were still under active construction. It was a weird time. There was no train then, and sometimes literally no roads to cycle on. In hindsight, I should have lived in the old city, which I much preferred for culture and food and people. That part of Dubai was, at that time, very alienating if you were not the right type of expat.
 
-<img src="/photos/uploads/53e8871c65.jpg" width="600" height="400" alt="a digital photograph of a night sky in a desert" />
+<img src="/img/53e8871c65.jpg" width="600" height="400" alt="a digital photograph of a night sky in a desert" />
 
 I tagged along on a camping trip to Oman one weekend with a bunch of architects. It was beautiful, but I don't know if I'll recommend peeing in the desert for women (it steams your butt).
 
-<img src="/photos/uploads/493eaa2270.jpg" width="600" height="400" alt="a digital photograph of a few camels in the desert" />
+<img src="/img/493eaa2270.jpg" width="600" height="400" alt="a digital photograph of a few camels in the desert" />
 
 I LOVE CAMELS. Always have, always will.
 
-<img src="/photos/uploads/a6149f9905.jpg" width="600" height="900" alt="a digital black and white photograph of some South Asian workers waiting to board a bus in Dubai" />
+<img src="/img/a6149f9905.jpg" width="600" height="900" alt="a digital black and white photograph of some South Asian workers waiting to board a bus in Dubai" />
 
 Dubai, like Singapore, is a cleaned city: cleaned by other people. Also built by other people. The reliance of these city states on foreign labor, especially from South Asia, and the propensity to severely mistreat them with poor labor practices and living conditions, is appalling. Being there opened my eyes to similar practices back home in Singapore and Malaysia. Later, I would work in migrant worker advocacy in those countries.
 

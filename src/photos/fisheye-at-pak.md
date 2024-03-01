@@ -7,7 +7,7 @@ tags:
   - travel
   - laos
 ---
-<img src="/photos/uploads/d727b7e9a3.jpg" width="600" height="401" alt="a scan of a color photograph shot with a fish eye lens showing the river and boats outside a buddhist cave in Laos in Southeast Asia" />
+<img src="/img/d727b7e9a3.jpg" width="600" height="401" alt="a scan of a color photograph shot with a fish eye lens showing the river and boats outside a buddhist cave in Laos in Southeast Asia" />
 
 *I had the good sense to have brought a toy camera then, since I was concerned about my nicer cameras falling into the river. No such concern for my own physical safety... Holga fisheye, probably.*
 
