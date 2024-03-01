@@ -44,7 +44,7 @@ Then early last year, the bike—along with all the bikes in my building—disap
 
 A few things gave me hope:
 
-- I was encouraged to [post about the stolen bike and its description on BikeIndex](https://groups.google.com/g/rbw-owners-bunch)
+- I was encouraged to [post about the stolen bike and its description on BikeIndex](https://bikeindex.org/bikes/1542915)
 - I also posted on the [RBW Owners Bunch mailing list](https://groups.google.com/g/rbw-owners-bunch)
 - I posted it widely on Craigslist, Instagram, Twitter, Reddit (/r/BABike) and elsewhere
 
