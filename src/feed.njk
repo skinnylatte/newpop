@@ -1,13 +1,13 @@
 ---
 # Metadata comes from _data/metadata.json
-permalink: "{{ metadata.feed.path }}"
+permalink: "feed.xml"
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
+  <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>  
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.feedposts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>

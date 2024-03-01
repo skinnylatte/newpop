@@ -1,11 +1,12 @@
 {
-  "feed": {
-    "subtitle": "long form essays, recipes by adrianna tan",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "url": "https://staging.popagandhi.com/feed/feed.xml",
-    "id": "https://staging.popagandhi.com/",
-    "authorName": "Adrianna Tan",
-    "authorEmail": "adrianna@jefritan.com"
-  }
+	"name": "Popagandhi",
+	"path": "https://popagandhi.com/feed.xml",
+	"url": "https://popagandhi.com/",
+	"language": "en",
+	"permalink": "feed.xml",
+	"siteTitle": "Popagandhi",
+	"authorName": "Adrianna Tan",
+	"authorEmail": "adrianna@jefritan.com",
+	"authorUrl": "https://popagandhi.com/about",
+	"subtitle": "long form essays, photos, recipes and other interests by adrianna tan"
 }

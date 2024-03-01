@@ -1,6 +1,14 @@
 // Import prior to `module.exports` within `.eleventy.js`
 const { DateTime } = require("luxon");
 
+// 11ty img plugin
+
+const Image = require("@11ty/eleventy-img");
+
+// html base plugin
+
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
 // adding markdown filters
 const markdownIt = require("markdown-it");
 
@@ -59,10 +67,15 @@ const pluginRss = require("@11ty/eleventy-plugin-rss")
 // requiring collections js
 const collections = require("./collections.js");
 
+// all configs
 
 module.exports = function (eleventyConfig) {
+  // add html base plugin
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
   // add rss
   eleventyConfig.addPlugin(pluginRss);
+
 
 	// markdown options
 	let options = {
@@ -73,6 +86,7 @@ module.exports = function (eleventyConfig) {
 
   //  anchor links on content
   eleventyConfig.setLibrary("md", markdownLibrary);
+
 
 	// passthrough info
 
