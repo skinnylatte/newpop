@@ -38,7 +38,7 @@ Here was the build that we planned together:
 | chain             | 9 speed in stock                                                              |
 
 
-After a few arduous months, it was finally done. I rode it, happily, for many months.
+After a few arduous months, it was finally done. I rode it, happily, for many months. I even [went on a YouTube show with it](https://www.youtube.com/watch?v=j7BRqpyroBQ).
 
 Then early last year, the bike—along with all the bikes in my building—disappeared. My Tesla-driving neighbor had apparently left the garage door wide open, which led to someone coming in and grabbing every bike within sight. I was inconsolable, of course.
 
