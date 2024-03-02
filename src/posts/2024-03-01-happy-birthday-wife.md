@@ -10,7 +10,7 @@ When my wife Sabrena and I first got together in early 2017, she said I was her 
 
 You must understand, at that time I was a bit of a _fuckboi_ and two months was a very long time for someone like me. I had no idea where I was going to be, who I was going to be with, or what I was going to do even two days ahead of time. Happily, things worked out: we have been together for seven years, and married for six of that.
 
-![A scan of a black and white film photo of a woman wearing a very distinctive top, who is smiling at an event](/img/sabrenabirthday.jpg "a photo of a beautiful woman wearing a very distinctive top. the photo is black and white and shot on film") 
+<img src="/img/sabrenabirthday.jpg" alt="a photo of a beautiful woman wearing a very distinctive top. the photo is black and white and shot on film" width="400">
 
 _Happy birthday to the love of my life!_
 
