@@ -10,7 +10,7 @@ tags:
 layout: post.njk
 ---
 
-1. In 2023, [I got to explore a whole year of creativity](/2023/12/06/learning-seeing-hearing.html), namely in film photography, photographic darkroom printing, piano and saxophone-playing, and drawing
+1. In 2023, [I got to explore a whole year of creativity](/photos/learning-seeing-hearing/), namely in film photography, photographic darkroom printing, piano and saxophone-playing, and drawing
 2. Film photography felt like an old friend I was coming back to: I was already shooting film 20 years ago, but dropped off for the digital world
 3. In moving to San Francisco, I also found a community of film photography experts and enthusiasts around whom I could build a creative practice
 4. It's much easier to continue pursuing a hobby when there are events to attend, people to share, and spaces to go to for it
