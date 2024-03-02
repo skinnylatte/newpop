@@ -137,7 +137,7 @@ module.exports = function (eleventyConfig) {
 	// create a custom collection for feed post
 
 	eleventyConfig.addCollection("feedposts", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["./src/posts/*.md", "./src/photos/*.md"]);
+		return collectionApi.getFilteredByGlob(["./src/posts/*.md", "./src/photos/*.md", "./src/food/*.md", "./src/bikes/*.md"]);
 	});
 
 
