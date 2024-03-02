@@ -1,8 +1,7 @@
 ---
 layout: post.njk
-title: "A Walk Around a Wet Market in Taiping, Malaysia"
-date: 2023-03-15T20:23:50-0800
-lastmod: 2023-03-15T20:24:14-0800
+title: A Walk Around a Wet Market in Taiping, Malaysia
+date: 2023-03-15
 tags: 
   - photos
   - travel
