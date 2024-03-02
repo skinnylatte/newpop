@@ -133,7 +133,7 @@
 
 
 .add-blogroll {
-	background-color: #EF3054;
+	background-color: #AE0A2B;
 	border-radius: 15px;
 	display: inline-block;
 	padding: 15px;
@@ -143,12 +143,12 @@
 }
 
 .aside h2 {
-	color: #EF3054;
+	color: #AE0A2B;
 }
 
 .aside a {
 	text-decoration: none;
-	color: #8C7051;
+	color: #1B2F33;
 }
 
 .add-blogroll a {
@@ -213,4 +213,3 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
-
