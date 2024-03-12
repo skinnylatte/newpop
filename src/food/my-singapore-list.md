@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: Singapore Top Ten
-date: 2024-03-07
+title: My Singapore List
+date: 2024-03-12
 tags:
   - food
   - singapore
@@ -62,5 +62,14 @@ If the list is too overwhelming, literally go to any of these hawker centres and
 8. [Bukit Merah View](https://maps.app.goo.gl/wss42DFRzJBXJKY37) (breakfast)
 9. [East Coast Lagoon](https://maps.app.goo.gl/7Si1oEXdn1C63rTf7) (good for supper, and 'on the way to and from the airport' meals as it's very close to the airport). Nice outdoor hawker centre that is probably the hawker centre to go to if you want a jovial, outdoor exotic hawker centre feel, especially if you've never been to one. Most of the stalls are quite good
 10. [Tiong Bahru market](https://maps.app.goo.gl/WRb7BqfwN1oPU22J9) (good for breakfast). Very popular foodie-ish hawker centre.
+
+
+### Best spots for vegetarians and vegans
+
+1. [New Fut Kai](https://maps.app.goo.gl/ddA6zqtHT9wX6fUY8) for veg versions of things like laksa and other 'Chinese Singaporean' foods
+2. [Whole Earth](https://maps.app.goo.gl/HJhAhgSMEUjgHHmh9) for a delightful veg version of Singaporean / Chinese / Thai / Malaysian food
+3. [VeganBurg](https://maps.app.goo.gl/eMfcxNPm9x7xKXkS9): Veganburg started right here! I love the vegan chilli crab burger
+4. [Herbivore](https://maps.app.goo.gl/zSkYpYe2K5tXzehF6): really good Japanese veg food especially for veg yakitori
+5. Almost all Indian places in Little India will have vegetarian options, but especially [Murugan Idli](https://maps.app.goo.gl/NaRubbbyL2St2UAw5) and [Mavalli Tiffin Room](https://maps.app.goo.gl/5PLGWMEZLcN4h6WBA) and [Gokul](https://maps.app.goo.gl/9oKwBjq138yMpZYK9) and [Kailash Parbat](https://maps.app.goo.gl/zQ7NLBfuroKwEWzk8)
 
 There's more I want to post on this topic, especially the great regional Indian, regional Chinese and other foods you can get in Singapore, but this is a good starter list just for food somewhat unique to Singapore (and Malaysia).
