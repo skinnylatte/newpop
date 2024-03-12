@@ -12,8 +12,6 @@ tags:
 
 Food is extremely subjective, and in Singapore it's a national pastime and passion. The following lists are based on _my tastes_. Other people may disagree, and you may want to do further research based on your own dietary preferences. 
 
-This list is based on _my taste_ as a middle aged Chinese Singaporean person who has traveled the world, loves hyper-local food but also bougie food, and I may have some blind spots or things I don't know, even though I have written articles and books about Singapore food.
-
 If you're from Singapore, resist the urge to tell me I missed your faves: I'm prioritizing picks that I think tourists will find more accessible. I don't expect anyone to travel to _my corner of the woods_ to find the best of something. 
 
 (Or, get this list in one single [Google Maps list](https://maps.app.goo.gl/zepw5NsyvRByLiZQ6))
