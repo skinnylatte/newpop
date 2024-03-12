@@ -1,6 +1,9 @@
 // Import prior to `module.exports` within `.eleventy.js`
 const { DateTime } = require("luxon");
 
+// add syntax highlighting 
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 // 11ty img plugin
 
 const Image = require("@11ty/eleventy-img");
@@ -70,6 +73,9 @@ const collections = require("./collections.js");
 // all configs
 
 module.exports = function (eleventyConfig) {
+  // add syntax highlighting
+eleventyConfig.addPlugin(syntaxHighlight);
+
   // add html base plugin
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
