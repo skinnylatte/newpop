@@ -30,7 +30,7 @@ The people who say 'Walgreens' even when you've stated that you're not in Americ
 
 Other people had fun ideas too.
 
-- 'when I talk about wanting to read a bok and someone tells me to get it at my local library. but there are no local libraries where i live'
+- 'when I talk about wanting to read a book and someone tells me to get it at my local library. but there are no local libraries where i live'
 - 'that Pi Day is 3/14 and only in America'
 
 Personally, I was really surprised when I encountered a very educated person here who had no idea that other countries used other currencies, and that other countries used other electrical outlets. They had never seen an electrical adapter before.
