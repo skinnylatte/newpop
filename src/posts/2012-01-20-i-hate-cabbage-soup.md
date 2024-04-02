@@ -8,7 +8,7 @@ tags:
     - life
     - singapore
     - blog
-date: "2012-01-20T20:49:32Z"
+date: 2012-01-20T20:49:32Z
 title: I Hate Cabbage Soup
 ---
 

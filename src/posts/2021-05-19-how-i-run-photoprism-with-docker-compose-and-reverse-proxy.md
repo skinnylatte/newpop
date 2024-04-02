@@ -35,7 +35,7 @@ To be honest, while I know my way around servers I don't have a lot of experienc
 
 When my Google Takeout is complete, I rclone to download from OneDrive into my server.
 
-```
+```bash
 rclone copy onedrive: servername:/home/username/destination -P
 ```
 
@@ -43,7 +43,7 @@ For a 200GB backup of my Google Photos, Takeout gave me 4 files that were 50GB e
 
 I then unpacked all of the files into a single folder:
 
-```
+```bash
 cat *.tgz | tar zxvf - -i
 ```
 

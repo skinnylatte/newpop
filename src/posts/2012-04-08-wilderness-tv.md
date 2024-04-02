@@ -9,7 +9,7 @@ tags:
   - camping
   - bikes
   - blog
-date: "2012-04-08T05:27:49Z"
+date: 2012-04-08T05:27:49Z
 title: Wilderness TV
 ---
 

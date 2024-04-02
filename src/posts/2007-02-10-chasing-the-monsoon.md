@@ -8,7 +8,7 @@ tags:
   - blog
   - bestof
   - monsoon
-date: "2007-02-10T05:55:38Z"
+date: 2007-02-10T05:55:38Z
 title: Chasing the Monsoon
 ---
 

@@ -6,7 +6,7 @@ tags:
   - blog 
   - indonesia
   - bestof
-date: "2008-09-14T12:12:04Z"
+date: 2008-09-14
 title: Peanut Butter, This What?
 ---
 

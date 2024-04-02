@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-01-12T13:26:57Z"
+date: 2014-01-12T13:26:57Z
 title: Back in the SL
 tags:
     - travel

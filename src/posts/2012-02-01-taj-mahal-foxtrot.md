@@ -6,7 +6,7 @@ tags:
   - delhi
   - blog
   - travel
-date: "2012-02-01T01:48:52Z"
+date: 2012-02-01T01:48:52Z
 title: Taj Mahal Foxtrot
 ---
 

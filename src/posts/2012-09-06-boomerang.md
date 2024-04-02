@@ -7,7 +7,7 @@ tags:
   - travel
   - hungary
   - culturekitchen
-date: "2012-09-06T06:19:02Z"
+date: 2012-09-06T06:19:02Z
 title: Boomerang
 ---
 

@@ -7,7 +7,7 @@ tags:
   - indonesia
   - travel
   - bestof
-date: "2016-04-27T21:24:58Z"
+date: 2016-04-27T21:24:58Z
 title: In Small Rooms with Betawi Women
 
 ---

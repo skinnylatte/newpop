@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-02-03T01:18:47Z"
+date: 2014-02-03T01:18:47Z
 title: An Indian Decade
 tags:
   - travel

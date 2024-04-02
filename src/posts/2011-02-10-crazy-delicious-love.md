@@ -7,7 +7,7 @@ tags:
   - malaysia
   - thelastpolka
   - lifeandlove
-date: "2011-02-10T01:32:15Z"
+date: 2011-02-10T01:32:15Z
 title: Crazy, Delicious Love
 ---
 

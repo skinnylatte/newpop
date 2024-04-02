@@ -1,5 +1,5 @@
 ---
-date: "2014-01-14T18:35:44Z"
+date: 2014-01-14T18:35:44Z
 title: Strange Damascus Memories
 tags:
     - travel

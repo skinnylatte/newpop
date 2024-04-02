@@ -5,7 +5,7 @@ tags:
   - blog
   - philippines
   - writingelsewhere
-date: "2011-04-13T22:01:52Z"
+date: 2011-04-13T22:01:52Z
 title: Private Islands for Everyone
 ---
 

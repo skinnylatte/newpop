@@ -8,7 +8,7 @@ tags:
   - gravesdisease
   - illness
   - thyroid
-date: "2012-06-22T01:39:36Z"
+date: 2012-06-22T01:39:36Z
 title: The Places We'll Go
 ---
 

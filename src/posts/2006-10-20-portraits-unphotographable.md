@@ -7,7 +7,7 @@ tags:
   - india
   - trains
   - bestof
-date: "2006-10-20T12:19:14Z"
+date: 2006-10-20T12:19:14Z
 title: Portraits Unphotographable
 ---
 

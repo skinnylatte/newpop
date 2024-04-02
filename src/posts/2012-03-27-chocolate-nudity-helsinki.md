@@ -5,7 +5,7 @@ tags:
   - travel 
   - finland
   - helsinki
-date: "2012-03-27T16:42:02Z"
+date: 2012-03-27T16:42:02Z
 title: Chocolate, Nudity, Helsinki
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2006-08-28T05:49:56Z"
+date: 2006-08-28T05:49:56Z
 title: Amar Shonar Bangla
 tags:
   - blog

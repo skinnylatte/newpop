@@ -4,7 +4,7 @@ tags:
   - love
   - birthday
   - blog
-date: "2016-10-10T18:15:53Z"
+date: 2016-10-10T18:15:53Z
 title: What 31 Feels Like
 description: "Discovering that birthdays in your 30s are rather different."
 layout: post.njk

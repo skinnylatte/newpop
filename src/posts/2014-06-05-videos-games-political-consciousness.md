@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-06-05T13:02:12Z"
+date: 2014-06-05T13:02:12Z
 title: Videos Games & Political Consciousness
 description: "As a politics and video games nerd, I was glad to be asked to write this article for a journal. Some quotes, and the link to the story."
 tags:

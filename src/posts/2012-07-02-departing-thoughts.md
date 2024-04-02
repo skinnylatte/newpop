@@ -7,7 +7,7 @@ tags:
   - thyroid
   - illness
   - breakups
-date: "2012-07-02T00:39:59Z"
+date: 2012-07-02T00:39:59Z
 title: Departing Thoughts
 ---
 

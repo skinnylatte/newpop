@@ -4,7 +4,7 @@ tags:
   - blog
   - defunct
   - social-media
-date: "2011-09-06T16:44:41Z"
+date: 2011-09-06T16:44:41Z
 title: Is This Defunct?
 ---
 

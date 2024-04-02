@@ -6,7 +6,7 @@ tags:
   - gravesdisease
   - illness
   - blog
-date: "2012-02-20T16:23:44Z"
+date: 2012-02-20T16:23:44Z
 title: The Years of Living at High Velocity
 ---
 

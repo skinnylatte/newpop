@@ -8,7 +8,7 @@ tags:
     - lgbt
     - published
     - blog
-date: "2014-02-14T02:31:38Z"
+date: 2014-02-14T02:31:38Z
 title: The Geography of Hope
 
 ---

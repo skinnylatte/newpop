@@ -1,5 +1,5 @@
 ---
-date: "2016-11-21T18:15:53Z"
+date: 2016-11-21T18:15:53Z
 title: On The Spectrum
 description: "I found out, as an adult, that I was on the autism spectrum. That helped me make sense of the world, of why I struggled so much as a child."
 tags:

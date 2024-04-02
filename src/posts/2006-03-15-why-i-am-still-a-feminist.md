@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2006-03-15T06:06:56Z"
+date: 2006-03-15T06:06:56Z
 tags:
   - blog
   - feminism

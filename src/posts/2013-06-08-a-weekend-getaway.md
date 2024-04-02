@@ -6,7 +6,7 @@ tags:
   - travel
   - coorg
   - blog
-date: "2013-06-08T00:41:46Z"
+date: 2013-06-08T00:41:46Z
 title: A Weekend Getaway
 ---
 

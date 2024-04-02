@@ -7,7 +7,7 @@ tags:
   - friends
   - turkey
   - blog
-date: "2009-11-26T12:20:06Z"
+date: 2009-11-26T12:20:06Z
 title: You Asians Have Two Stomachs
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: "2013-11-08T12:39:31Z"
+date: 2013-11-08T12:39:31Z
 title: Blazing the Trail
 tags:
     - links

@@ -5,7 +5,7 @@ tags:
   - tech
   - startup
   - blog
-date: "2017-04-11T18:15:53Z"
+date: 2017-04-11T18:15:53Z
 title: Do What You Don't Know
 description: "Do things you don't know how to do, I like to say. At different points in life, I have had the privilege of doing just that."
 layout: post.njk

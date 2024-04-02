@@ -8,7 +8,7 @@ tags:
   - chocolate
   - cake
   - bikes
-date: "2012-05-10T14:12:26Z"
+date: 2012-05-10T14:12:26Z
 title: Did you hear the one about the Swedish chocolate cake?
 ---
 

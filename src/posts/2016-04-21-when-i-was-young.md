@@ -9,7 +9,7 @@ tags:
   - intransit
   - wobe
   - blog
-date: "2016-04-21T18:22:54Z"
+date: 2016-04-21T18:22:54Z
 title: When I Was Young
 description: "For most of the '10s I was perpetually in transit. It was more romantic on paper than it really was."
 ---

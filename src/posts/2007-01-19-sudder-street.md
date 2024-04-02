@@ -9,7 +9,7 @@ tags:
   - bengal
   - bestof
   - blog
-date: "2007-01-19T06:05:20Z"
+date: 2007-01-19T06:05:20Z
 title: Sudder Street
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-02-11T18:07:40Z"
+date: 2014-02-11T18:07:40Z
 title: Don't Lugi Be Happy
 tags:
     - life

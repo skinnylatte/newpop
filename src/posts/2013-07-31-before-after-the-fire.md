@@ -9,7 +9,7 @@ tags:
   - poem
   - poetry
   - bestof
-date: "2013-07-31T22:01:04Z"
+date: 2013-07-31T22:01:04Z
 title: Before & After The Fire
 ---
 

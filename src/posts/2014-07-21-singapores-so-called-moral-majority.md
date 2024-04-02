@@ -11,7 +11,7 @@ tags:
   - moral-minority
   - evangelical
   - exvangelical
-date: "2014-07-21T23:51:34Z"
+date: 2014-07-21T23:51:34Z
 title: Singapore's So-Called Moral Majority
 ---
 

@@ -6,7 +6,7 @@ tags:
   - bangkok
   - food
   - blog
-date: "2013-04-10T23:31:23Z"
+date: 2013-04-10T23:31:23Z
 title: The Belated Bangkok Diaries
 ---
 

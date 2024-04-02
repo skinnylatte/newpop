@@ -6,7 +6,7 @@ tags:
   - writingelsewhere
   - writing
   - blog
-date: "2011-02-13T01:27:49Z"
+date: 2011-02-13T01:27:49Z
 title: Southeast Asia for Lovers
 ---
 

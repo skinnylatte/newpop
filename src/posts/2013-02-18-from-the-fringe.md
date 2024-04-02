@@ -6,7 +6,7 @@ tags:
   - immigration
   - xenophobia
   - blog
-date: "2013-02-18T13:32:33Z"
+date: 2013-02-18T13:32:33Z
 title: From the Fringe
 ---
 

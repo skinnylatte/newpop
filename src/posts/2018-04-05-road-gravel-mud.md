@@ -1,5 +1,5 @@
 ---
-date: "2018-04-05T18:15:53Z"
+date: 2018-04-05T18:15:53Z
 title: Road, Gravel, Mud
 description: "What running a startup for a couple of years felt like. Muddy."
 tags:

@@ -8,7 +8,7 @@ tags:
   - queer
   - lifeandlove
   - queer-life
-date: "2003-01-26T06:24:10Z"
+date: 2003-01-26T06:24:10Z
 title: An Exercise of Faith
 ---
 

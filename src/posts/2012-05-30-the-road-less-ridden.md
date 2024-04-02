@@ -6,7 +6,7 @@ tags:
   - sweden
   - bikes
   - blog
-date: "2012-05-30T01:30:45Z"
+date: 2012-05-30T01:30:45Z
 title: The Road Less Ridden
 ---
 

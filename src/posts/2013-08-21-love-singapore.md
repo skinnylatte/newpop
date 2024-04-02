@@ -8,7 +8,7 @@ tags:
   - blog
   - personal
   - queer-life
-date: "2013-08-21T15:41:25Z"
+date: 2013-08-21T15:41:25Z
 title: Love, Singapore
 ---
 

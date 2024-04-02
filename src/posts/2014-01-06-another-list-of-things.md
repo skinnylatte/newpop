@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-01-06T13:35:35Z"
+date: 2014-01-06T13:35:35Z
 title: Another List of Things
 tags:
     - life

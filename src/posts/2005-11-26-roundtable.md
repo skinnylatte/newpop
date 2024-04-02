@@ -5,7 +5,7 @@ tags:
   - travel
   - blog
   - bestof
-date: "2005-11-26T05:58:31Z"
+date: 2005-11-26T05:58:31Z
 title: Roundtable
 ---
 

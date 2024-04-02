@@ -8,7 +8,7 @@ tags:
   - sex-ed
   - sex-education
   - blog
-date: "2012-07-06T03:55:31Z"
+date: 2012-07-06T03:55:31Z
 title: Five Questions on the MOE's revised SEd programme
 ---
 

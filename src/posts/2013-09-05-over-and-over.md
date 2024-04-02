@@ -8,7 +8,7 @@ tags:
   - personal
   - queer-life
   - blog
-date: "2013-09-05T18:22:10Z"
+date: 2013-09-05T18:22:10Z
 title: Over and Over
 ---
 

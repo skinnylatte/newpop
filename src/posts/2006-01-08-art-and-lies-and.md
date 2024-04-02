@@ -6,7 +6,7 @@ tags:
   - lgbtq
   - lgbt 
   - bestof
-date: "2006-01-08T06:11:10Z"
+date: 2006-01-08T06:11:10Z
 title: Art and Lies, And
 ---
 

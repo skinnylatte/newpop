@@ -6,7 +6,7 @@ tags:
   - lgbtq
   - lgbtq
   - teenager
-date: "2005-04-11T05:47:06Z"
+date: 2005-04-11T05:47:06Z
 title: Excavation
 ---
 

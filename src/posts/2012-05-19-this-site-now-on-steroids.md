@@ -4,7 +4,7 @@ tags:
   - technology
   - dev
   - blog
-date: "2012-05-19T21:54:37Z"
+date: 2012-05-19T21:54:37Z
 title: This Site, Now On Steroids
 ---
 

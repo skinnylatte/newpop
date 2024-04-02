@@ -4,7 +4,7 @@ tags:
   - singapore
   - events	
   - blog
-date: "2012-07-09T12:53:36Z"
+date: 2012-07-09T12:53:36Z
 title: "Past Forward: A Heritage Blogging and Social Media Workshop"
 ---
 

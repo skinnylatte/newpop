@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2013-11-19T18:37:28Z"
+date: 2013-11-19T18:37:28Z
 title: Living with Graves
 tags:
     - life

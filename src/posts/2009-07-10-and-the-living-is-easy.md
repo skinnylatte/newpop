@@ -9,7 +9,7 @@ tags:
   - death
   - dying
   - grief
-date: "2009-07-10T06:32:43Z"
+date: 2009-07-10T06:32:43Z
 title: And The Living is Easy
 ---
 

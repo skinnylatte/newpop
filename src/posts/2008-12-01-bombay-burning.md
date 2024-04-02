@@ -7,7 +7,7 @@ tags:
   - terrorism
   - cities
   - blog
-date: "2008-12-01T12:16:59Z"
+date: 2008-12-01T12:16:59Z
 title: Bombay Burning
 ---
 

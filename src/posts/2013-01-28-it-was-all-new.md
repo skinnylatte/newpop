@@ -7,7 +7,7 @@ tags:
   - tattoos
   - borneo
   - blog
-date: "2013-01-28T01:42:47Z"
+date: 2013-01-28T01:42:47Z
 title: It Was All New
 ---
 

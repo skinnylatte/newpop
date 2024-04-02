@@ -6,7 +6,7 @@ tags:
   - blog
   - rickshaw
   - rickshaw-challenge
-date: "2011-02-21T01:55:03Z"
+date: 2011-02-21T01:55:03Z
 title: The Great Southern Trunk Road
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2006-01-16T05:52:38Z"
+date: 2006-01-16T05:52:38Z
 tags:
   - blog
   - travel

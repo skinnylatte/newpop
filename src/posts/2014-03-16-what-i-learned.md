@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-03-16T03:18:05Z"
+date: 2014-03-16T03:18:05Z
 title: What I Learned
 tags: 
     - life

@@ -6,7 +6,7 @@ tags:
   - donation
   - downtownline
   - blog
-date: "2012-07-27T12:26:35Z"
+date: 2012-07-27T12:26:35Z
 title: '#downtownlinetragedy Donation Drive to Close Tonight'
 ---
 

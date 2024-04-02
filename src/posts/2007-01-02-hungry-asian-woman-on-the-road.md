@@ -5,7 +5,7 @@ tags:
   - blog
   - india
   - travel
-date: "2007-01-02T06:13:30Z"
+date: 2007-01-02T06:13:30Z
 title: Hungry Asian Woman On The Road
 ---
 

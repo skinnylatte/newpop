@@ -5,7 +5,7 @@ tags:
   - littleindia
   - politics
   - blog
-date: "2012-07-19T03:22:03Z"
+date: 2012-07-19T03:22:03Z
 title: This Morning's Downtown Line Tragedy
 ---
 

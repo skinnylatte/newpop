@@ -7,7 +7,7 @@ tags:
   - bestof
   - chai
   - blog
-date: "2006-12-05T06:02:57Z"
+date: 2006-12-05T06:02:57Z
 title: A Bus and Chai Story
 ---
 

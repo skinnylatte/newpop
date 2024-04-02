@@ -6,7 +6,7 @@ tags:
   - finland
   - helsinki
   - blog
-date: "2012-03-20T02:35:05Z"
+date: 2012-03-20T02:35:05Z
 title: Four Hours Light
 ---
 

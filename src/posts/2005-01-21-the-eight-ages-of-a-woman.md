@@ -1,5 +1,5 @@
 ---
-date: "2005-01-21T06:28:59Z"
+date: 2005-01-21T06:28:59Z
 layout: post.njk
 tags:
  - blog

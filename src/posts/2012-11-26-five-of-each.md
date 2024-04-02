@@ -8,7 +8,7 @@ tags:
   - diving
   - sports
   - lists
-date: "2012-11-26T02:27:47Z"
+date: 2012-11-26T02:27:47Z
 title: Five of Each
 ---
 

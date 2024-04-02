@@ -6,7 +6,7 @@ tags:
   - life
   - bestof
   - blog
-date: "2016-02-20T18:15:53Z"
+date: 2016-02-20T18:15:53Z
 title: Tan Boon Chye
 description: "A surprising slice of life of old Singapore."
 layout: post.njk

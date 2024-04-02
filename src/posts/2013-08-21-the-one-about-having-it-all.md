@@ -8,7 +8,7 @@ tags:
   - personal
   - blog
   - queer-life
-date: "2013-08-21T16:32:36Z"
+date: 2013-08-21T16:32:36Z
 title: The One About Having It All
 ---
 

@@ -12,11 +12,11 @@ tags:
   - food
   - funerals
   - bestof
-date: "2009-06-30T06:26:45Z"
+date: 2009-06-30
 title: There Is Always Chicken Curry at Funerals
 ---
 
-**Last Rites**
+_Last Rites_
 
 Living in Singapore is not easy, one can quickly see. Could it be that we tire quickly from our programming — the PSLE, the Os, the As, the university, the serving the nation, the feeding your family and all these things? Or is it that we pack the rush hour morning and evening trains daily, increasingly unable to recognize our neighbours or the languages they speak?
 
@@ -90,10 +90,8 @@ I tried to say my Teochew name for the first time in my life (vastly different f
 
 Ah Gong, ni you pian wo! His eulogy was delivered, not entirely flawlessly, in Teochew by me and in English by my brother. I wrote an essay in Teochew called “Torchlights and Alarm Clocks”. I talked about how it’s going to be weird not having him tie pink ribbons to my backpacks so I can see them come out of the baggage carousel, how he’d write my Chinese name on everything I owned, even the cool ones; my brother and I both said growing up with him was about having a torchlight shone on your face at 3 am every night, just so he knew we were there. I cried a lot. I laughed a lot. He was a silly, funny man and he made us all laugh. We said in heaven he’s cursing all day on sweet potatoes (his only bad words were Teochew vulgarities about stuffing your mouth with a sweet potato, and something about your mother’s eggs). I think in heaven Ah Gong is back in his singlet, shaking his leg like the China-man he is, with Bruno his favourite dog. And his alarm clocks are going off all at the same time, and his torchlights never need their batteries replaced.
 
-ah gong wa tyng lai, lv zu kee loh.
+_ah gong wa tyng lai, lv zu kee loh_.
 
 I never got to say goodbye.
 
 I miss you so damn much.
-
-No related posts.

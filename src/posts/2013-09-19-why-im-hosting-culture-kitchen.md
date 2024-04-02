@@ -8,7 +8,7 @@ tags:
   - politics
   - blog
   - culturekitchen
-date: "2013-09-19T12:28:52Z"
+date: 2013-09-19T12:28:52Z
 title: Why I'm Hosting Culture Kitchen
 ---
 

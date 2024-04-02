@@ -4,7 +4,7 @@ tags:
   - events
   - india
   - blog
-date: "2013-03-12T01:30:49Z"
+date: 2013-03-12T01:30:49Z
 title: Gyanada Foundation Soft Launch
 ---
 

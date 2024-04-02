@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: "2014-02-26T02:42:20Z"
+date: 2014-02-26T02:42:20Z
 title: Mahabandoola
 tags:
     - travel
