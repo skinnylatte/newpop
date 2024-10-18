@@ -1,50 +1,22 @@
 <div class="post-pagination">
 
 {% if '/bikes' in page.url %}
-
-{% set previousPost = collections.bikes  | getPreviousCollectionItem(page) %}
-{% if previousPost %}
-<a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
-{% endif %} <a href="{{'/' | url }}">Home</a> 
-
-{% set nextPost = collections.bikes  | getNextCollectionItem(page) %}
-{% if nextPost %}&vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
+  {% set collection = collections.bikes %}
+{% elif '/photos' in page.url %}
+  {% set collection = collections.photos %}
+{% elif '/food' in page.url %}
+  {% set collection = collections.food %}
+{% elif '/posts' in page.url %}
+  {% set collection = collections.blog %}
 {% endif %}
 
-{% endif %}
-
-	
-{% if '/photos' in page.url %}
-
-{% set previousPost = collections.photos  | getPreviousCollectionItem(page) %}
-{% if previousPost %}
-<a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
-{% endif %} <a href="{{'/' | url }}">Home</a> 
-{% set nextPost = collections.photos  | getNextCollectionItem(page) %}
-{% if nextPost %}&vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
-{% endif %}
-{% endif %}
-
-{% if '/food' in page.url %}
-
-{% set previousPost = collections.food  | getPreviousCollectionItem(page) %}
-{% if previousPost %}
-<a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
-{% endif %} <a href="{{'/' | url }}">Home</a> 
-{% set nextPost = collections.food  | getNextCollectionItem(page) %}
-{% if nextPost %}&vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
-{% endif %}
-{% endif %}
-
-
-{% set previousPost = collections.blog  | getPreviousCollectionItem(page) %}
-{% if previousPost %}
+{% if collection %}
+  {% set previousPost = collection  | getPreviousCollectionItem(page) %}
+  {% if previousPost %}
   <a href="{{ previousPost.url }}">&laquo; {{ previousPost.data.title }}</a> &vert;
-{% endif %} <a href="{{'/' | url }}">Home</a> 
+  {% endif %} <a href="{{'/' | url }}">Home</a>
 
-{% set nextPost = collections.blog  | getNextCollectionItem(page) %}
-{% if nextPost %}
-  &vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>
+  {% set nextPost = collection  | getNextCollectionItem(page) %}
+  {% if nextPost %}&vert; <a href="{{ nextPost.url }}">{{ nextPost.data.title }} &raquo;</a>{% endif %}
 {% endif %}
-
 </div>
