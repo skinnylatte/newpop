@@ -15,9 +15,10 @@ The main one being, my soulmate, my soul, the love of my life, Cookie pie, passe
 
 It feels like a brand new chapter in my life.
 
-<img src="/img/cookieinaplane.jpg" alt="A photo of Cookie the King Charles Cavalier in a plane under the seat in a bag on a pillow">
+<figure class="post-image">
+<img src="/img/cookieinaplane.jpg" alt="A photo of Cookie the King Charles Cavalier in a plane under the seat in a bag on a pillow" loading="lazy" decoding="async" />
 
-<caption>Cookie the Cavalier sitting under an airplane seat</caption>
+<figcaption>Cookie the Cavalier sitting under an airplane seat</figcaption></figure>
 
 Cookie, born 1 October 2009 in Petaling Jaya, died 20 June 2024 in San Francisco. 
 
