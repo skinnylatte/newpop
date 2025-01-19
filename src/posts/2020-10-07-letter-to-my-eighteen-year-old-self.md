@@ -1,8 +1,7 @@
 ---
 title: Letter to my Eighteen Year Old Self
 date: 2020-10-07T03:36:12.735Z
-description: I turn 35 tonight. When I was a younger queer kid I used to wonder,
-  "what will life be like at 35?" Somehow, that age became the barometer for how
+description: I turn 35 tonight. When I was a younger queer kid I used to wonder, what will life be like at 35? Somehow, that age became the barometer for how
   happy I might be as a queer person in a place and time that was not friendly
   to any of that. So, what is it like?
 tags:

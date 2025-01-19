@@ -28,7 +28,7 @@ So when Edith Windsor won for us the ultimate right, that I did not imagine poss
 
 That is where my problems begin.
 
-For in 2013, [I was a muck](http://popagandhi.com/2012/11/left-leaving/). I was, so to speak, in the throes of a great many _bad, terrible, awful_ decisions. My political self was not separate, then, from my personal self — in some ways, it still isn't. But I had never seen _shit_. I had, up until that point, had the luxury of only knowing unconditional, selfless, incredible love. My family was intact, and they loved me in spite of my _awful decisions_. My romantic life, was, hitherto, messy, but largely positive. I thought I knew everything.
+For in 2013, [I was a muck](/posts/left-leaving/). I was, so to speak, in the throes of a great many _bad, terrible, awful_ decisions. My political self was not separate, then, from my personal self — in some ways, it still isn't. But I had never seen _shit_. I had, up until that point, had the luxury of only knowing unconditional, selfless, incredible love. My family was intact, and they loved me in spite of my _awful decisions_. My romantic life, was, hitherto, messy, but largely positive. I thought I knew everything.
 
 I thought, also, that marriage was a political decision; that everything else would follow. How could I have known any differently? The only queer people I knew who had gotten married had gotten married _in secret_, without ever telling their families, in acts of what seemed like bravery (in hindsight, all of them had extremely religious families), in unions that were never acknowledged by the countries they lived in, the country I call home. I didn't know any better.
 
