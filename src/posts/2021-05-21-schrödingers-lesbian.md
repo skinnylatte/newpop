@@ -12,7 +12,7 @@ tags:
   - blog
 layout: post.njk
 ---
-In 2018 I decided to leave my home country of Singapore even though I once thought I would lead my queer adult life here because it was [not a bad one](https://popagandhi.com/2013/08/the-one-about-having-it-all/). I decided to leave because I had met the woman I would marry, and there was simply no path for us to lead the sort of life we wanted in both of our home countries.
+In 2018 I decided to leave my home country of Singapore even though I once thought I would lead my queer adult life here because it was [not a bad one](/posts/the-one-about-having-it-all/). I decided to leave because I had met the woman I would marry, and there was simply no path for us to lead the sort of life we wanted in both of our home countries.
 
 Being queer in Singapore is strange because on some level, it's one of the better places to be queer in Asia. And on many other fronts, while it isn't quite the worst, it's also.. not at all fun. 
 

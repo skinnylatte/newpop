@@ -14,13 +14,13 @@ layout: post.njk
 
 ---
 
-I've learned a few new things [since I last posted](https://popagandhi.com/posts/2023-09-06-how-to-get-a-visa/) about how other Singaporeans can apply for, and receive, the H1-B1 visa.
+I've learned a few new things [since I last posted](/posts/2023-09-06-how-to-get-a-visa/) about how other Singaporeans can apply for, and receive, the H1-B1 visa.
 
 In renewing my visa in Singapore this September, I opted for the new-ish interview waiver process (available since 2021).
 
 Although I have never had a rejection, going to the US embassy is always a stressful time. You see so many people (usually non-Singaporeans) getting their work or school dreams dashed at the window. You can hear everything. The high stress, high security: I would very much like to never go there again.
 
-The interview waiver process was made available to me at the last step of the visa application, in the USTravelDocs portal. When [scheduling step 6](https://popagandhi.com/posts/2023-09-06-how-to-get-a-visa/), USTravelDocs will ask you a bunch of questions to determine if you are eligible for the interview waiver.
+The interview waiver process was made available to me at the last step of the visa application, in the USTravelDocs portal. When [scheduling step 6](/posts/2023-09-06-how-to-get-a-visa/), USTravelDocs will ask you a bunch of questions to determine if you are eligible for the interview waiver.
 
 The main thing to note is that only Singaporeans and permanent residents are likely to be eligible. While the main applicant for H1-B1 has to be a Singapore citizen, if your dependents (spouse or children) are not Singapore citizens, then they will not qualify for the interview waiver. Definitely allow more time for an embassy interview if that's the case. 
 
