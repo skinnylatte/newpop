@@ -22,7 +22,7 @@ Apple's official documentation simply says "log in to icloud.com, select the pho
 
 Enter [iCloud Photos Downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader), a Python utility that sucks out all of your iCloud photos into wherever you're running it.
 
-In my case, I've [already got a Linux server going for my photos](https://popagandhi.com/posts/2021-05-19-how-i-run-photoprism-with-docker-compose-and-reverse-proxy/) so that's where I wanted it. The eventual goal is to put all of the photos into PhotoPrism there, as I like its tagging and deduping functionality. The goal is for all of my photos to eventually live on photos.mydomain.com, which is where all photos are going to.. eventually. Right now, I've [only got my Google Photos](https://popagandhi.com/posts/2021-05-18-21-days-of-indoor-projects/) in there. Time to get my iCloud photos in there as well.
+In my case, I've [already got a Linux server going for my photos](https://popagandhi.com/posts/how-i-run-photoprism-with-docker-compose-and-reverse-proxy/) so that's where I wanted it. The eventual goal is to put all of the photos into PhotoPrism there, as I like its tagging and deduping functionality. The goal is for all of my photos to eventually live on photos.mydomain.com, which is where all photos are going to.. eventually. Right now, I've [only got my Google Photos](https://popagandhi.com/posts/21-days-of-indoor-projects/) in there. Time to get my iCloud photos in there as well.
 
 ### Install iCloud Photos Downloader in your server or other computer
 
