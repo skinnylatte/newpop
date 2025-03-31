@@ -73,6 +73,21 @@ const collections = require("./collections.js");
 // all configs
 
 module.exports = function (eleventyConfig) {
+  // add google slides block
+  // Google Slides shortcode
+  eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569) {
+    return `<div class="slideshow-container">
+      <iframe src="https://docs.google.com/presentation/d/e/${id}/embed?start=false&loop=false&delayms=3000" 
+        frameborder="0" 
+        width="${width}" 
+        height="${height}" 
+        allowfullscreen="true" 
+        mozallowfullscreen="true" 
+        webkitallowfullscreen="true">
+      </iframe>
+    </div>`;
+  });
+
   // add syntax highlighting
 eleventyConfig.addPlugin(syntaxHighlight);
 
