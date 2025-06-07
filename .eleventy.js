@@ -8,6 +8,10 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 const Image = require("@11ty/eleventy-img");
 
+// 11ty youtube plugin
+
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+
 // html base plugin
 
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
@@ -73,6 +77,9 @@ const collections = require("./collections.js");
 // all configs
 
 module.exports = function (eleventyConfig) {
+  // add youtube embed block
+  eleventyConfig.addPlugin(embedYouTube);
+
   // add google slides block
   // Google Slides shortcode
   eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569) {
@@ -102,7 +109,7 @@ eleventyConfig.addPlugin(syntaxHighlight);
 	let options = {
 		html: true,
 		breaks: true,
-		linkify: true
+		linkify: false
 	};
 
   //  anchor links on content
