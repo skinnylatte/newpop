@@ -34,7 +34,7 @@ Well, Margaret Cho, you were RIGHT. I fucking love it.
 
 *SQUEEEE. OTTERS.*
 
-<img src="/img/202506_whalewatching_cormorantjpg" width="600" height="397" alt="a color photograph of a pelagic cormorant with kelp in their mouth" />
+<img src="/img/202506_whalewatching_cormorant.jpg" width="600" height="397" alt="a color photograph of a pelagic cormorant with kelp in their mouth" />
 
 *In flight pelagic cormorant left before I could ask, can I kelp you?*
 
