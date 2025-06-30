@@ -9,7 +9,7 @@ date: 2012-07-19T03:22:03Z
 title: This Morning's Downtown Line Tragedy
 ---
 
-**Closure of donation drive: TWC2 will stop collecting donations for the victims of the #downtownlinetragedy tonight (Friday 27 July 2012, 2359hrs). For more information [please read this link](http://popagandhi.com/2012/07/downtownlinetragedy-donation-drive-to-close-tonight/)**
+**Closure of donation drive: TWC2 will stop collecting donations for the victims of the #downtownlinetragedy tonight (Friday 27 July 2012, 2359hrs). For more information [please read this link](/posts/downtownlinetragedy-donation-drive-to-close-tonight)**
 
 **Edit:** The Paypal link we previously posted isn't working. To donate via Paypal, please to go the [donate page](http://twc2.org.sg/getinvolved/donate/) on TWC's website, and click the Paypal icon there.
 

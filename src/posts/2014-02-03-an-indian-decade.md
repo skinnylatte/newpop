@@ -15,13 +15,13 @@ In 2004 I started to hatch the first plans to flee the terrifying life laid out 
 
 I've written a lot about India in various forms, but here are some posts previously posted here about India:
 
-- [Portraits Unphotographable](http://popagandhi.com/2006/10/portraits-unphotographable/)
-- [Bombay Burning](http://popagandhi.com/2008/12/bombay-burning/)
-- [We Have No Dungarees, Saar](http://popagandhi.com/2011/02/we-have-no-dungarees-saar/)
-- [The Great Southern Trunk Road](http://popagandhi.com/2011/02/the-great-southern-trunk-road/)
-- [Lakewood](http://popagandhi.com/2011/04/lakewood/)
-- [Sudder Street](http://popagandhi.com/2007/01/sudder-street/)
-- [A Bus and Chai Story](http://popagandhi.com/2006/12/a-bus-and-chai-story/)
+- [Portraits Unphotographable](/posts/portraits-unphotographable)
+- [Bombay Burning](/posts/bombay-burning)
+- [We Have No Dungarees, Saar](/posts/we-have-no-dungarees-saar)
+- [The Great Southern Trunk Road](/posts/the-great-southern-trunk-road)
+- [Lakewood](/posts/lakewood)
+- [Sudder Street](/posts/sudder-street)
+- [A Bus and Chai Story](/posts/a-bus-and-chai-story)
 
 <hr>
 

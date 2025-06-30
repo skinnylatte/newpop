@@ -11,7 +11,7 @@ date: 2012-09-06T06:19:02Z
 title: Boomerang
 ---
 
-National Day came and went. I haven't written any of those essays [I promised to](http://popagandhi.com/2012/08/the-nation-essays/). _Sheepish._ I _will_ write them, I just need a little bit more time.
+National Day came and went. I haven't written any of those essays [I promised to](/posts/the-nation-essays). _Sheepish._ I _will_ write them, I just need a little bit more time.
 
 I did, however, contribute a piece to the Straits Times after PM Lee's National Day Rally speech, which I streamed from a house by the lake in… Hungary. I know, I'm still waiting for my life this year to get less random. I don't think that's going to happen.
 

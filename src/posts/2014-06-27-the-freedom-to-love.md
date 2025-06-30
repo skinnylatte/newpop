@@ -24,14 +24,14 @@ Here are a couple of things I've written in the past decade. My sexuality has be
 
 P.S. Also, a friend and I are hosting [Rabbithole](https://www.facebook.com/events/282343721944892/?ref=22), a brand new party for queer women who like good drinks and older company. 🙂 Come by at Life Is Beautiful, 99 Duxton Road, from 10.30PM on 28 June 2014.
 
-[Eight Ages of a Woman](http://popagandhi.com/2005/01/the-eight-ages-of-a-woman/)
+[Eight Ages of a Woman](/posts/the-eight-ages-of-a-woman)
 
-[Release](http://popagandhi.com/2005/03/release/)
+[Release](/posts/release)
 
-[Excavation](http://popagandhi.com/2005/04/excavation/)
+[Excavation](/posts/excavation)
 
-[Why I Am Still A Feminist](http://popagandhi.com/2006/03/why-i-am-still-a-feminist/)
+[Why I Am Still A Feminist](/posts/why-i-am-still-a-feminist)
 
-[Love, Singapore](http://popagandhi.com/2013/08/love-singapore/)
+[Love, Singapore](/posts/love-singapore)
 
 [The One About Having It All](https://medium.com/@skinnylatte/the-one-about-having-it-all-8c995b098f41)
