@@ -2,31 +2,24 @@
 <html lang="en">
 {% include "_head.html" %}
 <body>
-
 <div class="container">
-
 {% include "_header.html" %}
-
 <div class="wrapper">
-
 {% include "_aside.html" %}
 <section class="content">
-
 <article class="post">
+<h2>{{ title }}</h2>
+<div class="date-metadata">Published on {{ page.date | postDate }}</div>
 
-	<h2>{{ title }}</h2>
-	<div class="date-metadata">Published on {{ page.date | postDate  }}</div>
+{% include "_tags.html" %}
 
-	{{ content | safe }}
-	
+{{ content | safe }}
 </article>
-{% include "_postpagination.html" %}
 
+{% include "_postpagination.html" %}
 </section>
 </div>
 </div>
-
 </body>
 <section class="footer">&copy; Copyright {{ site.copyrightYear }}</section>
-
 </html>
