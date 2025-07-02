@@ -1,0 +1,5 @@
+# netlify.toml
+[[redirects]]
+  from = "/20:year/:month/*" # Old URL pattern
+  to = "/posts/:splat"      # New URL pattern
+  status = 301              # Permanent redirect for SEO
