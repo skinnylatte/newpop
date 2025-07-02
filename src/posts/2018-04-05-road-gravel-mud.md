@@ -6,10 +6,11 @@ tags:
     - life
     - startup
     - love
+    - business
+    - wobe
+    - indonesia
 layout: post.njk
 ---
-
-(Also posted on [Medium](https://medium.com/@skinnylatte/road-gravel-mud-583f771c9b73). I will cross post anything I write, and archive them here.)
 
 It’s been a while since I’ve written about work. Even longer since I’ve gotten on a bicycle.
 
