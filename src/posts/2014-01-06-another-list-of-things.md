@@ -14,7 +14,7 @@ tags:
     - lgbt
 ---
 
-([63 Random Things in 2012](http://popagandhi.com/2012/11/63random/))
+([63 Random Things in 2012](/posts/63random))
 
 **1. Causeway**
 
@@ -50,7 +50,7 @@ I came in the cold to a country I do not like, to see you in a city I do not lov
 
 **6. Haji Lane**
 
-When I was 20, I was a different kid then. I was the sort of kid who wrote things like: "_When people kiss in dark alleyways they are usually making promises. When we do, we break a thousand of them, including the ones we have been hanging on to for any semblance of survival." (from "[Art & Lies, And](http://popagandhi.com/2006/01/art-and-lies-and/)")_
+When I was 20, I was a different kid then. I was the sort of kid who wrote things like: "_When people kiss in dark alleyways they are usually making promises. When we do, we break a thousand of them, including the ones we have been hanging on to for any semblance of survival." (from "[Art & Lies, And](/posts/art-and-lies-and)")_
 
 In hindsight they were not broken promises, they weren't promises at all, and we weren't dying. But at that moment, and for many years before and after, you were all I ever wanted. My kryptonite. We wrote - and we wrote. We rewrote our story repeatedly until it became a myth, but we never found a happy ending, nor in fact any kind of an ending at all. Years later I would sit at that exact spot as an outsider to someone I tried to love with her kryptonite beside her, just marvelling at how life and love comes full circle and the best I can do is walk away from anyone who doesn't want this right now or ever. Or can't.
 

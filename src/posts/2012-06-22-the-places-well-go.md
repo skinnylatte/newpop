@@ -12,7 +12,7 @@ date: 2012-06-22T01:39:36Z
 title: The Places We'll Go
 ---
 
-Five years ago, [I said](http://popagandhi.com/2007/02/chasing-the-monsoon/): "Ask me again a year, three, or five from now and all I will remember is driving up, around, up, around, up, around, in the swirling clouds as the rain lashed at my windows and I feared for my life, balanced so daintily in this tin can navigating itself on the hairpin road."
+Five years ago, [I said](/posts/chasing-the-monsoon): "Ask me again a year, three, or five from now and all I will remember is driving up, around, up, around, up, around, in the swirling clouds as the rain lashed at my windows and I feared for my life, balanced so daintily in this tin can navigating itself on the hairpin road."
 
 Plenty has changed, these five years, but at least this part remains familiar: "Ask me again a year, three, or five from now and I will still tell you the same thing: I’m not sure why I do the things that I do." Then, I was referring to the heady, exciting days of a student who had the chance to criss-cross across the hill tribes of northeast India and investigate the ailments of rural Bangladeshis suffering from leprosy, TB and lymphatic filiarisis. I got to go on the amazing adventure of my life, never really expecting it to end. It hasn't.
 

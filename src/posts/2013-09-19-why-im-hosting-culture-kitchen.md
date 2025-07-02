@@ -12,7 +12,7 @@ date: 2013-09-19T12:28:52Z
 title: Why I'm Hosting Culture Kitchen
 ---
 
-This is a project which has been on my mind for some time now. We've been planning it for a while. A part of this is a response to a worrying trend of anti-foreigner sentiment (c.f. the responses to a drive to raise funds for victims of last year's Downtown Line accident: [here](http://popagandhi.com/2012/07/this-mornings-downtown-line-tragedy/) and [here](http://sg.news.yahoo.com/s-pore-bloggers-in-donation-drive-for-bugis-construction-site-tragedy.html)).
+This is a project which has been on my mind for some time now. We've been planning it for a while. A part of this is a response to a worrying trend of anti-foreigner sentiment (c.f. the responses to a drive to raise funds for victims of last year's Downtown Line accident: [here](/posts/this-mornings-downtown-line-tragedy) and [here](http://sg.news.yahoo.com/s-pore-bloggers-in-donation-drive-for-bugis-construction-site-tragedy.html)).
 
 The other part — which I believe to be more important — is the need for us as a nation and as a society to come around to the idea that we are not alone in this. Immigration is a touchy issue _everywhere_. How we choose to deal with this now will be something which has repercussions in the future. Evidently there are many schools of thought on this.
 
