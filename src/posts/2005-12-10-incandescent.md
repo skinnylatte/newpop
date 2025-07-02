@@ -4,7 +4,6 @@ tags:
   - lifeandlove
   - blog
   - lgbtq
-  - lgbt
   - bestof
 date: 2005-12-10T06:14:56Z
 title: Incandescent

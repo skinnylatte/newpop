@@ -11,7 +11,6 @@ tags:
     - blog
     - travel
     - lgbtq
-    - lgbt
 ---
 
 ([63 Random Things in 2012](/posts/63random))

@@ -4,7 +4,6 @@ tags:
   - singapore
   - politics
   - lgbtq
-  - lgbtq
   - sex-ed
   - sex-education
   - blog

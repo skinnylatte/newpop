@@ -9,7 +9,6 @@ tags:
   - emo
   - lifeandlove
   - lgbtq
-  - lgbt
   - polyamory
 ---
 

@@ -6,7 +6,7 @@ description: I turn 35 tonight. When I was a younger queer kid I used to wonder,
   to any of that. So, what is it like?
 tags:
   - life
-  - lgbt
+  - lgbtq
   - singapore
   - california
   - pets

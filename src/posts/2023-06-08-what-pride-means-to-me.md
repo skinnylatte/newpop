@@ -5,7 +5,7 @@ draft: false
 description: A few thoughts on Pride 2023 and my very gay life so far.
 tags: 
   - life
-  - lgbt
+  - lgbtq
   - queer
   - blog
 layout: post.njk

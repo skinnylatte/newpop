@@ -2,7 +2,6 @@
 layout: post.njk
 tags:
   - politics
-  - lgbt
   - christianity
   - religion
   - singapore

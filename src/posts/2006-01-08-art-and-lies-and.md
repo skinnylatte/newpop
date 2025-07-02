@@ -3,8 +3,7 @@ layout: post.njk
 tags:
   - lifeandlove
   - blog
-  - lgbtq
-  - lgbt 
+  - lgbtq 
   - bestof
 date: 2006-01-08T06:11:10Z
 title: Art and Lies, And

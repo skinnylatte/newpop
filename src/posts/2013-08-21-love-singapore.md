@@ -4,7 +4,6 @@ tags:
   - lifeandlove
   - singapore
   - lgbtq
-  - lgbt
   - blog
   - personal
   - queer-life

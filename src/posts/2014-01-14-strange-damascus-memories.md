@@ -6,7 +6,7 @@ tags:
     - middleeast
     - syria
     - lists
-    - lgbt
+    - lgbtq
 description: "In 2009 I had the opportunity to see Syria, just before the civil war. I have many random memories, mostly because I was introduced to a motley crew of musicians and designers there."
 ---
 
