@@ -6,7 +6,6 @@ lastmod: 2023-04-11T18:07:58-0800
 tags:
   - photos
   - sanfrancisco
-  - lgbt
   - lgbtq
   - easter
   - drag

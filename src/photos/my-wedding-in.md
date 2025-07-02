@@ -5,7 +5,6 @@ date: 2022-12-31
 tags:
   - photos
   - wedding
-  - lgbt
   - lgbtq
   - personal
 ---

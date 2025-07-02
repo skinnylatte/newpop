@@ -7,7 +7,6 @@ tags:
   - photos
   - sanfrancisco
   - gay
-  - lgbt
   - lgbtq
   - books
   - bookstore
