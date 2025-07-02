@@ -145,14 +145,18 @@ eleventyConfig.addPlugin(syntaxHighlight);
 });
 
 	// create a list of tags for archive page
-	eleventyConfig.addCollection("tagList", function(collectionApi){
-	let tags = new Set();
+eleventyConfig.addCollection("tagList", function(collectionApi){
+  let tags = new Set();
   collectionApi.getAll().forEach(function(item) {
     if ("tags" in item.data) {
-      item.data.tags.filter(tag => !['all', 'posts'].includes(tag)).forEach(tag => tags.add(tag));
+      item.data.tags.filter(tag => !['all', 'posts'].includes(tag)).forEach(tag => {
+        // Normalize tags: lowercase and replace spaces with hyphens
+        const normalizedTag = tag.toLowerCase().replace(/\s+/g, '-');
+        tags.add(normalizedTag);
+      });
     }
   });
-  return Array.from(tags);
+  return Array.from(tags).sort();
 });
 
 	  // add a filter for limiting the no of posts in rss
