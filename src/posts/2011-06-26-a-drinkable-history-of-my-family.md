@@ -9,7 +9,7 @@ tags:
   - dying
   - grief
   - food
-  - funeral
+  - funerals
   - publishedelsewhere
   - chineseness
   - food
