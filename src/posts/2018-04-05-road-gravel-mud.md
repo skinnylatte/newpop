@@ -1,15 +1,16 @@
 ---
-date: 2018-04-05T18:15:53Z
+date: 2018-04-05
 title: Road, Gravel, Mud
 description: "What running a startup for a couple of years felt like. Muddy."
 tags:
     - life
     - startup
     - love
+    - business
+    - wobe
+    - indonesia
 layout: post.njk
 ---
-
-(Also posted on [Medium](https://medium.com/@skinnylatte/road-gravel-mud-583f771c9b73). I will cross post anything I write, and archive them here.)
 
 It’s been a while since I’ve written about work. Even longer since I’ve gotten on a bicycle.
 

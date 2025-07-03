@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Where I Live Now: Near San Francisco's Mission District"
 date: 2023-01-08T22:30:23-0800
-lastmod: 2023-01-08T22:36:28-0800
+lastmod: 2023-01-08
 tags: 
   - photos
   - sanfrancisco

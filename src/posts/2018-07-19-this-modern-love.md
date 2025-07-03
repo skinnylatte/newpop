@@ -6,7 +6,6 @@ tags:
   - abuse
   - marriage
   - blog
-  - lgbt
   - lgbtq
   - divorce
 description: 'Reno, domestic violence, queerness, marriage.'

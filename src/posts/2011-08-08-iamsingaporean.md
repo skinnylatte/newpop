@@ -4,10 +4,10 @@ tags:
   - lifeandlove
   - singapore
   - identity
-  - language
+  - languages
   - immigration
   - blog
-date: 2011-08-08T15:45:13Z
+date: 2011-08-08
 title: '#iamsingaporean'
 ---
 

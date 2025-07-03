@@ -4,7 +4,6 @@ layout: post.njk
 tags:
  - blog
  - bestof
- - lgbt
  - lgbtq
  - lifeandlove
 title: The Eight Ages of a Woman

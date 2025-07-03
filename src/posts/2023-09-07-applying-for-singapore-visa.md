@@ -1,6 +1,6 @@
 ---
 title: "Applying for Singapore Visa for your Friend"
-date: 2023-09-07T16:05:55-07:00
+date: 2023-09-07
 draft: false 
 description: A guide to applying for and receiving a Singapore visa for a person you know who may need one.
 tags: 

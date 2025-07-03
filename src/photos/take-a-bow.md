@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Take a Bow"
 date: 2023-02-17T10:49:09-0800
-lastmod: 2023-02-17T10:49:09-0800
+lastmod: 2023-02-17
 tags: 
   - photos
   - sanfrancisco

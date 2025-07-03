@@ -2,7 +2,7 @@
 layout: post.njk
 title: "The Market in Mae Salong"
 date: 2023-01-09T20:32:56-0800
-lastmod: 2023-01-09T20:37:26-0800
+lastmod: 2023-01-09
 tags: 
   - photos
   - travel

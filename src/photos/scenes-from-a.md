@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Scenes from a Lifetime Ago"
 date: 2023-03-29T12:26:48-0800
-lastmod: 2023-03-29T12:28:14-0800
+lastmod: 2023-03-29
 tags:
   - photos
   - travel

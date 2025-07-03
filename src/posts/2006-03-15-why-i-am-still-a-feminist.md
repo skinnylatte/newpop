@@ -7,7 +7,6 @@ tags:
   - writingelsewhere
   - bestof
   - lgbtq
-  - lgbt
   - gender
 title: Why I Am Still A Feminist
 ---

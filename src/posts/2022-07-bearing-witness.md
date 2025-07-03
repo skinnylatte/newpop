@@ -7,7 +7,7 @@ tags:
     - abortion
     - politics
     - humanrights
-    - lgbt
+    - lgbtq
     - blog
 layout: post.njk
 ---

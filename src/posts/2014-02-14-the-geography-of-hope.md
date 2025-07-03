@@ -5,7 +5,7 @@ tags:
     - writingelsewhere
     - singapore
     - love
-    - lgbt
+    - lgbtq
     - published
     - blog
 date: 2014-02-14T02:31:38Z

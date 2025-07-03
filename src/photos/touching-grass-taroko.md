@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Touching Grass: Taroko Gorge, Taiwan"
 date: 2023-01-04T14:13:13-0800
-lastmod: 2023-01-04T14:14:03-0800
+lastmod: 2023-01-04
 tags: 
   - photos
   - travel

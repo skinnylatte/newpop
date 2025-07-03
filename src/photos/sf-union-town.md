@@ -2,7 +2,7 @@
 lkayout: post.njk
 title: "SF, Union Town?"
 date: 2023-07-29T12:02:21-0800
-lastmod: 2023-07-31T10:08:19-0800
+lastmod: 2023-07-31
 tags:
   - sanfrancisco
   - unions

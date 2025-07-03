@@ -4,7 +4,6 @@ date: 2021-05-21T12:23:54.985Z
 description: When non-heterosexual marriages are not recognized by the State,
   hilarity and sadness ensues.
 tags:
-  - lgbt
   - lgbtq
   - lesbian
   - singapore

@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Three in the Tenderloin"
 date: 2023-03-28T12:01:02-0800
-lastmod: 2023-03-28T12:01:02-0800
+lastmod: 2023-03-28
 tags:
   - photos
   - sanfrancisco

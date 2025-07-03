@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: 2011-06-26T03:39:21Z
+date: 2011-06-26
 tags:
   - family
   - life
@@ -9,7 +9,7 @@ tags:
   - dying
   - grief
   - food
-  - funeral
+  - funerals
   - publishedelsewhere
   - chineseness
   - food

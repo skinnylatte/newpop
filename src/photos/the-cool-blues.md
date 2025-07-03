@@ -2,7 +2,7 @@
 layout: post.njk
 title: "The Cool Blues of San Francisco"
 date: 2023-04-03T09:53:58-0800
-lastmod: 2023-04-03T10:23:27-0800
+lastmod: 2023-04-03
 tags: 
   - photos
   - sanfrancisco

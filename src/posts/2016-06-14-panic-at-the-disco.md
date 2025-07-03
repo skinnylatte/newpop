@@ -1,6 +1,6 @@
 ---
 tags:
-  - lgbt
+  - lgbtq
   - life
   - love
   - travel

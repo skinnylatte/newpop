@@ -11,7 +11,6 @@ tags:
   - malaysia
   - blog
   - identity
-  - lgbt 
   - lesbian
   - bisexual
   - bestof

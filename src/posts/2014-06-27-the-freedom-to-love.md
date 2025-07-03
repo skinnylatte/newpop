@@ -5,9 +5,9 @@ tags:
   - love
   - singapore
   - pinkdot
-  - lgbt
+  - lgbtq
   - blog
-date: 2014-06-27T17:38:24Z
+date: 2014-06-27
 title: The Freedom to Love
 
 ---
@@ -34,4 +34,4 @@ P.S. Also, a friend and I are hosting [Rabbithole](https://www.facebook.com/even
 
 [Love, Singapore](/posts/love-singapore)
 
-[The One About Having It All](https://medium.com/@skinnylatte/the-one-about-having-it-all-8c995b098f41)
+[The One About Having It All](/posts/the-one-about-having-it-all)

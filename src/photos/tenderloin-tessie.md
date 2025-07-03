@@ -2,11 +2,10 @@
 layout: post.njk
 title: "Tenderloin Tessie"
 date: 2023-04-11T17:02:04-0800
-lastmod: 2023-04-11T18:07:58-0800
+lastmod: 2023-04-11
 tags:
   - photos
   - sanfrancisco
-  - lgbt
   - lgbtq
   - easter
   - drag

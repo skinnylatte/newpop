@@ -4,7 +4,6 @@ title: To the Young Queer Nerds
 date: '2015-02-26T16:59:04.465Z'
 tags:
   - life
-  - lgbt
   - badadvice
   - blog
   - lifeandlove
