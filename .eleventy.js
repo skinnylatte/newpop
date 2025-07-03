@@ -77,6 +77,41 @@ const collections = require("./collections.js");
 // all configs
 
 module.exports = function (eleventyConfig) {
+  // adding alias
+  eleventyConfig.addCollection("aliases", function(collectionApi) {
+  let aliases = [];
+  
+  collectionApi.getAll().forEach(function(item) {
+    if (item.data.aliases) {
+      item.data.aliases.forEach(function(alias) {
+        aliases.push({
+          url: alias,
+          redirect: item.url
+        });
+      });
+    }
+  });
+  
+  return aliases;
+});
+
+eleventyConfig.addCollection("redirects", function(collectionApi) {
+  let redirects = [];
+  
+  collectionApi.getAll().forEach(function(item) {
+    if (item.data.aliases) {
+      item.data.aliases.forEach(function(alias) {
+        redirects.push({
+          from: alias,
+          to: item.url,
+          title: item.data.title
+        });
+      });
+    }
+  });
+  
+  return redirects;
+});
   // add youtube embed block
   eleventyConfig.addPlugin(embedYouTube);
 
@@ -158,6 +193,7 @@ eleventyConfig.addCollection("tagList", function(collectionApi){
   });
   return Array.from(tags).sort();
 });
+
 
 	  // add a filter for limiting the no of posts in rss
   eleventyConfig.addFilter("head", (array, number) => {

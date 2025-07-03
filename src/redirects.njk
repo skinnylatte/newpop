@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections.redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.from }}"
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0;url={{ redirect.to }}">
+    <link rel="canonical" href="{{ redirect.to }}">
+</head>
+<body>
+    <!-- Debug: show redirects -->
+{% for redirect in collections.redirects %}
+<p>{{ redirect.from }} → {{ redirect.to }}</p>
+{% endfor %}
+    <p>Redirecting to <a href="{{ redirect.to }}">{{ redirect.title }}</a></p>
+</body>
+</html>

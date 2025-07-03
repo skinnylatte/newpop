@@ -1,0 +1,82 @@
+---
+title: The Archives
+layout: layout.njk
+tags:
+ - archives
+ - lists
+pagination:
+  data: collections.postsByYear
+  size: 1
+  alias: year
+  reverse: true
+permalink: "archives/{% if pagination.pageNumber > 0 %}{{ year }}/{% endif %}index.html"
+eleventyExcludeFromCollections: true
+---
+
+<article class="archives">
+    <h2>{{ title }}{% if pagination.pageNumber > 0 %} - {{ year }}{% endif %}</h2>
+    
+    {% if pagination.pageNumber > 0 %}
+        <div class="date-metadata">Posts from {{ year }}</div>
+    {% else %}
+        <div class="date-metadata">Browse all posts by year</div>
+    {% endif %}
+
+    <section class="archive-year-section">
+        <h3>{{ year }} ({{ collections.postsByYear[year].length }} posts)</h3>
+        
+        <ul class="archive-posts-list">
+            {% for post in collections.postsByYear[year] | reverse %}
+            <li class="archive-post-item">
+                <div class="archive-post-header">
+                    <h4><a href="{{ post.url }}">{{ post.data.title | default("Untitled") }}</a></h4>
+                    {% if post.date %}
+                        <div class="date-metadata">{{ post.date | postDate }}</div>
+                    {% endif %}
+                </div>
+                
+                {% if post.data.excerpt %}
+                    <div class="archive-post-excerpt">
+                        <p>{{ post.data.excerpt }}</p>
+                    </div>
+                {% elif post.templateContent %}
+                    <div class="archive-post-excerpt">
+                        <p>{{ post.templateContent | striptags | truncate(300) }}...</p>
+                    </div>
+                {% endif %}
+                
+                {% if post.data.tags and post.data.tags.length > 0 %}
+                    <div class="archive-post-tags">
+                        {% for tag in post.data.tags %}
+                            {% if tag != "post" and tag != "archives" and tag != "lists" %}
+                                <a href="/tags/{{ tag | slug }}" class="tag-item">{{ tag }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</article>
+
+{% if pagination.pages.length > 1 %}
+<div class="pagination">
+    {% if pagination.previousPageLink %}
+        <a href="{{ pagination.previousPageLink }}" rel="prev">← Previous Year</a>
+    {% endif %}
+    
+    <span class="pagination-info">
+        {% if pagination.pageNumber > 0 %}
+            Viewing {{ year }}
+        {% else %}
+            All Years
+        {% endif %}
+        ({{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }})
+    </span>
+    
+    {% if pagination.nextPageLink %}
+        <a href="{{ pagination.nextPageLink }}" rel="next">Next Year →</a>
+    {% endif %}
+</div>
+{% endif %}

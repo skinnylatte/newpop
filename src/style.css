@@ -1,263 +1,446 @@
-/* medium screens */
+/* ==========================================================================
+   BASE STYLES
+   ========================================================================== */
 
-
-@media all and (min-width: 600px) {
-	.wrapper { display: flex; flex-direction: row }
+body {
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif; 
+    background-color: whitesmoke;
+    font-size: 1.2rem;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
 }
 
+/* ==========================================================================
+   TYPOGRAPHY
+   ========================================================================== */
 
-/* large screens */
-
-@media all and (min-width: 800px) {
-	.header { order: 1; display: flex; justify-content: space-between; align-items: right; flex-direction: row }
-	.aside { order: 2 }
-	.content { order:3; padding: 45px; margin: 10px }
-	.footer { order: 4 }
-	.nav ul { display: flex; flex-direction: row }
+h1, h2, h3 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; 
+    color: black;
+    text-decoration: none;
 }
 
-.nav ul {
-	list-style-type: none;
-}
-
-.nav ul li {
-	padding: 10px;
-	margin: 5px 10px 5px;
-	display: inline-block;
-}
-
-.nav a {
-	color: black;
-	text-align: center;
-	text-decoration: none;
-	font-size: 1.2rem;
-	padding: 15px;
-	margin: 5px;
-	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; 
-}
-
-.socials ul { 
-	list-style-type: none; 
-	display: flex;
-	padding: 15px;
-	margin-left: 65px;
-}
-
-.socials li {
-	padding-right: 15px;
-	margin: 5px;
-}
-
-.socials a {
-	color: black;
-}
-
-.content ul {
-	list-style-type: none;
-	padding: 25px;
-}
-
-.post ul li {
-	list-style-type: square;
-	padding: 5px;
-}
-
-.post ol li {
-	padding: 5px;
+.content h2 {
+    font-weight: normal;
+    font-size: 1.6rem;
 }
 
 .content h2 a {
-	color: #8C7051;
+    color: #8C7051;
 }
 
 .content a {
-	color: #47682C;
-}
-
-.content img {
-	border-radius: 15px;
-	max-width: 100%;
-	height: auto;
-}
-
-.about-img img {
-	width: 400px;
-}
-
-.container > * {
-	flex: 1 100%;
-}
-
-.date-metadata {
-	display: inline-block;
-	font-size: 0.9rem;
-	margin-bottom: 10px;
-}
-
-.aside {
-	margin-right: auto;
-	padding: 50px;
-}
-
-.profile img {
-	border-radius: 45%;
-	width: 200px;
-	margin: 15px;
-}
-
-.page-top {
-	padding: 25px;
-	margin: 20px;
-	background: #47682C;
-	color: white;
-	border: 1px dotted black;
-}
-
-.page-top a {
-	color: cornsilk;
-}
-.footer {
-	background-color: #f5f5f5;
-	display: flex;
-	justify-content: space-between;
-	padding: 25px ;
-	margin-top: auto;
-}
-
-.other-things, .blogroll {	
-	list-style-type: none;
-	display: flex;
-	flex-direction: column;
-	margin-left: -40px;
-}
-
-
-.add-blogroll {
-	background-color: #AE0A2B;
-	border-radius: 15px;
-	display: inline-block;
-	padding: 15px;
-	font-size: 1rem;
-	font-weight: normal;
-	margin-left: -25px;
-}
-
-.aside h2 {
-	color: #AE0A2B;
-}
-
-.aside a {
-	text-decoration: none;
-	color: #1B2F33;
-}
-
-.add-blogroll a {
-	color: white;
-}
-
-
-.pagination {
-	display: flex;
-}
-
-h1, h2, h3 {
-	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; 
-  color: black;
-}
-
-h1, h2, h3, a {
-	text-decoration: none;
-}
-
-
-.profile a {
-	color: white;
-	font-size: 3rem;
-	background: #8C7051;
-	transform: skewY(-5deg);
-	display: inline-block;
-	padding: 25px;
-}
-
-. content h2 {
-	font-weight: normal;
-	font-size: 1.6rem;
+    color: #47682C;
 }
 
 blockquote {
-	background-color: lightgrey;
-	padding: 20px;
-	border-radius: 10px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-body {
-	 font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif; 
-	 background-color: whitesmoke;
-	 font-size: 1.2rem;
-	 flex-direction: column;
-	 display: flex;
-	 min-height: 100vh;
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
+
+.container > * {
+    flex: 1 100%;
 }
 
-
-input[type="text"], input[type="email"], textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+.content {
+    padding: 25px;
 }
 
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.content ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+.content img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-img img {
+    width: 400px;
+}
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    padding: 10px;
+    margin: 5px 10px 5px;
+    display: inline-block;
+}
+
+.nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 5px;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; 
+}
+
+/* ==========================================================================
+   SIDEBAR
+   ========================================================================== */
+
+.aside {
+    margin-right: auto;
+    padding: 50px;
+}
+
+.aside h2 {
+    color: #AE0A2B;
+}
+
+.aside a {
+    text-decoration: none;
+    color: #1B2F33;
+}
+
+.profile img {
+    border-radius: 45%;
+    width: 200px;
+    margin: 15px;
+}
+
+.profile a {
+    color: white;
+    font-size: 3rem;
+    background: #8C7051;
+    transform: skewY(-5deg);
+    display: inline-block;
+    padding: 25px;
+}
+
+.other-things, .blogroll {	
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+}
+
+.add-blogroll {
+    background-color: #AE0A2B;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: -25px;
+}
+
+.add-blogroll a {
+    color: white;
+}
+
+/* ==========================================================================
+   SOCIAL LINKS
+   ========================================================================== */
+
+.socials ul { 
+    list-style-type: none; 
+    display: flex;
+    padding: 15px;
+    margin-left: 65px;
+}
+
+.socials li {
+    padding-right: 15px;
+    margin: 5px;
+}
+
+.socials a {
+    color: black;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.footer {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: auto;
+}
+
+/* ==========================================================================
+   POSTS
+   ========================================================================== */
+
+.post ul li {
+    list-style-type: square;
+    padding: 5px;
+}
+
+.post ol li {
+    padding: 5px;
+}
+
+.date-metadata {
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   COMPONENTS
+   ========================================================================== */
+
+.page-top {
+    padding: 25px;
+    margin: 20px;
+    background: #47682C;
+    color: white;
+    border: 1px dotted black;
+}
+
+.page-top a {
+    color: cornsilk;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.pagination a {
+    color: #47682C;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background: #e0e0e0;
+}
+
+.pagination-info {
+    font-size: 0.9rem;
+    color: #666;
 }
 
 .hidden {
-	display: none;
-  }
+    display: none;
+}
 
-  .slideshow-container {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 aspect ratio */
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	margin-bottom: 1rem;
-  }
-  
-  .slideshow-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-  }
+/* ==========================================================================
+   FORMS
+   ========================================================================== */
 
-  .tags-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 2rem 0;
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   MEDIA EMBEDS
+   ========================================================================== */
+
+.slideshow-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.slideshow-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ==========================================================================
+   TAGS
+   ========================================================================== */
+
+.tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 2rem 0;
 }
 
 .tag-item {
-  display: inline-block;
-  padding: 0.25rem 0.5rem;
-  background-color: #f0f0f0;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #333;
-  font-size: 0.9rem;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
 }
 
 .tag-item:hover {
-  background-color: #e0e0e0;
-  text-decoration: none;
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   ARCHIVES PAGE
+   ========================================================================== */
+
+.archives h2 {
+    color: #8C7051;
+    font-weight: normal;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.archive-year-section {
+    margin-bottom: 2.5rem;
+}
+
+.archive-year-section h3 {
+    color: #AE0A2B;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.archive-posts-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.archive-post-item {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.archive-post-header {
+    margin-bottom: 0.5rem;
+}
+
+.archive-post-header h4 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.archive-post-header h4 a {
+    color: #47682C;
+    text-decoration: none;
+}
+
+.archive-post-header h4 a:hover {
+    text-decoration: underline;
+}
+
+.archive-post-excerpt {
+    margin: 0.75rem 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+.archive-post-excerpt p {
+    margin: 0;
+}
+
+.archive-post-tags {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+    .wrapper { 
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+    .header { 
+        order: 1; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: right; 
+        flex-direction: row;
+    }
+    
+    .aside { 
+        order: 2;
+    }
+    
+    .content { 
+        order: 3; 
+        padding: 45px; 
+        margin: 10px;
+    }
+    
+    .footer { 
+        order: 4;
+    }
+    
+    .nav ul { 
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+/* Mobile responsive for archives */
+@media all and (max-width: 599px) {
+    .archive-post-item {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pagination {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .archive-post-tags {
+        margin-top: 0.5rem;
+    }
 }
