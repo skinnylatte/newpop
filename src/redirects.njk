@@ -14,7 +14,7 @@ permalink: "{{ redirect.from }}"
     <link rel="canonical" href="{{ redirect.to }}">
 </head>
 <body>
-    <!-- Debug: show redirects -->
+    
 {% for redirect in collections.redirects %}
 <p>{{ redirect.from }} → {{ redirect.to }}</p>
 {% endfor %}
