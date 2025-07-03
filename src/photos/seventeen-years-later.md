@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Seventeen Years Later"
 date: 2023-02-23T12:19:08-0800
-lastmod: 2023-02-23T12:19:08-0800
+lastmod: 2023-02-23
 tags:
   - photos
   - travel

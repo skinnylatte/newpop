@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Street Life: Air Mata Kucing"
 date: 2023-01-11T20:22:22-0800
-lastmod: 2023-01-11T20:22:22-0800
+lastmod: 2023-01-11
 tags: 
   - photos
   - travel

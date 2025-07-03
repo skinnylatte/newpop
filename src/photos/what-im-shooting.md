@@ -2,7 +2,7 @@
 layout: post.njk
 title: "What I’m Shooting: Nikon F3HP"
 date: 2023-01-03T18:32:52-0800
-lastmod: 2023-01-03T18:32:52-0800
+lastmod: 2023-01-03
 tags: 
   - photos
   - nikon

@@ -2,7 +2,7 @@
 layout: post.njk
 title: "The Magazine, SF"
 date: 2023-02-01T16:23:27-0800
-lastmod: 2023-02-01T16:24:48-0800
+lastmod: 2023-02-01
 tags:
   - photos
   - sanfrancisco

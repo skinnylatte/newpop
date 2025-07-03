@@ -7,7 +7,7 @@ tags:
   - pinkdot
   - lgbtq
   - blog
-date: 2014-06-27T17:38:24Z
+date: 2014-06-27
 title: The Freedom to Love
 
 ---

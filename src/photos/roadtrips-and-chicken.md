@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Roadtrips and Chicken Rice Balls"
 date: 2023-01-29T14:51:46-0800
-lastmod: 2023-01-29T14:51:46-0800
+lastmod: 2023-01-29
 tags:
   - photos
   - melaka

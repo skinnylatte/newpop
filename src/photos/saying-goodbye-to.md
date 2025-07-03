@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Saying Goodbye to Fuji Superia 400"
 date: 2023-04-16T14:44:11-0800
-lastmod: 2023-04-16T14:48:19-0800
+lastmod: 2023-04-16
 tags:
   - photos
   - sanfrancisco

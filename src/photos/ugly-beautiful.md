@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Ugly / Beautiful"
-date: 2023-05-01T14:49:27-0800
+date: 2023-05-01
 tags:
   - photos
   - sanfrancisco

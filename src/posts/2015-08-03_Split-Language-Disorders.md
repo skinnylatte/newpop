@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Split Language Disorders
-date: '2015-08-03T11:09:49.906Z'
+date: 2015-08-03
 tags:
   - life
   - singapore

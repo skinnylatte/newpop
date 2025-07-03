@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Tanglin Halt Memories"
 date: 2023-10-03T04:48:41-0800
-lastmod: 2023-10-03T04:51:44-0800
+lastmod: 2023-10-03
 tags: 
  - photos
  - travel

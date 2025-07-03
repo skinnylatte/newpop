@@ -2,7 +2,7 @@
 layout: post.njk
 title: "St Patrick's Day in San Francisco"
 date: 2023-03-20T17:12:09-0800
-lastmod: 2023-03-20T17:12:09-0800
+lastmod: 2023-03-20
 tags: 
   - photos
   - sanfrancisco

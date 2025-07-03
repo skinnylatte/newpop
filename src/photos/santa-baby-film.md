@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Santa Baby (Film Version)"
 date: 2023-01-03T15:01:30-0800
-lastmod: 2023-01-04T13:53:34-0800
+lastmod: 2023-01-04
 tags:
   - christmas
   - sanfrancisco

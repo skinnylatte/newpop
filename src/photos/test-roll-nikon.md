@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Test roll: Nikon L35TWAD"
 date: 2023-01-31T14:20:14-0800
-lastmod: 2023-01-31T14:20:32-0800
+lastmod: 2023-01-31
 tags: 
   - photos
   - sanfrancisco

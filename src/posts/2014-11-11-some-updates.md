@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-date: 2014-11-11T15:52:10Z
+date: 2014-11-11
 title: Some Updates
 tags:
   - life

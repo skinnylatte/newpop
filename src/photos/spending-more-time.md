@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 date: 2023-02-22T16:58:54-0800
-lastmod: 2023-02-22T16:58:54-0800
+lastmod: 2023-02-22
 tags:
   - photos
   - sanfrancisco

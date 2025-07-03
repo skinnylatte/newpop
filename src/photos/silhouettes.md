@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Silhouettes"
 date: 2023-02-12T20:59:37-0800
-lastmod: 2023-02-12T20:59:37-0800
+lastmod: 2023-02-12
 tags:
   - photos
   - travel

@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Well Fed: Two Artisans"
 date: 2023-01-04T13:47:25-0800
-lastmod: 2023-01-05T14:35:18-0800
+lastmod: 2023-01-05
 tags: 
   - photos
   - asia

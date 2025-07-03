@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Taking the train during the rain"
 date: 2023-03-27T12:51:39-0800
-lastmod: 2023-03-27T12:55:28-0800
+lastmod: 2023-03-27
 tags:
   - photos
   - sanfrancisco

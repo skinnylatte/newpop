@@ -2,7 +2,7 @@
 layout: post.njk
 title: "The Best Camera is the One You Have"
 date: 2023-02-15T19:29:49-0800
-lastmod: 2023-02-15T19:29:49-0800
+lastmod: 2023-02-15
 tags:
   - photos
   - travel

@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Roadtrip to Tretes"
 date: 2023-09-26T04:30:35-0800
-lastmod: 2023-09-26T04:30:35-0800
+lastmod: 2023-09-26
 tags:
   - photos
   - travel
