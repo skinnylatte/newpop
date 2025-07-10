@@ -403,15 +403,17 @@ pre code {
 .profile h1 {
     margin: 0 0 var(--spacing-md) 0;
     font-size: var(--spacing-xxl);
-    line-height: 1.1;
+    line-height: 1.4;
 }
 
 .profile h1 a {
     color: var(--color-text-inverted);
-    font-size: var(--spacing-xxl);
+    font-size: 1.65rem;
     font-weight: 800;
     background: linear-gradient(135deg, var(--color-primary-accent) 0%, var(--color-burnt-orange) 50%, var(--color-deep-red) 100%);
-    display: block;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     padding: var(--spacing-md) var(--spacing-lg);
     border-radius: var(--border-radius-xl);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
@@ -421,7 +423,7 @@ pre code {
     font-family: var(--font-heading);
     position: relative;
     overflow: visible;
-    text-align: center;
+    width: 100%;
 }
 
 .profile h1 a::before {
