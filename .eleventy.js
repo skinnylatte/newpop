@@ -153,7 +153,7 @@ eleventyConfig.addPlugin(syntaxHighlight);
 
 	// passthrough info
 
-	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img"].forEach(path => {
+	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img", "./src/assets"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
