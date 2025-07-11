@@ -1,10 +1,19 @@
-<div class="pagination">
-{% if pagination.href.previous %}
-  <ul><li><a href="{{ pagination.href.previous }}">Previous Page</a></li></ul>
-{% endif %}
+<div class="pagination-container">
+    <div class="pagination-prev">
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}" class="pagination-link prev-link">
+                <span class="pagination-label">Previous Page</span>
+                <span class="pagination-title">← Previous</span>
+            </a>
+        {% endif %}
+    </div>
 
-{% if pagination.href.next %}
-<ul><li>
-  <a href="{{ pagination.href.next }}">Next Page</a></li></ul>
-{% endif %}
+    <div class="pagination-next">
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}" class="pagination-link next-link">
+                <span class="pagination-label">Next Page</span>
+                <span class="pagination-title">Next →</span>
+            </a>
+        {% endif %}
+    </div>
 </div>

@@ -7,58 +7,8 @@ tags:
 eleventyExcludeFromCollections: true
 ---
 <h2>Contact me</h2>
-<p>Use this form to contact me (slowest). Send me a message on <a href="https://hachyderm.io/@skinnylatte">Mastodon</a> or <a href="https://www.linkedin.com/in/adriannatan/">LinkedIn</a> (fastest).</p>
+<p>This page used to have a form. There was a lot of spam. There is no more form, for now.</p>
+<p>Send me a message on <a href="https://hachyderm.io/@skinnylatte">Mastodon</a> or <a href="https://www.linkedin.com/in/adriannatan/">LinkedIn</a> (fastest).</p>
 <p>I'm available for speaking opportunities, <a href="/writing">writing assignments</a>, and offers of good food or company.</p>
 <p>The best way to get me to respond is to tell me you have free ice cream.</p>
-
-<div class="contact-form">
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="company-website" id="contact-form">
-  <!-- Multiple honeypots with different approaches -->
-  <div style="position: absolute; left: -9999px; top: -9999px;" aria-hidden="true">
-    <input type="text" name="company-website" tabindex="-1" autocomplete="off" />
-  </div>
-  
-  <div class="hidden">
-    <label>Company Website: <input type="url" name="website" /></label>
-  </div>
-  
-  <div class="hidden">
-    <label>Phone: <input type="tel" name="phone" /></label>
-  </div>
-  
-  <!-- Timestamp for timing validation -->
-  <input type="hidden" name="form-timestamp" id="form-timestamp" value="" />
-  
-  <!-- Regular form fields -->
-  <div class="form-group">
-    <label for="visitor-name">Your Name: <span class="required">*</span></label>
-    <input type="text" name="name" id="visitor-name" required minlength="2" maxlength="100" />
-  </div>
-  
-  <div class="form-group">
-    <label for="visitor-email">Your Email: <span class="required">*</span></label>
-    <input type="email" name="email" id="visitor-email" required />
-  </div>
-  
-  <!-- Simple human verification -->
-  <div class="form-group">
-    <label for="math-check">Quick math check (to verify you're human): What is 5 + 3? <span class="required">*</span></label>
-    <input type="number" name="math-verification" id="math-check" required min="8" max="8" />
-  </div>
-  
-  <div class="form-group">
-    <label for="visitor-message">Message: <span class="required">*</span></label>
-    <textarea name="message" id="visitor-message" required minlength="10" maxlength="2000" rows="5"></textarea>
-  </div>
-  
-  <!-- Checkbox verification -->
-  <div class="form-group">
-    <input type="checkbox" name="human-verification" id="human-check" required />
-    <label for="human-check">I confirm I am a human and not a bot <span class="required">*</span></label>
-  </div>
-  
-  <div class="form-group">
-    <button type="submit" id="submit-btn">Send Message</button>
-  </div>
-</form>
 </div>
