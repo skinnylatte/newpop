@@ -4,9 +4,9 @@
 <body>
 <div class="container">
 {% include "_header.html" %}
-<div class="wrapper">
+<main class="wrapper" role="main">
 {% include "_aside.html" %}
-<main class="content">
+<div class="content">
 <article class="post">
   <header class="post-header">
     <h1>{{ title }}</h1>
@@ -28,9 +28,8 @@
 {% include "_postpagination.html" %}
 </main>
 </div>
-</div>
 </body>
-<footer class="site-footer">
+<footer class="site-footer" role="contentinfo">
   <div class="footer-content">
     &copy; Copyright {{ site.copyrightYear }}
   </div>
