@@ -1,36 +1,31 @@
 :root {
-    --color-primary-green: #47682C;
-    --color-dark-green: #2d4119;
-    --color-light-green-hover: #e8f5e8;
-    --color-accent-brown: #8C7051;
-    --color-dark-brown: #5a4833;
-    --color-accent-red: #AE0A2B;
-    --color-dark-red: #8b0822;
-
+    --color-primary-green: #385523;
+    --color-dark-green: #1a2b0e;
+    --color-light-green-hover: #dcf2dc;
+    --color-accent-brown: #745b3f;
+    --color-dark-brown: #453523;
+    --color-accent-red: #8f0822;
+    --color-dark-red: #6e061a;
     --color-text-darkest: #000;
     --color-text-dark: #1a1a1a;
-    --color-text-medium: #333;
-    --color-text-paragraph: #555;
-    --color-text-caption: #666;
-    --color-text-quote: #495057;
-    --color-text-form-label: #333;
-
+    --color-text-medium: #222;
+    --color-text-paragraph: #444;
+    --color-text-caption: #555;
+    --color-text-quote: #3a4046;
+    --color-text-form-label: #222;
     --color-background-white: white;
     --color-background-offwhite: #F7FCFE;
-    --color-light-grey: #E0E0E0;
-    --color-medium-grey: #B0B0B0;
-    --color-dark-grey: #4A4A4A;
-    --color-lightest-grey-bg: #FDFDFD;
-
-    --color-border-light: #f0f0f0;
-    --color-border-medium: #e0e0e0;
+    --color-light-grey: #D0D0D0;
+    --color-medium-grey: #909090;
+    --color-dark-grey: #333333;
+    --color-lightest-grey-bg: #F8F8F8;
+    --color-border-light: #e8e8e8;
+    --color-border-medium: #d0d0d0;
     --color-border-light-translucent: rgba(255, 255, 255, 0.2);
-
     --font-body: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
     --font-heading: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     --font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
     --font-code: 'Fira Code', 'SF Mono', Monaco, Consolas, monospace;
-
     --spacing-xxs: 0.25rem;
     --spacing-xs: 0.5rem;
     --spacing-sm: 0.75rem;
@@ -39,7 +34,6 @@
     --spacing-xl: 1.5rem;
     --spacing-xxl: 2rem;
     --spacing-xxxl: 3rem;
-
     --border-radius-xs: 3px;
     --border-radius-sm: 4px;
     --border-radius-md: 6px;
@@ -48,39 +42,34 @@
     --border-radius-xxl: 20px;
     --border-radius-pill: 50px;
     --border-radius-circle: 50%;
-
-    --color-primary-accent: #6C9A4B;
-    --color-secondary-accent: #FFD166;
-    --color-darker-green: #3A7025;
-    --color-burnt-orange: #E67E22;
-    --color-deep-red: #C0392B;
-
+    --color-primary-accent: #5a823c;
+    --color-secondary-accent: #FFC140;
+    --color-darker-green: #2c591c;
+    --color-burnt-orange: #CC6B14;
+    --color-deep-red: #A03020;
     --color-text-body: var(--color-dark-grey);
-    --color-text-heading: #2C2C2C;
-    --color-text-light: #7F8C8D;
-    --color-text-error: #E74C3C;
+    --color-text-heading: #202020;
+    --color-text-light: #607071;
+    --color-text-error: #C0392B;
     --color-text-inverted: white;
-    --color-text-page-top-link: #e8f5e8;
-    --color-code: #C7254E;
-    --color-aside-link: #1B2F33;
-
+    --color-text-page-top-link: #dcf2dc;
+    --color-code: #A21D3F;
+    --color-aside-link: #142528;
     --color-link-default: var(--color-primary-accent);
     --color-link-hover: var(--color-darker-green);
     --color-link-border-hover: var(--color-primary-accent);
-
-    --color-background-light-blueish: #e9f0f3;
+    --color-background-light-blueish: #dce7ed;
 }
 
-/* base, reset */
 html {
     box-sizing: border-box;
+    font-size: 100%;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
-/* body */
 body {
     font-family: var(--font-body);
     background-color: var(--color-background-offwhite);
@@ -93,7 +82,6 @@ body {
     font-weight: 400;
 }
 
-/* typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--color-text-heading);
@@ -152,8 +140,11 @@ h5, h6 {
     transition: color 0.2s ease;
 }
 
-.content h2 a:hover {
+.content h2 a:hover,
+.content h2 a:focus {
     color: var(--color-dark-brown);
+    outline: 2px solid var(--color-dark-brown);
+    outline-offset: 2px;
 }
 
 .content a {
@@ -163,9 +154,12 @@ h5, h6 {
     transition: border-color 0.2s ease, color 0.2s ease;
 }
 
-.content a:hover {
+.content a:hover,
+.content a:focus {
     color: var(--color-link-hover);
     border-bottom-color: var(--color-link-border-hover);
+    outline: 2px solid var(--color-link-hover);
+    outline-offset: 2px;
 }
 
 .content p {
@@ -185,7 +179,7 @@ h5, h6 {
 }
 
 .content strong {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--color-text-dark);
 }
 
@@ -208,7 +202,7 @@ blockquote {
 }
 
 blockquote::before {
-    content: '"';
+    content: '“';
     font-size: 3rem;
     color: var(--color-primary-accent);
     position: absolute;
@@ -223,7 +217,7 @@ code {
     padding: 0.2rem 0.4rem;
     border-radius: var(--border-radius-xs);
     font-family: var(--font-code);
-    font-size: 0.9rem;
+    font-size: 0.9em;
     color: var(--color-code);
     border: 1px solid var(--color-background-light-blueish);
 }
@@ -244,7 +238,6 @@ pre code {
     color: var(--color-text-quote);
 }
 
-/* layout */
 .container > * {
     flex: 1 100%;
 }
@@ -314,7 +307,6 @@ pre code {
     width: 400px;
 }
 
-/* nav */
 .nav {
     background: var(--color-background-white);
     border-radius: var(--border-radius-xl);
@@ -349,12 +341,14 @@ pre code {
     letter-spacing: 0.025em;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
     background: var(--color-light-grey);
     color: var(--color-link-default);
+    outline: 2px solid var(--color-link-default);
+    outline-offset: 2px;
 }
 
-/* aside */
 .aside {
     margin-right: auto;
     padding: var(--spacing-xl);
@@ -377,15 +371,18 @@ pre code {
 
 .aside a {
     text-decoration: none;
-    color: #1B2F33;
+    color: var(--color-aside-link);
     transition: color 0.2s ease;
     font-weight: 500;
     font-size: 0.95rem;
     line-height: 1.5;
 }
 
-.aside a:hover {
+.aside a:hover,
+.aside a:focus {
     color: var(--color-deep-red);
+    outline: 2px solid var(--color-deep-red);
+    outline-offset: 2px;
 }
 
 .profile {
@@ -434,9 +431,12 @@ pre code {
     pointer-events: none;
 }
 
-.profile h1 a:hover {
+.profile h1 a:hover,
+.profile h1 a:focus {
     transform: translateY(-3px) scale(1.02);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    outline: 2px solid var(--color-text-inverted);
+    outline-offset: 2px;
 }
 
 .profile img {
@@ -492,9 +492,12 @@ pre code {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.add-blogroll:hover {
+.add-blogroll:hover,
+.add-blogroll:focus {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(174, 10, 43, 0.4);
+    outline: 2px solid var(--color-text-inverted);
+    outline-offset: 2px;
 }
 
 .add-blogroll a {
@@ -502,7 +505,6 @@ pre code {
     font-weight: 600;
 }
 
-/* socials */
 .socials {
     background: var(--color-background-white);
     border-radius: var(--border-radius-xl);
@@ -539,13 +541,15 @@ pre code {
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-.socials a:hover {
+.socials a:hover,
+.socials a:focus {
     background: var(--color-primary-accent);
     color: var(--color-text-inverted);
     transform: translateY(-2px);
+    outline: 2px solid var(--color-primary-accent);
+    outline-offset: 2px;
 }
 
-/* footer */
 .footer {
     background: var(--color-background-white);
     border-radius: var(--border-radius-xl);
@@ -561,7 +565,6 @@ pre code {
     font-weight: 400;
 }
 
-/* post design */
 .post ul li {
     list-style-type: square;
     padding: 0.375rem 0;
@@ -614,13 +617,15 @@ pre code {
     transition: color 0.2s ease;
 }
 
-.archive-post-header h4 a:hover {
+.archive-post-header h4 a:hover,
+.archive-post-header h4 a:focus {
     color: var(--color-dark-brown);
     text-decoration: underline;
     text-underline-offset: 3px;
+    outline: 2px solid var(--color-dark-brown);
+    outline-offset: 2px;
 }
 
-/* pagination */
 .post-pagination {
     margin-top: var(--spacing-xxxl);
     padding-top: var(--spacing-xxl);
@@ -650,12 +655,15 @@ pre code {
     color: var(--color-text-body);
 }
 
-.pagination-link:hover {
+.pagination-link:hover,
+.pagination-link:focus {
     background-color: var(--color-light-green-hover);
     box-shadow: 0 6px 16px rgba(71, 104, 44, 0.25);
     transform: translateY(-3px);
     text-decoration: none;
     color: var(--color-text-dark) !important;
+    outline: 2px solid var(--color-darker-green);
+    outline-offset: 2px;
 }
 
 .prev-link {
@@ -685,16 +693,16 @@ pre code {
 
 @media (max-width: 768px) {
     .pagination-container {
-        display: flex; 
-        flex-direction: column; 
+        display: flex;
+        flex-direction: column;
         gap: var(--spacing-md);
-        align-items: center; 
+        align-items: center;
     }
 
     .pagination-link {
         max-width: 100%;
-        width: 100%; 
-        text-align: center; 
+        width: 100%;
+        text-align: center;
     }
 
     .pagination-title {
@@ -703,11 +711,10 @@ pre code {
 
     .prev-link,
     .next-link {
-        text-align: center; 
+        text-align: center;
     }
 }
 
-/* embeds */
 .slideshow-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -725,7 +732,6 @@ pre code {
     height: 100%;
 }
 
-/* tags */
 .tags-cloud {
     display: flex;
     flex-wrap: wrap;
@@ -747,14 +753,16 @@ pre code {
     border: 1px solid var(--color-border-light);
 }
 
-.tag-item:hover {
+.tag-item:hover,
+.tag-item:focus {
     background-color: var(--color-primary-accent);
     color: var(--color-text-inverted);
     transform: translateY(-1px);
     text-decoration: none;
+    outline: 2px solid var(--color-primary-accent);
+    outline-offset: 2px;
 }
 
-/* archives */
 .archives h2 {
     color: var(--color-text-heading);
     font-weight: 600;
@@ -795,7 +803,8 @@ pre code {
     transition: box-shadow 0.2s ease;
 }
 
-.archive-post-item:hover {
+.archive-post-item:hover,
+.archive-post-item:focus-within {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -817,10 +826,13 @@ pre code {
     transition: color 0.2s ease;
 }
 
-.archive-post-header h4 a:hover {
+.archive-post-header h4 a:hover,
+.archive-post-header h4 a:focus {
     color: var(--color-dark-brown);
     text-decoration: underline;
     text-underline-offset: 3px;
+    outline: 2px solid var(--color-dark-brown);
+    outline-offset: 2px;
 }
 
 .post-excerpt, .archive-post-excerpt {
@@ -842,7 +854,6 @@ pre code {
     gap: var(--spacing-xs);
 }
 
-/* responsive */
 @media all and (min-width: 600px) {
     .wrapper {
         display: flex;
