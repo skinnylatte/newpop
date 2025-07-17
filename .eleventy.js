@@ -113,9 +113,11 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
   return redirects;
 });
   // add youtube embed block
-  eleventyConfig.addPlugin(embedYouTube);
-
-  // add google slides block
+  eleventyConfig.addPlugin(embedYouTube, {
+  lazy: true,
+  modestBranding: true,
+  noCookie: true,
+});
   // Google Slides shortcode
   eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569, title = "Embedded Google Slides Presentation") {
   return `<div class="slideshow-container">
