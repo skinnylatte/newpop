@@ -48,10 +48,9 @@
     --color-text-light: #607071;
     --color-text-inverted: white;
     --color-code: #A21D3F;
-    --color-aside-link: #142528;
-    --color-link-default: var(--color-primary-accent);
-    --color-link-hover: var(--color-darker-green);
-    --color-link-border-hover: var(--color-primary-accent);
+    --color-aside-link: #000;
+    --color-link-default: #2c591c;
+    --color-link-hover: #1a2b0e;
     --color-background-light-blueish: #dce7ed;
 }
 
@@ -143,15 +142,14 @@ h5, h6 {
 
 .content a {
     color: var(--color-link-default);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease, color 0.2s ease;
+    text-decoration: underline;
+    transition: color 0.2s ease;
 }
 
 .content a:hover,
 .content a:focus {
     color: var(--color-link-hover);
-    border-bottom-color: var(--color-link-border-hover);
+    text-decoration: underline;
     outline: 2px solid var(--color-link-hover);
     outline-offset: 2px;
 }
