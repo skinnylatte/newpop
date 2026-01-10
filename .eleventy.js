@@ -164,7 +164,7 @@ eleventyConfig.addPlugin(syntaxHighlight);
 
 	// passthrough info
 
-	["./src/favicon.ico", "./src/style.css", "./src/youtube-lite.css", "./src/youtube-lite.js", "./src/photos/uploads", "./src/img", "./src/assets"].forEach(path => {
+	["./src/favicon.ico", "./src/favicon.svg", "./src/style.css", "./src/youtube-lite.css", "./src/youtube-lite.js", "./src/photos/uploads", "./src/img", "./src/assets"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
