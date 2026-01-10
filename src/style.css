@@ -692,6 +692,8 @@ pre code {
     margin-bottom: var(--spacing-lg);
     padding: var(--spacing-md);
     text-align: center;
+    min-height: 80px;
+    contain: layout;
 }
 
 .site-nav a {
@@ -722,6 +724,7 @@ pre code {
     min-height: 400px;
     overflow-wrap: break-word;
     min-width: 0;
+    contain: layout;
 }
 
 .site-main img {
@@ -866,6 +869,8 @@ pre code {
     margin-bottom: var(--spacing-lg);
     line-height: var(--leading-relaxed);
     color: var(--color-text-primary);
+    font-size: var(--text-base);
+    max-width: 70ch;
 }
 
 .site-main a:not(.site-main h2 a) {
@@ -1753,6 +1758,7 @@ label {
     .site-nav {
         padding: var(--spacing-sm);
         clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+        min-height: 60px;
     }
 
     .site-nav a {
@@ -1760,6 +1766,8 @@ label {
         padding: var(--spacing-xs) var(--spacing-md);
         margin: var(--spacing-xxs);
         display: inline-block;
+        min-height: 40px;
+        line-height: 1.4;
     }
 
     .site-main {
