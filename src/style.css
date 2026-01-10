@@ -133,7 +133,7 @@
     /* More prominent triangular decorations with vintage feel */
     .site-header::before,
     .site-header::after {
-        opacity: 0.12;
+        opacity: 0.18;
     }
 
     /* Warmer shadows on header */
@@ -576,6 +576,8 @@ pre code {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     font-family: var(--font-heading);
+    position: relative;
+    z-index: 10;
 }
 
 .site-title a {
@@ -589,7 +591,7 @@ pre code {
 }
 
 .technical-readout {
-    position: static;
+    position: relative;
     padding: var(--spacing-md) var(--spacing-md);
     font-family: var(--font-mono);
     font-size: 1.3rem;
@@ -597,6 +599,7 @@ pre code {
     color: var(--brand-accent);
     text-transform: uppercase;
     display: flex;
+    z-index: 10;
     align-items: center;
     justify-content: center;
     gap: var(--spacing-sm);
@@ -1721,13 +1724,15 @@ label {
     }
 
     .site-header::before {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
+        opacity: 0.25;
     }
 
     .site-header::after {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
+        opacity: 0.25;
     }
 
     .site-title {
@@ -1898,7 +1903,7 @@ label {
     text-decoration: none;
     font-weight: var(--weight-bold);
     font-size: var(--text-lg);
-    z-index: 1000;
+    z-index: 50;
     clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
     transition: top 0.3s ease;

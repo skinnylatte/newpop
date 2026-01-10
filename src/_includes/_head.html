@@ -109,7 +109,7 @@
 
             .site-header::before,
             .site-header::after {
-                opacity: 0.12;
+                opacity: 0.18;
             }
         }
 
@@ -514,6 +514,8 @@
             letter-spacing: -0.03em;
             text-transform: uppercase;
             font-family: var(--font-heading);
+            position: relative;
+            z-index: 10;
         }
 
         .site-title a {
@@ -542,6 +544,8 @@
             gap: var(--spacing-sm);
             font-weight: var(--weight-bold);
             padding: var(--spacing-md);
+            position: relative;
+            z-index: 10;
         }
 
         .site-nav {
@@ -613,13 +617,15 @@
             }
 
             .site-header::before {
-                width: 100px;
-                height: 100px;
+                width: 140px;
+                height: 140px;
+                opacity: 0.25;
             }
 
             .site-header::after {
-                width: 80px;
-                height: 80px;
+                width: 120px;
+                height: 120px;
+                opacity: 0.25;
             }
 
             .site-title {
