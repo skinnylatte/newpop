@@ -1683,6 +1683,62 @@ label {
 }
 
 @media all and (max-width: 599px) {
+    .site-header {
+        padding: var(--spacing-lg) var(--spacing-sm);
+        clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+    }
+
+    .site-header::before {
+        width: 100px;
+        height: 100px;
+    }
+
+    .site-header::after {
+        width: 80px;
+        height: 80px;
+    }
+
+    .site-title {
+        font-size: var(--text-3xl);
+        margin: var(--spacing-sm) 0;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+
+    .site-tagline {
+        font-size: var(--text-sm);
+    }
+
+    .technical-readout {
+        font-size: 1rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-xs);
+    }
+
+    .readout-segment {
+        font-size: 0.9rem;
+    }
+
+    .site-nav {
+        padding: var(--spacing-sm);
+        clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+    }
+
+    .site-nav a {
+        font-size: var(--text-sm);
+        padding: var(--spacing-xs) var(--spacing-md);
+        margin: var(--spacing-xxs);
+        display: inline-block;
+    }
+
+    .site-main {
+        padding: var(--spacing-lg);
+        clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+    }
+
     .site-banner {
         padding: var(--spacing-lg) var(--spacing-sm);
     }
@@ -1690,10 +1746,6 @@ label {
     .site-banner h1 {
         font-size: var(--text-4xl);
         margin-top: var(--spacing-lg);
-    }
-
-    .site-tagline {
-        font-size: var(--text-sm);
     }
 
     .content {

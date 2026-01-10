@@ -581,6 +581,63 @@
             text-decoration: none;
         }
 
+        /* Mobile responsive styles */
+        @media (max-width: 599px) {
+            .site-header {
+                padding: var(--spacing-lg) var(--spacing-sm);
+                clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+            }
+
+            .site-header::before {
+                width: 100px;
+                height: 100px;
+            }
+
+            .site-header::after {
+                width: 80px;
+                height: 80px;
+            }
+
+            .site-title {
+                font-size: var(--text-3xl);
+                margin: var(--spacing-sm) 0;
+                word-break: break-word;
+                overflow-wrap: break-word;
+                hyphens: auto;
+            }
+
+            .site-tagline {
+                font-size: var(--text-sm);
+            }
+
+            .technical-readout {
+                font-size: 1rem;
+                padding: var(--spacing-xs) var(--spacing-sm);
+                flex-wrap: wrap;
+                gap: var(--spacing-xs);
+            }
+
+            .site-nav {
+                padding: var(--spacing-sm);
+                clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+            }
+
+            .site-nav a {
+                font-size: var(--text-sm);
+                padding: var(--spacing-xs) var(--spacing-md);
+                margin: var(--spacing-xxs);
+            }
+
+            .site-main {
+                padding: var(--spacing-lg);
+                clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+            }
+
+            .site-main h2 {
+                font-size: var(--text-2xl);
+            }
+        }
+
         @media (min-width: 900px) {
             body {
                 display: grid;
