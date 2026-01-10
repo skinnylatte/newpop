@@ -599,12 +599,12 @@
             }
 
             .site-title {
-                font-size: var(--text-xl);
+                font-size: clamp(1.8rem, 5.5vw, 2.4rem);
                 margin: var(--spacing-sm) 0;
                 letter-spacing: -0.075em;
                 hyphens: none;
-                word-break: keep-all;
-                overflow-wrap: normal;
+                white-space: nowrap;
+                overflow: visible;
             }
 
             .site-tagline {
