@@ -15,13 +15,22 @@ eleventyExcludeFromCollections: true
     <name>{{ metadata.feed.authorName }}</name>
     <email>{{ metadata.feed.authorEmail }}</email>
   </author>
-  {%- for post in collections.feedposts | head(5) | reverse %}
+  {%- for post in collections.feedposts | reverse | head(20) %}
   {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
+    <published>{{ post.date | dateToRfc3339 }}</published>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
+    {%- if post.data.tags %}
+    {%- for tag in post.data.tags %}
+    <category term="{{ tag }}"/>
+    {%- endfor %}
+    {%- endif %}
+    {%- if post.data.description %}
+    <summary>{{ post.data.description }}</summary>
+    {%- endif %}
     <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
