@@ -115,6 +115,8 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
   lazy: true,
   modestBranding: true,
   noCookie: true,
+  embedClass: "youtube-embed",
+  lite: true,
 });
   // Google Slides shortcode
   eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569, title = "Embedded Google Slides Presentation") {
