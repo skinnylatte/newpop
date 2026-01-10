@@ -1,9 +1,8 @@
 {% if tags %}
 <div class="post-tags">
- Tagged:
 {% for tag in tags %}
 {% if tag != 'posts' and tag != 'all' %}
-<a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+<a href="/tags/{{ tag | slugify }}/" class="tag-item">{{ tag }}<span class="visually-hidden"> (view all posts tagged {{ tag }})</span></a>
 {% endif %}
 {% endfor %}
 </div>

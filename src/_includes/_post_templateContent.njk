@@ -1,9 +1,22 @@
-{% for post in posts %}  
 <ul>
+{% for post in posts %}
 <li>
       <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-      <div class="date-metadata">Published on {{ post.data.date | postDate  }}</div>
+      <div class="post-meta">
+        <time class="date-metadata" datetime="{{ post.data.date }}">
+          Published on {{ post.data.date | postDate }}
+        </time>
+      </div>
 	<div class="post">{{ post.templateContent | safe }}</div>
-	</li>
-</ul>
+	{% if post.data.tags %}
+	<div class="post-tags">
+	{% for tag in post.data.tags %}
+	{% if tag != 'posts' and tag != 'all' %}
+	<a href="/tags/{{ tag | slugify }}/" class="tag-item">{{ tag }}<span class="visually-hidden"> (view all posts tagged {{ tag }})</span></a>
+	{% endif %}
+	{% endfor %}
+	</div>
+	{% endif %}
+</li>
 {% endfor %}
+</ul>

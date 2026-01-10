@@ -18,14 +18,28 @@ eleventyExcludeFromCollections: true
 {% set totalPosts = postsWithTag.length %}
 
 <!-- Display full posts for this tag -->
+<ul>
 {% for post in postsWithTag | reverse %}
-<article class="post">
+<li>
   <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-  <div class="date-metadata">{{ post.data.date | postDate }}</div>
-  {{ post.templateContent | safe }}
-  <hr>
-</article>
+  <div class="post-meta">
+    <time class="date-metadata" datetime="{{ post.data.date }}">
+      Published on {{ post.data.date | postDate }}
+    </time>
+  </div>
+  <div class="post">{{ post.templateContent | safe }}</div>
+  {% if post.data.tags %}
+  <div class="post-tags">
+  {% for tagItem in post.data.tags %}
+  {% if tagItem != 'posts' and tagItem != 'all' %}
+  <a href="/tags/{{ tagItem | slugify }}/" class="tag-item">{{ tagItem }}<span class="visually-hidden"> (view all posts tagged {{ tagItem }})</span></a>
+  {% endif %}
+  {% endfor %}
+  </div>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 
 <div class="tag-info">
   <p>{{ totalPosts }} post{% if totalPosts != 1 %}s{% endif %} tagged "{{ tag }}"</p>
