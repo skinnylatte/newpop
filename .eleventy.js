@@ -110,11 +110,20 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
   
   return redirects;
 });
-  // add youtube embed block
+  // add youtube lite embed shortcode (facade pattern for performance)
+  eleventyConfig.addShortcode("youtube", function(videoId, title = "YouTube video") {
+    return `<div class="youtube-lite" data-videoid="${videoId}">
+      <img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="${title}" loading="lazy">
+    </div>`;
+  });
+
+  // keep original plugin for backwards compatibility
   eleventyConfig.addPlugin(embedYouTube, {
   lazy: true,
   modestBranding: true,
   noCookie: true,
+  embedClass: "youtube-embed",
+  lite: true,
 });
   // Google Slides shortcode
   eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569, title = "Embedded Google Slides Presentation") {
@@ -155,7 +164,7 @@ eleventyConfig.addPlugin(syntaxHighlight);
 
 	// passthrough info
 
-	["./src/favicon.ico", "./src/style.css", "./src/photos/uploads", "./src/img", "./src/assets"].forEach(path => {
+	["./src/favicon.ico", "./src/style.css", "./src/youtube-lite.css", "./src/youtube-lite.js", "./src/photos/uploads", "./src/img", "./src/assets"].forEach(path => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
