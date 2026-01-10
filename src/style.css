@@ -16,10 +16,10 @@
     --color-text-caption: #6B5B52;
     --color-text-quote: #544039;
 
-    /* Warm backgrounds */
-    --color-background-white: #FFFCFA;
-    --color-background-cream: #FFF8F2;
-    --color-background-warm-beige: #F5EFE7;
+    /* Warm backgrounds - richer, warmer tones */
+    --color-background-white: #FFF9F0;
+    --color-background-cream: #FFF3E6;
+    --color-background-warm-beige: #F5E6D3;
     --color-warm-grey: #D4C7BC;
     --color-medium-warm-grey: #9B8981;
     --color-dark-grey: #4A342C;
