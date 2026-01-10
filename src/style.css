@@ -1,80 +1,99 @@
 :root {
-    --color-primary-green: #385523;
-    --color-dark-green: #1a2b0e;
-    --color-light-green-hover: #dcf2dc;
-    --color-accent-brown: #745b3f;
-    --color-dark-brown: #453523;
-    --color-accent-red: #8f0822;
-    --color-dark-red: #6e061a;
-    --color-text-darkest: #000;
-    --color-text-dark: #1a1a1a;
-    --color-text-medium: #222;
-    --color-text-paragraph: #444;
-    --color-text-caption: #555;
-    --color-text-quote: #3a4046;
-    --color-background-white: white;
-    --color-background-offwhite: #F7FCFE;
-    --color-light-grey: #D0D0D0;
-    --color-medium-grey: #909090;
-    --color-dark-grey: #333333;
-    --color-lightest-grey-bg: #F8F8F8;
-    --color-border-light: #e8e8e8;
-    --color-border-medium: #d0d0d0;
-    --color-border-light-translucent: rgba(255, 255, 255, 0.2);
-    --font-body: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
-    --font-heading: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    /* Warmer, richer color palette */
+    --color-primary-terracotta: #C4614A;
+    --color-dark-terracotta: #8E3B2B;
+    --color-light-terracotta: #E8C5BC;
+    --color-accent-ochre: #D88C3C;
+    --color-warm-brown: #6B4423;
+    --color-rich-rust: #B85842;
+    --color-deep-brick: #8B3A2F;
+
+    /* Text colors with better contrast */
+    --color-text-darkest: #1A0F0A;
+    --color-text-dark: #2B1810;
+    --color-text-medium: #3D2415;
+    --color-text-paragraph: #4A342C;
+    --color-text-caption: #6B5B52;
+    --color-text-quote: #544039;
+
+    /* Warm backgrounds */
+    --color-background-white: #FFFCFA;
+    --color-background-cream: #FFF8F2;
+    --color-background-warm-beige: #F5EFE7;
+    --color-warm-grey: #D4C7BC;
+    --color-medium-warm-grey: #9B8981;
+    --color-dark-grey: #4A342C;
+
+    /* Borders and accents */
+    --color-border-light: #E8DDD4;
+    --color-border-medium: #CDB8AB;
+    --color-border-warm: rgba(196, 97, 74, 0.2);
+
+    /* Typography - Bolder, more distinctive */
+    --font-body: 'Georgia', 'Charter', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
+    --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', sans-serif;
     --font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
     --font-code: 'Fira Code', 'SF Mono', Monaco, Consolas, monospace;
+
+    /* Spacing - slightly more generous */
     --spacing-xxs: 0.25rem;
     --spacing-xs: 0.5rem;
     --spacing-sm: 0.75rem;
     --spacing-md: 1rem;
-    --spacing-lg: 1.25rem;
-    --spacing-xl: 1.5rem;
-    --spacing-xxl: 2rem;
-    --spacing-xxxl: 3rem;
-    --border-radius-xs: 3px;
-    --border-radius-sm: 4px;
-    --border-radius-md: 6px;
-    --border-radius-lg: 8px;
-    --border-radius-xl: 12px;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 2.5rem;
+    --spacing-xxxl: 3.5rem;
+
+    /* Border radius - slightly softer */
+    --border-radius-xs: 4px;
+    --border-radius-sm: 6px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 16px;
     --border-radius-circle: 50%;
-    --color-primary-accent: #5a823c;
-    --color-darker-green: #2c591c;
-    --color-burnt-orange: #CC6B14;
-    --color-deep-red: #A03020;
-    --color-text-body: var(--color-dark-grey);
-    --color-text-heading: #202020;
-    --color-text-light: #607071;
-    --color-text-inverted: white;
-    --color-code: #A21D3F;
-    --color-aside-link: #000;
-    --color-link-default: #2c591c;
-    --color-link-hover: #1a2b0e;
-    --color-background-light-blueish: #dce7ed;
+
+    /* Semantic color mappings */
+    --color-primary-accent: var(--color-primary-terracotta);
+    --color-primary-accent-dark: var(--color-dark-terracotta);
+    --color-text-body: var(--color-text-paragraph);
+    --color-text-heading: var(--color-text-darkest);
+    --color-text-light: var(--color-text-caption);
+    --color-text-inverted: var(--color-background-white);
+    --color-code: var(--color-rich-rust);
+    --color-aside-link: var(--color-text-darkest);
+    --color-link-default: var(--color-primary-terracotta);
+    --color-link-hover: var(--color-dark-terracotta);
+    --color-background-light: var(--color-background-cream);
 }
 
 
 h2 {
-    font-size: var(--spacing-xxl);
+    font-size: 2.25rem;
+    font-weight: 800;
     margin-bottom: var(--spacing-lg);
     margin-top: var(--spacing-xxl);
+    letter-spacing: -0.02em;
 }
 
 h3 {
-    font-size: var(--spacing-xl);
+    font-size: 1.75rem;
+    font-weight: 700;
     margin-bottom: var(--spacing-md);
     margin-top: var(--spacing-xl);
+    letter-spacing: -0.01em;
 }
 
 h4 {
-    font-size: var(--spacing-lg);
+    font-size: 1.35rem;
+    font-weight: 700;
     margin-bottom: var(--spacing-sm);
     margin-top: var(--spacing-lg);
 }
 
 h5, h6 {
     font-size: 1.125rem;
+    font-weight: 600;
     margin-bottom: var(--spacing-xs);
     margin-top: var(--spacing-md);
 }
@@ -82,25 +101,26 @@ h5, h6 {
 .content h2,
 .post h2,
 .archives h2 {
-    font-weight: 600;
-    font-size: var(--spacing-xxl);
+    font-weight: 800;
+    font-size: 2.25rem;
     line-height: 1.2;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
     padding: var(--spacing-md) 0;
-    border-bottom: 2px solid var(--color-light-grey);
+    border-bottom: 3px solid var(--color-border-medium);
     color: var(--color-text-heading);
+    letter-spacing: -0.02em;
 }
 
 .content h2 a {
-    color: var(--color-accent-brown);
+    color: var(--color-primary-terracotta);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .content h2 a:hover,
 .content h2 a:focus {
-    color: var(--color-dark-brown);
-    outline: 2px solid var(--color-dark-brown);
+    color: var(--color-dark-terracotta);
+    outline: 2px solid var(--color-dark-terracotta);
     outline-offset: 2px;
 }
 
@@ -120,9 +140,10 @@ h5, h6 {
 
 .content p {
     margin-bottom: var(--spacing-xl);
-    line-height: 1.7;
+    line-height: 1.75;
     color: var(--color-text-body);
-    font-size: 1.125rem;
+    font-size: 1.15rem;
+    font-weight: 400;
 }
 
 .content p:last-child {
@@ -145,46 +166,48 @@ h5, h6 {
 }
 
 blockquote {
-    background: linear-gradient(135deg, var(--color-lightest-grey-bg) 0%, var(--color-background-light-blueish) 100%);
+    background: linear-gradient(135deg, var(--color-background-warm-beige) 0%, var(--color-light-terracotta) 100%);
     padding: var(--spacing-xl) var(--spacing-xxl);
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-lg);
     margin: var(--spacing-xxl) 0;
-    border-left: 4px solid var(--color-primary-accent);
+    border-left: 5px solid var(--color-primary-terracotta);
     font-style: italic;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 1.65;
     color: var(--color-text-quote);
     position: relative;
+    font-weight: 500;
 }
 
 blockquote::before {
-    content: '“';
-    font-size: 3rem;
-    color: var(--color-primary-accent);
+    content: '"';
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--color-primary-terracotta);
     position: absolute;
-    top: -10px;
-    left: 10px;
+    top: -15px;
+    left: 15px;
     font-family: Georgia, serif;
-    opacity: 0.3;
+    opacity: 0.25;
 }
 
 code {
-    background: var(--color-lightest-grey-bg);
+    background: var(--color-background-warm-beige);
     padding: 0.2rem 0.4rem;
     border-radius: var(--border-radius-xs);
     font-family: var(--font-code);
     font-size: 0.9em;
     color: var(--color-code);
-    border: 1px solid var(--color-background-light-blueish);
+    border: 1px solid var(--color-border-light);
 }
 
 pre {
-    background: var(--color-lightest-grey-bg);
-    padding: var(--spacing-md);
-    border-radius: var(--border-radius-md);
+    background: var(--color-background-warm-beige);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
     overflow-x: auto;
     margin: var(--spacing-xl) 0;
-    border: 1px solid var(--color-background-light-blueish);
+    border: 2px solid var(--color-border-medium);
 }
 
 pre code {
@@ -209,13 +232,13 @@ pre code {
 
 .caption-base-style {
     display: block;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--color-text-caption);
     font-style: italic;
-    line-height: 1.5;
-    background: var(--color-lightest-grey-bg);
+    line-height: 1.6;
+    background: var(--color-background-warm-beige);
     border-radius: var(--border-radius-sm);
-    border-left: 3px solid var(--color-primary-accent);
+    border-left: 4px solid var(--color-primary-accent);
     padding: var(--spacing-sm) var(--spacing-md);
 }
 

@@ -8,60 +8,44 @@
     <style>
         /* --- above the fold css for preloading and performance --- */
         :root {
+            /* Warmer, richer color palette */
+            --color-primary-terracotta: #C4614A;
+            --color-dark-terracotta: #8E3B2B;
+            --color-text-darkest: #1A0F0A;
+            --color-text-paragraph: #4A342C;
+            --color-background-white: #FFFCFA;
+            --color-background-cream: #FFF8F2;
+            --color-background-warm-beige: #F5EFE7;
+            --color-border-medium: #CDB8AB;
 
-            --color-primary-green: #385523;
-            --color-dark-green: #1a2b0e;
-            --color-light-green-hover: #dcf2dc;
-            --color-accent-brown: #745b3f;
-            --color-dark-brown: #453523;
-            --color-accent-red: #8f0822;
-            --color-dark-red: #6e061a;
-            --color-text-darkest: #000;
-            --color-text-dark: #1a1a1a;
-            --color-text-medium: #222;
-            --color-text-paragraph: #444;
-            --color-text-caption: #555;
-            --color-text-quote: #3a4046;
-            --color-background-white: white;
-            --color-background-offwhite: #F7FCFE;
-            --color-light-grey: #D0D0D0;
-            --color-medium-grey: #909090;
-            --color-dark-grey: #333333;
-            --color-lightest-grey-bg: #F8F8F8;
-            --color-border-light: #e8e8e8;
-            --color-border-medium: #d0d0d0;
-            --color-border-light-translucent: rgba(255, 255, 255, 0.2);
-            --font-body: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
-            --font-heading: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-            --font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+            /* Typography */
+            --font-body: 'Georgia', 'Charter', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
+            --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            --font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
             --font-code: 'Fira Code', 'SF Mono', Monaco, Consolas, monospace;
+
+            /* Spacing */
             --spacing-xxs: 0.25rem;
             --spacing-xs: 0.5rem;
             --spacing-sm: 0.75rem;
             --spacing-md: 1rem;
-            --spacing-lg: 1.25rem;
-            --spacing-xl: 1.5rem;
-            --spacing-xxl: 2rem;
-            --spacing-xxxl: 3rem;
-            --border-radius-xs: 3px;
-            --border-radius-sm: 4px;
-            --border-radius-md: 6px;
-            --border-radius-lg: 8px;
-            --border-radius-xl: 12px;
-            --border-radius-circle: 50%;
-            --color-primary-accent: #5a823c;
-            --color-darker-green: #2c591c;
-            --color-burnt-orange: #CC6B14;
-            --color-deep-red: #A03020;
-            --color-text-body: var(--color-dark-grey);
-            --color-text-heading: #202020;
-            --color-text-light: #607071;
-            --color-text-inverted: white;
-            --color-code: #A21D3F;
-            --color-aside-link: #000;
-            --color-link-default: #2c591c;
-            --color-link-hover: #1a2b0e;
-            --color-background-light-blueish: #dce7ed;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            --spacing-xxl: 2.5rem;
+            --spacing-xxxl: 3.5rem;
+
+            /* Border radius */
+            --border-radius-xs: 4px;
+            --border-radius-sm: 6px;
+            --border-radius-md: 8px;
+            --border-radius-lg: 12px;
+            --border-radius-xl: 16px;
+
+            /* Semantic mappings */
+            --color-text-body: var(--color-text-paragraph);
+            --color-text-heading: var(--color-text-darkest);
+            --color-link-default: var(--color-primary-terracotta);
+            --color-link-hover: var(--color-dark-terracotta);
         }
         
         html {
@@ -75,30 +59,31 @@
         
         body {
             font-family: var(--font-body);
-            background-color: var(--color-background-offwhite);
-            font-size: 1.125rem;
-            line-height: 1.6;
+            background-color: var(--color-background-cream);
+            font-size: 1.15rem;
+            line-height: 1.75;
             color: var(--color-text-body);
             display: flex;
             flex-direction: column;
             min-height: 100vh;
             font-weight: 400;
         }
-        
+
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-heading);
             color: var(--color-text-heading);
             line-height: 1.2;
             margin-bottom: var(--spacing-md);
-            font-weight: 600;
-            letter-spacing: -0.025em;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: var(--spacing-xl);
             font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        h1 {
+            font-size: 2.75rem;
+            margin-bottom: var(--spacing-xl);
+            font-weight: 800;
             color: var(--color-text-darkest);
+            letter-spacing: -0.03em;
         }
 
         .container > * {
