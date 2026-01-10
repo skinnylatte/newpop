@@ -6,9 +6,8 @@
     <meta name="description" content="{{ site.description }}">
     
     <style>
-        /* --- above the fold css for preloading and performance --- */
         :root {
-            /* Typography - System fonts only */
+            /* Typography */
             --font-body: 'Georgia', 'Times New Roman', serif;
             --font-heading: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
             --font-mono: 'Courier New', 'Courier', monospace;
@@ -38,7 +37,7 @@
             --leading-relaxed: 1.625;
             --leading-loose: 1.75;
 
-            /* Vintage Space Colors */
+            /* Colors */
             --gray-50: #FAF8F3;
             --gray-100: #F5F1E8;
             --gray-900: #2B2822;
@@ -101,7 +100,6 @@
             }
         }
 
-        /* Light Mode Vintage Space Enhancements */
         @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
             .technical-readout {
                 color: var(--color-accent-amber);
@@ -435,7 +433,6 @@
             }
         }
 
-        /* Critical YouTube Lite styles to prevent CLS */
         .youtube-lite {
             position: relative;
             display: block;
@@ -456,7 +453,6 @@
             border: 0;
         }
 
-        /* Critical layout styles to prevent CLS */
         body {
             margin: 0;
             padding: 0.5rem;
@@ -464,7 +460,6 @@
             margin: 0 auto;
         }
 
-        /* Critical above-the-fold component styles */
         .site-header {
             text-align: center;
             padding: var(--space-medium) var(--spacing-md);
