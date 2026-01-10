@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy && node minify-css.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "clean-css": "^5.3.3",
     "dayjs": "^1.11.19",
     "luxon": "^3.4.4",
     "markdown-it-anchor": "^9.2.0",
