@@ -30,42 +30,49 @@
     --tracking-normal: 0;
     --tracking-wide: 0.025em;
 
-    /* Colors */
-    --gray-50: #fafafa;
-    --gray-100: #f5f5f5;
-    --gray-200: #e5e5e5;
-    --gray-300: #d4d4d4;
-    --gray-400: #a3a3a3;
-    --gray-500: #737373;
-    --gray-600: #525252;
-    --gray-700: #404040;
-    --gray-800: #262626;
-    --gray-900: #171717;
+    /* Colors - Vintage Space Mission Control Theme */
+    /* Warm cream/beige tones inspired by aged control panels and vintage NASA */
+    --gray-50: #FAF8F3;
+    --gray-100: #F5F1E8;
+    --gray-200: #E8E2D5;
+    --gray-300: #D4CAB8;
+    --gray-400: #9B8F7E;
+    --gray-500: #6B6558;
+    --gray-600: #4A4439;
+    --gray-700: #3A352D;
+    --gray-800: #2B2822;
+    --gray-900: #1C1A16;
 
-    --color-text-primary: #171717;
-    --color-text-secondary: #404040;
-    --color-text-tertiary: #525252;
-    --color-text-muted: #737373;
+    --color-text-primary: #2B2822;
+    --color-text-secondary: #4A4439;
+    --color-text-tertiary: #6B6558;
+    --color-text-muted: #9B8F7E;
 
-    --brand-primary: #1B5E3F;
-    --brand-primary-hover: #14472E;
-    --brand-accent: #2D8659;
-    --brand-accent-hover: #236B47;
+    /* Warmer, olive-toned greens for vintage feel - WCAG AA compliant */
+    --brand-primary: #1E4027;
+    --brand-primary-hover: #16321E;
+    --brand-accent: #245A3A;
+    --brand-accent-hover: #1E4027;
 
-    --color-background: #ffffff;
-    --color-background-subtle: #fafafa;
-    --color-background-muted: #f5f5f5;
-    --color-background-elevated: #ffffff;
+    /* Amber accent for vintage control panel lights - WCAG AA compliant */
+    --color-accent-amber: #A84F0C;
+    --color-accent-amber-hover: #8B3E0A;
 
-    --color-border-light: #f5f5f5;
-    --color-border-medium: #e5e5e5;
-    --color-border-strong: #d4d4d4;
-    --color-divider: rgba(0, 0, 0, 0.06);
-    --color-divider-strong: rgba(0, 0, 0, 0.1);
+    /* Vintage control panel backgrounds */
+    --color-background: #FAF8F3;
+    --color-background-subtle: #F5F1E8;
+    --color-background-muted: #EBE6DB;
+    --color-background-elevated: #FEFDFB;
+
+    --color-border-light: #E8E2D5;
+    --color-border-medium: #D4CAB8;
+    --color-border-strong: #9B8F7E;
+    --color-divider: rgba(43, 40, 34, 0.08);
+    --color-divider-strong: rgba(43, 40, 34, 0.12);
 
     --color-link: var(--brand-accent);
     --color-link-hover: var(--brand-accent-hover);
-    --color-focus: #2563eb;
+    --color-focus: #A84F0C;
 
     /* Spacing */
     --space-tiny: 0.8rem;
@@ -105,14 +112,34 @@
     --transition-smooth: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-gentle: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.08);
-    --shadow-xl: 0 8px 32px rgba(0, 0, 0, 0.1);
+    /* Warmer shadows for vintage aesthetic */
+    --shadow-sm: 0 1px 2px rgba(43, 40, 34, 0.06);
+    --shadow-md: 0 2px 8px rgba(47, 93, 62, 0.08);
+    --shadow-lg: 0 4px 16px rgba(47, 93, 62, 0.10);
+    --shadow-xl: 0 8px 32px rgba(47, 93, 62, 0.12);
 
     /* Layout */
     --content-max-width: 70rem;
     --page-content-width: 120rem;
+}
+
+/* Light Mode Vintage Space Enhancements */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+    /* Amber accent for technical readout - vintage control panel aesthetic */
+    .technical-readout {
+        color: var(--color-accent-amber);
+    }
+
+    /* More prominent triangular decorations with vintage feel */
+    .site-header::before,
+    .site-header::after {
+        opacity: 0.12;
+    }
+
+    /* Warmer shadows on header */
+    .site-header {
+        box-shadow: 0 2px 8px rgba(47, 93, 62, 0.08);
+    }
 }
 
 /* Dark Mode */
@@ -665,6 +692,8 @@ pre code {
     margin-bottom: var(--spacing-lg);
     padding: var(--spacing-md);
     text-align: center;
+    min-height: 80px;
+    contain: layout;
 }
 
 .site-nav a {
@@ -695,6 +724,7 @@ pre code {
     min-height: 400px;
     overflow-wrap: break-word;
     min-width: 0;
+    contain: layout;
 }
 
 .site-main img {
@@ -839,6 +869,8 @@ pre code {
     margin-bottom: var(--spacing-lg);
     line-height: var(--leading-relaxed);
     color: var(--color-text-primary);
+    font-size: var(--text-base);
+    max-width: 70ch;
 }
 
 .site-main a:not(.site-main h2 a) {
@@ -1726,6 +1758,7 @@ label {
     .site-nav {
         padding: var(--spacing-sm);
         clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+        min-height: 60px;
     }
 
     .site-nav a {
@@ -1733,6 +1766,8 @@ label {
         padding: var(--spacing-xs) var(--spacing-md);
         margin: var(--spacing-xxs);
         display: inline-block;
+        min-height: 40px;
+        line-height: 1.4;
     }
 
     .site-main {
