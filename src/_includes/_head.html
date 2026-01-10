@@ -584,7 +584,7 @@
         /* Mobile responsive styles */
         @media (max-width: 599px) {
             .site-header {
-                padding: var(--spacing-lg) var(--spacing-sm);
+                padding: var(--spacing-lg) var(--spacing-xs);
                 clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
             }
 
@@ -599,10 +599,12 @@
             }
 
             .site-title {
-                font-size: var(--text-2xl);
+                font-size: var(--text-xl);
                 margin: var(--spacing-sm) 0;
-                letter-spacing: -0.05em;
+                letter-spacing: -0.075em;
                 hyphens: none;
+                word-break: keep-all;
+                overflow-wrap: normal;
             }
 
             .site-tagline {
