@@ -1718,6 +1718,20 @@ label {
 }
 
 @media all and (max-width: 599px) {
+    .skip-link {
+        left: var(--spacing-sm);
+        right: var(--spacing-sm);
+        width: auto;
+        max-width: calc(100vw - 2 * var(--spacing-sm));
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: var(--text-base);
+        text-align: center;
+    }
+
+    .skip-link:focus {
+        top: var(--spacing-sm);
+    }
+
     .site-header {
         padding: var(--spacing-lg) var(--spacing-xs);
         clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
