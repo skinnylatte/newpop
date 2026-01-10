@@ -12,10 +12,6 @@ const Image = require("@11ty/eleventy-img");
 
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 
-// html base plugin
-
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-
 // adding markdown filters
 const markdownIt = require("markdown-it");
 
@@ -76,7 +72,9 @@ const collections = require("./collections.js");
 
 // all configs
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+  // import Eleventy plugins that are ESM
+  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
   // adding alias
   eleventyConfig.addCollection("aliases", function(collectionApi) {
   let aliases = [];
