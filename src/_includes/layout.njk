@@ -4,24 +4,43 @@
 
 <body>
 
-<main class="container" role="main">
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
-{% include "_header.html" %}
+<header class="site-header">
+	<div class="header-content">
+		<div class="technical-readout" aria-hidden="true" title="Easter egg: Star Trek's Sector 47 meets Battlestar Galactica's CIC readout (DRADIS sensors, FTL drive, communications status)">
+			<span class="readout-segment">[SECTOR 47]</span>
+			<span class="readout-divider">•</span>
+			<span class="readout-segment">DRADIS: CLEAR</span>
+			<span class="readout-divider">•</span>
+			<span class="readout-segment">FTL: STANDBY</span>
+			<span class="readout-divider">•</span>
+			<span class="readout-segment">COMMS: OPEN</span>
+		</div>
+		<h1 class="site-title"><a href="{{ site.url }}">Popagandhi</a></h1>
+		<p class="site-tagline">{{ site.description }}</p>
+	</div>
+</header>
 
-<div class="wrapper">
+<nav class="site-nav" aria-label="Main">
+	<a href="/">Home</a>
+	<a href="/about">About</a>
+	<a href="/bikes">Bikes</a>
+	<a href="/photos">Photos</a>
+	<a href="/food">Food</a>
+</nav>
 
-{% include "_aside.html" %}
-
-<section class="content">
-
+<main id="main-content" class="site-main">
 	{{ content | safe }}
-
-</section>
-
-
 </main>
 
-</body>
-<footer class="footer" role="contentinfo">&copy; Copyright {{ site.copyrightYear }}</footer>
+<aside class="site-aside">
+	{% include "_aside.html" %}
+</aside>
 
+<footer class="site-footer">
+	<p>&copy; {{ site.copyrightYear }} • <a href="/contact">Contact</a> • <a href="https://github.com/skinnylatte/newpop" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="https://hachyderm.io/@skinnylatte" target="_blank" rel="noopener noreferrer me">Mastodon<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="{{ metadata.feed.path }}">RSS</a></p>
+</footer>
+
+</body>
 </html>

@@ -31,18 +31,14 @@
       </div>
       
       <div class="pagination-home">
-        <a href="{{ '/' | url }}" class="home-link">
-          <span class="home-icon">🏠</span>
-          <span class="home-text">Home</span>
-        </a>
-
-        {% if collection.length > 2 %}
-    <div class="pagination-context">
-      <a href="/{{ collectionName }}" class="collection-link">
-        View all {{ collection.length }} {{ collectionName }}
-      </a>
-    </div>
-    {% endif %}
+        <div class="pagination-actions">
+          <a href="/{{ collectionName }}" class="pagination-pill-button">
+            All {{ collectionName }}
+          </a>
+          <a href="{{ '/' | url }}" class="pagination-pill-button">
+            Home
+          </a>
+        </div>
       </div>
       
       <div class="pagination-next">
