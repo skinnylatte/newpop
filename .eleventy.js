@@ -117,14 +117,14 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
     </div>`;
   });
 
-  // keep original plugin for backwards compatibility
-  eleventyConfig.addPlugin(embedYouTube, {
-  lazy: true,
-  modestBranding: true,
-  noCookie: true,
-  embedClass: "youtube-embed",
-  lite: true,
-});
+  // Disabled YouTube plugin to avoid JSDelivr CDN blocking - use {% youtube %} shortcode instead
+  // eleventyConfig.addPlugin(embedYouTube, {
+  //   lazy: true,
+  //   modestBranding: true,
+  //   noCookie: true,
+  //   embedClass: "youtube-embed",
+  //   lite: true,
+  // });
   // Google Slides shortcode
   eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569, title = "Embedded Google Slides Presentation") {
   return `<div class="slideshow-container">
