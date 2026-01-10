@@ -4,7 +4,7 @@
     "title": "Popagandhi",
     "subtitle": "punk rock since 2003",
     "feed": {
-      "path": "https://popagandhi.com/feed.xml",
+      "path": "/feed.xml",
       "authorName": "Adrianna Tan",
       "authorEmail": "adrianna@jefritan.com",
       "authorUrl": "https://popagandhi.com/about"
