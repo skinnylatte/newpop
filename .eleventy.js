@@ -216,7 +216,17 @@ eleventyConfig.addCollection("tagList", function(collectionApi){
 	// create a custom collection for feed post
 
 	eleventyConfig.addCollection("feedposts", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["./src/posts/*.md", "./src/photos/*.md", "./src/food/*.md", "./src/bikes/*.md", "./src/now/*.md"]);
+		const posts = collectionApi.getAllSorted().filter(item => {
+			const inputPath = item.inputPath;
+			return inputPath.includes('/posts/') ||
+				   inputPath.includes('/photos/') ||
+				   inputPath.includes('/food/') ||
+				   inputPath.includes('/bikes/') ||
+				   inputPath.includes('/now/');
+		});
+
+		// Sort by date descending (newest first)
+		return posts.sort((a, b) => b.date - a.date);
 	});
 
 

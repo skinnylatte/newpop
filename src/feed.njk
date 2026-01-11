@@ -15,7 +15,8 @@ eleventyExcludeFromCollections: true
     <name>{{ metadata.feed.authorName }}</name>
     <email>{{ metadata.feed.authorEmail }}</email>
   </author>
-  {%- for post in collections.feedposts | reverse | head(20) %}
+  {%- set recentPosts = collections.feedposts | reverse | head(20) | reverse %}
+  {%- for post in recentPosts %}
   {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
