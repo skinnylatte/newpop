@@ -45,7 +45,7 @@ Moments like these.
 
 Rockstar cabbie in ridiculous YouTube video.
 
-[https://www.youtube.com/watch?v=pekk11Kwsmc](https://www.youtube.com/watch?v=pekk11Kwsmc)
+{% youtube "pekk11Kwsmc", "Tibet Band Gombal - Nus Bany music video" %}
 
 Nus Bany, is his name. He's the one in the insane costume. He also arranged and composed most of the music.
 
