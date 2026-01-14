@@ -29,6 +29,7 @@
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
     transition: background 0.2s ease;
+    pointer-events: none;
 }
 
 .youtube-lite:hover::before {
@@ -47,10 +48,17 @@
     background-size: contain;
     z-index: 2;
     transition: transform 0.2s ease;
+    pointer-events: none;
 }
 
 .youtube-lite:hover::after {
     transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Hide overlays when video is activated */
+.youtube-lite.activated::before,
+.youtube-lite.activated::after {
+    display: none;
 }
 
 .youtube-lite iframe {

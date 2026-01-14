@@ -16,4 +16,4 @@ If you told me a decade ago that I would be working at an aquarium, I don't thin
 
 Here's the video.
 
-https://www.youtube.com/watch?v=X9gGYZ9G_d4
+{% youtube "X9gGYZ9G_d4", "From Fintech to Fin Tech talk at North Bay Python" %}
