@@ -1,10 +1,9 @@
 const dayjs = require("dayjs");
 
 // This is a little bit over engineered, but I _may_ want to filter by more than just year later down the line…
-function getByDate(collection, dateFormat) {
+function getByDate(collection, dateFormat, globs) {
   let postsByDate = {};
-  // Update this to point to where you want to get your posts from:
-  let posts = collection.getFilteredByGlob(["./src/posts/*.md", "./src/photos/*.md", "./src/bikes/*.md"]);
+  let posts = collection.getFilteredByGlob(globs);
   posts.forEach(function (post) {
     // Get the year from the date
     let d = dayjs(post.data.date).format(dateFormat);
@@ -20,5 +19,9 @@ function getByDate(collection, dateFormat) {
 
 // Create the new collection
 exports.postsByYear = (collection) => {
-  return getByDate(collection, "YYYY");
+  return getByDate(collection, "YYYY", ["./src/posts/*.md", "./src/photos/*.md", "./src/bikes/*.md"]);
+};
+
+exports.blogPostsByYear = (collection) => {
+  return getByDate(collection, "YYYY", ["./src/posts/*.md"]);
 };

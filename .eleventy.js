@@ -259,7 +259,7 @@ eleventyConfig.addPlugin(syntaxHighlight);
 	
 	//  slugify settings
 
-	eleventyConfig.addFilter("slug", (str) => {
+		eleventyConfig.addFilter("slug", (str) => {
   if (!str) {
     return;
   }
@@ -268,11 +268,31 @@ eleventyConfig.addPlugin(syntaxHighlight);
     lower: true,
     strict: true,
     remove: /["]/g,
-  });
-});
+	  });
+	});
 
-	// create a list of tags for archive page
-eleventyConfig.addCollection("tagList", function(collectionApi){
+  eleventyConfig.addFilter("displayTags", (tags) => {
+    const hiddenTags = new Set(["all", "posts", "post", "archives", "lists", "blog"]);
+    const list = Array.isArray(tags) ? tags : typeof tags === "string" ? [tags] : [];
+    const seen = new Set();
+
+    return list.reduce((acc, tag) => {
+      if (!tag) {
+        return acc;
+      }
+      const cleanTag = String(tag).trim();
+      const key = cleanTag.toLowerCase();
+      if (!cleanTag || hiddenTags.has(key) || seen.has(key)) {
+        return acc;
+      }
+      seen.add(key);
+      acc.push(cleanTag);
+      return acc;
+    }, []);
+  });
+
+		// create a list of tags for archive page
+	eleventyConfig.addCollection("tagList", function(collectionApi){
   let tags = new Set();
   collectionApi.getAll().forEach(function(item) {
     if ("tags" in item.data) {

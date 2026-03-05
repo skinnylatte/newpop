@@ -2012,28 +2012,83 @@ label {
     letter-spacing: -0.02em;
 }
 
+.archive-years-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.archive-year-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--spacing-md);
+    margin: 0;
+    margin-bottom: var(--spacing-xl);
+    padding: 0;
+    padding-bottom: var(--spacing-xl);
+    border-bottom: 2px solid var(--color-divider);
+}
+
+.archive-year-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.archive-year-link {
+    color: var(--brand-primary);
+    font-size: var(--text-xl);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.archive-year-link:hover,
+.archive-year-link:focus {
+    text-decoration: underline;
+}
+
+.archive-year-count {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+}
+
 .archive-posts-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--space-small);
+}
+
+.site-main article .archive-years-list,
+.site-main article .archive-posts-list {
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.site-main article .archive-year-item,
+.site-main article .archive-post-item {
+    list-style: none;
 }
 
 .archive-post-item {
-    padding: var(--space-small);
-    background: var(--color-background-subtle);
-    border-radius: var(--radius-medium);
-    border: 1px solid var(--color-divider);
-    transition: all var(--transition-fast);
+    margin: 0;
+    margin-bottom: var(--spacing-xl);
+    padding: 0;
+    padding-bottom: var(--spacing-xl);
+    border-bottom: 2px solid var(--color-divider);
 }
 
-.archive-post-item:hover,
-.archive-post-item:focus-within {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transform: translateY(-2px);
-    border-color: var(--brand-primary);
+.archive-post-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
 .archive-post-header {
@@ -2235,11 +2290,6 @@ label {
     .content figcaption {
         font-size: var(--text-xs);
         padding: var(--spacing-xs) var(--spacing-sm);
-    }
-
-    .archive-post-item {
-        padding: var(--spacing-md);
-        margin-bottom: var(--spacing-md);
     }
 
     .archive-post-header h3 {
