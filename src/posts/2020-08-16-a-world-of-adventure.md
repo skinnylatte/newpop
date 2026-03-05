@@ -16,7 +16,7 @@ layout: post.njk
 ---
 *On Twitter, where I live, I [posted snippets of the things I have done](https://twitter.com/skinnylatte/status/1294501632613314560), the places I have been, the places I have gone. Where they might have felt jumbled up and messy on a blog or Facebook post, the Twitter thread / tweetstorm format seemed to be a natural home for my adventures. I am grateful for the mess that my early adulthood sometimes felt like.*
 
-### One
+## One
 
 Growing up in Singapore, my future felt as small as the country of my birth.
 
@@ -28,7 +28,7 @@ Singapore, Singapore, Singapore. **Singapore**.
 
 Yet when I was in school, it was not the lay of the land that felt suffocating. It was the geography of the mind, the mountains we did not have, never even got the chance to climb, that I could not stand.
 
-### Two
+## Two
 
 The moment I could, I ran away.
 
@@ -42,7 +42,7 @@ I did, and I liked that.
 
 In those days, it was not surprising to see children dressed in the school uniforms of another country wandering the streets of Johor Bahru. The city was joined at the hip with mine, except it was tethered to another. Pass all of the rubber plantations, seeing the landscape become more oppressively green and witnessing the heat become even more so, and you'd end up in Kuala Lumpur, three and a half hours later (two if you drive really quickly, like my ex used to).
 
-### Three
+## Three
 
 14 years later.
 
@@ -56,7 +56,7 @@ In less than three hours between Bangsar and Tuas, I was ready to present Cookie
 
 What would her life be like in the country of my birth, I wondered. I hoped she would like it. In 2012, I thought I was going home for good.
 
-### Four
+## Four
 
 I have had a life of adventure. I have lived in more cities than most people have visited; I have gone to many, many more. 
 
@@ -74,7 +74,7 @@ Eventually I rearranged my life to lead this sort of life. Even before graduatin
 
 My life has been a series of opportunity after opportunity, of good luck following another, upon layers and layers of privilege.
 
-### Five
+## Five
 
 I turn thirty five this year. When you get to your thirties, you no longer say "in three months", or things like that. You're officially thirty-something. 
 
@@ -94,7 +94,7 @@ I have had a ridiculous combination of luck plus privilege plus little to no tra
 
 Good things happen to me, all the time. 
 
-### Six
+## Six
 
 A combination of pandemic and visa woes means that right this moment is the first moment in time I haven't been constantly on the move. 
 

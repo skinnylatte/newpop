@@ -1,5 +1,5 @@
 ---
-l.njkayout: post.njk
+layout: post.njk
 title: "My wedding in film and digital"
 date: 2022-12-31
 tags:
@@ -18,11 +18,10 @@ It was only fitting that these photos were taken in the woods near Bukit Timah, 
 
 Which one looks like film and which one looks digital?
 
-<img src="/img/5d1135eed5.jpg" width="600" height="401" alt="a color photo of a queer female couple in wedding whites in a jungle setting" />
+{% image "/img/5d1135eed5.jpg", "a color photo of a queer female couple in wedding whites in a jungle setting" %}
 
 She was telling me a joke.
 
-<img src="/img/79b835b820.jpg" width="600" height="400" alt="a color photo of a queer female couple in wedding whites walking along an old railway bridge" />
+{% image "/img/79b835b820.jpg", "a color photo of a queer female couple in wedding whites walking along an old railway bridge" %}
 
 Walking along the railway tracks that connected our cities.
-

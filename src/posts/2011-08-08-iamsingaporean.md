@@ -11,7 +11,7 @@ date: 2011-08-08
 title: '#iamsingaporean'
 ---
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/v1456563028/singapore_skyline_night_panorama_2011_edahmo.png" alt="" title="Singapore Skyline" width="640" height="302" class="size-full wp-image-233">
+{% imageFigure "/img/singapore_skyline_night_panorama_2011_edahmo.png", "Night skyline of Singapore with lit buildings", "Singapore Skyline" %}
 
 I am a Singaporean who lives in a series of hash tags. They are:
 

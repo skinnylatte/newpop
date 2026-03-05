@@ -17,27 +17,27 @@ On Saturday, I went to the [Drag Up, Fight Back march for drag and trans rights]
 
 So we march.
 
-<img src="/img/193231206c.jpg" width="600" height="402" alt="a scan of a black and white photo of a person wearing heart-shaped sunglasses and having a Pentax film camera around their neck" />
+{% image "/img/193231206c.jpg", "a scan of a black and white photo of a person wearing heart-shaped sunglasses and having a Pentax film camera around their neck" %}
 
 *I met a few other film photography enthusiasts!*
 
-<img src="/img/ca8954e143.jpg" width="600" height="427" alt="a scan of a black and white photo showing a person being interviewed, holding a sign that says Being Born Naked is a DRAG, a quote from Rupal" />
+{% image "/img/ca8954e143.jpg", "a scan of a black and white photo showing a person being interviewed, holding a sign that says Being Born Naked is a DRAG, a quote from Rupal" %}
 
 *Lots of people were being interviewed by all sorts of journalists.*
 
-<img src="/img/305a3b87cf.jpg" width="600" height="405" alt="a scan of a black and white photo showing a sign being held up that says stop the joy destroyers" />
+{% image "/img/305a3b87cf.jpg", "a scan of a black and white photo showing a sign being held up that says stop the joy destroyers" %}
 
 *Stop the joy destroyers, indeed!*
 
-<img src="/img/2979cf08de.jpg" width="600" height="410" alt="a scan of a black and white photo showing a person holding a sign that says Smash the Cistem" />
+{% image "/img/2979cf08de.jpg", "a scan of a black and white photo showing a person holding a sign that says Smash the Cistem" %}
 
 *Cistem of a down.*
 
-<img src="/img/61d8deddf9.jpg" width="600" height="402" alt="a scan of a black and white photo showing a few smiling people attending the drag and trans rally" />
+{% image "/img/61d8deddf9.jpg", "a scan of a black and white photo showing a few smiling people attending the drag and trans rally" %}
 
 *So much joy. Especially compared to the lone, sad, and hateful anti-trans protestor across the street who nobody could hear or care about. He had a Repent or Perish sign! Very stylish. But not as stylish as these folks on the right side of the protest.*
 
-<img src="/img/92ffb58042.jpg" width="600" height="405" alt="a scan of a black and white photo showing someone holding a sign that says Drag is Joy " />
+{% image "/img/92ffb58042.jpg", "a scan of a black and white photo showing someone holding a sign that says Drag is Joy" %}
 
 *Drag IS Joy.*
 

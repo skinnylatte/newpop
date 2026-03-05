@@ -11,7 +11,7 @@ This is a story about hopes and dreams.
 
 In 2022, I had the opportunity to buy [a 1995 Rivendell Road Standard](https://www.renehersecycles.com/1995-rivendell-turning-the-tide/) frame—that fit me!— and build it up. I decided to go all out. With the insurance money I got from having my previous gravel bike stolen, I put a plan together with Jay from [Scenic Routes](https://www.scenicroutessf.com/).
 
-![the rivendell bike](/img/rivbiketacotruck.jpg "a blue steel road bike leaning against a tree with a taco truck in the background")
+{% image "/img/rivbiketacotruck.jpg", "the rivendell bike" %}
 
 1995 Rivendell Road Standard taking me to taco trucks and beyond.
 

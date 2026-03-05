@@ -12,8 +12,7 @@ layout: post.njk
 
 Wobe’s founder on the basics for technical success
 
-![“[Jakarta Panorama](https://commons.wikimedia.org/wiki/File%3AJakarta_Panorama.jpg)” by Gunawan Kartapranata \[CC BY-SA 3.0\]](https://cdn-images-1.medium.com/max/2560/1*YuHTv-OSh23UcMBBvqw8Vw.png)
-“[Jakarta Panorama](https://commons.wikimedia.org/wiki/File%3AJakarta_Panorama.jpg)” by Gunawan Kartapranata \[CC BY-SA 3.0\]
+{% imageFigure "/img/medium-1-YuHTv-OSh23UcMBBvqw8Vw.png", "Jakarta city panorama by Gunawan Kartapranata", "Jakarta Panorama by Gunawan Kartapranata (CC BY-SA 3.0)." %}
 
 If you’re a founder too, technical or not, you’ll know all about the struggle.
 
@@ -33,7 +32,7 @@ This post documents the who, what, why, how of our year-long journey building te
 
 [Wobe](http://wobe.io) works to improve access to payments and utilities at the last mile: our unique application and its surrounding ecosystems of microservices and tools let us offer regular people the opportunity of running their own business. They can sell recharge (of phone airtime, data, electricity, water and other vouchers); their communities benefit from cheaper and more efficient ways of topping up, without having to travel. We work with grassroots organisations to bring about greater benefits for low income women who come into our networks.
 
-#### Who we build for
+## Who we build for
 
 More than how you build or what you build, is the question: who do you build. This is tied to the mission of the company, and resonates through the company. It also has to do with what the founding team, not just founders, cares deeply about.
 
@@ -43,11 +42,11 @@ Despite the [$1500 SIM cards](https://www.bloomberg.com/news/articles/2014-09-29
 
 **We build for them:**
 
-![](https://cdn-images-1.medium.com/max/800/1*E5wSGeE_yig3M_a1HMDN_w.png)
+{% imageFigure "/img/medium-1-E5wSGeE_yig3M_a1HMDN_w.png", "Wobe growth activities with a local community in Sumbawa, Indonesia", "Wobe growth activities in Sumbawa, eastern Indonesia." %}
 
 (Above, Wobe growth activities in [Sumbawa](https://en.wikipedia.org/wiki/Sumbawa), eastern Indonesia.)
 
-### How We Build
+## How We Build
 
 Nothing is constant in emerging markets, except for how things change all the time.
 
@@ -57,7 +56,7 @@ Our community anchors us:
 *   **_Understand:_** we do not assume everyone has a fast internet connection. We know from our research that our customers are price-sensitive, and cautious about data consumption. For this reason, our product (a) has a tiny footprint (b) performs better than most other apps in lower connectivity
 *   **_Prioritise:_** it would be far simpler to use established payment gateways and accept credit cards in-app. Our customers [do not have credit cards](http://www.thejakartapost.com/news/2016/03/24/indonesian-e-commerce-the-new-eldorado.html). It would not make sense to make product decisions that work for only a small percentage of our total addressable market.
 
-### Setting the Foundation
+## Setting the Foundation
 
 Here’s a sneak peek at some of the building blocks at Wobe:
 
@@ -72,7 +71,7 @@ Here’s a sneak peek at some of the building blocks at Wobe:
 *   [Nexmo](http://nexmo.com) for verification and reliable SMS within Indonesia
 *   [Firebase](https://firebase.google.com/) as our PaaS
 
-#### Building the Team
+### Building the Team
 
 For every founder, the quality of technical team and your technical decisions has a ripple effect. I can’t emphasise this enough. Even when you’re a one-person team, what you decide on this front will have long-lasting impact.
 

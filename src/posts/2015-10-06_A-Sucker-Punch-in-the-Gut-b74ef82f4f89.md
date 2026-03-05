@@ -10,8 +10,7 @@ tags:
 layout: post.njk
 ---
 
-![It seemed like a good idea to quad-bike around parts of Turkey, 2009.](https://cdn-images-1.medium.com/max/2560/1*FhFJVqmriMe8b7l69ngF9g.jpeg)
-It seemed like a good idea to quad-bike around parts of Turkey, 2009.
+{% imageFigure "/img/medium-1-FhFJVqmriMe8b7l69ngF9g.jpeg", "It seemed like a good idea to quad-bike around parts of Turkey, 2009.", "It seemed like a good idea to quad-bike around parts of Turkey, 2009." %}
 
 The difference between travelling alone, which I’ve done plenty of, and exploring possibilities alone, which I’ve done less of (but gotten more from), lies in how much of a sucker punch those decisions give me, specifically in my gut. I don’t follow my gut as much as let my gut punch out a path for me in the metaphorical jungle of life’s decision trees.
 

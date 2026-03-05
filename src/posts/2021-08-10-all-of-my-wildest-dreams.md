@@ -23,7 +23,7 @@ tags:
   - blog
 layout: post.njk
 ---
-![Person scrambling down a rock](/img/pointreyes-rockscramble.jpg "Scrambling down Alamere Falls (which is now dry) on the rock face") 
+{% imageFigure "/img/pointreyes-rockscramble.jpg", "Person scrambling down a rock", "Scrambling down Alamere Falls (which is now dry) on the rock face" %} 
 
 I spent the past weekend hiking. Some of it was on a dried out waterfall, such as this one.
 

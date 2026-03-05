@@ -28,7 +28,7 @@ This week, the rocket man unceremoniously let go of many people, many of them pe
 
 This is how I am going to reboot my social media use.
 
-### My Mastodon is my main
+## My Mastodon is my main
 
 I am ~~@skinnylatte@mastodon.social~~ [@skinnylatte@hachyderm.io](https://hachyderm.io/@skinnylatte)  on Mastodon. Mastodon is not for everyone. It needs a lot of improvements in UX and it needs to get better at explaining itself to less technical people. But I like what I see right now: [if people were falling off the Twitter thermocline](https://mastodon.social/@garius/109279394369832433) (and it feels like that in my own usage of Twitter, as I follow a lot of security and infra and general nerds who are typically at the forefront of the *bleeps and bloops* of computer work), I've seen a huge wave on Mastodon in the past week alone.
 
@@ -46,11 +46,11 @@ _(Edit. 2 December 2022: I have deactivated Twitter completely. The antisemitism
 
 ~~For all intents and purposes, my Twitter account will be there, but in cryogenic sleep.~~
 
-### Write more on here
+## Write more on here
 
 Mastodon scratches my itch for short form text posts, but that it emphasizes intentionality over virality will probably shift my text output into other areas.
 
-### How to discover new things
+## How to discover new things
 
 Some people say that Twitter was amazing because it was like going into a crowded bar and being able to find the most random people shouting the most random and amazing things.
 
@@ -58,25 +58,25 @@ I was certainly happy to have come across people who baked bread with ancient ye
 
 My experience with Mastodon has been that once I crossed the 100 follower mark, and I did this by following many people early on and boosting toots, Mastodon became a good enough Twitter replacement for me.
 
-### Toots are silly
+## Toots are silly
 
 That's the whole point! If you think about it, a tweet is also silly. 
 
 So is a google. I am personally rather fond of toots.
 
-### Nothing lasts forever
+## Nothing lasts forever
 
 If you're as old as I am, practically deceased like the kids will say at the age of 37, you'll have lived through several iterations of webby things. 
 
 I was able to keep all my blog content because I always had text files and never invested too much in a hosted platform. Everything run by someone else feels.. ephemeral. If it means something to you, make a copy. Preferably in plain text format. There will be ways to export content, there usually are, but you must have a copy first. If photos are your thing, don't just rely on Instagram to keep the compressed files. Keep your photos somewhere you can access. Make copies.
 
-### It's too complicated
+## It's too complicated
 
 Yes, I agree. Read [fedi.tips](https://fedi.tips/how-to-use-mastodon-and-the-fediverse-basic-tips/). Ask questions. But don't just complain: I think we all need some time of active learning to un-learn the bad habits that big tech companies foisted upon us. 
 
 Will it ever gain mass traction? Maybe not. But maybe, just maybe, we don't need that.
 
-### Intentional participation over consumption
+## Intentional participation over consumption
 
 I think I am done with being a consumer, the way I am done with being a product. 
 

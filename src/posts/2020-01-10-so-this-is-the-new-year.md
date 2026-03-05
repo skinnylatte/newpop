@@ -16,7 +16,7 @@ layout: post.njk
 
 ---
 
-### Dream of the Noughties
+## Dream of the Noughties
 
 It feels like we all just woke up from a collective dream. The dream of the '10s, where we gave our content, perhaps even our personalities, away for free to Facebook.
 
@@ -26,7 +26,7 @@ Not only have I cut that toxic company out of my life, I have also started think
 
 ---
 
-### New Year, New Me?
+## New Year, New Me?
 
 I don't have resolutions. I don't have aspirations towards goals I won't reach. I don't have diet-related, or gym-related thoughts; exercise has slowly become part of my life again,and I'm thankful for that. 
 
@@ -36,7 +36,7 @@ The one thing that *is* new is the city I live in. From 2018 I have been living 
 
 ---
 
-### My Life Now
+## My Life Now
 
 I have been preoccupied with trying not to lead a conventional tech worker's life in San Francisco. It's so easy to fall into that trap of always-on, tech-enabled convenience. I find that if you do that, the city becomes much less diverse. I want to meet people, build relationships, be part of communities and be part of scenes outside of tech. 
 

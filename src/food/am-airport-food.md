@@ -7,7 +7,7 @@ tags:
 ---
 _Noyah La Maison, Changi Airport T4_
 
-<img src="/img/kayatoast.jpg" width="600" height="450" alt="A photo of a Singaporean breakfast of kaya butter toast, siew mai, eggs and coffee for breakfast">
+{% image "/img/kayatoast.jpg", "A photo of a Singaporean breakfast of kaya butter toast, siew mai, eggs and coffee for breakfast" %}
 
 One of the best things about being back in my part of the world, is that breakfast foods now make sense. 
 

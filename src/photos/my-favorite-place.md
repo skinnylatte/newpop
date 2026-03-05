@@ -14,15 +14,15 @@ Sometimes I take the 22 from here and head to Japantown to get groceries. Or I h
 
 I never get bored of this place, rain or shine.
 
-<img src="/img/4ac5846f10.jpg" width="600" height="404" alt="a scan of a medium format film photograph of some boats on the water at Fort Mason" />
+{% image "/img/4ac5846f10.jpg", "a scan of a medium format film photograph of some boats on the water at Fort Mason" %}
 
 Boats in the marina.
 
-<img src="/img/e52890f805.jpg" width="600" height="404" alt="a scan of a medium format film photograph of Fort Mason and some boats from behind some plants" />
+{% image "/img/e52890f805.jpg", "a scan of a medium format film photograph of Fort Mason and some boats from behind some plants" %}
 
 Fort Mason from behind some plants.
 
-<img src="/img/a5707209a6.jpg" width="600" height="404" alt="a scan of a medium format film photograph of sunset over golden gate bridge with a kite in the middle of the frame" />
+{% image "/img/a5707209a6.jpg", "a scan of a medium format film photograph of sunset over golden gate bridge with a kite in the middle of the frame" %}
 
 Sunset over Golden Gate Bridge, tiny kite in the sky.
 

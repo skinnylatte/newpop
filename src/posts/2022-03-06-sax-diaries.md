@@ -13,7 +13,7 @@ tags:
 layout: post.njk
 ---
 
-![Screenshot of a YouTube video of someone playing the saxophone](/img/saxscreenshot.png "Screenshot of a YouTube video of someone playing the saxophone") 
+{% imageFigure "/img/saxscreenshot.png", "Screenshot of a YouTube video of someone playing the saxophone", "Screenshot of a YouTube video of someone playing the saxophone" %} 
 
 When I was a child, I immersed myself rather deeply into the world of orchestral music, especially in the woodwinds section. But the saxophone always felt too... large, for me. 
 

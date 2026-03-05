@@ -29,16 +29,16 @@ I don't have any commentary other than 'oh shit'. So I grabbed my camera and wal
 
 I think I'll truly freak out when work stops along Van Ness. Until then, as long as Van Ness goes on, so will I.
 
-![A work site along Van Ness](/img/orange1.jpg)
+{% imageFigure "/img/orange1.jpg", "A work site along Van Ness", "A work site along Van Ness" %}
 
-![Tommy's Joynt](/img/orange2.jpg)
+{% imageFigure "/img/orange2.jpg", "Tommy's Joynt", "Tommy's Joynt" %}
 
-![The mail still goes on](/img/orange3.jpg)
+{% imageFigure "/img/orange3.jpg", "The mail still goes on", "The mail still goes on" %}
 
-![Only food places provide the bright comforting unorange light](/img/orange4.jpg)
+{% imageFigure "/img/orange4.jpg", "Only food places provide the bright comforting unorange light", "Only food places provide the bright comforting unorange light" %}
 
-![Franklin and Sutter](/img/orange5.jpg)
+{% imageFigure "/img/orange5.jpg", "Franklin and Sutter", "Franklin and Sutter" %}
 
-![Stay strong](/img/orange6.jpg)
+{% imageFigure "/img/orange6.jpg", "Stay strong", "Stay strong" %}
 
-![Behind wires](/img/orange7.jpg)
+{% imageFigure "/img/orange7.jpg", "Behind wires", "Behind wires" %}

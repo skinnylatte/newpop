@@ -2,6 +2,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.youtube-lite').forEach(function(element) {
         element.addEventListener('click', function() {
+            // Mark as activated to hide overlays via CSS
+            this.classList.add('activated');
+
             const videoId = this.dataset.videoid;
             const iframe = document.createElement('iframe');
             iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&modestbranding=1`);

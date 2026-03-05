@@ -1,5 +1,6 @@
 // Import prior to `module.exports` within `.eleventy.js`
 const { DateTime } = require("luxon");
+const path = require("path");
 
 // add syntax highlighting 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -70,6 +71,23 @@ const pluginRss = require("@11ty/eleventy-plugin-rss")
 // requiring collections js
 const collections = require("./collections.js");
 
+function escapeHtml(str = "") {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+const imageCacheDirectory =
+  process.env.ELEVENTY_IMAGE_CACHE_DIR ||
+  (process.env.NETLIFY_CACHE_DIR
+    ? path.join(process.env.NETLIFY_CACHE_DIR, "eleventy-img")
+    : path.join(process.cwd(), ".cache/@11ty/img"));
+const isDeployPreview = process.env.CONTEXT === "deploy-preview";
+const fastImageMode = process.env.ELEVENTY_FAST_IMAGE_MODE === "1" || isDeployPreview;
+
 // all configs
 
 module.exports = async function (eleventyConfig) {
@@ -116,6 +134,96 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
       <img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="${title}" loading="lazy">
     </div>`;
   });
+
+  async function renderResponsiveImage(
+    src,
+    alt,
+    sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 85vw, 720px",
+    className = "",
+    loading = "lazy",
+    fetchpriority = "auto",
+    decoding = "async"
+  ) {
+    const trimmedSrc = (src || "").trim();
+    const trimmedAlt = (alt || "").trim();
+    if (!trimmedSrc) {
+      throw new Error("image shortcode requires src");
+    }
+    if (!trimmedAlt) {
+      throw new Error(`image shortcode requires alt text for ${trimmedSrc}`);
+    }
+
+    const isRemote = /^https?:\/\//i.test(trimmedSrc);
+    const imageSource = isRemote
+      ? trimmedSrc
+      : path.join(process.cwd(), "src", trimmedSrc.replace(/^\//, ""));
+
+    const ext = path.extname(trimmedSrc).toLowerCase();
+    const fallbackFormat = ext === ".png" ? "png" : "jpeg";
+    const widths = fastImageMode ? [960] : [320, 640, 960, 1280, 1536];
+    const formats = fastImageMode ? [fallbackFormat] : ["avif", "webp", fallbackFormat];
+    const metadata = await Image(imageSource, {
+      widths,
+      formats,
+      urlPath: "/img/optimized/",
+      outputDir: path.join(process.cwd(), "_site/img/optimized/"),
+      cacheOptions: {
+        directory: imageCacheDirectory,
+        duration: "30d",
+      },
+    });
+
+    const attrs = {
+      alt: trimmedAlt,
+      sizes,
+      loading,
+      decoding,
+    };
+    if (fetchpriority && fetchpriority !== "auto") {
+      attrs.fetchpriority = fetchpriority;
+    }
+    const cleanClass = (className || "").trim();
+    if (cleanClass) {
+      attrs.class = cleanClass;
+    }
+    return Image.generateHTML(metadata, attrs);
+  }
+
+  eleventyConfig.addAsyncShortcode(
+    "image",
+    async function(
+      src,
+      alt,
+      className = "",
+      sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 85vw, 720px",
+      loading = "lazy",
+      fetchpriority = "auto",
+      decoding = "async"
+    ) {
+      return renderResponsiveImage(src, alt, sizes, className, loading, fetchpriority, decoding);
+    }
+  );
+
+  eleventyConfig.addAsyncShortcode(
+    "imageFigure",
+    async function(
+      src,
+      alt,
+      caption = "",
+      sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 85vw, 720px",
+      loading = "lazy",
+      fetchpriority = "auto",
+      decoding = "async"
+    ) {
+      const trimmedAlt = (alt || "").trim();
+      const picture = await renderResponsiveImage(src, trimmedAlt, sizes, "", loading, fetchpriority, decoding);
+      const finalCaption = (caption || trimmedAlt).trim();
+      return `<figure class="post-image">
+  ${picture}
+  <figcaption>${escapeHtml(finalCaption)}</figcaption>
+</figure>`;
+    }
+  );
 
   // Disabled YouTube plugin to avoid JSDelivr CDN blocking - use {% youtube %} shortcode instead
   // eleventyConfig.addPlugin(embedYouTube, {
@@ -248,4 +356,3 @@ eleventyConfig.addCollection("tagList", function(collectionApi){
 		}
 	};
 };
-

@@ -10,7 +10,7 @@ tags:
   - blog
 layout: post.njk
 ---
-![Screenshot of a photo of Adrianna and Sabrena a queer couple](/img/2023pridepic.jpg "Screenshot of a photo of a queer couple") 
+{% imageFigure "/img/2023pridepic.jpg", "Screenshot of a photo of Adrianna and Sabrena a queer couple", "Screenshot of a photo of a queer couple" %} 
 *With my wife Sabrena in the Paris metro in 2022*
 
 **1993**: I am 8 years old. I am a scared little autistic girl who felt in my bones that there was something strange about me. Was it my obsessive, hyper-fixation on the things that interested me? My intense feelings? Or that I felt I had to lie every time the other girls shared the lists of 'boys they liked'? I often felt like a child who had so much to say, but no words at all. The words that people used with very young female children did not feel right. 'What boy do you like?' 'What kind of man do you think you'll marry?' 'When you grow up and have a family...' 

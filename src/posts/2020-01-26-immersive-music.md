@@ -25,7 +25,7 @@ Music used to be a huge part of my life. From the time I was six or seven, I was
 
 [Envelop SF](https://www.envelop.us/sf-events) popped up on my radar when I was looking for music events: they were hosting a Flaming Lips listening party for _Zaireeka_, the band's 1997 experimental album that I'd never heard (mainly because in 1997 you needed to put 4 CDs in 4 players and press play all at once).
 
-![Envelop SF](/img/202001-envelopsf.jpg "Envelop SF")
+{% imageFigure "/img/202001-envelopsf.jpg", "Envelop SF", "Envelop SF" %}
 (*image from [Envelop](https://www.envelop.us/software)*)
 
 At first, I had no idea what these shows were. Were the Flaming Lips in town? Was it a live show? It was actually cooler than that. Envelop is a non-profit that runs an immersive audio venue in the lower Dogpatch (and another one in Salt Lake City, with popups and satellites elsewhere).

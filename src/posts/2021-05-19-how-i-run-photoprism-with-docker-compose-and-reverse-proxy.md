@@ -67,7 +67,7 @@ Read the docs, or ask for help; it took me, someone with not a whole lot of infr
 
 The [swag container](https://docs.linuxserver.io/images/docker-swag) has many built-in templates that makes this easy, once you learn its quirks.
 
-![Screenshot of PhotoPrism showing lots of dogs in the pictures](https://popagandhi.com/img/photoprism-example.png "PhotoPrism is good for dogs")
+{% imageFigure "/img/photoprism-example.png", "Screenshot of PhotoPrism showing lots of dogs in the pictures", "PhotoPrism is good for dogs" %}
 
 Photoprism has Tensorflow built in. Their pre-trained model doesn't get everything right (for example, it marked a plate of squid as 'baby'), but it is pretty good. My wife is placing a bet with me that I probably have more than 20 000 photos of Cookie. The moment of truth will probably be in a day or so, when all 200 000 ish photos I've got (over the last 20 years) are finally imported, indexed and tagged.
 

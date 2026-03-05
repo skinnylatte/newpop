@@ -31,7 +31,7 @@ layout: post.njk
 
 8. The breadth of vegan and meat alternatives in Singapore currently is breathtaking. It's certainly changed in this department since I left home. While I'm not vegan, and likely will never be, I appreciate the options that are available. While one might need to go to a midrange restaurant in San Francisco to have Impossible burgers, there are Impossible burgers in convenience stores here. There are vegan options in a lot of local food now, a lot more than I remember. Pretty much every major plant-based or meat alternative or lab grown company is here with a product out on the market. Way more than in the US. And all in one tiny city. I'm excited to try the vegan sashimi that I just saw, and the vat-grown chicken. This is definitely related to the next section on 'how come I can get all of my favorite food in one city now?'
 
-### A list of foreign food chains I like in Singapore
+## A list of foreign food chains I like in Singapore
 
 Burgers: Shake Shack, Five Guys, Carne
 
@@ -53,7 +53,7 @@ I *love* that I can get biryani with *seeraga samba* rice (the clearly superior 
 
 Not forgetting individual chefs or restaurant owners who don't have chains, who have simply moved here and are doing what they do best here. I've had very decent Ipoh horfun and Sarawak kolo mee. I'm really liking the boom in Henghua (xing hua) food, after Putien's success. You find these at tiny restaurants (like Yun Heng) and at food courts (like at Malaysia Boleh). We've also recently found a very-close-to-Village-Park style nasi lemak at Uptown Nasi Lemak, Telok Ayer (which is totally different from Singapore nasi lemak).
 
-### High brow low brow
+## High brow low brow
 
 I hate it when food writers spend too much time talking about how you can get *gasp* high end food at low end prices. That, I think, is unique to Singapore in some ways because we have a large number of trained chefs and cooks at the many, many hotels and restaurants; and many of them, like chefs and cooks anywhere, want to do their own thing. Our inventory of non-restaurant space, like at hawker stalls or food courts or commercial shop space below public housing, has made it possible. You have always had things like 'Austrian man sets up sausage stand in Chinatown' or 'Japanese couple selling Singaporean Teochew noodles in hawker centre' in the first wave of that. We've also always had stories of 'hotel chef sets up shop in hawker stall'. So I am not, as a food-obsessed Singaporean, surprised by this sort of thing. 
 
@@ -61,7 +61,7 @@ What this means in daily life, though, now that I live somewhere with with a wel
 
 I love that. However, I love more when a new generation of Singaporeans take over, or start, hawker food businesses. It leads to innovations that take the best of our traditions and blends it with our exposure to new things, and makes it entirely new. As a Teochew person, I love braised duck more than.. nearly anything else in the world. A place like Jin Ji where a younger person has started to get involved can now do things like [dry duck ramen](https://eatbook.sg/jin-ji-duck-ramen/) and still be distinct from when a Japanese ramen master [does it](https://www.burpple.com/dishes/1056135/hybrid-duck-broth-ramen). I have never seen duck ramen anywhere else outside of Japan and Singapore and I feel like more people should know that you can have many types of duck ramen in Singapore, including one that is Teochew-inspired.
 
-### On authenticity 
+## On authenticity 
 
 Does this mean that food in Singapore is not authentic? First, I'd like to banish the idea of authenticity. Nothing is authentic, even in the sourcelands. India, China, and other places we draw inspiration from, have all had food that has come from somewhere else, and no food exists in a vacuum. 
 

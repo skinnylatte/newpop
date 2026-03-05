@@ -8,22 +8,22 @@ In my mid-20s I was involved in the production of several cookbooks behind the s
 
 These were the outtakes from some of these projects.
 
-<img src="/img/5e8cd90bb7.jpg" width="600" height="600" alt="A color photograph of some bulbs of garlic" />
+{% image "/img/5e8cd90bb7.jpg", "A color photograph of some bulbs of garlic" %}
 
 The essential ingredient in many cuisines, garlic.
 
-<img src="/img/b316f41fc9.jpg" width="600" height="600" alt="A sepia-toned photo of someone weighing spices with a manual scale" />
+{% image "/img/b316f41fc9.jpg", "A sepia-toned photo of someone weighing spices with a manual scale" %}
 
 The best part about any cookbook project: going to the market.
 
-<img src="/img/0b16b5776f.jpg" width="600" height="600" alt="A black and white photo of a cast iron cauldron with milk in it, and someone stirring" />
+{% image "/img/0b16b5776f.jpg", "A black and white photo of a cast iron cauldron with milk in it, and someone stirring" %}
 
 To make good chai, start with good milk.
 
-<img src="/img/d90b440d7b.jpg" width="600" height="600" alt="A black and white photo of someone pouring milk from Indian-style steel cups" />
+{% image "/img/d90b440d7b.jpg", "A black and white photo of someone pouring milk from Indian-style steel cups" %}
 
 I love those steel cups.
 
-<img src="/img/78655e8c90.jpg" width="600" height="600" alt="A color photograph of 9 spices arranged in a grid" />
+{% image "/img/78655e8c90.jpg", "A color photograph of 9 spices arranged in a grid" %}
 
 Spices are the variety of life.

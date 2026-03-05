@@ -24,7 +24,7 @@ Enter [iCloud Photos Downloader](https://github.com/icloud-photos-downloader/icl
 
 In my case, I've [already got a Linux server going for my photos](https://popagandhi.com/posts/how-i-run-photoprism-with-docker-compose-and-reverse-proxy/) so that's where I wanted it. The eventual goal is to put all of the photos into PhotoPrism there, as I like its tagging and deduping functionality. The goal is for all of my photos to eventually live on photos.mydomain.com, which is where all photos are going to.. eventually. Right now, I've [only got my Google Photos](https://popagandhi.com/posts/21-days-of-indoor-projects/) in there. Time to get my iCloud photos in there as well.
 
-### Install iCloud Photos Downloader in your server or other computer
+## Install iCloud Photos Downloader in your server or other computer
 
 In my case, I just did a `git clone` of [this repo] into my Linux server. Once downloaded, i `cd`-ed into it and ran the following command:
 
@@ -37,7 +37,7 @@ As with any other pip package, there can be errors because of your Python enviro
 
 To fix this, I opened `icloudpd.py` in a text editor and I edited the first line from: `#!/usr/bin/env python` to `#!/usr/bin/env python3`. This tool needs Python 3.6+ to run.
 
-### Starting the download process
+## Starting the download process
 
 On my Linux server, I created a directory for my photos called `icloudphotos`. 
 
@@ -55,12 +55,12 @@ Note: if you have 2FA enabled, you will most likely have to re-authenticate ever
 
 I got tens of thousands of photos as expected. The tool shows you a nice little progress bar with basic information. It ran for several hours (around 5 or 6?) but it really depends on your connection speeds. You can turn off video downloads by using the `--skip-videos` option. You can also have it email you when it's done by using the various smtp options, but I did not want to bother with that.
 
-### Running icloudpd as a cron script
+## Running icloudpd as a cron script
 
 The next step in my workflow will be to run this as a cron script. It looks [straightforward enough](https://github.com/icloud-photos-downloader/icloud_photos_downloader#cron-task).
 
 
-### Final thoughts
+## Final thoughts
 
 I also have [Syncthing](https://syncthing.net) set up and I am evaluating which workflow I prefer. I might want to continue keeping a copy of all photos on both iCloud and on PhotoPrism for redundancy. 
 

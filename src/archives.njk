@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <article class="archives">
-    <h2>{{ title }}{% if pagination.pageNumber > 0 %} - {{ year }}{% endif %}</h2>
+    <h1>{{ title }}{% if pagination.pageNumber > 0 %} - {{ year }}{% endif %}</h1>
     
     {% if pagination.pageNumber > 0 %}
         <div class="date-metadata">Posts from {{ year }}</div>
@@ -23,13 +23,13 @@ eleventyExcludeFromCollections: true
     {% endif %}
 
     <section class="archive-year-section">
-        <h3>{{ year }} ({{ collections.postsByYear[year].length }} posts)</h3>
+        <h2>{{ year }} ({{ collections.postsByYear[year].length }} posts)</h2>
         
         <ul class="archive-posts-list">
             {% for post in collections.postsByYear[year] | reverse %}
             <li class="archive-post-item">
                 <div class="archive-post-header">
-                    <h4><a href="{{ post.url }}">{{ post.data.title | default("Untitled") }}</a></h4>
+                    <h3><a href="{{ post.url }}">{{ post.data.title | default("Untitled") }}</a></h3>
                     {% if post.date %}
                         <div class="date-metadata">{{ post.date | postDate }}</div>
                     {% endif %}

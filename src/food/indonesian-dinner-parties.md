@@ -18,6 +18,6 @@ Like everything on social media, part exaggeration, part truth.
 
 This was, in particular, a comment on the difference in food culture that I see. Many people prioritize simplicity and convenience where I now live, which is quite different from where I grew up and where I lived.
 
-![A photo of a person hovering over a large banana leaf full of Indonesian food with many colors](/img/indonesian-dinner-party.jpg)
+{% image "/img/indonesian-dinner-party.jpg", "A photo of a person hovering over a large banana leaf full of Indonesian food with many colors" %}
 
 I have more thoughts on this from the resulting discussion. Most of it is about labor, ingredients, and food ways, but also, damn I miss that _nasi_ and I miss _those_ dinner parties.

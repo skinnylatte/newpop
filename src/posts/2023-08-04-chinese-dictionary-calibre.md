@@ -30,17 +30,16 @@ Now, whenever you highlight a word or phrase, it should popup the Chinese dictio
 
 Some example photos: 
 
-![Screenshot of Calibre and how to add a Chinese dictionary step 1](/img/20230804-chinesedictionary1.png "Screenshot of Calibre and how to add a Chinese dictionary step 1")
+{% imageFigure "/img/20230804-chinesedictionary1.png", "Screenshot of Calibre and how to add a Chinese dictionary step 1", "Screenshot of Calibre and how to add a Chinese dictionary step 1" %}
 
 *Highlight text in the ebook to pop out the lookup / dictionary view on the right.*
 
-![Screenshot of Calibre and how to add a Chinese dictionary step 2](/img/20230804-chinesedictionary2.png "Screenshot of Calibre and how to add a Chinese dictionary step 2")
+{% imageFigure "/img/20230804-chinesedictionary2.png", "Screenshot of Calibre and how to add a Chinese dictionary step 2", "Screenshot of Calibre and how to add a Chinese dictionary step 2" %}
 
 *Click add source, then paste the url `https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb={word}` into the box.*
 
-![Screenshot of Calibre and how to add a Chinese dictionary step 3](/img/20230804-chinesedictionary3.png "Screenshot of Calibre and how to add a Chinese dictionary step 3")
+{% imageFigure "/img/20230804-chinesedictionary3.png", "Screenshot of Calibre and how to add a Chinese dictionary step 3", "Screenshot of Calibre and how to add a Chinese dictionary step 3" %}
 
 *If all goes well, you should now see the definitions from the Chinese dictionary.*
 
 Happy reading!
-

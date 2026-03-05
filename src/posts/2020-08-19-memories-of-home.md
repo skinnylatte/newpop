@@ -28,7 +28,7 @@ Use public transit. *Take bus and MRT lor*.
 
 Nothing ever stays the same.
 
-![Jalan Besar in Singapore, public housing and construction](/img/202008-singapore-1.jpg "Jalan Besar in Singapore, public housing and construction")
+{% imageFigure "/img/202008-singapore-1.jpg", "Jalan Besar in Singapore, public housing and construction", "Jalan Besar in Singapore, public housing and construction" %}
 
 **Jalan Besar, Singapore. 2019. Public housing and transit.**
 
@@ -44,7 +44,7 @@ Wandering every story (*floor*) of Sim Lim Tower, looking at batteries, wires, c
 
 Memories are a leaky, unprofitable thing.
 
-![Sim Lim Tower, a building in Singapore](/img/202008-singapore-2.jpg "Sim Lim Tower, a building in Singapore")
+{% imageFigure "/img/202008-singapore-2.jpg", "Sim Lim Tower, a building in Singapore", "Sim Lim Tower, a building in Singapore" %}
 
 **Jalan Besar, Singapore. 2019. Wholesale electronics and late night food.**
 
@@ -62,11 +62,11 @@ To to west, we walk by recently gentrified Hayes Valley, with murals and giant b
 
 To the east, we sometimes stock up on Asian snacks and all the Indomie we need from Pang Kee in Chinatown. To the north, a range of outdoorsy options. Chrissy Fields, where you'll eventually see the Golden Gate Bridge; the municipal pier, where I've been known to sprint up and down when I feel like I need to run very fast for no reason at all. 
 
-![Mural](/img/202008-baby.jpg "Mural in Hayes Valley, San Francisco. Baby holding a weapon art.")
+{% imageFigure "/img/202008-baby.jpg", "Mural in Hayes Valley, San Francisco, featuring a giant baby holding a weapon", "Mural in Hayes Valley, San Francisco. Baby holding a weapon art." %}
 
 **Hayes Valley, San Francisco. 2020. Giant baby mural.**
 
-![Dog and wife waiting for me to be done taking photos](/img/202008-dogwaiting.jpg "Dog and wife waiting for me to be done taking photos")
+{% imageFigure "/img/202008-dogwaiting.jpg", "Dog and wife waiting for me to be done taking photos", "Dog and wife waiting for me to be done taking photos" %}
 
 **Hayes Valley, San Francisco. 2020. Dog and wife waiting for me to be done taking photos with a manual camera.**
 
@@ -74,7 +74,7 @@ Unlike where I'm from, this home of mine barely changes. We recently watched foo
 
 It's going to be okay.
 
-![Wife in yellow dress in Hayes Valley](/img/202008-wifewaiting.jpg "Wife in yellow dress in Hayes Valley")
+{% imageFigure "/img/202008-wifewaiting.jpg", "Wife in yellow dress in Hayes Valley", "Wife in yellow dress in Hayes Valley" %}
 
 **Hayes Valley, San Francisco. 2020. Wife in yellow dress waiting for me to be done tweaking my camera settings.**
 
