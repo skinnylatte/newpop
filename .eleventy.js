@@ -80,6 +80,14 @@ function escapeHtml(str = "") {
     .replace(/'/g, "&#39;");
 }
 
+const imageCacheDirectory =
+  process.env.ELEVENTY_IMAGE_CACHE_DIR ||
+  (process.env.NETLIFY_CACHE_DIR
+    ? path.join(process.env.NETLIFY_CACHE_DIR, "eleventy-img")
+    : path.join(process.cwd(), ".cache/@11ty/img"));
+const isDeployPreview = process.env.CONTEXT === "deploy-preview";
+const fastImageMode = process.env.ELEVENTY_FAST_IMAGE_MODE === "1" || isDeployPreview;
+
 // all configs
 
 module.exports = async function (eleventyConfig) {
@@ -152,12 +160,15 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
 
     const ext = path.extname(trimmedSrc).toLowerCase();
     const fallbackFormat = ext === ".png" ? "png" : "jpeg";
+    const widths = fastImageMode ? [960] : [320, 640, 960, 1280, 1536];
+    const formats = fastImageMode ? [fallbackFormat] : ["avif", "webp", fallbackFormat];
     const metadata = await Image(imageSource, {
-      widths: [320, 640, 960, 1280, 1536],
-      formats: ["avif", "webp", fallbackFormat],
+      widths,
+      formats,
       urlPath: "/img/optimized/",
       outputDir: path.join(process.cwd(), "_site/img/optimized/"),
       cacheOptions: {
+        directory: imageCacheDirectory,
         duration: "30d",
       },
     });

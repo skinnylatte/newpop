@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  ELEVENTY_IMAGE_CACHE_DIR = "/opt/build/cache/eleventy-img"
+
+[context.deploy-preview.environment]
+  ELEVENTY_FAST_IMAGE_MODE = "1"
