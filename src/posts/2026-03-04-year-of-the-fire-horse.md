@@ -24,4 +24,4 @@ layout: 'post.njk'
 
 7. Right now, that list comprises: Mexico City, Guadarajala, La Paz, Mumbai, Surabaya, Kuala Lumpur, Kathmandu, Bangalore and Chennai
 
-8. In short, I'm right back where [I started](http://localhost:8080/posts/an-indian-decade/)!
+8. In short, I'm right back where [I started](https://popagandhi.com/posts/an-indian-decade/)!
