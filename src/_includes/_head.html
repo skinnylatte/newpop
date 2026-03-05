@@ -20,6 +20,7 @@
     {% set socialImagePath = site.socialImage %}
     {% set socialImageAltText = site.siteTitle + " social card" %}
     {% set socialImageUrl = "" %}
+    {% set hasYoutubeLite = content and ('class="youtube-lite"' in content) %}
     {% if socialImagePath %}
       {% if socialImagePath.startsWith("http://") or socialImagePath.startsWith("https://") %}
         {% set socialImageUrl = socialImagePath %}
@@ -51,13 +52,7 @@
     {% endif %}
     <link rel="canonical" href="{{ canonicalUrl }}">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
-    >
-    
+    {% if hasYoutubeLite %}
     <style>
         /* Critical YouTube Lite styles to prevent CLS (Cumulative Layout Shift) */
         .youtube-lite {
@@ -80,6 +75,7 @@
             border: 0;
         }
     </style>
+    {% endif %}
 
     <script>
         (function () {
@@ -114,9 +110,11 @@
     <!-- Main stylesheet (minified during build) -->
     <link rel="stylesheet" href="/style.css">
 
+    {% if hasYoutubeLite %}
     <!-- YouTube Lite embed styles and script -->
     <link rel="stylesheet" href="/youtube-lite.css">
     <script src="/youtube-lite.js" defer></script>
+    {% endif %}
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="alternate icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cstyle%3E.p%7Bfill:%231E4027%7D.dot%7Bfill:%23A84F0C%7D@media (prefers-color-scheme:dark)%7B.p%7Bfill:%236EE7B7%7D.dot%7Bfill:%23FFA500%7D%7D%3C/style%3E%3Cpath class='p' d='M16 12h22c8 0 12 4.5 12 12s-4 12-12 12H28v16h-12V12zm12 8v12h10c3 0 5-2 5-6s-2-6-5-6H28z'/%3E%3Ccircle class='dot' cx='52' cy='16' r='4'/%3E%3C/svg%3E">
@@ -129,8 +127,12 @@
       href="{{ metadata.feed.path }}"
     />
 
+    {% if hasYoutubeLite %}
     <link rel="preconnect" href="https://www.youtube-nocookie.com">
     <link rel="dns-prefetch" href="https://www.youtube-nocookie.com">
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="dns-prefetch" href="https://i.ytimg.com">
+    {% endif %}
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
 </head>

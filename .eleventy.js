@@ -66,6 +66,13 @@ const pluginRss = require("@11ty/eleventy-plugin-rss")
 // requiring collections js
 const collections = require("./collections.js");
 
+const watchIgnorePatterns = [
+  "_site/**",
+  "_site_a11y/**",
+  "_site_verify/**",
+  "docs/**",
+];
+
 function escapeHtml(str = "") {
   return str
     .replace(/&/g, "&amp;")
@@ -78,6 +85,11 @@ function escapeHtml(str = "") {
 // all configs
 
 module.exports = async function (eleventyConfig) {
+  // Faster local dev: serve passthrough files directly and ignore generated/report folders.
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+  eleventyConfig.setWatchThrottleWaitTime(100);
+  watchIgnorePatterns.forEach((pattern) => eleventyConfig.watchIgnores.add(pattern));
+
   // import Eleventy plugins that are ESM
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
   // adding alias
@@ -117,9 +129,12 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
 });
   // add youtube lite embed shortcode (facade pattern for performance)
   eleventyConfig.addShortcode("youtube", function(videoId, title = "YouTube video") {
-    return `<div class="youtube-lite" data-videoid="${videoId}">
-      <img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="${title}" loading="lazy">
-    </div>`;
+    const safeVideoId = escapeHtml(String(videoId || "").trim());
+    const safeTitle = escapeHtml(String(title || "YouTube video").trim());
+    const buttonLabel = `Play video: ${safeTitle}`;
+    return `<button class="youtube-lite" type="button" data-videoid="${safeVideoId}" aria-label="${buttonLabel}">
+      <img src="https://i.ytimg.com/vi/${safeVideoId}/hqdefault.jpg" alt="" aria-hidden="true" loading="lazy">
+    </button>`;
   });
 
   function renderImageTag(

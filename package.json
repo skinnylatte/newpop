@@ -10,7 +10,7 @@
     "lint:frontmatter": "node scripts/check-frontmatter.js",
     "lint:design-system": "node scripts/check-design-system.js",
     "search:index": "npx pagefind --site _site --glob \"**/*.html\"",
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve --incremental",
     "build": "npm run clean && npx @11ty/eleventy && node minify-css.js && npx pagefind --site _site --glob \"**/*.html\""
   },
   "keywords": [],

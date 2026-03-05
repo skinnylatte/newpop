@@ -2,6 +2,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.youtube-lite').forEach(function(element) {
         element.addEventListener('click', function() {
+            if (this.classList.contains('activated')) {
+                return;
+            }
+
             // Mark as activated to hide overlays via CSS
             this.classList.add('activated');
 
@@ -12,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
             iframe.setAttribute('allowfullscreen', '');
             iframe.setAttribute('loading', 'lazy');
+            iframe.setAttribute('title', this.getAttribute('aria-label') || 'YouTube video');
             this.innerHTML = '';
             this.appendChild(iframe);
         });
