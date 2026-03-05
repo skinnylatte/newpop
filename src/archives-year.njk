@@ -52,17 +52,9 @@ eleventyExcludeFromCollections: true
 </article>
 
 {% if pagination.pages.length > 1 %}
-<div class="pagination">
-    {% if pagination.previousPageLink %}
-        <a href="{{ pagination.previousPageLink | replace('/index.html', '/') }}" rel="prev">← Previous Year</a>
-    {% endif %}
-
-    <span class="pagination-info">
-        Viewing {{ year }} ({{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }})
-    </span>
-
-    {% if pagination.nextPageLink %}
-        <a href="{{ pagination.nextPageLink | replace('/index.html', '/') }}" rel="next">Next Year →</a>
-    {% endif %}
-</div>
+{% set paginationPrevLabel = "Previous Year" %}
+{% set paginationNextLabel = "Next Year" %}
+{% set paginationMessage = "Viewing " ~ year ~ " (" ~ (pagination.pageNumber + 1) ~ " of " ~ pagination.pages.length ~ ")" %}
+{% set paginationAriaLabel = "Archive year pagination" %}
+{% include "_pagepagination.html" %}
 {% endif %}

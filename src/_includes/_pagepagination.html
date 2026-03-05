@@ -1,19 +1,39 @@
-<div class="pagination-container">
-    <div class="pagination-prev">
-        {% if pagination.href.previous %}
-            <a href="{{ pagination.href.previous }}" class="pagination-link prev-link">
-                <span class="pagination-label">Previous Page</span>
-                <span class="pagination-title">← Previous</span>
-            </a>
-        {% endif %}
-    </div>
+{% set previousHref = paginationPreviousHref if paginationUseExplicitLinks else (pagination.href.previous if pagination.href and pagination.href.previous else pagination.previousPageLink) %}
+{% set nextHref = paginationNextHref if paginationUseExplicitLinks else (pagination.href.next if pagination.href and pagination.href.next else pagination.nextPageLink) %}
+{% set hasPrevious = previousHref %}
+{% set hasNext = nextHref %}
+{% set hasMultiplePages = pagination.pages and pagination.pages.length > 1 %}
+{% set previousLabel = paginationPrevLabel if paginationPrevLabel else "Previous" %}
+{% set nextLabel = paginationNextLabel if paginationNextLabel else "Next" %}
+{% set defaultMessage = "Page " ~ (pagination.pageNumber + 1) ~ " of " ~ pagination.pages.length %}
+{% set pageMessage = paginationMessage if paginationMessage else defaultMessage %}
 
-    <div class="pagination-next">
-        {% if pagination.href.next %}
-            <a href="{{ pagination.href.next }}" class="pagination-link next-link">
-                <span class="pagination-label">Next Page</span>
-                <span class="pagination-title">Next →</span>
-            </a>
-        {% endif %}
+{% if hasPrevious or hasNext or hasMultiplePages %}
+<nav class="pagination-nav" aria-label="{{ paginationAriaLabel if paginationAriaLabel else 'Pagination' }}">
+    <div class="pagination-container">
+        <div class="pagination-prev">
+            {% if hasPrevious %}
+                <a href="{{ previousHref | replace('/index.html', '/') }}" class="pagination-link prev-link" rel="prev">
+                    <span class="pagination-title">← {{ previousLabel }}</span>
+                </a>
+            {% else %}
+                <span class="pagination-spacer" aria-hidden="true"></span>
+            {% endif %}
+        </div>
+
+        <div class="pagination-center">
+            <span class="pagination-info">{{ pageMessage }}</span>
+        </div>
+
+        <div class="pagination-next">
+            {% if hasNext %}
+                <a href="{{ nextHref | replace('/index.html', '/') }}" class="pagination-link next-link" rel="next">
+                    <span class="pagination-title">{{ nextLabel }} →</span>
+                </a>
+            {% else %}
+                <span class="pagination-spacer" aria-hidden="true"></span>
+            {% endif %}
+        </div>
     </div>
-</div>
+</nav>
+{% endif %}

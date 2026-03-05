@@ -1,25 +1,21 @@
 ---
 pagination:
-  data: collections.tagList
+  data: collections.tagPages
   size: 1
-  alias: tag
-permalink: "/tags/{{ tag }}/"
+  alias: tagPage
+permalink: "/tags/{{ tagPage.tag }}/{% if tagPage.pageNumber > 0 %}{{ tagPage.pageNumber + 1 }}/{% endif %}index.html"
 layout: layout.njk
 eleventyComputed:
-  title: "Posts tagged '{{ tag }}'"
+  title: "Posts tagged '{{ tagPage.tag }}'"
 eleventyExcludeFromCollections: true
 ---
 
-<h1>Posts tagged "{{ tag }}"</h1>
+<h1>Posts tagged "{{ tagPage.tag }}"</h1>
 
 <a href="/tags/">← All tags</a>
 
-{% set postsWithTag = collections[tag] %}
-{% set totalPosts = postsWithTag.length %}
-
-<!-- Display full posts for this tag -->
 <ul>
-{% for post in postsWithTag | reverse %}
+{% for post in tagPage.posts %}
 <li>
   <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
   <div class="post-meta">
@@ -42,5 +38,25 @@ eleventyExcludeFromCollections: true
 </ul>
 
 <div class="tag-info">
-  <p>{{ totalPosts }} post{% if totalPosts != 1 %}s{% endif %} tagged "{{ tag }}"</p>
+  <p>{{ tagPage.totalPosts }} post{% if tagPage.totalPosts != 1 %}s{% endif %} tagged "{{ tagPage.tag }}"</p>
 </div>
+
+{% if tagPage.totalPages > 1 %}
+  {% set paginationUseExplicitLinks = true %}
+  {% set paginationPreviousHref = "" %}
+  {% set paginationNextHref = "" %}
+  {% if tagPage.pageNumber > 0 %}
+    {% set previousPageNumber = tagPage.pageNumber - 1 %}
+    {% if previousPageNumber > 0 %}
+      {% set paginationPreviousHref = "/tags/" ~ tagPage.tag ~ "/" ~ (previousPageNumber + 1) ~ "/" %}
+    {% else %}
+      {% set paginationPreviousHref = "/tags/" ~ tagPage.tag ~ "/" %}
+    {% endif %}
+  {% endif %}
+  {% if tagPage.pageNumber < (tagPage.totalPages - 1) %}
+    {% set paginationNextHref = "/tags/" ~ tagPage.tag ~ "/" ~ (tagPage.pageNumber + 2) ~ "/" %}
+  {% endif %}
+  {% set paginationMessage = "Page " ~ (tagPage.pageNumber + 1) ~ " of " ~ tagPage.totalPages %}
+  {% set paginationAriaLabel = "Tag pagination for " ~ tagPage.tag %}
+  {% include "_pagepagination.html" %}
+{% endif %}

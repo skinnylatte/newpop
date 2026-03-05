@@ -291,7 +291,7 @@ eleventyConfig.addPlugin(syntaxHighlight);
     }, []);
   });
 
-		// create a list of tags for archive page
+	// create a list of tags for archive page
 	eleventyConfig.addCollection("tagList", function(collectionApi){
   let tags = new Set();
   collectionApi.getAll().forEach(function(item) {
@@ -306,8 +306,55 @@ eleventyConfig.addPlugin(syntaxHighlight);
   return Array.from(tags).sort();
 });
 
+  eleventyConfig.addCollection("tagPages", function (collectionApi) {
+    const perPage = 10;
+    const tagList = collectionApi.getAll().reduce((tags, item) => {
+      if (!("tags" in item.data)) {
+        return tags;
+      }
 
-	  // add a filter for limiting the no of posts in rss
+      const itemTags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags];
+      itemTags
+        .filter((tag) => !["all", "posts"].includes(tag))
+        .forEach((tag) => {
+          const normalizedTag = String(tag).toLowerCase().replace(/\s+/g, "-");
+          tags.add(normalizedTag);
+        });
+      return tags;
+    }, new Set());
+
+    const pages = [];
+
+    Array.from(tagList)
+      .sort()
+      .forEach((tag) => {
+        const posts = collectionApi
+          .getFilteredByTag(tag)
+          .slice()
+          .sort((a, b) => b.date - a.date);
+
+        if (!posts.length) {
+          return;
+        }
+
+        const totalPages = Math.ceil(posts.length / perPage);
+        for (let pageNumber = 0; pageNumber < totalPages; pageNumber++) {
+          const start = pageNumber * perPage;
+          pages.push({
+            tag,
+            posts: posts.slice(start, start + perPage),
+            totalPosts: posts.length,
+            pageNumber,
+            totalPages,
+          });
+        }
+      });
+
+    return pages;
+  });
+
+
+		  // add a filter for limiting the no of posts in rss
   eleventyConfig.addFilter("head", (array, number) => {
   return array.slice(-number);
 });

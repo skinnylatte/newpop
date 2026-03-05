@@ -1,60 +1,56 @@
 <nav class="post-pagination" aria-label="Post navigation">
   {% if '/bikes' in page.url %}
     {% set collection = collections.bikes %}
-    {% set collectionName = 'bikes' %}
+    {% set collectionLabel = 'bikes' %}
+    {% set collectionPath = '/bikes/' %}
   {% elif '/photos' in page.url %}
     {% set collection = collections.photos %}
-    {% set collectionName = 'photos' %}
+    {% set collectionLabel = 'photos' %}
+    {% set collectionPath = '/photos/' %}
   {% elif '/food' in page.url %}
     {% set collection = collections.food %}
-    {% set collectionName = 'food' %}
+    {% set collectionLabel = 'food' %}
+    {% set collectionPath = '/food/' %}
   {% elif '/posts' in page.url %}
     {% set collection = collections.blog %}
-    {% set collectionName = 'posts' %}
+    {% set collectionLabel = 'blog' %}
+    {% set collectionPath = '/' %}
   {% endif %}
 
   {% if collection %}
     {% set previousPost = collection | getPreviousCollectionItem(page) %}
     {% set nextPost = collection | getNextCollectionItem(page) %}
-    
-    <div class="pagination-container">
-      <div class="pagination-prev">
-        {% if previousPost %}
-          <a href="{{ previousPost.url }}" class="pagination-link prev-link" rel="prev">
-            <span class="pagination-label">← Previous</span>
-            <span class="pagination-title">{{ previousPost.data.title | truncate(50) }}</span>
-            <span class="pagination-meta">in {{ collectionName }}</span>
-          </a>
-        {% else %}
-          <div class="pagination-placeholder"></div>
-        {% endif %}
-      </div>
-      
-      <div class="pagination-home">
-        <div class="pagination-actions">
-          <a href="/{{ collectionName }}" class="pagination-pill-button">
-            All {{ collectionName }}
-          </a>
-          <a href="{{ '/' | url }}" class="pagination-pill-button">
-            Home
-          </a>
+
+    {% if previousPost or nextPost %}
+      <div class="pagination-container">
+        <div class="pagination-prev">
+          {% if previousPost %}
+            <a href="{{ previousPost.url }}" class="pagination-link prev-link" rel="prev">
+              <span class="pagination-title">← Previous</span>
+              <span class="pagination-meta">{{ previousPost.data.title | truncate(70) }}</span>
+            </a>
+          {% else %}
+            <span class="pagination-spacer" aria-hidden="true"></span>
+          {% endif %}
+        </div>
+
+        <div class="pagination-center">
+          <span class="pagination-info">
+            More in <a href="{{ collectionPath }}" class="pagination-center-link">{{ collectionLabel }}</a>
+          </span>
+        </div>
+
+        <div class="pagination-next">
+          {% if nextPost %}
+            <a href="{{ nextPost.url }}" class="pagination-link next-link" rel="next">
+              <span class="pagination-title">Next →</span>
+              <span class="pagination-meta">{{ nextPost.data.title | truncate(70) }}</span>
+            </a>
+          {% else %}
+            <span class="pagination-spacer" aria-hidden="true"></span>
+          {% endif %}
         </div>
       </div>
-      
-      <div class="pagination-next">
-        {% if nextPost %}
-          <a href="{{ nextPost.url }}" class="pagination-link next-link" rel="next">
-            <span class="pagination-label">Next →</span>
-            <span class="pagination-title">{{ nextPost.data.title | truncate(50) }}</span>
-            <span class="pagination-meta">in {{ collectionName }}</span>
-          </a>
-        {% else %}
-          <div class="pagination-placeholder"></div>
-        {% endif %}
-      </div>
-    </div>
-    
-    <!-- Additional context navigation -->
-    
+    {% endif %}
   {% endif %}
 </nav>
