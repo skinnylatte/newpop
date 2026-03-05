@@ -23,18 +23,19 @@ pagefindExclude: true
 
     var initialQuery = new URLSearchParams(window.location.search).get("q") || "";
 
-    new window.PagefindUI({
+    var searchUi = new window.PagefindUI({
       element: "#search",
       showSubResults: false,
       showImages: false,
       excerptLength: 16,
-      resetStyles: true,
-      triggerSearchTerm: initialQuery
+      resetStyles: true
     });
 
     if (!initialQuery) {
       return;
     }
+
+    searchUi.triggerSearch(initialQuery);
 
     window.setTimeout(function () {
       var input = document.querySelector("#search input.pagefind-ui__search-input");
