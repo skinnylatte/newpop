@@ -4,19 +4,28 @@
     {% if resolvedTitle and resolvedTitle != site.siteTitle %}
       {% set seoTitle = resolvedTitle + " | " + site.siteTitle %}
     {% endif %}
-    {% set seoDescription = description or site.description %}
-    {% if not description and excerpt %}
-      {% set seoDescription = excerpt | striptags | trim %}
-    {% endif %}
     {% set canonicalUrl = page.url | absoluteUrl(site.url) %}
     {% set ogType = "website" %}
     {% if tags and ("blog" in tags or "photos" in tags or "food" in tags or "bikes" in tags) %}
       {% set ogType = "article" %}
     {% endif %}
-    {% set socialImagePath = ogImage or socialImage or site.socialImage %}
+    {% set seoDescription = description or site.description %}
+    {% if not description %}
+      {% if excerpt and ogType == "article" %}
+        {% set seoDescription = excerpt | striptags | trim %}
+      {% elif content and ogType == "article" %}
+        {% set seoDescription = content | striptags | trim | truncate(180, true, "…") %}
+      {% endif %}
+    {% endif %}
+    {% set socialImagePath = site.socialImage %}
+    {% set socialImageAltText = site.siteTitle + " social card" %}
     {% set socialImageUrl = "" %}
     {% if socialImagePath %}
-      {% set socialImageUrl = socialImagePath | absoluteUrl(site.url) %}
+      {% if socialImagePath.startsWith("http://") or socialImagePath.startsWith("https://") %}
+        {% set socialImageUrl = socialImagePath %}
+      {% else %}
+        {% set socialImageUrl = socialImagePath | absoluteUrl(site.url) %}
+      {% endif %}
     {% endif %}
 
     <meta charset="UTF-8">
@@ -31,12 +40,14 @@
     <meta property="og:site_name" content="{{ site.siteTitle }}">
     {% if socialImageUrl %}
     <meta property="og:image" content="{{ socialImageUrl }}">
+    <meta property="og:image:alt" content="{{ socialImageAltText }}">
     {% endif %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ seoTitle }}">
     <meta name="twitter:description" content="{{ seoDescription }}">
     {% if socialImageUrl %}
     <meta name="twitter:image" content="{{ socialImageUrl }}">
+    <meta name="twitter:image:alt" content="{{ socialImageAltText }}">
     {% endif %}
     <link rel="canonical" href="{{ canonicalUrl }}">
 

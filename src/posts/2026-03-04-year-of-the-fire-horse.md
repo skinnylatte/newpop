@@ -1,6 +1,7 @@
 ---
 title: Year of the Fire Horse
 date: 2026-03-04
+description: A personal reset after years of visa limbo, with plans to travel again and begin the next chapter.
 tags:
   - life
   - visa
