@@ -14,17 +14,17 @@ While my primary mode of transportation in San Francisco is my bike, I do find m
 
 When that happens, I don't love being on my bike. Not only are roads slick, but drivers are also worse than they usually are (and they are usually awful). 
 
-<img src="/img/8576b85065.jpg" width="600" height="397" alt="a scan of a black and white photograph of a train arriving in a tunnel in Muni Metro Civic Center station San Francisco" />
+{% image "/img/8576b85065.jpg", "a scan of a black and white photograph of a train arriving in a tunnel in Muni Metro Civic Center station San Francisco" %}
 
 The train I take the most is the N.
 
 There are so many transit systems and agencies here that it took me a while to learn all of them. I wish someone had told me at the start, when I was a tourist, that the 'tram' is a 'train' (trains were only subways to me) or a 'streetcar', and that they all have letters; whereas Muni local buses have numbers, like 38, 49, 5. 
 
-<img src="/img/c6d4133fc2.jpg" width="600" height="397" alt="a scan of a black and white photograph of a train station signs and lights from inside a train" />
+{% image "/img/c6d4133fc2.jpg", "a scan of a black and white photograph of a train station signs and lights from inside a train" %}
 
 View of an underground station from inside the N.
 
-<img src="/img/82c7e628fc.jpg" width="600" height="397" alt="a scan of a black and white photograph of woman holding an umbrella standing at Duboce Park waiting for a train in the rain" />
+{% image "/img/82c7e628fc.jpg", "a scan of a black and white photograph of woman holding an umbrella standing at Duboce Park waiting for a train in the rain" %}
 
 These days, I most frequently take the N to get to the Harvey Milk Photo Center.
 

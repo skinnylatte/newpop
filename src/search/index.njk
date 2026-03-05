@@ -1,0 +1,179 @@
+---
+layout: layout.njk
+title: Search
+permalink: /search/
+eleventyExcludeFromCollections: true
+---
+
+<h1 class="page-title">{{ title }}</h1>
+<p class="search-intro">Search across posts, photos, bikes, food, and now entries.</p>
+
+<form class="search-form" role="search" action="/search/" method="get" novalidate>
+  <label for="search-input">Search this site</label>
+  <div class="search-controls">
+    <input
+      id="search-input"
+      name="q"
+      type="search"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="Try: Monterey, Singapore, bikes"
+    >
+    <button id="search-clear" class="button-secondary" type="button">Clear</button>
+  </div>
+</form>
+
+<p id="search-status" class="search-status" aria-live="polite"></p>
+<ul id="search-results" class="search-results"></ul>
+
+<script>
+  (function () {
+    var input = document.getElementById("search-input");
+    var clearButton = document.getElementById("search-clear");
+    var status = document.getElementById("search-status");
+    var resultsNode = document.getElementById("search-results");
+    var minQueryLength = 2;
+    var maxResults = 30;
+    var searchIndex = [];
+    var ready = false;
+
+    function normalize(value) {
+      return (value || "").toString().toLowerCase().trim();
+    }
+
+    function escapeHtml(value) {
+      return (value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function formatDate(value) {
+      if (!value) {
+        return "";
+      }
+
+      var date = new Date(value);
+      if (Number.isNaN(date.getTime())) {
+        return "";
+      }
+
+      return date.toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric"
+      });
+    }
+
+    function setStatus(message) {
+      status.textContent = message;
+    }
+
+    function renderResults(results, query) {
+      if (!results.length) {
+        resultsNode.innerHTML = "";
+        setStatus('No results for "' + query + '".');
+        return;
+      }
+
+      var itemsHtml = results.map(function (post) {
+        var title = escapeHtml(post.title || "Untitled");
+        var excerpt = escapeHtml(post.excerpt || "");
+        var url = post.url || "/";
+        var formattedDate = formatDate(post.date);
+        var meta = formattedDate ? ('<div class="search-result-meta">' + formattedDate + '</div>') : "";
+
+        return [
+          '<li class="search-result">',
+          '  <h2><a href="' + url + '">' + title + '</a></h2>',
+          meta,
+          excerpt ? ('  <p>' + excerpt + '</p>') : "",
+          '</li>'
+        ].join("\n");
+      }).join("\n");
+
+      resultsNode.innerHTML = itemsHtml;
+      setStatus(results.length + ' result' + (results.length === 1 ? '' : 's') + ' for "' + query + '".');
+    }
+
+    function runSearch(rawQuery) {
+      var query = normalize(rawQuery);
+
+      if (!query) {
+        resultsNode.innerHTML = "";
+        setStatus("Type at least " + minQueryLength + " characters to search.");
+        return;
+      }
+
+      if (query.length < minQueryLength) {
+        resultsNode.innerHTML = "";
+        setStatus("Keep typing. Use at least " + minQueryLength + " characters.");
+        return;
+      }
+
+      if (!ready) {
+        setStatus("Index is still loading.");
+        return;
+      }
+
+      var results = searchIndex
+        .filter(function (post) {
+          return normalize(post.searchText).includes(query);
+        })
+        .slice(0, maxResults);
+
+      renderResults(results, query);
+    }
+
+    function setQueryParam(value) {
+      var url = new URL(window.location.href);
+      if (value) {
+        url.searchParams.set("q", value);
+      } else {
+        url.searchParams.delete("q");
+      }
+      window.history.replaceState({}, "", url.toString());
+    }
+
+    input.addEventListener("input", function (event) {
+      var value = event.target.value || "";
+      setQueryParam(value.trim());
+      runSearch(value);
+    });
+
+    clearButton.addEventListener("click", function () {
+      input.value = "";
+      setQueryParam("");
+      input.focus();
+      runSearch("");
+    });
+
+    setStatus("Loading search index.");
+
+    fetch("/search.json")
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Failed to load search index: " + response.status);
+        }
+        return response.json();
+      })
+      .then(function (data) {
+        searchIndex = Array.isArray(data) ? data : [];
+        ready = true;
+
+        var initialQuery = new URLSearchParams(window.location.search).get("q") || "";
+        if (initialQuery) {
+          input.value = initialQuery;
+          runSearch(initialQuery);
+          return;
+        }
+
+        setStatus("Type at least " + minQueryLength + " characters to search.");
+      })
+      .catch(function () {
+        setStatus("Search is temporarily unavailable.");
+      });
+  })();
+</script>

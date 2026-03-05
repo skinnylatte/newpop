@@ -19,19 +19,7 @@ tags:
   - california
 ---
 
-<figure class="post-image">
-  <img 
-    src="/img/gulls_at_alcatraz.jpg" 
-    width="600" 
-    height="397" 
-    alt="A color photograph of baby seagulls and their parents at Alcatraz Island"
-    loading="lazy"
-    decoding="async"
-  />
-  <figcaption>
-    <em>Nikon D810, 200-500mm lens. Alcatraz Island, just off San Francisco</em>
-  </figcaption>
-</figure>
+{% imageFigure "/img/gulls_at_alcatraz.jpg", "A color photograph of baby seagulls and their parents at Alcatraz Island", "Nikon D810, 200-500mm lens. Alcatraz Island, just off San Francisco" %}
 
 In the early days of Covid-19, a friend said 'we're getting old let's do old people things', so we picked 'birding'. Looks like it stuck.
 

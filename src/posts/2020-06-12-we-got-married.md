@@ -38,7 +38,7 @@ Our marriage was solemnized by a Maori woman who ordained our marriage, as our w
 
 And with that, we were off. Less than six weeks later, we were in our cute little studio in downtown San Francisco, dog in tow. 
 
-![We Got Married](/img/adrisab_goldenmile.png "We Got Married")
+{% imageFigure "/img/adrisab_goldenmile.png", "We Got Married", "We Got Married" %}
 
 One of the last photos we took before leaving Singapore, in our favorite place: Golden Mile. Photo by our good friend, [Javad Tizmaghz](http://jaavs.com/), photographer and woodworker extraordinaire. 
 
@@ -54,7 +54,7 @@ Very often, when you move to America, the prevailing thoughts are:
 
 But in the age of fascism, are those things still... true? 
 
-### Things that are not better
+## Things that are not better
 
 - Food
 - Having to walk 2 blocks to do laundry
@@ -66,14 +66,14 @@ But in the age of fascism, are those things still... true?
 - Lack of skyscrapers
 - Far from loved ones
 
-### Things that are better
+## Things that are better
 
 - The state recognizes our marriage
 - Our pets thrive in a lack of humidity
 - The so-called local govt incompetence, to some right-wingers, is actually an engaging exercise in consensus-building, for these not-right-wingers
 - Adopted family
 
-### How to get queer married
+## How to get queer married
 
 First, decide which country you want to get married in. If you have a good passport, then just select the best ones that will marry you, and whose scenery you enjoy the most. If you don't, then select the country that will admit you without a visa, or with an easy visa, that will also marry foreigners.
 

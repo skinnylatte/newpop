@@ -15,6 +15,8 @@ tags:
 ---
 At the hotel I had the receptionist scribble the name of my lunch spot in Burmese. Lunch that day was to be outside my sphere of Yangon familiarity: I had never been there, but I had been told by some locals that I must have a typical Burmese lunch at Aung Thu Kha.
 
+{% imageFigure "/img/yangonroad_k13jrg.jpg", "Street scene in Yangon with traffic, buildings, and overhead wires.", "Yangon in motion: traffic, heat, and everyday rhythm." %}
+
 So to Aung Thu Kha I went.
 
 After gesticulating at each other for a while, my taxi driver stared at the piece of paper, looked up at my face and laughed: you speak Mandarin, don't you?

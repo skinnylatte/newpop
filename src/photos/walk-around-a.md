@@ -13,27 +13,27 @@ Wet markets have a bad reputation, because of the 'rona, but their name really j
 
 These photos are from a wet market in Taiping, Perak, my wife's hometown. We visited with my mother-in-law and her sister, who were preparing a large family feast for the first reunion in the Taiping home in a very, very long time.
 
-<img src="/img/a9a43104a0.jpg" width="600" height="399" alt="a digital photograph of a market in Malaysia with lots of eggs" />
+{% image "/img/a9a43104a0.jpg", "a digital photograph of a market in Malaysia with lots of eggs" %}
 
 *Eggs*
 
-<img src="/img/e37e27e94d.jpg" width="600" height="399" alt="a digital photograph of a market in Malaysia with lots of salted fish" />
+{% image "/img/e37e27e94d.jpg", "a digital photograph of a market in Malaysia with lots of salted fish" %}
 
 *Salted fish*
 
-<img src="/img/bfa25ee8b6.jpg" width="600" height="399" alt="a digital photograph of a market in Malaysia" />
+{% image "/img/bfa25ee8b6.jpg", "a digital photograph of a market in Malaysia" %}
 
 *Essential items*
 
-<img src="/img/22f5280719.jpg" width="600" height="399" alt="a digital photograph of a market in Malaysia with a menu for all kinds of noodles and items" />
+{% image "/img/22f5280719.jpg", "a digital photograph of a market in Malaysia with a menu for all kinds of noodles and items" %}
 
 *Aromatics*
 
-<img src="/img/305348378e.jpg" width="600" height="399" alt="a digital photograph of a few people's feet as they stand near some flowers and other types of local aromatics used in Malaysian cooking" />
+{% image "/img/305348378e.jpg", "a digital photograph of a few people's feet as they stand near some flowers and other types of local aromatics used in Malaysian cooking" %}
 
 *Potatoes*
 
-<img src="/img/d952dbd0ba.jpg" width="600" height="399" alt="a digital photograph of a large wok full of chillies and stink beans being cooked into a sambal" />
+{% image "/img/d952dbd0ba.jpg", "a digital photograph of a large wok full of chillies and stink beans being cooked into a sambal" %}
 
 *Sambal*
 

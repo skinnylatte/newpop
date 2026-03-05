@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint && npm run build",
+    "lint": "npm run lint:frontmatter && npm run lint:design-system",
+    "lint:frontmatter": "node scripts/check-frontmatter.js",
+    "lint:design-system": "node scripts/check-design-system.js",
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy && node minify-css.js"
   },

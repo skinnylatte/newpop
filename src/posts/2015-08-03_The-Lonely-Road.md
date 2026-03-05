@@ -12,8 +12,7 @@ tags:
 
 If it has ever occurred to you to start something, you know how lonely that can get. If you do that chronically, you probably over-estimate your abilities, have a high threshold for pain, or you're downright insane. The truth lies somewhere in the middle.
 
-![Welcome Drew Graham. Let's kick some ass.](https://cdn-images-1.medium.com/max/400/1*vkPU2YGENT2Qk0ul6aFhqw.png)
-Welcome Drew Graham. Let's kick some ass.
+{% imageFigure "/img/medium-1-vkPU2YGENT2Qk0ul6aFhqw.png", "Welcome Drew Graham. Let's kick some ass.", "Welcome Drew Graham. Let's kick some ass." %}
 
 **For almost a year, I did this alone. I started a company in a foreign country, in a language I barely speak (getting better at it), in the city of traffic jams.**
 

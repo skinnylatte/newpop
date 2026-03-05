@@ -28,7 +28,7 @@ Near Menaka Cards factory on Arcot Road I made us slow down to stare at the ridi
 
 From then on we were well and truly on our own. We would lose sight of all the other rickshaws in the rally, most of the time, and only run into them when someone broke down, when we ran into another team in a random village, or when we caught up with the rest of them somewhere on the road. It would be up to us to decide which way to go and how to get there.
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/h_293,w_300/v1456563131/IMG_4035_rxerrx.jpg" alt="" title="Andrew in the Bush" width="300" height="293" class="size-medium wp-image-139" />
+{% imageFigure "/img/IMG_4035_rxerrx.jpg", "Andrew standing by roadside bushes during the rally", "Andrew in the Bush" %}
 
 _Relief._
 
@@ -42,7 +42,7 @@ Chengalpattu. Tindivanam. Vallam. We stopped outside Gingee Fort to take photos 
 
 I have a love-hate relationship with India's religious, holy cities. I know how my skin colour, and the fact that I was born outside the structures and strictures of traditional Hinduism, means I will never encounter holy life in an Indian holy city the way it was meant to be; I will always be an outsider, always a _firingi_, in the religious places far more than in most other cities. It also means I see much more of the harassment and the stupidity that their most aggravatingly frustrating touts and pimps and drug dealers subject to foreigners, who believe we all come to India's holy places to seek _darshan_ with the gods of drugs and sex, without exception, and must thus be given what we want: sex and drugs. In Benares I felt no holiness, only sexual harassment; I did not have high hopes then for Thiruvannaamalai. 
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/h_293,w_300/v1456563124/IMG_4037_iqzi28.jpg" alt="" title="Karthik taking a break" width="300" height="293" class="size-medium wp-image-141" />
+{% imageFigure "/img/IMG_4037_iqzi28.jpg", "Karthik resting by the roadside during the trip", "Karthik taking a break" %}
 
 _Karthik at a rest stop._
 

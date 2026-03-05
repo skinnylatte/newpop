@@ -22,7 +22,7 @@ We set off from Madras one hot morning, dressed to the nines. It was a good idea
 
 Saravana Stores is a bit like Singapore's Mustafa Centre. Mustafa scores better on the "has all the crap you ever need to buy" front, but Saravana wins on the "has an entire section of the store dedicated to rickshaw men's uniforms" front. We skipped over like crazy _firingis_, trying out different types of singlets (who knew there were so many?); a variety of khaki shirts, and patterned _lungis_. A few hundred rupees later, we were in business.
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/h_293,w_300/v1456563146/IMG_4022_xmux4s.jpg" alt="Me as a rickshaw wallah" title="Me as a rickshaw wallah" width="300" height="293" class="size-medium wp-image-95" />
+{% imageFigure "/img/IMG_4022_xmux4s.jpg", "Me as a rickshaw wallah", "Me as a rickshaw wallah" %}
 
 _The author dressed as a rickshaw wallah with a tilak._
 

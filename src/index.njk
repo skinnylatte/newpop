@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: {{ site.siteTitle }}
+title: "Popagandhi"
 pagination:
   size: 5
   data: collections.blog
@@ -9,6 +9,8 @@ pagination:
 permalink: "/{% if pagination.pageNumber != 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 collectionOnThisPage: blog
 ---
+
+<h1 class="page-title">{{ title }}</h1>
 
 {% include "_post_templateContent.njk" %}
 

@@ -17,7 +17,7 @@ title: Over and Over
 
 3. I just downloaded one of those time machine apps which scour your social media networks to show you what you were up to a year, two years, three years ago. It tells me I was staring at a giant fake swan in Hungary, with these Hungarian and Czech developers. We were building [something](http://photogotchi.com/) in a house by a lake. We may have gotten a slight case of cabin fever. We went swimming, paddling, and we found a giant swan which was also a boat. We christened her Gloria.<br />
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/h_214,w_300/v1456562771/balaton_swan_ahb0xd.png" alt="Gloria, Swan" width="300" height="214" class="alignright size-medium wp-image-898" />
+{% imageFigure "/img/balaton_swan_ahb0xd.png", "Gloria, Swan", "Gloria, Swan" %}
 
 <br />The exact circumstances which got me to this very moment are meandering, long-winded ones. It began in south India, in an autorickshaw, and then to Kuala Lumpur, Bombay, and then to hospitals in Singapore, then to northern Europe, then to KL, Singapore, and then finally to Zamárdi and to this swan we called Gloria.<br />They were fun times. They taught me that never again should I allow myself to be photographed in a half-wet t-shirt, anywhere in the world.
 

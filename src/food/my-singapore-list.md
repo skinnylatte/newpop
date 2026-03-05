@@ -16,7 +16,7 @@ If you're from Singapore, resist the urge to tell me I missed your faves: I'm pr
 
 (Or, get this list in one single [Google Maps list](https://maps.app.goo.gl/zepw5NsyvRByLiZQ6))
 
-### Singapore Dishes you should try
+## Singapore Dishes you should try
 
 1. Laksa: [Sungei Road Laksa](https://maps.app.goo.gl/7dkH3xJXFZWszFsk9), [Janggut Laksa](https://maps.app.goo.gl/oisLCfmtVVXsV5gN9), [Wei Yi Laksa](https://maps.app.goo.gl/ztMiMPJdZypH4PVT7) (my absolute fave laksa but the lines are.. long. I waited 60-90 min the last few times I went, and they sell out before noon. definitely one of the most 'local' and 'old school' of the bunch. This is the laksa I grew up eating), [928 Yishun Laksa](https://maps.app.goo.gl/fbcKaWSwLHa7xVSB6)
 2. Chicken rice: 'what's the best chicken rice' is an explosive question in Singapore. Here are my my picks: [Tian Tian](https://maps.app.goo.gl/jMjq6xaS1Lkx6BZv5) (Bourdain's recommendation and has a line to show for it), [Ah Tai](https://maps.app.goo.gl/ZXWfPXCoESzAuZNQA) (similar to Tian Tian, with a less long line, in the same building), [Sin Kee (my fave Cantonese style chicken)](https://maps.app.goo.gl/DuQcEXBEyMbvK1Ao7), [Tong Kee](https://maps.app.goo.gl/taRoPUmZvNM5sJuUA) (my fave roasted style chicken rice), [Feng Ji](https://maps.app.goo.gl/wsLSZsdzanRLqBG67)
@@ -49,7 +49,7 @@ If you're from Singapore, resist the urge to tell me I missed your faves: I'm pr
 29. Bebek goreng: if you can't make it to East Javan in Indonesia, bring East Java to you. Fried duck with lots of spices is a Surabaya / Madura specialty and one of my favorite dishes anywhere in the world. Thankfully, we have good ones in Singapore too (we also have a large Indonesian population) and my favorite is [Pak Ndut](https://maps.app.goo.gl/nZBEJjeG4HjBzn8DA).
 30. Really good coffee: even though I live in the land of Sightglass and Four Barrel coffee, [Tiong Hoe](https://maps.app.goo.gl/MGtGpUjA2Zo8ma5J7) (and coffee shops in Indonesia) is probably the coffee I miss the most
 
-### Greatest hits hawker centres to go to for generally great food
+## Greatest hits hawker centres to go to for generally great food
 
 If the list is too overwhelming, literally go to any of these hawker centres and eat anything you find interesting. If there's a line, join it. Anything called 'market and food centre' is a hawker centre with an attached wet market (no wildlife. Just good fresh produce, fish, meat. Generally pretty clean).  
 
@@ -65,7 +65,7 @@ If the list is too overwhelming, literally go to any of these hawker centres and
 10. [Tiong Bahru market](https://maps.app.goo.gl/WRb7BqfwN1oPU22J9) (good for breakfast and lunch). Very popular foodie-ish hawker centre.
 
 
-### Best spots for vegetarians and vegans
+## Best spots for vegetarians and vegans
 
 1. [New Fut Kai](https://maps.app.goo.gl/ddA6zqtHT9wX6fUY8) for veg versions of things like laksa and other 'Chinese Singaporean' foods
 2. [Whole Earth](https://maps.app.goo.gl/HJhAhgSMEUjgHHmh9) for a delightful veg version of Singaporean / Chinese / Thai / Malaysian food

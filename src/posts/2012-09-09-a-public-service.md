@@ -14,7 +14,7 @@ As we suspected, the entire thing was a scam. He did not leave for Singapore, an
 
 In the process, I learned a bit about how one can verify the authenticity of a work permit. I hope this can be translated into different languages, especially in Indian languages. Feel free to post this in as many places as you like. As long as it helps somebody.
 
-### How to Verify Authenticity of Work Permit
+## How to Verify Authenticity of Work Permit
 
 1. Visit the Ministry of Manpower's [Work Permit for Foreign Workers](http://www.mom.gov.sg/services-forms/passes/Pages/work-permit-fw.aspx) page
 

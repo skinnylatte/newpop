@@ -12,7 +12,7 @@ tags:
   - sfsymphony
   - music
 ---
-<img src="/img/1bcb6a7eff.jpg" width="600" height="397" alt="A scan of a black and white photograph of a standing ovation for an orchestra" />
+{% image "/img/1bcb6a7eff.jpg", "A scan of a black and white photograph of a standing ovation for an orchestra" %}
 
 *Photo taken on Leica M3, 50mm Summilux, Kodak T-Max P3200, developed and scanned by Underdog Film Lab, Oakland.*
 

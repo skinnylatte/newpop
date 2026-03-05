@@ -1,3 +1,7 @@
 .DS_Store
 node_modules/
 _site/
+_site_a11y/
+_site_verify/
+docs/
+scripts/

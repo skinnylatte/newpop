@@ -6,7 +6,7 @@ tags:
   - food
 ---
 
-<img src="/img/rawonsurabaya.jpg" width="600" height="600" alt="a photo of scallion pancake">
+{% image "/img/rawonsurabaya.jpg", "a photo of scallion pancake" %}
 
 _Rawon Setan, Surabaya_
 

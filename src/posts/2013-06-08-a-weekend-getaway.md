@@ -28,18 +28,18 @@ Highly recommended. I will be returning to Coorg shortly, although I may want to
 
 Damn I love this country.
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/c_crop,h_396,w_396,x_122,y_0/h_290,w_290/v1456562807/1368998867_njqazo.jpg" alt="Tamara - Path" class="alignright size-thumbnail wp-image-721" />
+{% imageFigure "/img/1368998867_njqazo.jpg", "Tamara - Path", "Tamara - Path" %}
 
 _The path to my cottage_
 
 
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/c_crop,h_640,w_640,x_0,y_0/h_290,w_290/v1456562805/1368554678_cruufw.jpg" alt="Tamara - Shoes" width="290" height="290" class="alignright size-thumbnail wp-image-722" />
+{% imageFigure "/img/1368554678_cruufw.jpg", "Tamara - Shoes", "Tamara - Shoes" %}
 
 _Happy feet_
 
 
 
-<img src="http://res.cloudinary.com/dmchbvarm/image/upload/h_119,w_300/v1456562803/tamara_xtu4zc.jpg" alt="Tamara" width="300" height="119" class="alignright size-medium wp-image-732" />
+{% imageFigure "/img/tamara_xtu4zc.jpg", "Tamara", "Tamara" %}
 
 _All rights reserved, The Tamara Coorg_

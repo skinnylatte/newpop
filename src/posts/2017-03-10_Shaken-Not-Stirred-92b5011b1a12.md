@@ -26,9 +26,9 @@ We’re a company founded by foodies, but our engineering team is the foodiest o
 
 Deep within our repos you can find things like:
 
-![Coconut makes the world, and our infra, go round.](https://cdn-images-1.medium.com/max/800/1*NRRulG0QtobhsWhjw-CobQ.png)
-Coconut makes the world, and our infra, go round.![Dark, golden and distilled beauty. Just like our microservices.](https://cdn-images-1.medium.com/max/800/1*6ug9ayD5vJrq-KOiJgl8Aw.png)
-Dark, golden and distilled beauty. Just like our microservices.
+{% imageFigure "/img/medium-1-NRRulG0QtobhsWhjw-CobQ.png", "Coconut makes the world, and our infra, go round.", "Coconut makes the world, and our infra, go round." %}
+  {% imageFigure "/img/medium-1-6ug9ayD5vJrq-KOiJgl8Aw.png", "Dark, golden and distilled beauty. Just like our microservices.", "Dark, golden and distilled beauty. Just like our microservices." %}
+</figure>
 
 Since we’re a multi-cultural team, with 2 engineers from Venezuela, we were also happy to christen one of our most important packages after Venezuela’s most famous product, **Diplomatico**.
 

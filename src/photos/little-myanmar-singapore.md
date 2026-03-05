@@ -17,23 +17,23 @@ We have many Burmese grocers, restaurants services in Peninsula Plaza and Penins
 
 Here's what it looks like. 
 
-<img src="/img/001073050019.jpg" width="600" height="397" alt="1. A scan of a color photo of a Burmese grocer in Singapore ">
+{% image "/img/001073050019.jpg", "1. A scan of a color photo of a Burmese grocer in Singapore" %}
 
 Snacks.
 
-<img src="/img/001073050018.jpg" width="600" height="397" alt="2. A scan of a color photo of a Burmese food menu at a restaurant, written entirely in Burmese">
+{% image "/img/001073050018.jpg", "2. A scan of a color photo of a Burmese food menu at a restaurant, written entirely in Burmese" %}
 
 Menu.
 
-<img src="/img/001073050013.jpg" width="600" height="397" alt="3. A scan of a color photo of a few worship items at a Burmese grocer in Singapore">
+{% image "/img/001073050013.jpg", "3. A scan of a color photo of a few worship items at a Burmese grocer in Singapore" %}
 
 Offerings.
 
-<img src="/img/001073050016.jpg" width="600" height="397" alt="4. A scan of a color photo of a Burmese tea shop in Singapore. The signboard says Ye Yint">
+{% image "/img/001073050016.jpg", "4. A scan of a color photo of a Burmese tea shop in Singapore. The signboard says Ye Yint" %}
 
 Tea shop.
 
-<img src="/img/001073050011-2.jpg" width="600" height="397" alt="5. A scan of a color photo of people standing around at the Burmese grocer in Singapore ">
+{% image "/img/001073050011-2.jpg", "5. A scan of a color photo of people standing around at the Burmese grocer in Singapore" %}
 
 Groceries.
 

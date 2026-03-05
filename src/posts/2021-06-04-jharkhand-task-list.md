@@ -15,13 +15,13 @@ tags:
   - blog
 layout: post.njk
 ---
-![Photo of a task list written by a girl in Jharkhand](https://popagandhi.com/img/jharkhandtasklist.jpg "Jharkhand task list photo")
+{% imageFigure "/img/jharkhandtasklist.jpg", "Photo of a task list written by a girl in Jharkhand", "Jharkhand task list photo" %}
 
 Some of you may know that I have spent the last 9 years or so [working to support children's education in Jharkhand, India](https://gyanada.org). In better times I visit them 2-3x a year. I want to share something that stuck with me the last time I went: one of the girls we work with showed us their daily schedule.
 
 Tribal Jharkhand girl's daily schedule (24 January 2019):
 
-### At home
+## At home
 
 * Keep house clean, 30 min
 * Help mother in her work, 30 min
@@ -33,7 +33,7 @@ Tribal Jharkhand girl's daily schedule (24 January 2019):
 * Use Whatsapp to write all the notes I have missed as I am not in class today, 2 hours
 * I have to call my grandmother as she is sick, 20 minutes
 
-### Elsewhere
+## Elsewhere
 
 * School time, 5 hours
 * Tuition time, 1 hour

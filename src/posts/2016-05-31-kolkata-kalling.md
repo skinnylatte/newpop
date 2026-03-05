@@ -12,6 +12,8 @@ layout: post.njk
 
 12 years ago I came to Kolkata for the same time. At the time it was still mostly referred to as Calcutta. 
 
+{% imageFigure "/img/32572077_fc88a27348_o_mnpexg.jpg", "Kolkata street view with pedestrians, vehicles, and weathered facades.", "Kolkata, where every return feels both familiar and new." %}
+
 The city doesn't change; but you do.
 
 Every picture I have of it from 12 years ago still looks like it could have been from December, when I last visited. Perhaps even today. When I land at midnight later, there will not be the crisp, muddled air of the winters I love in that city, just the night time counterpart to the heat that I know will pound on my face, and the ground, sometime in the morning.
@@ -32,5 +34,7 @@ The start, really, of *empire*. The fall, or rather the fading away, of one. The
 On hot afternoons when the sun hits the ground and meets engine oil, the smell reminds me of my first love among the many other putrid Asian cities I have come to love:
 
 > “So in the streets of Calcutta I sometimes imagine myself a foreigner, and only then do I discover how much is to be seen, which is lost so long as its full value in attention is not paid. It is the hunger to really see which drives people to travel to strange places.” — Tagore, My Reminiscences
+
+{% imageFigure "/img/126293771_b3365e24fa_o_t8yrik.jpg", "City view of Kolkata showing layered architecture and daily street life.", "Another frame from the city that shaped me." %}
 
 This foreigner is not done discovering.

@@ -10,7 +10,7 @@ date: 2012-03-20T02:35:05Z
 title: Four Hours Light
 ---
 
-<img src="http://farm4.staticflickr.com/3119/2557851057_629a2af58b_z.jpg" width="502" height="640" alt="Tallinn, Estonia 028 - Catedral Alexander Nevsky/ Alexander Nevsky Cathedral" />
+{% imageFigure "/img/flickr-2557851057_629a2af58b_z.jpg", "Tallinn, Estonia 028 - Catedral Alexander Nevsky/ Alexander Nevsky Cathedral", "Tallinn, Estonia 028 - Catedral Alexander Nevsky/ Alexander Nevsky Cathedral" %}
 
 _"Tallinn, Estonia 028 - Catedral Alexander Nevsky/ Alexander Nevsky Cathedral by Claudio.Ar, on Flickr"_
 

@@ -14,27 +14,27 @@ I didn't know what any of that was.
 
 Well, Margaret Cho, you were RIGHT. I fucking love it.
 
-<img src="/img/202506_whalewatching_whale2.jpg" width="600" height="397" alt="a color photograph of the fluke of a humpback whale" />
+{% image "/img/202506_whalewatching_whale2.jpg", "a color photograph of the fluke of a humpback whale" %}
 
 *A whale named Pepper.*
 
-<img src="/img/202506_whalewatching_whales1.jpg" width="600" height="397" alt="a color photograph of two humpback whales, one mother and calf" />
+{% image "/img/202506_whalewatching_whales1.jpg", "a color photograph of two humpback whales, one mother and calf" %}
 
 *A whale named Little Dimple and her calf. Who is somehow, sadly, not called Littler Dimple.*
 
-<img src="/img/202506_whalewatching_rissodolphins.jpg" width="600" height="397" alt="a color photograph of the dorsal fins of three risso dolphins" />
+{% image "/img/202506_whalewatching_rissodolphins.jpg", "a color photograph of the dorsal fins of three risso dolphins" %}
 
 *All dolphins are whales. But not all whales are dolphins.*
 
-<img src="/img/202506_whalewatching_mola.jpg" width="600" height="397" alt="a color photograph of a tiny ocean sunfish" />
+{% image "/img/202506_whalewatching_mola.jpg", "a color photograph of a tiny ocean sunfish" %}
 
 *Mola-mola always astound me with their.. strangeness. I love them.*
 
-<img src="/img/202506_whalewatching_otters.jpg" width="600" height="397" alt="a color photograph of an otter grooming her baby" />
+{% image "/img/202506_whalewatching_otters.jpg", "a color photograph of an otter grooming her baby" %}
 
 *SQUEEEE. OTTERS.*
 
-<img src="/img/202506_whalewatching_cormorant.jpg" width="600" height="397" alt="a color photograph of a pelagic cormorant with kelp in their mouth" />
+{% image "/img/202506_whalewatching_cormorant.jpg", "a color photograph of a pelagic cormorant with kelp in their mouth" %}
 
 *In flight pelagic cormorant left before I could ask, can I kelp you?*
 

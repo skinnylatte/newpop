@@ -17,27 +17,27 @@ The Farallon Islands don't look too far from San Francisco on the map but it's m
 
 Anyway, here are some photos I loved from the trip back in July.
 
-<img src="/img/DSC2979-positive.jpg" width="600" height="400" alt="a color photo of sea lions lying on a buoy">
+{% image "/img/DSC2979-positive.jpg", "a color photo of sea lions lying on a buoy" %}
 
 Sea lions on a buoy off Half Moon bay.
 
-<img src="/img/DSC3990-enhanced-nr-positive.jpg" width="600" height="400" alt="a color photo of a tufted puffin in the ocean">
+{% image "/img/DSC3990-enhanced-nr-positive.jpg", "a color photo of a tufted puffin in the ocean" %}
 
 Tufted puffin bobbing about in the Pacific Ocean.
 
-<img src="/img/DSC3930-enhanced-nr-positive.jpg" width="600" height="400" alt="a color photo of sea lions and birds in the ocean">
+{% image "/img/DSC3930-enhanced-nr-positive.jpg", "a color photo of sea lions and birds in the ocean" %}
 
 Active sea life in the Pacific Ocean.
 
-<img src="/img/DSC3794-positive.jpg" width="600" height="400" alt="a color photo of some birds flying between rocks in the pacific ocean">
+{% image "/img/DSC3794-positive.jpg", "a color photo of some birds flying between rocks in the pacific ocean" %}
 
 The pure power of the ocean and the life in it.
 
-<img src="/img/DSC3747-positive.jpg" width="600" height="400" alt="a sea lion and its pup in the rocks">
+{% image "/img/DSC3747-positive.jpg", "a sea lion and its pup in the rocks" %}
 
 Sea lion and pup in the rocks.
 
-<img src="/img/DSC3839-positive.jpg" width="600" height="400" alt="a color photo of thousands of birds sitting on the rocks of the farallon islands">
+{% image "/img/DSC3839-positive.jpg", "a color photo of thousands of birds sitting on the rocks of the farallon islands" %}
 
 Sheer and overwhelming number of birds on the rocks and the waters around.
 

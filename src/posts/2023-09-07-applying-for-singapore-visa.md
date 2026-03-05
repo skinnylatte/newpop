@@ -38,7 +38,7 @@ You can [look up the status of your visa application](https://eservices.ica.gov.
 
 So far, I have applied for friends from many countries and I have not received a single rejection.
 
-### More resources
+## More resources
 
 Please refer to ICA's own documents for screenshots and more explanation for each step. These are all PDF files:
 
