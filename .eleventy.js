@@ -1,13 +1,8 @@
 // Import prior to `module.exports` within `.eleventy.js`
 const { DateTime } = require("luxon");
-const path = require("path");
 
 // add syntax highlighting 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-
-// 11ty img plugin
-
-const Image = require("@11ty/eleventy-img");
 
 // 11ty youtube plugin
 
@@ -80,14 +75,6 @@ function escapeHtml(str = "") {
     .replace(/'/g, "&#39;");
 }
 
-const imageCacheDirectory =
-  process.env.ELEVENTY_IMAGE_CACHE_DIR ||
-  (process.env.NETLIFY_CACHE_DIR
-    ? path.join(process.env.NETLIFY_CACHE_DIR, "eleventy-img")
-    : path.join(process.cwd(), ".cache/@11ty/img"));
-const isDeployPreview = process.env.CONTEXT === "deploy-preview";
-const fastImageMode = process.env.ELEVENTY_FAST_IMAGE_MODE === "1" || isDeployPreview;
-
 // all configs
 
 module.exports = async function (eleventyConfig) {
@@ -135,7 +122,7 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
     </div>`;
   });
 
-  async function renderResponsiveImage(
+  function renderImageTag(
     src,
     alt,
     sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 85vw, 720px",
@@ -153,40 +140,26 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
       throw new Error(`image shortcode requires alt text for ${trimmedSrc}`);
     }
 
-    const isRemote = /^https?:\/\//i.test(trimmedSrc);
-    const imageSource = isRemote
-      ? trimmedSrc
-      : path.join(process.cwd(), "src", trimmedSrc.replace(/^\//, ""));
-
-    const ext = path.extname(trimmedSrc).toLowerCase();
-    const fallbackFormat = ext === ".png" ? "png" : "jpeg";
-    const widths = fastImageMode ? [960] : [320, 640, 960, 1280, 1536];
-    const formats = fastImageMode ? [fallbackFormat] : ["avif", "webp", fallbackFormat];
-    const metadata = await Image(imageSource, {
-      widths,
-      formats,
-      urlPath: "/img/optimized/",
-      outputDir: path.join(process.cwd(), "_site/img/optimized/"),
-      cacheOptions: {
-        directory: imageCacheDirectory,
-        duration: "30d",
-      },
-    });
-
-    const attrs = {
-      alt: trimmedAlt,
-      sizes,
-      loading,
-      decoding,
-    };
+    // Keep the image shortcode API stable, but skip derivative generation.
+    const attrs = [
+      `src="${escapeHtml(trimmedSrc)}"`,
+      `alt="${escapeHtml(trimmedAlt)}"`,
+    ];
+    if (loading) {
+      attrs.push(`loading="${escapeHtml(loading)}"`);
+    }
+    if (decoding) {
+      attrs.push(`decoding="${escapeHtml(decoding)}"`);
+    }
     if (fetchpriority && fetchpriority !== "auto") {
-      attrs.fetchpriority = fetchpriority;
+      attrs.push(`fetchpriority="${escapeHtml(fetchpriority)}"`);
     }
     const cleanClass = (className || "").trim();
     if (cleanClass) {
-      attrs.class = cleanClass;
+      attrs.push(`class="${escapeHtml(cleanClass)}"`);
     }
-    return Image.generateHTML(metadata, attrs);
+
+    return `<img ${attrs.join(" ")}>`;
   }
 
   eleventyConfig.addAsyncShortcode(
@@ -200,7 +173,7 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
       fetchpriority = "auto",
       decoding = "async"
     ) {
-      return renderResponsiveImage(src, alt, sizes, className, loading, fetchpriority, decoding);
+      return renderImageTag(src, alt, sizes, className, loading, fetchpriority, decoding);
     }
   );
 
@@ -216,7 +189,7 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
       decoding = "async"
     ) {
       const trimmedAlt = (alt || "").trim();
-      const picture = await renderResponsiveImage(src, trimmedAlt, sizes, "", loading, fetchpriority, decoding);
+      const picture = renderImageTag(src, trimmedAlt, sizes, "", loading, fetchpriority, decoding);
       const finalCaption = (caption || trimmedAlt).trim();
       return `<figure class="post-image">
   ${picture}
