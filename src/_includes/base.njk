@@ -47,8 +47,11 @@
 	</div>
 </nav>
 
-<main id="main-content" class="site-main">
+<main id="main-content" class="site-main" {% if pagefindExclude %}data-pagefind-ignore="all"{% else %}data-pagefind-body{% endif %}>
 	{% block main %}
+	{% if not pagefindExclude and title %}
+	<span class="visually-hidden" data-pagefind-meta="title">{{ title }}</span>
+	{% endif %}
 	{{ content | safe }}
 	{% endblock %}
 </main>

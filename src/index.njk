@@ -8,6 +8,8 @@ pagination:
   alias: posts
 permalink: "/{% if pagination.pageNumber != 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 collectionOnThisPage: blog
+pagefindExclude: true
+showFullPosts: true
 ---
 
 {% include "_post_templateContent.njk" %}

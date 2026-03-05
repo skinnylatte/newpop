@@ -8,6 +8,7 @@ layout: layout.njk
 eleventyComputed:
   title: "Posts tagged '{{ tagPage.tag }}'"
 eleventyExcludeFromCollections: true
+pagefindExclude: true
 ---
 
 <h1>Posts tagged "{{ tagPage.tag }}"</h1>
@@ -23,13 +24,22 @@ eleventyExcludeFromCollections: true
       Published on {{ post.data.date | postDate }}
     </time>
   </div>
-  <div class="post">{{ post.templateContent | safe }}</div>
-  {% if post.data.tags %}
-  <div class="post-tags">
-  {% for tagItem in post.data.tags %}
-  {% if tagItem != 'posts' and tagItem != 'all' %}
-  <a href="/tags/{{ tagItem | slugify }}/" class="tag-item">{{ tagItem }}<span class="visually-hidden"> (view all posts tagged {{ tagItem }})</span></a>
+  {% set excerptSource = post.data.excerpt %}
+  {% if not excerptSource %}
+    {% set excerptSource = post.templateContent %}
   {% endif %}
+  {% set excerptText = excerptSource | striptags | trim %}
+  {% if excerptText %}
+  <div class="post-excerpt">
+    <p>{{ excerptText | truncate(320, false, "…") }}</p>
+  </div>
+  {% endif %}
+  <p><a href="{{ post.url }}">Continue reading</a></p>
+  {% set visibleTags = post.data.tags | displayTags %}
+  {% if visibleTags.length > 0 %}
+  <div class="post-tags">
+  {% for tagItem in visibleTags %}
+  <a href="/tags/{{ tagItem | slugify }}/" class="tag-item">{{ tagItem }}<span class="visually-hidden"> (view all posts tagged {{ tagItem }})</span></a>
   {% endfor %}
   </div>
   {% endif %}

@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf _site",
     "test": "npm run lint && npm run build",
     "lint": "npm run lint:frontmatter && npm run lint:design-system",
     "lint:frontmatter": "node scripts/check-frontmatter.js",
     "lint:design-system": "node scripts/check-design-system.js",
+    "search:index": "npx pagefind --site _site --glob \"**/*.html\"",
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy && node minify-css.js"
+    "build": "npm run clean && npx @11ty/eleventy && node minify-css.js && npx pagefind --site _site --glob \"**/*.html\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@zachleat/pagefind-search": "^1.0.3",
     "eleventy-plugin-youtube-embed": "^1.13.0",
     "js-yaml": "^4.1.1",
     "markdown-it": "^14.0.0"
@@ -29,6 +30,7 @@
     "dayjs": "^1.11.19",
     "luxon": "^3.4.4",
     "markdown-it-anchor": "^9.2.0",
+    "pagefind": "^1.4.0",
     "slugify": "^1.6.6"
   }
 }

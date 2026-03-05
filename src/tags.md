@@ -3,6 +3,7 @@ layout: layout.njk
 title: Tags
 permalink: /tags/
 eleventyExcludeFromCollections: true
+pagefindExclude: true
 ---
 
 <h1>All Tags</h1>

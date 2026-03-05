@@ -7,13 +7,28 @@
           Published on {{ post.data.date | postDate }}
         </time>
       </div>
-	<div class="post">{{ post.templateContent | safe }}</div>
-	{% if post.data.tags %}
-	<div class="post-tags">
-	{% for tag in post.data.tags %}
-	{% if tag != 'posts' and tag != 'all' %}
-	<a href="/tags/{{ tag | slugify }}/" class="tag-item">{{ tag }}<span class="visually-hidden"> (view all posts tagged {{ tag }})</span></a>
+	{% set excerptSource = post.data.excerpt %}
+	{% if not excerptSource %}
+		{% set excerptSource = post.templateContent %}
 	{% endif %}
+	{% if showFullPosts %}
+	<div class="post-content">
+		{{ post.templateContent | safe }}
+	</div>
+	{% else %}
+		{% set excerptText = excerptSource | striptags | trim %}
+		{% if excerptText %}
+	<div class="post-excerpt">
+		<p>{{ excerptText | truncate(320, false, "…") }}</p>
+	</div>
+		{% endif %}
+	<p><a href="{{ post.url | url }}">Continue reading</a></p>
+	{% endif %}
+	{% set visibleTags = post.data.tags | displayTags %}
+	{% if visibleTags.length > 0 %}
+	<div class="post-tags">
+	{% for tag in visibleTags %}
+	<a href="/tags/{{ tag | slugify }}/" class="tag-item">{{ tag }}<span class="visually-hidden"> (view all posts tagged {{ tag }})</span></a>
 	{% endfor %}
 	</div>
 	{% endif %}
