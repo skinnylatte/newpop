@@ -3,6 +3,7 @@
   publish = "_site"
 
 [build.environment]
+  NODE_VERSION = "22"
   ELEVENTY_IMAGE_CACHE_DIR = "/opt/build/cache/eleventy-img"
 
 [context.deploy-preview.environment]
