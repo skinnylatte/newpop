@@ -54,12 +54,11 @@
 
     {% if hasYoutubeLite %}
     <style>
-        /* Critical YouTube Lite styles to prevent CLS (Cumulative Layout Shift) */
         .youtube-lite {
             position: relative;
             display: block;
             width: 100%;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-bottom: 56.25%;
             background-color: #000;
             cursor: pointer;
             overflow: hidden;

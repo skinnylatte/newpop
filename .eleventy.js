@@ -4,10 +4,6 @@ const { DateTime } = require("luxon");
 // add syntax highlighting 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-// 11ty youtube plugin
-
-const embedYouTube = require("eleventy-plugin-youtube-embed");
-
 // adding markdown filters
 const markdownIt = require("markdown-it");
 
@@ -61,7 +57,7 @@ let markdownLibrary = markdownIt({
 }).use(markdownItAnchor, markdownItAnchorOptions);
 
 //adding rss
-const pluginRss = require("@11ty/eleventy-plugin-rss")
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 // requiring collections js
 const collections = require("./collections.js");
@@ -73,6 +69,8 @@ const watchIgnorePatterns = [
   "docs/**",
 ];
 
+const TAG_PAGE_SIZE = Math.max(1, Number.parseInt(process.env.TAG_PAGE_SIZE || "20", 10));
+
 function escapeHtml(str = "") {
   return str
     .replace(/&/g, "&amp;")
@@ -80,6 +78,59 @@ function escapeHtml(str = "") {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+function normalizeTag(tag) {
+  return String(tag || "").toLowerCase().trim().replace(/\s+/g, "-");
+}
+
+function getItemTags(item) {
+  const rawTags = item && item.data ? item.data.tags : [];
+  return Array.isArray(rawTags) ? rawTags : rawTags ? [rawTags] : [];
+}
+
+function buildAliasEntries(collectionApi) {
+  const aliases = [];
+  const items = collectionApi.getAll();
+  for (const item of items) {
+    const itemAliases = Array.isArray(item.data.aliases) ? item.data.aliases : [];
+    for (const alias of itemAliases) {
+      aliases.push({ item, alias });
+    }
+  }
+  return aliases;
+}
+
+function buildNormalizedTagMap(collectionApi, ignoredTags) {
+  const tagMap = new Map();
+  const ignored = new Set(Array.from(ignoredTags || []).map((tag) => normalizeTag(tag)));
+
+  for (const item of collectionApi.getAll()) {
+    const tags = getItemTags(item);
+    if (!tags.length) {
+      continue;
+    }
+
+    // Guard against duplicate tags on a single post after normalization.
+    const seenForItem = new Set();
+    for (const tag of tags) {
+      const normalized = normalizeTag(tag);
+      if (!normalized || ignored.has(normalized) || seenForItem.has(normalized)) {
+        continue;
+      }
+      seenForItem.add(normalized);
+      if (!tagMap.has(normalized)) {
+        tagMap.set(normalized, []);
+      }
+      tagMap.get(normalized).push(item);
+    }
+  }
+
+  for (const posts of tagMap.values()) {
+    posts.sort((a, b) => b.date - a.date);
+  }
+
+  return tagMap;
 }
 
 // all configs
@@ -93,40 +144,20 @@ module.exports = async function (eleventyConfig) {
   // import Eleventy plugins that are ESM
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
   // adding alias
-  eleventyConfig.addCollection("aliases", function(collectionApi) {
-  let aliases = [];
-  
-  collectionApi.getAll().forEach(function(item) {
-    if (item.data.aliases) {
-      item.data.aliases.forEach(function(alias) {
-        aliases.push({
-          url: alias,
-          redirect: item.url
-        });
-      });
-    }
+  eleventyConfig.addCollection("aliases", function (collectionApi) {
+    return buildAliasEntries(collectionApi).map(({ item, alias }) => ({
+      url: alias,
+      redirect: item.url,
+    }));
   });
-  
-  return aliases;
-});
 
-eleventyConfig.addCollection("redirects", function(collectionApi) {
-  let redirects = [];
-  
-  collectionApi.getAll().forEach(function(item) {
-    if (item.data.aliases) {
-      item.data.aliases.forEach(function(alias) {
-        redirects.push({
-          from: alias,
-          to: item.url,
-          title: item.data.title
-        });
-      });
-    }
+  eleventyConfig.addCollection("redirects", function (collectionApi) {
+    return buildAliasEntries(collectionApi).map(({ item, alias }) => ({
+      from: alias,
+      to: item.url,
+      title: item.data.title,
+    }));
   });
-  
-  return redirects;
-});
   // add youtube lite embed shortcode (facade pattern for performance)
   eleventyConfig.addShortcode("youtube", function(videoId, title = "YouTube video") {
     const safeVideoId = escapeHtml(String(videoId || "").trim());
@@ -213,14 +244,6 @@ eleventyConfig.addCollection("redirects", function(collectionApi) {
     }
   );
 
-  // Disabled YouTube plugin to avoid JSDelivr CDN blocking - use {% youtube %} shortcode instead
-  // eleventyConfig.addPlugin(embedYouTube, {
-  //   lazy: true,
-  //   modestBranding: true,
-  //   noCookie: true,
-  //   embedClass: "youtube-embed",
-  //   lite: true,
-  // });
   // Google Slides shortcode
   eleventyConfig.addShortcode("googleSlides", function(id, width = 960, height = 569, title = "Embedded Google Slides Presentation") {
   return `<div class="slideshow-container">
@@ -245,14 +268,6 @@ eleventyConfig.addPlugin(syntaxHighlight);
 
   // add rss
   eleventyConfig.addPlugin(pluginRss);
-
-
-	// markdown options
-	let options = {
-		html: true,
-		breaks: true,
-		linkify: false
-	};
 
   //  anchor links on content
   eleventyConfig.setLibrary("md", markdownLibrary);
@@ -307,57 +322,30 @@ eleventyConfig.addPlugin(syntaxHighlight);
   });
 
 	// create a list of tags for archive page
-	eleventyConfig.addCollection("tagList", function(collectionApi){
-  let tags = new Set();
-  collectionApi.getAll().forEach(function(item) {
-    if ("tags" in item.data) {
-      item.data.tags.filter(tag => !['all', 'posts'].includes(tag)).forEach(tag => {
-        // Normalize tags: lowercase and replace spaces with hyphens
-        const normalizedTag = tag.toLowerCase().replace(/\s+/g, '-');
-        tags.add(normalizedTag);
-      });
-    }
-  });
-  return Array.from(tags).sort();
+	eleventyConfig.addCollection("tagList", function (collectionApi) {
+  const tagMap = buildNormalizedTagMap(collectionApi, new Set(["all", "posts"]));
+  return Array.from(tagMap.keys()).sort();
 });
 
   eleventyConfig.addCollection("tagPages", function (collectionApi) {
-    const perPage = 10;
-    const tagList = collectionApi.getAll().reduce((tags, item) => {
-      if (!("tags" in item.data)) {
-        return tags;
-      }
-
-      const itemTags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags];
-      itemTags
-        .filter((tag) => !["all", "posts"].includes(tag))
-        .forEach((tag) => {
-          const normalizedTag = String(tag).toLowerCase().replace(/\s+/g, "-");
-          tags.add(normalizedTag);
-        });
-      return tags;
-    }, new Set());
-
+    const tagMap = buildNormalizedTagMap(collectionApi, new Set(["all", "posts"]));
     const pages = [];
 
-    Array.from(tagList)
+    Array.from(tagMap.keys())
       .sort()
       .forEach((tag) => {
-        const posts = collectionApi
-          .getFilteredByTag(tag)
-          .slice()
-          .sort((a, b) => b.date - a.date);
+        const posts = tagMap.get(tag) || [];
 
         if (!posts.length) {
           return;
         }
 
-        const totalPages = Math.ceil(posts.length / perPage);
+        const totalPages = Math.ceil(posts.length / TAG_PAGE_SIZE);
         for (let pageNumber = 0; pageNumber < totalPages; pageNumber++) {
-          const start = pageNumber * perPage;
+          const start = pageNumber * TAG_PAGE_SIZE;
           pages.push({
             tag,
-            posts: posts.slice(start, start + perPage),
+            posts: posts.slice(start, start + TAG_PAGE_SIZE),
             totalPosts: posts.length,
             pageNumber,
             totalPages,

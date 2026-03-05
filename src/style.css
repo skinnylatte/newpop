@@ -1,5 +1,5 @@
 :root {
-    /* Typography */
+    /* Type stack */
     --font-body: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
     --font-heading: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
@@ -37,7 +37,7 @@
     --tracking-wide: 0.05em;
     --tracking-caps: 0.11em;
 
-    /* Colors */
+    /* Color palette */
     color-scheme: dark;
     --gray-50: #171717;
     --gray-100: #262626;
@@ -84,13 +84,7 @@
     --color-text-light: var(--color-text-secondary);
     --color-text-inverted: #fafafa;
 
-    /* Spacing */
-    --space-tiny: 0.8rem;
-    --space-small: 1.6rem;
-    --space-medium: 3.2rem;
-    --space-large: 6.4rem;
-    --space-xlarge: 8rem;
-
+    /* Spacing scale */
     --spacing-xxs: 0.4rem;
     --spacing-xs: 0.8rem;
     --spacing-sm: 1.2rem;
@@ -100,13 +94,14 @@
     --spacing-xxl: 4.8rem;
     --spacing-xxxl: 6.4rem;
 
-    /* Border Radius */
-    --radius-small: 0.8rem;
-    --radius-medium: 1.2rem;
-    --radius-large: 1.6rem;
-    --radius-xl: 2rem;
-    --radius-circle: 50%;
+    /* Keep old spacing token names working */
+    --space-tiny: var(--spacing-xs);
+    --space-small: var(--spacing-md);
+    --space-medium: var(--spacing-xl);
+    --space-large: var(--spacing-xxxl);
+    --space-xlarge: calc(var(--spacing-xxxl) + var(--spacing-md));
 
+    /* Corner radius scale */
     --border-radius-xs: 0.8rem;
     --border-radius-sm: 1.2rem;
     --border-radius-md: 1.6rem;
@@ -114,9 +109,17 @@
     --border-radius-xl: 2.4rem;
     --border-radius-circle: 50%;
 
-    /* Interactive Elements */
+    /* Keep old radius token names working */
+    --radius-small: var(--border-radius-xs);
+    --radius-medium: var(--border-radius-sm);
+    --radius-large: var(--border-radius-md);
+    --radius-xl: var(--border-radius-lg);
+    --radius-circle: var(--border-radius-circle);
+
+    /* Form + button sizing and motion */
     --form-input-height: 56px;
     --button-height: 48px;
+    --border-width: 1px;
 
     --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -127,7 +130,7 @@
     --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.5);
     --shadow-xl: 0 8px 32px rgba(0, 0, 0, 0.6);
 
-    /* Layout */
+    /* Layout bounds */
     --content-max-width: 70rem;
     --page-content-width: 120rem;
 }
@@ -191,7 +194,7 @@
     --shadow-xl: 0 8px 32px rgba(15, 23, 42, 0.18);
 }
 
-/* Typography */
+/* Heading defaults */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--color-text-primary);
@@ -1202,82 +1205,7 @@ pre code {
     width: 100%;
 }
 
-.pagefind-ui__form {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: stretch;
-    margin-bottom: var(--spacing-lg);
-}
-
-.pagefind-ui__search-input {
-    width: 100%;
-    min-height: 44px;
-    height: var(--form-input-height);
-    padding: 0 var(--spacing-md);
-    border: 1px solid var(--color-border-medium);
-    background: var(--color-background-elevated);
-    color: var(--color-text-primary);
-    font-family: var(--font-body);
-    font-size: var(--text-base);
-    line-height: 1;
-}
-
-.pagefind-ui__search-input:focus {
-    outline: 2px solid var(--color-focus-ring-inner);
-    outline-offset: 2px;
-    box-shadow: 0 0 0 4px var(--color-focus-ring-outer);
-}
-
-.pagefind-ui__search-clear,
-.pagefind-ui__button {
-    min-height: 44px;
-    margin: 0;
-    padding: 0 var(--spacing-lg);
-    border: 1px solid var(--color-border-medium);
-    background: var(--color-background-subtle);
-    color: var(--color-text-primary);
-    font-family: var(--font-interface);
-    font-size: var(--text-sm);
-    font-weight: var(--weight-semibold);
-    text-transform: uppercase;
-    letter-spacing: var(--tracking-caps);
-    cursor: pointer;
-}
-
-.pagefind-ui__search-clear {
-    position: static;
-    height: var(--form-input-height);
-    min-width: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: calc(-1 * var(--border-width, 1px));
-    border-width: 1px;
-}
-
-.pagefind-ui__suppressed,
-.pagefind-ui__hidden {
-    display: none;
-}
-
-.pagefind-ui__search-clear.pagefind-ui__suppressed {
-    display: none;
-}
-
-.pagefind-ui__search-clear:hover,
-.pagefind-ui__search-clear:focus,
-.pagefind-ui__button:hover,
-.pagefind-ui__button:focus {
-    border-color: var(--brand-primary);
-    color: var(--brand-primary);
-}
-
-.pagefind-ui__drawer {
-    grid-column: 1 / -1;
-    margin-top: var(--spacing-lg);
-}
-
-/* Override Pagefind injected UI styles for a stable clear control */
+/* Pagefind injects styles, so I lock these to keep controls in place */
 .pagefind-search-root .pagefind-ui__form {
     position: relative !important;
     display: block !important;
@@ -1340,47 +1268,68 @@ pre code {
     border-color: var(--brand-primary) !important;
 }
 
+.pagefind-search-root .pagefind-ui__button {
+    min-height: 44px !important;
+    margin-top: var(--spacing-md) !important;
+    padding: 0 var(--spacing-lg) !important;
+    border: 1px solid var(--brand-primary) !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: var(--brand-primary) !important;
+    font-family: var(--font-interface) !important;
+    font-size: var(--text-sm) !important;
+    font-weight: var(--weight-semibold) !important;
+    letter-spacing: var(--tracking-caps) !important;
+    text-transform: uppercase !important;
+}
+
+.pagefind-search-root .pagefind-ui__button:hover,
+.pagefind-search-root .pagefind-ui__button:focus-visible {
+    background: var(--brand-primary) !important;
+    color: var(--color-background) !important;
+}
+
 .pagefind-search-root .pagefind-ui__drawer {
     display: block !important;
     margin-top: var(--spacing-lg) !important;
 }
 
-.pagefind-ui__results {
+.pagefind-search-root .pagefind-ui__results {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.pagefind-ui__result {
+.pagefind-search-root .pagefind-ui__result {
     margin: 0 0 var(--spacing-xl) 0;
     padding: 0 0 var(--spacing-xl) 0;
     border-bottom: 2px solid var(--color-divider);
 }
 
-.pagefind-ui__result:last-child {
+.pagefind-search-root .pagefind-ui__result:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: none;
 }
 
-.pagefind-ui__result-title {
+.pagefind-search-root .pagefind-ui__result-title {
     margin: 0 0 var(--spacing-sm) 0;
     font-family: var(--font-heading);
     font-size: var(--text-2xl);
     line-height: var(--leading-tight);
 }
 
-.pagefind-ui__result-link {
+.pagefind-search-root .pagefind-ui__result-link {
     color: var(--color-text-primary);
     text-decoration: none;
 }
 
-.pagefind-ui__result-link:hover,
-.pagefind-ui__result-link:focus {
+.pagefind-search-root .pagefind-ui__result-link:hover,
+.pagefind-search-root .pagefind-ui__result-link:focus {
     color: var(--brand-primary);
 }
 
-.pagefind-ui__result-excerpt {
+.pagefind-search-root .pagefind-ui__result-excerpt {
     margin: 0;
     max-width: 68ch;
     font-family: var(--font-reading);
@@ -1388,21 +1337,21 @@ pre code {
     color: var(--color-text-secondary);
 }
 
-.pagefind-ui__result-tags {
+.pagefind-search-root .pagefind-ui__result-tags {
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-xs);
     margin-top: var(--spacing-sm);
 }
 
-.pagefind-ui__result-tag {
+.pagefind-search-root .pagefind-ui__result-tag {
     display: inline-block;
     font-family: var(--font-mono);
     font-size: var(--text-xs);
     color: var(--color-text-secondary);
 }
 
-.pagefind-ui__message {
+.pagefind-search-root .pagefind-ui__message {
     color: var(--color-text-secondary);
     font-size: var(--text-sm);
 }
@@ -1418,15 +1367,15 @@ pre code {
         width: 100%;
     }
 
-    .pagefind-ui__form {
+    .pagefind-search-root .pagefind-ui__form {
         margin-bottom: var(--spacing-md);
     }
 
-    .pagefind-ui__button {
+    .pagefind-search-root .pagefind-ui__button {
         width: 100%;
     }
 
-    .pagefind-ui__search-input {
+    .pagefind-search-root .pagefind-ui__search-input {
         padding-right: var(--spacing-md);
     }
 
@@ -1640,7 +1589,6 @@ pre code {
 
 .button,
 .btn,
-button,
 input[type="submit"],
 input[type="button"] {
     display: inline-block;
@@ -1663,7 +1611,6 @@ input[type="button"] {
 
 .button:hover,
 .btn:hover,
-button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover {
     opacity: 0.8;
@@ -1673,7 +1620,6 @@ input[type="button"]:hover {
 
 .button:active,
 .btn:active,
-button:active,
 input[type="submit"]:active,
 input[type="button"]:active {
     transform: scale(0.95);
@@ -1681,7 +1627,6 @@ input[type="button"]:active {
 
 .button:focus-visible,
 .btn:focus-visible,
-button:focus-visible,
 input[type="submit"]:focus-visible,
 input[type="button"]:focus-visible {
     outline: 2px solid var(--color-focus-ring-inner);
@@ -1707,7 +1652,7 @@ input[type="button"]:focus-visible {
 input[type="text"],
 input[type="email"],
 input[type="url"],
-input[type="search"],
+input[type="search"]:not(.pagefind-ui__search-input),
 textarea {
     width: 100%;
     height: var(--form-input-height);
@@ -1733,7 +1678,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
-input[type="search"]:focus,
+input[type="search"]:not(.pagefind-ui__search-input):focus,
 textarea:focus {
     outline: none;
     border-color: var(--brand-primary);
@@ -1743,7 +1688,7 @@ textarea:focus {
 input[type="text"]:focus-visible,
 input[type="email"]:focus-visible,
 input[type="url"]:focus-visible,
-input[type="search"]:focus-visible,
+input[type="search"]:not(.pagefind-ui__search-input):focus-visible,
 textarea:focus-visible {
     outline: 2px solid var(--color-focus-ring-inner);
     outline-offset: 2px;
