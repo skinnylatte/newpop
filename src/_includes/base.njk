@@ -18,7 +18,7 @@
 			<span class="readout-segment">COMMS: OPEN</span>
 		</div>
 		{% block site_title %}
-		<h1 class="site-title"><a href="{{ site.url }}">Popagandhi</a></h1>
+			<h1 class="site-title"><a href="/">Popagandhi</a></h1>
 		{% endblock %}
 		<p class="site-tagline">{{ site.description }}</p>
 		<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
@@ -63,55 +63,6 @@
 <footer class="site-footer">
 	<p>&copy; {{ site.copyrightYear }} • <a href="/contact">Contact</a> • <a href="https://github.com/skinnylatte/newpop" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="https://hachyderm.io/@skinnylatte" target="_blank" rel="noopener noreferrer me">Mastodon<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="{{ metadata.feed.path }}">RSS</a></p>
 </footer>
-
-<script>
-	(function () {
-		var storageKey = "newpop-theme";
-		var root = document.documentElement;
-		var toggleButton = document.getElementById("theme-toggle");
-
-		if (!toggleButton) {
-			return;
-		}
-
-		function normalizeTheme(themeValue) {
-			return themeValue === "light" ? "light" : "dark";
-		}
-
-		function applyTheme(themeValue, persist) {
-			var normalizedTheme = normalizeTheme(themeValue);
-
-			root.setAttribute("data-theme", normalizedTheme);
-			root.setAttribute("data-resolved-theme", normalizedTheme);
-
-			if (persist) {
-				try {
-					localStorage.setItem(storageKey, normalizedTheme);
-				} catch (error) {
-					/* Ignore storage failures in private browsing contexts. */
-				}
-			}
-		}
-
-		function updateToggle(themeValue) {
-			var nextTheme = themeValue === "dark" ? "light" : "dark";
-			var label = "Switch to " + nextTheme + " mode";
-			toggleButton.setAttribute("aria-label", label);
-			toggleButton.setAttribute("title", label);
-		}
-
-		var initialTheme = normalizeTheme(root.getAttribute("data-theme"));
-		applyTheme(initialTheme, false);
-		updateToggle(initialTheme);
-
-		toggleButton.addEventListener("click", function () {
-			var currentTheme = normalizeTheme(root.getAttribute("data-theme"));
-			var nextTheme = currentTheme === "dark" ? "light" : "dark";
-			applyTheme(nextTheme, true);
-			updateToggle(nextTheme);
-		});
-	})();
-</script>
 
 </body>
 </html>

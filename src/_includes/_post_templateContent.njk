@@ -1,37 +1,6 @@
 <ul>
 {% for post in posts %}
-<li>
-      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-      <div class="post-meta">
-        <time class="date-metadata" datetime="{{ post.data.date }}">
-          Published on {{ post.data.date | postDate }}
-        </time>
-      </div>
-	{% set excerptSource = post.data.excerpt %}
-	{% if not excerptSource %}
-		{% set excerptSource = post.templateContent %}
-	{% endif %}
-	{% if showFullPosts %}
-	<div class="post-content">
-		{{ post.templateContent | safe }}
-	</div>
-	{% else %}
-		{% set excerptText = excerptSource | striptags | trim %}
-		{% if excerptText %}
-	<div class="post-excerpt">
-		<p>{{ excerptText | truncate(320, false, "…") }}</p>
-	</div>
-		{% endif %}
-	<p><a href="{{ post.url | url }}">Continue reading</a></p>
-	{% endif %}
-	{% set visibleTags = post.data.tags | displayTags %}
-	{% if visibleTags.length > 0 %}
-	<div class="post-tags">
-	{% for tag in visibleTags %}
-	<a href="/tags/{{ tag | slugify }}/" class="tag-item">{{ tag }}<span class="visually-hidden"> (view all posts tagged {{ tag }})</span></a>
-	{% endfor %}
-	</div>
-	{% endif %}
-</li>
+{% set postCardShowFullPost = showFullPosts %}
+{% include "_post_list_item.njk" %}
 {% endfor %}
 </ul>

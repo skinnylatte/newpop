@@ -1,0 +1,65 @@
+{% set titleTag = postCardTitleTag if postCardTitleTag else "h2" %}
+{% set itemClass = postCardItemClass if postCardItemClass else "" %}
+{% set headerClass = postCardHeaderClass if postCardHeaderClass else "" %}
+{% set contentClass = postCardContentClass if postCardContentClass else "post-content" %}
+{% set excerptClass = postCardExcerptClass if postCardExcerptClass else "post-excerpt" %}
+{% set tagsClass = postCardTagsClass if postCardTagsClass else "post-tags" %}
+{% set excerptLength = postCardExcerptLength if postCardExcerptLength else 320 %}
+{% set continueLabel = postCardContinueLabel if postCardContinueLabel else "Continue reading" %}
+
+{% if postCardShowFullPost is defined %}
+{% set showFullPost = postCardShowFullPost %}
+{% else %}
+{% set showFullPost = false %}
+{% endif %}
+
+{% if postCardShowContinueLink is defined %}
+{% set showContinueLink = postCardShowContinueLink %}
+{% else %}
+{% set showContinueLink = not showFullPost %}
+{% endif %}
+
+{% set dateValue = post.data.date if post.data.date else post.date %}
+
+<li{% if itemClass %} class="{{ itemClass }}"{% endif %}>
+  {% if headerClass %}<div class="{{ headerClass }}">{% endif %}
+  <{{ titleTag }}><a href="{{ post.url | url }}">{{ post.data.title | default("Untitled") }}</a></{{ titleTag }}>
+  {% if dateValue %}
+  <div class="post-meta">
+    <time class="date-metadata" datetime="{{ dateValue }}">
+      Published on {{ dateValue | postDate }}
+    </time>
+  </div>
+  {% endif %}
+  {% if headerClass %}</div>{% endif %}
+
+  {% set excerptSource = post.data.excerpt %}
+  {% if not excerptSource %}
+  {% set excerptSource = post.templateContent %}
+  {% endif %}
+
+  {% if showFullPost %}
+  <div class="{{ contentClass }}">
+    {{ post.templateContent | safe }}
+  </div>
+  {% else %}
+  {% set excerptText = excerptSource | striptags | trim %}
+  {% if excerptText %}
+  <div class="{{ excerptClass }}">
+    <p>{{ excerptText | truncate(excerptLength, false, "…") }}</p>
+  </div>
+  {% endif %}
+  {% if showContinueLink %}
+  <p><a href="{{ post.url | url }}">{{ continueLabel }}</a></p>
+  {% endif %}
+  {% endif %}
+
+  {% set visibleTags = post.data.tags | displayTags %}
+  {% if visibleTags.length > 0 %}
+  <div class="{{ tagsClass }}">
+  {% for tagItem in visibleTags %}
+    <a href="/tags/{{ tagItem | slugify }}/" class="tag-item">{{ tagItem }}<span class="visually-hidden"> (view all posts tagged {{ tagItem }})</span></a>
+  {% endfor %}
+  </div>
+  {% endif %}
+</li>
