@@ -4,3 +4,21 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/posts/schroedinger-s-lesbian"
+  to = "/posts/schroedingers-lesbian/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/schroedinger-s-lesbian/"
+  to = "/posts/schroedingers-lesbian/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/schroedinger-s-lesbian//"
+  to = "/posts/schroedingers-lesbian/"
+  status = 301
+  force = true
