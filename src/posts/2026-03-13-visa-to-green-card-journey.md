@@ -1,6 +1,6 @@
 ---
 title: "Our visa to green card journey"
-date: 2026-03-13
+date: 2026-03-16
 description: "From H-1B1 to O-1 to approved EB-1A and EB-2 NIW, and what it took to build a shared life in the U.S."
 tags:
   - immigration
