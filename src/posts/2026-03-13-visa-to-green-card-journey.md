@@ -12,6 +12,8 @@ layout: post.njk
 ---
 (A shorter version was originally posted on Mastodon [here](https://hachyderm.io/@skinnylatte/116219096586066411):)
 
+{% imageFigure "/img/202603-sf-skyline.jpg", "A wide view of the San Francisco skyline and bay under soft evening clouds.", "San Francisco, where a long paperwork journey slowly became home." %}
+
 In September 2018, my wife and I arrived in the United States to build our new lives. After 7 and a half years of paperwork, visa anxiety, job stress, we finally received our green cards in the mail this March.
 
 From the moment we discussed moving to San Francisco, we knew that this was going to be a long game of sacrifices and major life changes. While we had a pretty comfortable life in Singapore, we knew that we had very little of a possible future together there. We don't have the same passport, it was getting challenging for her to get permanent residency in Singapore despite having spent a long time there, despite being half-Singaporean. 
@@ -48,20 +50,22 @@ For years, our lives were organized around immigration constraints. I felt a dee
 
 The general rules were:
 
-1. Keep employment stable enough to avoid falling off the legal cliff.
-2. Plan around the 60-day layoff clock.
-3. Retain excellent legal counsel.
-4. Keep personal copies of everything.
-5. Budget for filing costs, travel, and uncertainty.
-6. Use all of my American paid vacation time (I was lucky to have jobs with paid vacation time!) to return to Singapore to procure new visas, visa stamps, stay in status always and never overstay
+1. Keep employment stable enough to avoid being in a position where we had to leave suddenly
+2. Plan around the 60-day layoff clock: if that could not be avoided, we needed to have a backup plan immediately
+3. Retain excellent legal counsel: your employer's attorney isn't *your* attorney, so best to get yourself one, even if it's expensive, it's worth every penny
+4. Keep personal copies of everything: every visa stamp, every passport, every I-539, every I-797C, every communication from USCIS (all of these acronyms will make sense to you when you are in the process)
+5. Budget for filing costs, travel, and uncertainty: a few times, we had to leave the U.S. to get back to Singapore to get a new visa by a specific time.
+6. Use almost all of my American paid vacation time (I was lucky to have jobs with paid vacation time!) to return to Singapore to procure new visas, visa stamps, stay in status always and never overstay
 
-We always had to prepare enough resources to retain my own immigration counsel. Immigration attorneys provided by employers are there to provide immigration advice primarily for your employer: they don't need to have your best interests at heart. I needed someone whose only job was to watch out for our *immigration interests* and *our household's stability*. That was money well spent, because when it came time to do the 'adjustment of status', we could show that we followed the law and did everything right. This would have been extraordinarily difficult without additional counsel. For the first few years, our lives were defined by the work visa renewal grind. Your mileage may vary, as if you're on an O-1, H-1B or L-1, it might feel less.. grindy. (The tradeoff of getting an 'easy' work visa is also that I had to spend more time and resources getting it renewed more often, as it was much, much shorter. They were valid for 18 months at a time, and you get 'stamped in' to the country for 12.)
+On 3: we always had to prepare enough resources to retain my own immigration counsel. Immigration attorneys provided by employers are there to provide immigration advice primarily for your employer: they don't need to have your best interests at heart. I needed someone whose only job was to watch out for our *immigration interests* and *our household's stability*. That was money well spent, because when it came time to do the 'adjustment of status', we could show that we followed the law and did everything right. This would have been extraordinarily difficult without additional counsel. 
+
+For the first few years, our lives were defined by the work visa renewal grind. Your mileage may vary, as if you're on an O-1, H-1B or L-1, it might feel less.. grindy. (The tradeoff of getting an 'easy' work visa is also that I had to spend more time and resources getting it renewed more often, as it was much, much shorter. They were valid for 18 months at a time, and you get 'stamped in' to the country for 12.)
 
 For this entire period of 7 and a half years, we lived on one income. My spouse could not legally work during this stretch. We knew this going in, and we planned around it: she completed college and grad school while we lived frugally in our Tenderloin apartment. We traveled mostly by transit and on foot and bike.
 
-Now that we no longer have those job restrictions, she can take any job in her field. Just in time, too. As a newly minted psychotherapist, she has plenty of job opportunities in the Bay Area.
+Now that we no longer have those job restrictions, she can take any job in her field. Just in time, too. As a newly minted psychotherapist, she has plenty of job opportunities in the Bay Area that she now does not need a visa for.
 
-We did everything 'right', and it's still the hardest thing we've ever done: logistically and emotionally.
+We did everything 'right'. I'm proud of it. But it's still one of the hardest things we've ever done logistically and emotionally. Many days, I felt like giving up.
 
 ## Privilege, randomness, and injustice
 
@@ -80,13 +84,13 @@ Some things that did not make it easy:
 
 In 2022, one of my last work visas was approved in Singapore but my spouse's was not. We were separated for months with no clear plan or path for reunification. One day, I'll write more about this in detail, but it showed me that immigration dysfunction in the U.S. is truly a bi-partisan issue, and I am skeptical of anyone who thinks otherwise.
 
-While trying to navigate all of this, I was thankful for some of my privileges and resources, but I also saw how immigration issues can separate families, create life-changing anxiety, and prevent people from starting or continuing their lives with their loved ones. It got me to dive into how 'legal' immigration was being suppressed and reduced, even though claims were being made about how 'they' were 'only' against 'illegal' immigration.
+While trying to navigate all of this, I was thankful for some of my privileges and resources, but I also saw how immigration issues can separate families, create life-changing anxiety, and prevent people from starting or continuing their lives with their loved ones. It got me to dive into how 'legal' immigration was also being suppressed and reduced, even though claims were being made about how 'they' were 'only' against 'illegal' immigration. That's another story for another time.
 
 ## Nevertheless, we persisted
 
 There are many things about the U.S. that feel deeply broken. But this was still the first place that gave us a legal foundation to build a shared life as a queer couple from two different countries that both didn't recognize our marriage. We looked at some Singaporean-foreigner queer pairings back 'home' and acknowledged that we did not want a future full of no legal recognition, and forever visa runs. We felt especially justified in this decision when, in early Covid-19 times, many of our straight and queer friends who had foreigner spouses with different visa statuses, lost jobs and had to leave and they were separated for many months or years, during that horrible period of no international travel anywhere.
 
-In the end, this decision mattered immensely to us. Our lives continued. We were together. 
+Did we have other options and opportunities? Probably. For various reasons, this one still felt the one where we could *both thrive* in, *after* the initial period of logistical and emotional suffering. It felt like a hazing period but with a clear view of what could happen after that. I don't say this lightly. I don't recommend it for everyone, but it felt like that for us, and we still chose it.
 
 Before coming to the U.S., I was aware of friends who were in the green card process and therefore could not leave at all, sometimes for years. As I used to travel internationally for life and work a few times a month (or week?) I found this unusual. I used to ask them: is America worth it?
 
@@ -94,9 +98,10 @@ In 2026, my answer is yes, with caveats.
 
 It was brutally difficult. It was grossly expensive. It caused us a great deal of stress. But now, coming out successfully on the other side, it was worth it *for us*. It may not be for you.
 
+My wife is about to graduate and become a psychotherapist after world-class training at a great public university that we could afford here. 
 
-My wife is about to graduate and become a psychotherapist after world-class training at a great public school we could afford here. I am about to start another software company, and permanent residency status changes what I can build and how I can build it. We can now plan life in years, not visa cycles.
+I am about to start another software company, and permanent residency status changes what I can build and how I can build it. We can now plan life in years, not visa cycles. I've never started a software company *in* San Francisco, and I suspect that now that I can do this easily, that already impacts (positively) many possible outcomes for the company I'm about to start. (I'm being cryptic, but it's a software company in a space that is 'hot' right now, that aligns my passion and values, and where the majority of funding for this type of work is happening right here where I am.)
 
-I still think, often, about what we left behind. What I left behind, specifically, as a person from a 'good country' with a 'good passport' who had all of the comforts and privileges of being able to have any job I want, do anything I want, back there. But that utopic ideal of my 'home' was also a mirage: it did not include my spouse in it.
+I still think, often, about what we left behind. What I left behind, specifically, as a person from a 'good country' with a 'good passport' who had all of the comforts and privileges of being able to have any job I want, do anything I want, back there. But that utopic ideal of my 'home' was also a mirage: none of it was a vision of life that included my spouse in it.
 
-So this is our life and our home now. It really, [really sucks in some ways](/posts/america-is-the-restaurant-that-gives-me-food-poisoning/), but it means the world to me that we now have a place we can truly call our home. 
+So this is really our life and our home now. It really, [really sucks in some ways](/posts/america-is-the-restaurant-that-gives-me-food-poisoning/), but it means the world to me that we have emerged from the other side of a very long and seemingly unending tunnel.
