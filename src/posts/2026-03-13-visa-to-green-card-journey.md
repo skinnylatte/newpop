@@ -12,7 +12,7 @@ layout: post.njk
 ---
 (A shorter version was originally posted on Mastodon [here](https://hachyderm.io/@skinnylatte/116219096586066411):)
 
-{% imageFigure "/img/202603-sf-skyline.jpg", "A wide view of the San Francisco skyline and bay under soft evening clouds.", "San Francisco, where a long paperwork journey slowly became home." %}
+{% imageFigure "/img/202603-sf-skyline.jpg", "A wide view of the San Francisco skyline and bay under soft evening clouds.", "San Francisco as seen from Crissy Field. This is one of my favorite places in the place I now get to call my forever home." %}
 
 In September 2018, my wife and I arrived in the United States to build our new lives. After 7 and a half years of paperwork, visa anxiety, job stress, we finally received our green cards in the mail this March.
 
