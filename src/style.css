@@ -95,13 +95,6 @@
     --spacing-xxl: 4.8rem;
     --spacing-xxxl: 6.4rem;
 
-    /* Keep old spacing token names working */
-    --space-tiny: var(--spacing-xs);
-    --space-small: var(--spacing-md);
-    --space-medium: var(--spacing-xl);
-    --space-large: var(--spacing-xxxl);
-    --space-xlarge: calc(var(--spacing-xxxl) + var(--spacing-md));
-
     /* Corner radius scale */
     --border-radius-xs: 0.8rem;
     --border-radius-sm: 1.2rem;
@@ -110,12 +103,6 @@
     --border-radius-xl: 2.4rem;
     --border-radius-circle: 50%;
 
-    /* Keep old radius token names working */
-    --radius-small: var(--border-radius-xs);
-    --radius-medium: var(--border-radius-sm);
-    --radius-large: var(--border-radius-md);
-    --radius-xl: var(--border-radius-lg);
-    --radius-circle: var(--border-radius-circle);
 
     /* Form + button sizing and motion */
     --form-input-height: 56px;
@@ -215,15 +202,15 @@ h2, h3, h4, h5, h6 {
 h1 {
     font-size: var(--text-4xl);
     font-weight: var(--weight-bold);
-    margin-bottom: var(--space-small);
-    margin-top: var(--space-medium);
+    margin-bottom: var(--spacing-md);
+    margin-top: var(--spacing-xl);
     line-height: var(--leading-display);
 }
 
 h2 {
     font-size: var(--text-3xl);
     margin-bottom: var(--spacing-lg);
-    margin-top: var(--space-medium);
+    margin-top: var(--spacing-xl);
 }
 
 h3 {
@@ -282,7 +269,7 @@ h5, h6 {
     font-size: var(--text-3xl);
     font-weight: var(--weight-extrabold);
     line-height: var(--leading-tight);
-    margin-bottom: var(--space-small);
+    margin-bottom: var(--spacing-md);
     padding-bottom: var(--spacing-md);
     border-bottom: 2px solid var(--color-border-medium);
     color: var(--color-text-primary);
@@ -331,7 +318,7 @@ h5, h6 {
 }
 
 .content p {
-    margin-bottom: var(--space-small);
+    margin-bottom: var(--spacing-md);
     line-height: var(--leading-copy);
     color: var(--color-text-primary);
     font-size: var(--text-base);
@@ -365,9 +352,9 @@ h5, h6 {
 
 blockquote {
     background: var(--color-background-muted);
-    padding: var(--space-small) var(--space-medium);
-    border-radius: var(--radius-medium);
-    margin: var(--space-medium) 0;
+    padding: var(--spacing-md) var(--spacing-xl);
+    border-radius: var(--border-radius-sm);
+    margin: var(--spacing-xl) 0;
     border-left: 3px solid var(--brand-primary);
     font-style: italic;
     font-size: var(--text-lg);
@@ -385,7 +372,7 @@ blockquote::before {
     color: var(--brand-primary);
     position: absolute;
     top: -10px;
-    left: var(--space-small);
+    left: var(--spacing-md);
     font-family: var(--font-body);
     opacity: 0.15;
     line-height: 1;
@@ -404,10 +391,10 @@ code {
 
 pre {
     background: var(--gray-50);
-    padding: var(--space-small);
-    border-radius: var(--radius-medium);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-sm);
     overflow-x: auto;
-    margin: var(--space-medium) 0;
+    margin: var(--spacing-xl) 0;
     border: 1px solid var(--color-border-medium);
     box-shadow: var(--shadow-sm);
 }
@@ -424,13 +411,13 @@ pre code {
 .content ul {
     list-style-type: disc;
     padding-left: 1.5em;
-    margin-bottom: var(--space-small);
+    margin-bottom: var(--spacing-md);
 }
 
 .content ol {
     list-style-type: decimal;
     padding-left: 1.5em;
-    margin-bottom: var(--space-small);
+    margin-bottom: var(--spacing-md);
 }
 
 .content ul ul,
@@ -461,13 +448,13 @@ pre code {
     font-style: italic;
     line-height: 2rem;
     background: var(--color-background-elevated);
-    border-radius: var(--radius-small);
+    border-radius: var(--border-radius-xs);
     border-left: 3px solid var(--brand-primary);
     padding: var(--spacing-sm) var(--spacing-md);
 }
 
 .content figure {
-    margin: var(--space-medium) 0;
+    margin: var(--spacing-xl) 0;
     background: var(--color-background-subtle);
     clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
     padding: var(--spacing-md);
@@ -530,15 +517,15 @@ pre code {
 }
 
 .content img:not(figure img) {
-    margin: var(--space-medium) 0 0 0;
+    margin: var(--spacing-xl) 0 0 0;
 }
 
 .content img + p em:only-child {
-    margin-bottom: var(--space-medium);
+    margin-bottom: var(--spacing-xl);
 }
 
 .content img:not(figure img):not(:has(+ em)):not(:has(+ p em)) {
-    margin-bottom: var(--space-medium);
+    margin-bottom: var(--spacing-xl);
 }
 
 .about-img img {
@@ -694,7 +681,7 @@ pre code {
 
 .site-main {
     background: var(--color-background);
-    padding: var(--space-medium);
+    padding: var(--spacing-xl);
     margin-bottom: var(--spacing-md);
     clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
@@ -719,7 +706,7 @@ pre code {
 }
 
 .site-main figure {
-    margin: var(--space-medium) 0;
+    margin: var(--spacing-xl) 0;
     background: var(--color-background-subtle);
     clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
     padding: var(--spacing-md);
@@ -740,7 +727,7 @@ pre code {
 }
 
 .site-main .post-image {
-    margin: var(--space-medium) 0;
+    margin: var(--spacing-xl) 0;
 }
 
 .site-main .page-top {
@@ -1479,9 +1466,9 @@ label {
     justify-content: center;
     align-items: center;
     gap: var(--spacing-sm);
-    padding: var(--space-medium);
+    padding: var(--spacing-xl);
     margin: var(--spacing-md);
-    margin-top: var(--space-medium);
+    margin-top: var(--spacing-xl);
     color: var(--color-text-secondary);
     font-size: var(--text-xs);
     line-height: var(--leading-relaxed);
@@ -1585,8 +1572,8 @@ label {
 }
 
 .post-pagination {
-    margin-top: var(--space-medium);
-    padding-top: var(--space-small);
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-md);
     border-top: 2px solid var(--color-divider);
 }
 
@@ -1792,7 +1779,7 @@ label {
 }
 
 .archive-year-section {
-    margin-bottom: var(--space-medium);
+    margin-bottom: var(--spacing-xl);
 }
 
 .archive-year-section h2 {
