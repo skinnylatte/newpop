@@ -42,6 +42,13 @@ function registerFilters(eleventyConfig, { DateTime, pluginRss }) {
   eleventyConfig.addFilter("head", (array, number) => {
     return array.slice(-number);
   });
+
+  eleventyConfig.addFilter("firstParagraph", (content) => {
+    if (!content) return "";
+    const match = content.match(/<p>([\s\S]*?)<\/p>/);
+    if (!match) return "";
+    return match[1].replace(/<[^>]+>/g, "").trim();
+  });
 }
 
 module.exports = {

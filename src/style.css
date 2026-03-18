@@ -422,8 +422,22 @@ pre code {
 }
 
 .content ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin-bottom: var(--space-small);
+}
+
+.content ol {
+    list-style-type: decimal;
+    padding-left: 1.5em;
+    margin-bottom: var(--space-small);
+}
+
+.content ul ul,
+.content ol ol,
+.content ul ol,
+.content ol ul {
+    margin-bottom: 0;
 }
 
 .content img {
@@ -1082,18 +1096,24 @@ pre code {
 }
 
 .site-main .post-content ul,
-.site-main .post-content ol {
+.site-main .post-content ol,
+.home-hero-content ul,
+.home-hero-content ol {
     list-style: disc;
     list-style-position: outside;
     padding-left: var(--spacing-xl);
     margin-bottom: var(--spacing-lg);
+    font-size: var(--text-base);
 }
 
-.site-main .post-content ol {
+.site-main .post-content ol,
+.home-hero-content ol {
     list-style: decimal;
 }
 
-.site-main .post-content li {
+.site-main .post-content li,
+.home-hero-content li {
+    font-size: var(--text-base);
     margin-bottom: var(--spacing-sm);
     line-height: var(--leading-copy);
     font-family: var(--font-reading);
@@ -2395,6 +2415,128 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* ---- Homepage ---- */
+
+.home {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-xxxl) var(--spacing-xl);
+}
+
+.home-hero-title {
+    font-family: var(--font-display);
+    font-size: var(--text-4xl);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-tight);
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--spacing-md) 0;
+}
+
+.home-hero-title a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.home-hero-title a:hover {
+    color: var(--brand-primary);
+}
+
+.home-hero-meta {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-wide);
+    margin: 0 0 var(--spacing-xl) 0;
+}
+
+.home-hero-content {
+    margin: 0 0 var(--spacing-xl) 0;
+}
+
+.home-cta {
+    display: inline-block;
+    font-family: var(--font-interface);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-caps);
+    color: var(--brand-primary);
+    text-decoration: none;
+    border-bottom: 2px solid var(--brand-primary);
+    padding-bottom: 1px;
+    transition: opacity var(--transition-fast);
+}
+
+.home-cta:hover {
+    opacity: 0.7;
+}
+
+.home-cta--muted {
+    color: var(--color-text-tertiary);
+    border-bottom-color: var(--color-text-tertiary);
+}
+
+.home-post-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-xl);
+}
+
+.home-post-footer-divider {
+    color: var(--color-text-tertiary);
+}
+
+.home-currently {
+    margin-top: var(--spacing-xxxl);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--color-divider);
+    font-size: var(--text-sm);
+    color: var(--color-text-tertiary);
+    font-family: var(--font-reading);
+    font-style: italic;
+    max-width: 60ch;
+}
+
+.home-currently a {
+    color: var(--color-text-tertiary);
+    margin-left: var(--spacing-xs);
+    font-style: normal;
+    font-family: var(--font-interface);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-caps);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+.home-currently a:hover {
+    color: var(--brand-secondary);
+    border-bottom-color: var(--brand-secondary);
+}
+
+.home-currently-label {
+    font-style: normal;
+    font-family: var(--font-interface);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-caps);
+    color: var(--brand-secondary);
+    margin-right: var(--spacing-xs);
+}
+
+@media (max-width: 768px) {
+    .home-hero-title {
+        font-size: var(--text-3xl);
+    }
+}
+
+/* ---- End homepage ---- */
 
 @media (min-width: 900px) {
     body {
