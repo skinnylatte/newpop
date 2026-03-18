@@ -52,12 +52,41 @@
 	{% endblock %}
 </main>
 
-<aside class="site-aside">
-	{% include "_aside.html" %}
-</aside>
-
 <footer class="site-footer">
-	<p>&copy; {{ site.copyrightYear }} • <a href="/contact">Contact</a> • <a href="https://github.com/skinnylatte/newpop" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="https://hachyderm.io/@skinnylatte" target="_blank" rel="noopener noreferrer me">Mastodon<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="{{ metadata.feed.path }}">RSS</a></p>
+	<div class="footer-inner">
+		<div class="footer-col">
+			<h2 class="footer-heading">More</h2>
+			<ul>
+				<li><a href="/writing">Writing</a></li>
+				<li><a href="/elsewhere">Elsewhere</a></li>
+				<li><a href="/archives">Archives</a></li>
+				<li><a href="/tags">Tags</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footer-col">
+			<h2 class="footer-heading">Blogroll</h2>
+			<ul>
+				<li><a href="https://winnielim.org/" target="_blank" rel="noopener noreferrer">Winnie Lim<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://www.anildash.com/" target="_blank" rel="noopener noreferrer">Anil Dash<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://chronosaur.us/" target="_blank" rel="noopener noreferrer">Chronosaur.us<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://blog.byjasonli.com/" target="_blank" rel="noopener noreferrer">Jason Li<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://piccalil.li/blog/" target="_blank" rel="noopener noreferrer">Andy Bell<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://robinrendle.com/" target="_blank" rel="noopener noreferrer">Robin Rendle<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://bikes.emilyhorsman.com/" target="_blank" rel="noopener noreferrer">Emily's bike stuff<span class="visually-hidden"> (opens in new tab)</span></a></li>
+			</ul>
+		</div>
+		<div class="footer-col footer-col--meta">
+			<p class="footer-brand">Popagandhi</p>
+			<p class="footer-tagline">punk rock since 2003</p>
+			<p class="footer-copy">&copy; {{ site.copyrightYear }}</p>
+			<div class="footer-social">
+				<a href="https://hachyderm.io/@skinnylatte" target="_blank" rel="noopener noreferrer me">Mastodon<span class="visually-hidden"> (opens in new tab)</span></a>
+				<a href="{{ metadata.feed.path }}">RSS</a>
+				<a href="https://github.com/skinnylatte/newpop" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in new tab)</span></a>
+			</div>
+		</div>
+	</div>
 </footer>
 
 </body>
