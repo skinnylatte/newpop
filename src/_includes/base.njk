@@ -7,20 +7,26 @@
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
 <header class="site-header">
-	<div class="header-content">
-		<div class="technical-readout" aria-hidden="true" title="Easter egg: Star Trek's Sector 47 meets Battlestar Galactica's CIC readout (DRADIS sensors, FTL drive, communications status)">
-			<span class="readout-segment">[SECTOR 47]</span>
-			<span class="readout-divider">•</span>
-			<span class="readout-segment">DRADIS: CLEAR</span>
-			<span class="readout-divider">•</span>
-			<span class="readout-segment">FTL: STANDBY</span>
-			<span class="readout-divider">•</span>
-			<span class="readout-segment">COMMS: OPEN</span>
+	<div class="header-inner">
+		<div class="site-brand">
+			{% block site_title %}
+				<p class="site-title"><a href="/">Popagandhi</a></p>
+			{% endblock %}
+			<p class="site-tagline">{{ site.description }}</p>
 		</div>
-		{% block site_title %}
-			<h1 class="site-title"><a href="/">Popagandhi</a></h1>
-		{% endblock %}
-		<p class="site-tagline">{{ site.description }}</p>
+		<nav class="site-nav" aria-label="Main">
+			<a href="/">Home</a>
+			<a href="/about">About</a>
+			<a href="/photos">Photos</a>
+			<a href="/food">Food</a>
+			<a href="/now">Now</a>
+			<a href="/search" aria-label="Search">
+				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" focusable="false" aria-hidden="true">
+					<circle cx="11" cy="11" r="8"></circle>
+					<path d="M21 21l-4.35-4.35"></path>
+				</svg>
+			</a>
+		</nav>
 		<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
 			<span class="theme-toggle-icon theme-toggle-icon-sun" aria-hidden="true">
 				<svg viewBox="0 0 24 24" width="18" height="18" focusable="false">
@@ -37,16 +43,6 @@
 	</div>
 </header>
 
-<nav class="site-nav" aria-label="Main">
-	<div class="site-nav-links">
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/bikes">Bikes</a>
-		<a href="/photos">Photos</a>
-		<a href="/food">Food</a>
-	</div>
-</nav>
-
 <main id="main-content" class="site-main" {% if pagefindExclude %}data-pagefind-ignore="all"{% else %}data-pagefind-body{% endif %}>
 	{% block main %}
 	{% if not pagefindExclude and title %}
@@ -56,12 +52,41 @@
 	{% endblock %}
 </main>
 
-<aside class="site-aside">
-	{% include "_aside.html" %}
-</aside>
-
 <footer class="site-footer">
-	<p>&copy; {{ site.copyrightYear }} • <a href="/contact">Contact</a> • <a href="https://github.com/skinnylatte/newpop" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="https://hachyderm.io/@skinnylatte" target="_blank" rel="noopener noreferrer me">Mastodon<span class="visually-hidden"> (opens in new tab)</span></a> • <a href="{{ metadata.feed.path }}">RSS</a></p>
+	<div class="footer-inner">
+		<div class="footer-col">
+			<h2 class="footer-heading">More</h2>
+			<ul>
+				<li><a href="/writing">Writing</a></li>
+				<li><a href="/elsewhere">Elsewhere</a></li>
+				<li><a href="/archives">Archives</a></li>
+				<li><a href="/tags">Tags</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footer-col">
+			<h2 class="footer-heading">Blogroll</h2>
+			<ul>
+				<li><a href="https://winnielim.org/" target="_blank" rel="noopener noreferrer">Winnie Lim<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://www.anildash.com/" target="_blank" rel="noopener noreferrer">Anil Dash<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://chronosaur.us/" target="_blank" rel="noopener noreferrer">Chronosaur.us<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://blog.byjasonli.com/" target="_blank" rel="noopener noreferrer">Jason Li<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://piccalil.li/blog/" target="_blank" rel="noopener noreferrer">Andy Bell<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://robinrendle.com/" target="_blank" rel="noopener noreferrer">Robin Rendle<span class="visually-hidden"> (opens in new tab)</span></a></li>
+				<li><a href="https://bikes.emilyhorsman.com/" target="_blank" rel="noopener noreferrer">Emily's bike stuff<span class="visually-hidden"> (opens in new tab)</span></a></li>
+			</ul>
+		</div>
+		<div class="footer-col footer-col--meta">
+			<p class="footer-brand">Popagandhi</p>
+			<p class="footer-tagline">punk rock since 2003</p>
+			<p class="footer-copy">&copy; {{ site.copyrightYear }}</p>
+			<div class="footer-social">
+				<a href="https://hachyderm.io/@skinnylatte" target="_blank" rel="noopener noreferrer me">Mastodon<span class="visually-hidden"> (opens in new tab)</span></a>
+				<a href="{{ metadata.feed.path }}">RSS</a>
+				<a href="https://github.com/skinnylatte/newpop" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in new tab)</span></a>
+			</div>
+		</div>
+	</div>
 </footer>
 
 </body>

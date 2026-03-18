@@ -1,18 +1,39 @@
 ---
 layout: layout.njk
 title: "Popagandhi"
-pagination:
-  size: 5
-  data: collections.blog
-  reverse: true
-  alias: posts
-permalink: "/{% if pagination.pageNumber != 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
-collectionOnThisPage: blog
 pagefindExclude: true
-showFullPosts: true
+eleventyExcludeFromCollections: true
 ---
 
-{% include "_post_templateContent.njk" %}
+{% set latestPost = collections.blog | last %}
+{% set nowPost = collections.now | last %}
 
+<div class="home">
 
-{% include "_pagepagination.html" %}
+  {% if latestPost %}
+  {% set latestDate = latestPost.data.date if latestPost.data.date else latestPost.date %}
+  <section class="home-hero">
+    <h2 class="home-hero-title">
+      <a href="{{ latestPost.url }}">{{ latestPost.data.title }}</a>
+    </h2>
+    <p class="home-hero-meta"><time datetime="{{ latestDate }}">{{ latestDate | postDate }}</time></p>
+    <div class="home-hero-content">{{ latestPost.templateContent | safe }}</div>
+    <div class="home-post-footer">
+      <a href="{{ latestPost.url }}" class="home-cta">Permalink</a>
+      <span class="home-post-footer-divider">·</span>
+      <a href="/archives" class="home-cta home-cta--muted">All posts →</a>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if nowPost %}
+  {% set nowDate = nowPost.data.date if nowPost.data.date else nowPost.date %}
+  {% set nowLine = nowPost.templateContent | firstParagraph %}
+  <p class="home-currently">
+    <span class="home-currently-label">Lately</span>
+    {% if nowLine %}{{ nowLine | truncate(160, true, "…") }}{% endif %}
+    <a href="{{ nowPost.url }}">More →</a>
+  </p>
+  {% endif %}
+
+</div>

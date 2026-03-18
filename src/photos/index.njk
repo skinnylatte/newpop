@@ -1,15 +1,29 @@
 ---
 layout: layout.njk
 title: Photos
-pagination:
-  size: 5
-  data: collections.photos
-  reverse: true
-  alias: posts
 pagefindExclude: true
+eleventyExcludeFromCollections: true
 ---
-<h1 class="page-title">{{ title }}</h1>
 
-{% include "_post_templateContent.njk" %}
-
-{% include "_pagepagination.html" %}
+<div class="photo-page">
+  <h1 class="page-title">Photos</h1>
+  <div class="photo-grid">
+  {% set allPhotos = collections.photos | reverse %}
+  {% for photo in allPhotos %}
+    {% if photo.url and photo.url.startsWith("/photos/") %}
+    {% set imgSrc = photo.data.thumbnail or (photo.templateContent | firstImage) %}
+    {% set imgAlt = photo.data.thumbnailAlt or (photo.templateContent | firstImageAlt) or photo.data.title %}
+    <a href="{{ photo.url }}" class="photo-grid-item">
+      {% if imgSrc %}
+        <img src="{{ imgSrc }}" alt="{{ imgAlt }}" loading="lazy" decoding="async">
+      {% else %}
+        <div class="photo-grid-placeholder"><span>{{ photo.data.title }}</span></div>
+      {% endif %}
+      <div class="photo-grid-overlay">
+        <span class="photo-grid-title">{{ photo.data.title }}</span>
+      </div>
+    </a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

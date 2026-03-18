@@ -1,4 +1,5 @@
 .DS_Store
+CLAUDE.md
 node_modules/
 .cache/
 _site/
