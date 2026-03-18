@@ -43,6 +43,18 @@ function registerFilters(eleventyConfig, { DateTime, pluginRss }) {
     return array.slice(-number);
   });
 
+  eleventyConfig.addFilter("firstImage", (content) => {
+    if (!content) return null;
+    const match = content.match(/<img[^>]+src="([^"]+)"/i);
+    return match ? match[1] : null;
+  });
+
+  eleventyConfig.addFilter("firstImageAlt", (content) => {
+    if (!content) return "";
+    const match = content.match(/<img[^>]+alt="([^"]*)"/i);
+    return match ? match[1] : "";
+  });
+
   eleventyConfig.addFilter("firstParagraph", (content) => {
     if (!content) return "";
     const match = content.match(/<p>([\s\S]*?)<\/p>/);
