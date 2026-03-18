@@ -823,7 +823,7 @@ pre code {
 }
 
 .site-main > h1,
-.site-main > .page-title,
+.site-main .page-title,
 .site-main .archives > h1 {
     font-size: var(--text-3xl);
     font-weight: var(--weight-extrabold);
@@ -1426,8 +1426,7 @@ input[type="button"]:focus-visible {
 input[type="text"],
 input[type="email"],
 input[type="url"],
-input[type="search"]:not(.pagefind-ui__search-input),
-textarea {
+input[type="search"]:not(.pagefind-ui__search-input) {
     width: 100%;
     height: var(--form-input-height);
     padding: 0 2rem;
@@ -1441,19 +1440,10 @@ textarea {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 
-textarea {
-    height: auto;
-    min-height: 120px;
-    padding: 1.5rem 2rem;
-    border-radius: var(--radius-medium);
-    resize: vertical;
-}
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
-input[type="search"]:not(.pagefind-ui__search-input):focus,
-textarea:focus {
+input[type="search"]:not(.pagefind-ui__search-input):focus {
     outline: none;
     border-color: var(--brand-primary);
     box-shadow: 0 0 0 3px rgba(27, 94, 63, 0.1);
@@ -1462,15 +1452,13 @@ textarea:focus {
 input[type="text"]:focus-visible,
 input[type="email"]:focus-visible,
 input[type="url"]:focus-visible,
-input[type="search"]:not(.pagefind-ui__search-input):focus-visible,
-textarea:focus-visible {
+input[type="search"]:not(.pagefind-ui__search-input):focus-visible {
     outline: 2px solid var(--color-focus-ring-inner);
     outline-offset: 2px;
     box-shadow: 0 0 0 4px var(--color-focus-ring-outer);
 }
 
-input::placeholder,
-textarea::placeholder {
+input::placeholder {
     color: var(--color-text-tertiary);
 }
 
