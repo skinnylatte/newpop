@@ -1,12 +1,12 @@
 :root {
     /* Type stack */
     --font-body: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
-    --font-heading: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    --font-heading: 'Space Grotesk', ui-sans-serif, -apple-system, sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
 
-    --font-display: var(--font-heading);
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
     --font-reading: var(--font-body);
-    --font-interface: var(--font-heading);
+    --font-interface: 'Space Grotesk', ui-sans-serif, -apple-system, sans-serif;
 
     --text-xs: clamp(1.35rem, 0.1vw + 1.3rem, 1.5rem);
     --text-sm: clamp(1.5rem, 0.16vw + 1.4rem, 1.7rem);
@@ -203,6 +203,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: var(--leading-tight);
     margin: 0;
     text-wrap: balance;
+}
+
+/* h1 uses Fraunces (optical serif); h2–h6 use Space Grotesk */
+h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
 }
 
 h1 {
