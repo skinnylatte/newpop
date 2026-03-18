@@ -60,8 +60,9 @@
     --brand-accent: #86EFAC;
     --brand-accent-hover: #BBF7D0;
 
-    --color-accent-amber: #A84F0C;
-    --color-accent-amber-hover: #8B3E0A;
+    --color-accent-amber: #F59E0B;
+    --color-accent-amber-hover: #D97706;
+    --brand-secondary: #F59E0B;
 
     --color-background: #0a0a0a;
     --color-background-subtle: #171717;
@@ -78,7 +79,7 @@
 
     --color-link: var(--brand-accent);
     --color-link-hover: var(--brand-accent-hover);
-    --color-focus: #A84F0C;
+    --color-focus: #F59E0B;
     --color-focus-ring-inner: #f8fafc;
     --color-focus-ring-outer: #0a0a0a;
     --color-text-light: var(--color-text-secondary);
@@ -164,8 +165,9 @@
     --brand-accent: #0f766e;
     --brand-accent-hover: #115e59;
 
-    --color-accent-amber: #8b3e0a;
-    --color-accent-amber-hover: #6f3008;
+    --color-accent-amber: #B45309;
+    --color-accent-amber-hover: #92400E;
+    --brand-secondary: #B45309;
 
     --color-background: #f2f4f3;
     --color-background-subtle: #ffffff;
