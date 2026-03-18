@@ -1033,25 +1033,28 @@ pre code {
 }
 
 .site-main .post {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-xxl) var(--spacing-xl);
 }
 
 .site-main .post-header {
     margin-top: 0;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
     padding: 0;
+    border-left: 4px solid var(--brand-primary);
+    padding-left: var(--spacing-lg);
 }
 
 .site-main .post-header h1 {
-    font-size: var(--text-3xl);
-    font-weight: var(--weight-extrabold);
+    font-family: var(--font-display);
+    font-size: var(--text-4xl);
+    font-weight: var(--weight-bold);
     margin-bottom: var(--spacing-sm);
     margin-top: 0;
     line-height: var(--leading-tight);
     color: var(--color-text-primary);
-    letter-spacing: -0.025em;
+    letter-spacing: -0.02em;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
