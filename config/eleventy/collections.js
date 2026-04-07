@@ -51,6 +51,18 @@ function registerCollections(
     return pages;
   });
 
+  eleventyConfig.addCollection("photosSorted", function (collectionApi) {
+    return collectionApi.getAllSorted().filter((item) =>
+      item.inputPath.includes("/photos/") && !item.inputPath.includes("index")
+    );
+  });
+
+  eleventyConfig.addCollection("foodSorted", function (collectionApi) {
+    return collectionApi.getAllSorted().filter((item) =>
+      item.inputPath.includes("/food/") && !item.inputPath.includes("index")
+    );
+  });
+
   eleventyConfig.addCollection("feedposts", function (collectionApi) {
     const posts = collectionApi.getAllSorted().filter((item) => {
       const inputPath = item.inputPath;
