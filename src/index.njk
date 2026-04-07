@@ -3,6 +3,9 @@ layout: layout.njk
 title: "Popagandhi"
 pagefindExclude: true
 eleventyExcludeFromCollections: true
+bannerImage: /img/20231123-minoltahimatic7sii-tmax400-perceptol-12-031-positive.jpg
+bannerAlt: A musician playing saxophone in a record store
+bannerPosition: center top
 ---
 
 {% set latestPost = collections.blog | last %}
@@ -20,7 +23,7 @@ eleventyExcludeFromCollections: true
     <div class="home-hero-content">{{ latestPost.templateContent | safe }}</div>
     <div class="home-post-footer">
       <a href="{{ latestPost.url }}" class="home-cta">Permalink</a>
-      <span class="home-post-footer-divider">·</span>
+      <span style="color: var(--color-text-tertiary)" aria-hidden="true">·</span>
       <a href="/archives" class="home-cta home-cta--muted">All posts →</a>
     </div>
   </section>

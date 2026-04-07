@@ -3,10 +3,17 @@ layout: layout.njk
 title: Photos
 pagefindExclude: true
 eleventyExcludeFromCollections: true
+bannerImage: /img/20230917-alameda-birding-nikonos-kodak5222-rodinal-010-positive.jpg
+bannerAlt: Photographers on a birding platform at Alameda
 ---
 
 <div class="photo-page">
   <h1 class="page-title">Photos</h1>
+
+  <div class="page-top">
+    <p>Photography has been a big part of my life. I collect film cameras, love the practice of developing and scanning film, but I also love wildlife photography.</p>
+  </div>
+
   <div class="photo-grid">
   {% set allPhotos = collections.photos | reverse %}
   {% for photo in allPhotos %}
