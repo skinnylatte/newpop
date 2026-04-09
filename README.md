@@ -17,6 +17,3 @@ This is defined in `.eleventy.js`.
 - `npm run build` - builds the site and minifies CSS
 - `npm run start` - local development server
 
-### Design system
-
-See `docs/design-system.md` for layout contracts, token usage, and safe refactor order.
