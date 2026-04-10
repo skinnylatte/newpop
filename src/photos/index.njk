@@ -5,19 +5,24 @@ pagefindExclude: true
 eleventyExcludeFromCollections: true
 bannerImage: /img/20230917-alameda-birding-nikonos-kodak5222-rodinal-010-positive.jpg
 bannerAlt: Photographers on a birding platform at Alameda
+pagination:
+  data: collections.photosSorted
+  size: 12
+  alias: posts
+  reverse: true
 ---
 
 <div class="photo-page">
-  <h1 class="page-title">Photos</h1>
+  <h1 class="page-title">Photos{% if pagination.pageNumber > 0 %} — Page {{ pagination.pageNumber + 1 }}{% endif %}</h1>
 
+  {% if pagination.pageNumber == 0 %}
   <div class="page-top">
     <p>Photography has been a big part of my life. I collect film cameras, love the practice of developing and scanning film, but I also love wildlife photography.</p>
   </div>
+  {% endif %}
 
   <div class="photo-grid">
-  {% set allPhotos = collections.photos | reverse %}
-  {% for photo in allPhotos %}
-    {% if photo.url and photo.url.startsWith("/photos/") %}
+  {% for photo in posts %}
     {% set imgSrc = photo.data.thumbnail or (photo.templateContent | firstImage) %}
     {% set imgAlt = photo.data.thumbnailAlt or (photo.templateContent | firstImageAlt) or photo.data.title %}
     <a href="{{ photo.url }}" class="photo-grid-item">
@@ -30,7 +35,8 @@ bannerAlt: Photographers on a birding platform at Alameda
         <span class="photo-grid-title">{{ photo.data.title }}</span>
       </div>
     </a>
-    {% endif %}
   {% endfor %}
   </div>
 </div>
+
+{% include "_pagepagination.html" %}

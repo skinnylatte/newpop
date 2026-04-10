@@ -1536,34 +1536,15 @@ label {
     position: relative;
 }
 
-.post-excerpt, .archive-post-excerpt {
+.post-excerpt {
     font-size: var(--text-base);
     line-height: var(--leading-relaxed);
     color: var(--color-text-secondary);
     margin: var(--spacing-md) 0;
 }
 
-.post-excerpt p, .archive-post-excerpt p {
+.post-excerpt p {
     margin-bottom: var(--spacing-md);
-}
-
-.archive-post-header h3 {
-    font-size: var(--text-xl);
-    font-weight: var(--weight-semibold);
-    line-height: var(--leading-snug);
-    margin: 0 0 var(--spacing-xs) 0;
-    color: var(--color-text-primary);
-}
-
-.archive-post-header h3 a {
-    color: var(--brand-primary);
-    text-decoration: none;
-    transition: color var(--transition-fast);
-}
-
-.archive-post-header h3 a:hover,
-.archive-post-header h3 a:focus {
-    color: var(--brand-accent);
 }
 
 .post-pagination {
@@ -1696,32 +1677,91 @@ label {
     box-shadow: 0 0 0 4px var(--color-focus-ring-outer);
 }
 
-.archives h1 {
-    color: var(--color-text-primary);
-    font-weight: 700;
-    font-size: var(--text-3xl);
-    line-height: 1.2;
-    margin-bottom: var(--spacing-md);
-    padding: var(--spacing-md) 0;
-    border-bottom: 2px solid var(--color-divider);
+.tag-item--large {
+    font-size: var(--text-sm);
+    padding: 0.4em 1.1em;
+    min-height: 3.2rem;
+}
+
+.tags-page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+}
+
+.tags-section {
+    margin-bottom: var(--spacing-xxxl);
+}
+
+.tags-section h2 {
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    color: var(--color-text-secondary);
+    margin: 0 0 var(--spacing-lg) 0;
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 1px solid var(--color-divider);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.tags-popular-list,
+.tags-all-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.tag-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+}
+
+.tag-back-link {
+    color: var(--brand-primary);
+    text-decoration: none;
+}
+
+.tag-back-link:hover,
+.tag-back-link:focus {
+    text-decoration: underline;
+}
+
+.archives {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+}
+
+.site-main .archives ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.site-main .archives li {
+    margin-bottom: 0;
 }
 
 .archive-year-section {
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-xxxl);
 }
 
 .archive-year-section h2 {
-    color: var(--color-text-primary);
-    font-size: var(--text-2xl);
-    font-weight: 700;
-    margin-bottom: var(--spacing-xl);
-    margin-top: 0;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    color: var(--color-text-secondary);
+    margin: 0 0 var(--spacing-lg) 0;
     padding-bottom: var(--spacing-sm);
-    border-bottom: 2px solid var(--color-divider);
-    letter-spacing: -0.02em;
+    border-bottom: 1px solid var(--color-divider);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
-.archive-years-list {
+.archive-years-list,
+.archive-bestof-list,
+.archive-posts-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -1729,28 +1769,28 @@ label {
     flex-direction: column;
 }
 
-.archive-year-item {
+.archive-year-item,
+.archive-bestof-item,
+.archive-post-item {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     gap: var(--spacing-md);
-    margin: 0;
-    margin-bottom: var(--spacing-xl);
-    padding: 0;
-    padding-bottom: var(--spacing-xl);
-    border-bottom: 2px solid var(--color-divider);
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-divider);
+    list-style: none;
 }
 
-.archive-year-item:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
+.archive-year-item:last-child,
+.archive-bestof-item:last-child,
+.archive-post-item:last-child {
     border-bottom: none;
 }
 
 .archive-year-link {
     color: var(--brand-primary);
     font-size: var(--text-xl);
-    font-weight: 700;
+    font-weight: var(--weight-bold);
     text-decoration: none;
 }
 
@@ -1762,69 +1802,28 @@ label {
 .archive-year-count {
     color: var(--color-text-secondary);
     font-size: var(--text-sm);
+    white-space: nowrap;
 }
 
-.archive-posts-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.site-main article .archive-years-list,
-.site-main article .archive-posts-list {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.site-main article .archive-year-item,
-.site-main article .archive-post-item {
-    list-style: none;
-}
-
-.archive-post-item {
-    margin: 0;
-    margin-bottom: var(--spacing-xl);
-    padding: 0;
-    padding-bottom: var(--spacing-xl);
-    border-bottom: 2px solid var(--color-divider);
-}
-
-.archive-post-item:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: none;
-}
-
-.archive-post-header {
-    margin-bottom: var(--spacing-sm);
-}
-
-.archive-post-header h3 a {
+.archive-bestof-link,
+.archive-post-item a {
     color: var(--brand-primary);
+    font-size: var(--text-base);
     text-decoration: none;
-    transition: color var(--transition-fast);
 }
 
-.archive-post-header h3 a:hover,
-.archive-post-header h3 a:focus {
-    color: var(--color-link-hover);
-    opacity: 0.8;
+.archive-bestof-link:hover,
+.archive-bestof-link:focus,
+.archive-post-item a:hover,
+.archive-post-item a:focus {
+    text-decoration: underline;
 }
 
-.archive-post-excerpt p {
-    margin: 0;
-    line-height: 2.4rem;
+.archive-bestof-date,
+.archive-post-date {
     color: var(--color-text-secondary);
-}
-
-.archive-post-tags {
-    margin-top: var(--spacing-md);
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-xs);
+    font-size: var(--text-sm);
+    white-space: nowrap;
 }
 
 .tag-info {
@@ -1908,19 +1907,6 @@ label {
         font-size: var(--text-xs);
         padding: var(--spacing-xs) var(--spacing-sm);
     }
-
-    .archive-post-header h3 {
-        font-size: var(--text-lg);
-    }
-
-    .archive-post-excerpt {
-        font-size: var(--text-sm);
-    }
-
-    .archive-post-tags {
-        margin-top: var(--spacing-xs);
-    }
-
 
     .nav a {
         font-size: var(--text-xs);

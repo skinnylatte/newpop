@@ -22,6 +22,13 @@ function registerCollections(
     return Array.from(tagMap.keys()).sort();
   });
 
+  eleventyConfig.addCollection("tagsByCount", function (collectionApi) {
+    const tagMap = buildNormalizedTagMap(collectionApi, new Set(["all", "posts"]));
+    return Array.from(tagMap.entries())
+      .map(([tag, posts]) => ({ tag, count: posts.length }))
+      .sort((a, b) => b.count - a.count);
+  });
+
   eleventyConfig.addCollection("tagPages", function (collectionApi) {
     const tagMap = buildNormalizedTagMap(collectionApi, new Set(["all", "posts"]));
     const pages = [];

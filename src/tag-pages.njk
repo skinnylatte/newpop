@@ -6,41 +6,45 @@ pagination:
 permalink: "/tags/{{ tagPage.tag }}/{% if tagPage.pageNumber > 0 %}{{ tagPage.pageNumber + 1 }}/{% endif %}index.html"
 layout: layout.njk
 eleventyComputed:
-  title: "Posts tagged '{{ tagPage.tag }}'"
+  title: "{{ tagPage.tag }}"
 eleventyExcludeFromCollections: true
 pagefindExclude: true
 ---
 
-<h1>Posts tagged "{{ tagPage.tag }}"</h1>
+<article class="archives">
+    <h1>{{ tagPage.tag }}</h1>
+    <p class="tag-meta">
+        <a href="/tags/" class="tag-back-link">← All tags</a>
+        <span>{{ tagPage.totalPosts }} post{% if tagPage.totalPosts != 1 %}s{% endif %}</span>
+    </p>
 
-<a href="/tags/">← All tags</a>
+    <ul class="archive-posts-list">
+    {% for post in tagPage.posts %}
+        {% set pd = post.data.date if post.data.date else post.date %}
+        <li class="archive-post-item">
+            <a href="{{ post.url }}">{{ post.data.title | default("Untitled") }}</a>
+            <time class="archive-post-date" datetime="{{ pd }}">{{ pd | shortDate }}</time>
+        </li>
+    {% endfor %}
+    </ul>
 
-<ul>
-{% for post in tagPage.posts %}
-{% include "_post_list_item.njk" %}
-{% endfor %}
-</ul>
-
-<div class="tag-info">
-  <p>{{ tagPage.totalPosts }} post{% if tagPage.totalPosts != 1 %}s{% endif %} tagged "{{ tagPage.tag }}"</p>
-</div>
-
-{% if tagPage.totalPages > 1 %}
-  {% set paginationUseExplicitLinks = true %}
-  {% set paginationPreviousHref = "" %}
-  {% set paginationNextHref = "" %}
-  {% if tagPage.pageNumber > 0 %}
-    {% set previousPageNumber = tagPage.pageNumber - 1 %}
-    {% if previousPageNumber > 0 %}
-      {% set paginationPreviousHref = "/tags/" ~ tagPage.tag ~ "/" ~ (previousPageNumber + 1) ~ "/" %}
-    {% else %}
-      {% set paginationPreviousHref = "/tags/" ~ tagPage.tag ~ "/" %}
+    {% if tagPage.totalPages > 1 %}
+    {% set paginationUseExplicitLinks = true %}
+    {% set paginationPreviousHref = "" %}
+    {% set paginationNextHref = "" %}
+    {% if tagPage.pageNumber > 0 %}
+        {% set previousPageNumber = tagPage.pageNumber - 1 %}
+        {% if previousPageNumber > 0 %}
+        {% set paginationPreviousHref = "/tags/" ~ tagPage.tag ~ "/" ~ (previousPageNumber + 1) ~ "/" %}
+        {% else %}
+        {% set paginationPreviousHref = "/tags/" ~ tagPage.tag ~ "/" %}
+        {% endif %}
     {% endif %}
-  {% endif %}
-  {% if tagPage.pageNumber < (tagPage.totalPages - 1) %}
-    {% set paginationNextHref = "/tags/" ~ tagPage.tag ~ "/" ~ (tagPage.pageNumber + 2) ~ "/" %}
-  {% endif %}
-  {% set paginationMessage = "Page " ~ (tagPage.pageNumber + 1) ~ " of " ~ tagPage.totalPages %}
-  {% set paginationAriaLabel = "Tag pagination for " ~ tagPage.tag %}
-  {% include "_pagepagination.html" %}
-{% endif %}
+    {% if tagPage.pageNumber < (tagPage.totalPages - 1) %}
+        {% set paginationNextHref = "/tags/" ~ tagPage.tag ~ "/" ~ (tagPage.pageNumber + 2) ~ "/" %}
+    {% endif %}
+    {% set paginationMessage = "Page " ~ (tagPage.pageNumber + 1) ~ " of " ~ tagPage.totalPages %}
+    {% set paginationAriaLabel = "Tag pagination for " ~ tagPage.tag %}
+    {% include "_pagepagination.html" %}
+    {% endif %}
+</article>

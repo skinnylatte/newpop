@@ -1,5 +1,5 @@
 ---
-title: The Archives
+title: Archives
 layout: layout.njk
 pagination:
   data: collections.postsByYear
@@ -12,31 +12,23 @@ pagefindExclude: true
 ---
 
 <article class="archives">
-    <h1>{{ title }} - {{ year }}</h1>
-    <div class="date-metadata">Posts from {{ year }} across blog, photos, and bikes</div>
+    <h1>{{ year }}</h1>
 
     <section class="archive-year-section">
-        <h2>{{ year }} ({{ collections.postsByYear[year].length }} posts)</h2>
-
         <ul class="archive-posts-list">
             {% for post in collections.postsByYear[year] | reverse %}
-            {% set postCardItemClass = "archive-post-item" %}
-            {% set postCardHeaderClass = "archive-post-header" %}
-            {% set postCardTitleTag = "h3" %}
-            {% set postCardShowContinueLink = false %}
-            {% set postCardExcerptClass = "archive-post-excerpt" %}
-            {% set postCardTagsClass = "archive-post-tags" %}
-            {% set postCardExcerptLength = 300 %}
-            {% include "_post_list_item.njk" %}
+            {% set pd = post.data.date if post.data.date else post.date %}
+            <li class="archive-post-item">
+                <a href="{{ post.url }}">{{ post.data.title | default("Untitled") }}</a>
+                <time class="archive-post-date" datetime="{{ pd }}">{{ pd | shortDate }}</time>
+            </li>
             {% endfor %}
         </ul>
     </section>
 </article>
 
-{% if pagination.pages.length > 1 %}
-{% set paginationPrevLabel = "Previous Year" %}
-{% set paginationNextLabel = "Next Year" %}
-{% set paginationMessage = "Viewing " ~ year ~ " (" ~ (pagination.pageNumber + 1) ~ " of " ~ pagination.pages.length ~ ")" %}
-{% set paginationAriaLabel = "Archive year pagination" %}
+{% set paginationPrevLabel = "← Newer" %}
+{% set paginationNextLabel = "Older →" %}
+{% set paginationMessage = year %}
+{% set paginationAriaLabel = "Year navigation" %}
 {% include "_pagepagination.html" %}
-{% endif %}

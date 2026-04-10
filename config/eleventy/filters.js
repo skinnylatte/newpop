@@ -5,6 +5,13 @@ function registerFilters(eleventyConfig, { DateTime, pluginRss }) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
+  eleventyConfig.addFilter("shortDate", (dateObj) => {
+    const dt = typeof dateObj === "string"
+      ? DateTime.fromISO(dateObj)
+      : DateTime.fromJSDate(dateObj);
+    return dt.toLocaleString(DateTime.DATE_MED);
+  });
+
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("slug", (str) => {
