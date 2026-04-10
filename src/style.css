@@ -744,8 +744,8 @@ body:has(.page-banner) .site-header {
 
 .site-main .page-top {
     max-width: var(--content-max-width);
-    margin: 0 auto var(--spacing-xxl);
-    padding-bottom: var(--spacing-xxl);
+    margin: 0 auto var(--spacing-md);
+    padding-bottom: var(--spacing-md);
     border-bottom: 1px solid var(--color-divider);
 }
 
@@ -784,6 +784,10 @@ body:has(.page-banner) .site-header {
     margin: 0 0 var(--spacing-xxxl) 0;
     padding: var(--spacing-xxxl) 0;
     list-style: none;
+}
+
+.site-main > ul > li:first-child {
+    padding-top: 0;
 }
 
 .site-main > ul > li:last-child {
