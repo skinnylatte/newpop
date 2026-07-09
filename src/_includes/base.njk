@@ -45,7 +45,7 @@
 
 {% if bannerImage %}
 <div class="page-banner"{% if bannerPosition %} style="--banner-position: {{ bannerPosition }}"{% endif %}>
-	<img src="{{ bannerImage }}" alt="{{ bannerAlt or '' }}" loading="eager" decoding="async">
+	<img src="{{ bannerImage }}" alt="{{ bannerAlt or '' }}" loading="eager" decoding="async" sizes="100vw" fetchpriority="high">
 </div>
 {% endif %}
 
@@ -63,6 +63,7 @@
 		<div class="footer-col">
 			<h2 class="footer-heading">More</h2>
 			<ul>
+				<li><a href="/speaking">Speaking</a></li>
 				<li><a href="/writing">Writing</a></li>
 				<li><a href="/elsewhere">Elsewhere</a></li>
 				<li><a href="/archives">Archives</a></li>

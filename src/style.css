@@ -486,6 +486,26 @@ pre code {
     display: block;
 }
 
+.speaker-lede {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    line-height: var(--leading-copy);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-xl);
+    max-width: 60ch;
+}
+
+.speaker-topics {
+    list-style: none;
+    padding-left: 0;
+}
+
+.speaker-topics li {
+    padding-left: var(--spacing-md);
+    border-left: 3px solid var(--brand-primary);
+    margin-bottom: var(--spacing-md);
+}
+
 .nav a:hover,
 .nav a:focus {
     background: var(--color-background-elevated);
@@ -644,7 +664,7 @@ body:has(.page-banner) .site-header {
     padding: var(--spacing-xl);
     min-height: 400px;
     overflow-wrap: break-word;
-    overflow-x: hidden;
+    overflow-x: clip;
     min-width: 0;
 }
 
@@ -770,6 +790,11 @@ body:has(.page-banner) .site-header {
     padding-top: 0;
 }
 
+.site-main > ul > li .post-content h2 {
+    border-top: none;
+    padding-top: 0;
+}
+
 .site-main > h1,
 .site-main .page-title,
 .site-main .archives > h1 {
@@ -883,8 +908,6 @@ body:has(.page-banner) .site-header {
     margin-top: 0;
     margin-bottom: var(--spacing-xl);
     padding: 0;
-    border-top: 3px solid var(--brand-primary);
-    padding-top: var(--spacing-xl);
 }
 
 .site-main .post-header h1 {
@@ -926,6 +949,8 @@ body:has(.page-banner) .site-header {
 .site-main .post-content h2 {
     font-size: var(--text-3xl);
     font-weight: var(--weight-extrabold);
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .site-main .post-content h3 {
@@ -1885,6 +1910,7 @@ label {
 }
 
 html {
+    font-size: 62.5%;
     scroll-behavior: smooth;
     background: var(--color-background);
     color: var(--color-text-primary);
@@ -1956,93 +1982,41 @@ body {
 
 
 
-.home-currently {
-    margin-top: var(--spacing-xxxl);
-    padding-top: var(--spacing-lg);
-    border-top: 1px solid var(--color-divider);
-    font-size: var(--text-sm);
-    color: var(--color-text-tertiary);
-    font-family: var(--font-display);
-    font-style: italic;
-    max-width: 60ch;
+/* Homepage rail: Lately / Recent / Explore */
+
+.home-rail {
+    margin-top: var(--spacing-xxl);
 }
 
-.home-currently a {
-    color: var(--color-text-tertiary);
-    margin-left: var(--spacing-xs);
-    font-style: normal;
-    font-family: var(--font-interface);
-    font-size: var(--text-xs);
-    font-weight: var(--weight-semibold);
-    text-transform: uppercase;
-    letter-spacing: var(--tracking-caps);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
+.home-rail-block + .home-rail-block {
+    margin-top: var(--spacing-xl);
 }
 
-.home-currently a:hover {
-    color: var(--brand-secondary);
-    border-bottom-color: var(--brand-secondary);
-}
-
-.home-currently-label {
-    font-style: normal;
+.home-rail-heading {
     font-family: var(--font-interface);
     font-size: var(--text-xs);
     font-weight: var(--weight-bold);
     text-transform: uppercase;
     letter-spacing: var(--tracking-caps);
-    color: var(--brand-secondary);
-    margin-right: var(--spacing-xs);
-}
-
-.home-recent {
-    margin-top: var(--spacing-xxxl);
-    padding-top: var(--spacing-xl);
-    border-top: 1px solid var(--color-border-medium);
-}
-
-.home-recent ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 var(--spacing-lg) 0;
-}
-
-.home-recent li {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: var(--spacing-md);
-    padding: var(--spacing-sm) 0;
-    border-bottom: 1px solid var(--color-divider);
-}
-
-.home-recent li:last-child {
-    border-bottom: none;
-}
-
-.home-recent a {
-    color: var(--color-text-secondary);
-    text-decoration: none;
-    font-family: var(--font-body);
-    font-size: var(--text-sm);
-    transition: color var(--transition-fast);
-    flex: 1;
-}
-
-.home-recent a:hover {
     color: var(--brand-primary);
+    margin: 0 0 var(--spacing-md) 0;
+    padding-bottom: var(--spacing-xs);
+    border-bottom: 2px solid var(--brand-primary);
 }
 
-.home-recent time {
-    font-family: var(--font-mono);
-    font-size: var(--text-xs);
-    color: var(--color-text-tertiary);
-    white-space: nowrap;
-    flex-shrink: 0;
+.home-rail .home-currently-text {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-sm);
+    line-height: var(--leading-snug);
+    color: var(--color-text-secondary);
+    margin: 0;
+    max-width: none;
 }
 
-.home-recent-all {
+.site-main .home-rail .home-rail-more {
+    display: inline-block;
+    margin-top: var(--spacing-sm);
     font-family: var(--font-interface);
     font-size: var(--text-xs);
     font-weight: var(--weight-semibold);
@@ -2053,8 +2027,77 @@ body {
     transition: color var(--transition-fast);
 }
 
-.home-recent-all:hover {
+.site-main .home-rail .home-rail-more:hover {
     color: var(--brand-primary);
+}
+
+.home-recent ul,
+.home-explore ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.home-recent li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-divider);
+}
+
+.home-explore li {
+    padding: var(--spacing-xs) 0;
+    border-bottom: 1px solid var(--color-divider);
+}
+
+.home-recent li:last-child,
+.home-explore li:last-child {
+    border-bottom: none;
+}
+
+.site-main .home-rail .home-recent a {
+    display: block;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    line-height: var(--leading-snug);
+    transition: color var(--transition-fast);
+}
+
+.site-main .home-rail .home-explore a {
+    display: block;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-family: var(--font-interface);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    transition: color var(--transition-fast);
+}
+
+.site-main .home-rail .home-recent a:hover,
+.site-main .home-rail .home-explore a:hover {
+    color: var(--brand-primary);
+}
+
+.home-recent time {
+    display: block;
+    margin-top: var(--spacing-xxs);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-text-tertiary);
+}
+
+@media (min-width: 1024px) {
+    .home {
+        display: grid;
+        grid-template-columns: minmax(0, 70rem) minmax(26rem, 30rem);
+        gap: var(--spacing-xxl);
+        align-items: start;
+        max-width: 105rem;
+    }
+
+    .home-rail {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 768px) {

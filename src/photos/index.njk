@@ -27,7 +27,7 @@ pagination:
     {% set imgAlt = photo.data.thumbnailAlt or (photo.templateContent | firstImageAlt) or photo.data.title %}
     <a href="{{ photo.url }}" class="photo-grid-item">
       {% if imgSrc %}
-        <img src="{{ imgSrc }}" alt="{{ imgAlt }}" loading="lazy" decoding="async">
+        <img src="{{ imgSrc }}" alt="{{ imgAlt }}" loading="lazy" decoding="async" sizes="(min-width: 901px) 33vw, (min-width: 481px) 50vw, 100vw">
       {% else %}
         <div class="photo-grid-placeholder"><span>{{ photo.data.title }}</span></div>
       {% endif %}

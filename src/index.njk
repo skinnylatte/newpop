@@ -15,40 +15,56 @@ bannerPosition: center top
 
   {% if latestPost %}
   {% set latestDate = latestPost.data.date if latestPost.data.date else latestPost.date %}
-  <section class="home-hero">
+  <article class="home-hero">
     <h2 class="home-hero-title">
       <a href="{{ latestPost.url }}">{{ latestPost.data.title }}</a>
     </h2>
     <p class="home-hero-meta"><time datetime="{{ latestDate }}">{{ latestDate | postDate }}</time></p>
     <div class="home-hero-content">{{ latestPost.templateContent | safe }}</div>
-  </section>
+  </article>
   {% endif %}
 
-  {% if nowPost %}
-  {% set nowDate = nowPost.data.date if nowPost.data.date else nowPost.date %}
-  {% set nowLine = nowPost.templateContent | firstParagraph %}
-  <p class="home-currently">
-    <span class="home-currently-label">Lately</span>
-    {% if nowLine %}{{ nowLine | truncate(160, true, "…") }}{% endif %}
-    <a href="{{ nowPost.url }}">More →</a>
-  </p>
-  {% endif %}
+  <aside class="home-rail">
 
-  <nav class="home-recent" aria-label="Recent posts">
-    <ul>
-    {% for post in collections.blog | reverse %}
-      {% if not loop.first %}
-        {% if loop.index <= 5 %}
-        {% set pd = post.data.date if post.data.date else post.date %}
-        <li>
-          <a href="{{ post.url }}">{{ post.data.title }}</a>
-          <time datetime="{{ pd }}">{{ pd | postDate }}</time>
-        </li>
+    {% if nowPost %}
+    {% set nowLine = nowPost.templateContent | firstParagraph %}
+    <section class="home-rail-block home-currently">
+      <h2 class="home-rail-heading">Lately</h2>
+      {% if nowLine %}<p class="home-currently-text">{{ nowLine | truncate(160, true, "…") }}</p>{% endif %}
+      <a class="home-rail-more" href="{{ nowPost.url }}">More →</a>
+    </section>
+    {% endif %}
+
+    <nav class="home-rail-block home-recent" aria-label="Recent posts">
+      <h2 class="home-rail-heading">Recent</h2>
+      <ul>
+      {% for post in collections.blog | reverse %}
+        {% if not loop.first %}
+          {% if loop.index <= 6 %}
+          {% set pd = post.data.date if post.data.date else post.date %}
+          <li>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            <time datetime="{{ pd }}">{{ pd | postDate }}</time>
+          </li>
+          {% endif %}
         {% endif %}
-      {% endif %}
-    {% endfor %}
-    </ul>
-    <a href="/archives" class="home-recent-all">All posts →</a>
-  </nav>
+      {% endfor %}
+      </ul>
+      <a href="/archives" class="home-rail-more">All posts →</a>
+    </nav>
+
+    <nav class="home-rail-block home-explore" aria-label="Sections">
+      <h2 class="home-rail-heading">Explore</h2>
+      <ul>
+        <li><a href="/food">Food</a></li>
+        <li><a href="/photos">Photos</a></li>
+        <li><a href="/bikes">Bikes</a></li>
+        <li><a href="/now">Now</a></li>
+        <li><a href="/writing">Writing</a></li>
+        <li><a href="/elsewhere">Elsewhere</a></li>
+      </ul>
+    </nav>
+
+  </aside>
 
 </div>

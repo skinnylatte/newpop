@@ -14,6 +14,7 @@ const { registerShortcodes } = require("./config/eleventy/shortcodes");
 const { registerFilters } = require("./config/eleventy/filters");
 const { registerCollections } = require("./config/eleventy/collections");
 const { registerPassthrough } = require("./config/eleventy/passthrough");
+const { registerImages } = require("./config/eleventy/images");
 
 const WATCH_IGNORE_PATTERNS = [
   "_site/**",
@@ -46,6 +47,7 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", createMarkdownLibrary());
   registerPassthrough(eleventyConfig);
+  registerImages(eleventyConfig);
 
   return {
     passthroughFileCopy: true,
