@@ -21,6 +21,21 @@ bannerPosition: center top
     </h2>
     <p class="home-hero-meta"><time datetime="{{ latestDate }}">{{ latestDate | postDate }}</time></p>
     <div class="home-hero-content">{{ latestPost.templateContent | safe }}</div>
+
+    {% set prevPost = collections.blog | getPreviousCollectionItem(latestPost) %}
+    {% if prevPost %}
+    <nav class="post-pagination" aria-label="Post navigation">
+      <div class="pagination-container">
+        <div class="pagination-prev">
+          <a href="{{ prevPost.url }}" class="pagination-link prev-link" rel="prev">← {{ prevPost.data.title | truncate(60) }}</a>
+        </div>
+        <div class="pagination-center">
+          <a href="/archives" class="pagination-center-link">all posts</a>
+        </div>
+        <div class="pagination-next"></div>
+      </div>
+    </nav>
+    {% endif %}
   </article>
   {% endif %}
 
