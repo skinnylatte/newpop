@@ -26,19 +26,21 @@
         <div class="pagination-prev">
           {% if previousPost %}
             <a href="{{ previousPost.url }}" class="pagination-link prev-link" rel="prev">
-              ← {{ previousPost.data.title | truncate(60) }}
+              <span class="pagination-label">← Previous post</span>
+              <span class="pagination-title">{{ previousPost.data.title | truncate(60) }}</span>
             </a>
           {% endif %}
         </div>
 
         <div class="pagination-center">
-          <a href="{{ collectionPath }}" class="pagination-center-link">{{ collectionLabel }}</a>
+          <a href="{{ collectionPath }}" class="pagination-center-link">All {{ collectionLabel }}</a>
         </div>
 
         <div class="pagination-next">
           {% if nextPost %}
             <a href="{{ nextPost.url }}" class="pagination-link next-link" rel="next">
-              {{ nextPost.data.title | truncate(60) }} →
+              <span class="pagination-label">Next post →</span>
+              <span class="pagination-title">{{ nextPost.data.title | truncate(60) }}</span>
             </a>
           {% endif %}
         </div>
