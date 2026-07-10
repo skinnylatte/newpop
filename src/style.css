@@ -1519,6 +1519,7 @@ label {
 
 .post-pagination {
     margin-top: var(--spacing-xxxl);
+    margin-bottom: var(--spacing-xxl);
     padding-top: var(--spacing-xl);
     border-top: 1px solid var(--color-border-medium);
 }
@@ -1550,18 +1551,38 @@ label {
 .pagination-link {
     display: block;
     text-decoration: none;
-    color: var(--color-text-secondary);
-    font-family: var(--font-display);
-    font-size: var(--text-sm);
-    line-height: var(--leading-snug);
     transition: color var(--transition-fast);
     overflow-wrap: break-word;
 }
 
-.pagination-link:hover,
-.pagination-link:focus {
-    color: var(--brand-primary);
+.site-main .post-pagination .pagination-link,
+.site-main .post-pagination .pagination-center-link {
     text-decoration: none;
+}
+
+.pagination-label {
+    display: block;
+    font-family: var(--font-interface);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-caps);
+    color: var(--brand-primary);
+    margin-bottom: var(--spacing-xxs);
+}
+
+.pagination-title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: var(--text-base);
+    line-height: var(--leading-snug);
+    color: var(--color-text-secondary);
+    transition: color var(--transition-fast);
+}
+
+.pagination-link:hover .pagination-title,
+.pagination-link:focus .pagination-title {
+    color: var(--brand-primary);
 }
 
 .next-link {
