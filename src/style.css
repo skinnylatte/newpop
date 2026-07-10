@@ -472,6 +472,8 @@ pre code {
 
 .about-page {
     max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-img {
