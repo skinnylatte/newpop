@@ -1191,9 +1191,21 @@ body:has(.page-banner) .site-header {
 }
 
 @media (max-width: 48rem) {
+    .header-inner {
+        column-gap: var(--spacing-sm);
+        row-gap: var(--spacing-sm);
+    }
+
+    .theme-toggle {
+        order: 2;
+    }
+
     .site-nav {
+        order: 3;
+        flex: 0 0 100%;
         justify-content: center;
         text-align: center;
+        gap: var(--spacing-xxs) var(--spacing-xs);
     }
 
 

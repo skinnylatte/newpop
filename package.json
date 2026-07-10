@@ -1,8 +1,6 @@
 {
   "name": "newpop",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "clean": "rm -rf _site",
     "test": "npm run lint && npm run build",
@@ -16,7 +14,6 @@
     "build": "npm run clean && npm run build:site && npm run build:search",
     "build:netlify": "npm run build:site && npm run build:search"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
