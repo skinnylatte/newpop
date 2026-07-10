@@ -3,8 +3,8 @@
 {% set hasPrevious = previousHref %}
 {% set hasNext = nextHref %}
 {% set hasMultiplePages = pagination.pages and pagination.pages.length > 1 %}
-{% set previousLabel = paginationPrevLabel if paginationPrevLabel else "Previous" %}
-{% set nextLabel = paginationNextLabel if paginationNextLabel else "Next" %}
+{% set previousLabel = paginationPrevLabel if paginationPrevLabel else "Newer posts" %}
+{% set nextLabel = paginationNextLabel if paginationNextLabel else "Older posts" %}
 {% set defaultMessage = "Page " ~ (pagination.pageNumber + 1) ~ " of " ~ pagination.pages.length %}
 {% set pageMessage = paginationMessage if paginationMessage else defaultMessage %}
 
@@ -13,11 +13,7 @@
     <div class="pagination-container">
         <div class="pagination-prev">
             {% if hasPrevious %}
-                <a href="{{ previousHref | replace('/index.html', '/') }}" class="pagination-link prev-link" rel="prev">
-                    <span class="pagination-title">← {{ previousLabel }}</span>
-                </a>
-            {% else %}
-                <span class="pagination-spacer" aria-hidden="true"></span>
+                <a href="{{ previousHref | replace('/index.html', '/') }}" class="pagination-link prev-link" rel="prev">← {{ previousLabel }}</a>
             {% endif %}
         </div>
 
@@ -27,11 +23,7 @@
 
         <div class="pagination-next">
             {% if hasNext %}
-                <a href="{{ nextHref | replace('/index.html', '/') }}" class="pagination-link next-link" rel="next">
-                    <span class="pagination-title">{{ nextLabel }} →</span>
-                </a>
-            {% else %}
-                <span class="pagination-spacer" aria-hidden="true"></span>
+                <a href="{{ nextHref | replace('/index.html', '/') }}" class="pagination-link next-link" rel="next">{{ nextLabel }} →</a>
             {% endif %}
         </div>
     </div>

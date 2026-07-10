@@ -1,0 +1,34 @@
+---
+layout: layout.njk
+title: Tags
+permalink: /tags/
+eleventyExcludeFromCollections: true
+pagefindExclude: true
+bannerImage: /img/whale-pod.jpg
+bannerAlt: A pod of humpback whales with flukes raised in turquoise ocean water
+bannerPosition: center center
+---
+
+<div class="tags-page">
+    <h1>Tags</h1>
+
+    <section class="tags-section">
+        <h2>Popular</h2>
+        <div class="tags-popular-list">
+        {% for tagData in collections.tagsByCount %}
+            {% if loop.index <= 20 %}
+            <a href="/tags/{{ tagData.tag }}/" class="tag-item tag-item--large">{{ tagData.tag }}</a>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </section>
+
+    <section class="tags-section">
+        <h2>All {{ collections.tagList.length }} tags</h2>
+        <div class="tags-all-list">
+        {% for tag in collections.tagList %}
+            <a href="/tags/{{ tag }}/" class="tag-item">{{ tag }}</a>
+        {% endfor %}
+        </div>
+    </section>
+</div>

@@ -5,6 +5,13 @@ function registerFilters(eleventyConfig, { DateTime, pluginRss }) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
+  eleventyConfig.addFilter("shortDate", (dateObj) => {
+    const dt = typeof dateObj === "string"
+      ? DateTime.fromISO(dateObj)
+      : DateTime.fromJSDate(dateObj);
+    return dt.toLocaleString(DateTime.DATE_MED);
+  });
+
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("slug", (str) => {
@@ -41,6 +48,25 @@ function registerFilters(eleventyConfig, { DateTime, pluginRss }) {
 
   eleventyConfig.addFilter("head", (array, number) => {
     return array.slice(-number);
+  });
+
+  eleventyConfig.addFilter("firstImage", (content) => {
+    if (!content) return null;
+    const match = content.match(/<img[^>]+src="([^"]+)"/i);
+    return match ? match[1] : null;
+  });
+
+  eleventyConfig.addFilter("firstImageAlt", (content) => {
+    if (!content) return "";
+    const match = content.match(/<img[^>]+alt="([^"]*)"/i);
+    return match ? match[1] : "";
+  });
+
+  eleventyConfig.addFilter("firstParagraph", (content) => {
+    if (!content) return "";
+    const match = content.match(/<p>([\s\S]*?)<\/p>/);
+    if (!match) return "";
+    return match[1].replace(/<[^>]+>/g, "").trim();
   });
 }
 

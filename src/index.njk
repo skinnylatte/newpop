@@ -1,18 +1,70 @@
 ---
 layout: layout.njk
 title: "Popagandhi"
-pagination:
-  size: 5
-  data: collections.blog
-  reverse: true
-  alias: posts
-permalink: "/{% if pagination.pageNumber != 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
-collectionOnThisPage: blog
 pagefindExclude: true
-showFullPosts: true
+eleventyExcludeFromCollections: true
+bannerImage: /img/20231123-minoltahimatic7sii-tmax400-perceptol-12-031-positive.jpg
+bannerAlt: A musician playing saxophone in a record store
+bannerPosition: center top
 ---
 
-{% include "_post_templateContent.njk" %}
+{% set latestPost = collections.blog | last %}
+{% set nowPost = collections.now | last %}
 
+<div class="home">
 
-{% include "_pagepagination.html" %}
+  {% if latestPost %}
+  {% set latestDate = latestPost.data.date if latestPost.data.date else latestPost.date %}
+  <article class="home-hero">
+    <h2 class="home-hero-title">
+      <a href="{{ latestPost.url }}">{{ latestPost.data.title }}</a>
+    </h2>
+    <p class="home-hero-meta"><time datetime="{{ latestDate }}">{{ latestDate | postDate }}</time></p>
+    <div class="home-hero-content">{{ latestPost.templateContent | safe }}</div>
+  </article>
+  {% endif %}
+
+  <aside class="home-rail">
+
+    {% if nowPost %}
+    {% set nowLine = nowPost.templateContent | firstParagraph %}
+    <section class="home-rail-block home-currently">
+      <h2 class="home-rail-heading">Lately</h2>
+      {% if nowLine %}<p class="home-currently-text">{{ nowLine | truncate(160, true, "…") }}</p>{% endif %}
+      <a class="home-rail-more" href="{{ nowPost.url }}">More →</a>
+    </section>
+    {% endif %}
+
+    <nav class="home-rail-block home-recent" aria-label="Recent posts">
+      <h2 class="home-rail-heading">Recent</h2>
+      <ul>
+      {% for post in collections.blog | reverse %}
+        {% if not loop.first %}
+          {% if loop.index <= 6 %}
+          {% set pd = post.data.date if post.data.date else post.date %}
+          <li>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            <time datetime="{{ pd }}">{{ pd | postDate }}</time>
+          </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+      <a href="/archives" class="home-rail-more">All posts →</a>
+    </nav>
+
+    <nav class="home-rail-block home-explore" aria-label="Sections">
+      <h2 class="home-rail-heading">Explore</h2>
+      <ul>
+        <li><a href="/food">Food</a></li>
+        <li><a href="/photos">Photos</a></li>
+        <li><a href="/bikes">Bikes</a></li>
+        <li><a href="/now">Now</a></li>
+        <li><a href="/writing">Writing</a></li>
+        <li><a href="/elsewhere">Elsewhere</a></li>
+      </ul>
+    </nav>
+
+  </aside>
+
+</div>

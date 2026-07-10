@@ -1,35 +1,41 @@
 ---
-title: The Archives
+title: Archives
 layout: layout.njk
-tags:
- - archives
- - lists
 eleventyExcludeFromCollections: true
 pagefindExclude: true
+bannerImage: /img/whale-tail-mist.jpg
+bannerAlt: A whale tail rising out of misty ocean water near a coastline
+bannerPosition: center center
 ---
 
 <article class="archives">
     <h1>{{ title }}</h1>
-    <div class="date-metadata">Browse all posts by year</div>
 
-    {% set years = collections.postsByYear | dictsort(false, "key") | reverse %}
-    {% if years.length > 0 %}
-        <section class="archive-year-section">
-            <h2>Years ({{ years.length }})</h2>
-            <ul class="archive-years-list">
-            {% for yearData in years %}
-                {% set archiveYear = yearData[0] %}
-                {% set archivePosts = yearData[1] %}
-                <li class="archive-year-item">
-                    <a href="/archives/{{ archiveYear }}/" class="archive-year-link">{{ archiveYear }}</a>
-                    <span class="archive-year-count">{{ archivePosts.length }} post{% if archivePosts.length != 1 %}s{% endif %}</span>
-                </li>
-            {% endfor %}
-            </ul>
-        </section>
-    {% else %}
-        <section class="archive-year-section">
-            <p>No posts found yet.</p>
-        </section>
-    {% endif %}
- </article>
+    <section class="archive-year-section">
+        <h2>Best of</h2>
+        <ul class="archive-bestof-list">
+        {% for post in collections.bestof | reverse %}
+            {% set pd = post.data.date if post.data.date else post.date %}
+            <li class="archive-bestof-item">
+                <a href="{{ post.url }}" class="archive-bestof-link">{{ post.data.title }}</a>
+                <time class="archive-bestof-date" datetime="{{ pd }}">{{ pd | shortDate }}</time>
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
+
+    <section class="archive-year-section">
+        <h2>By year</h2>
+        <ul class="archive-years-list">
+        {% set years = collections.postsByYear | dictsort(false, "key") | reverse %}
+        {% for yearData in years %}
+            {% set archiveYear = yearData[0] %}
+            {% set archivePosts = yearData[1] %}
+            <li class="archive-year-item">
+                <a href="/archives/{{ archiveYear }}/" class="archive-year-link">{{ archiveYear }}</a>
+                <span class="archive-year-count">{{ archivePosts.length }} post{% if archivePosts.length != 1 %}s{% endif %}</span>
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
+</article>

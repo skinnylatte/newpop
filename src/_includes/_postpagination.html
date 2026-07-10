@@ -4,11 +4,11 @@
     {% set collectionLabel = 'bikes' %}
     {% set collectionPath = '/bikes/' %}
   {% elif '/photos' in page.url %}
-    {% set collection = collections.photos %}
+    {% set collection = collections.photosSorted %}
     {% set collectionLabel = 'photos' %}
     {% set collectionPath = '/photos/' %}
   {% elif '/food' in page.url %}
-    {% set collection = collections.food %}
+    {% set collection = collections.foodSorted %}
     {% set collectionLabel = 'food' %}
     {% set collectionPath = '/food/' %}
   {% elif '/posts' in page.url %}
@@ -26,28 +26,20 @@
         <div class="pagination-prev">
           {% if previousPost %}
             <a href="{{ previousPost.url }}" class="pagination-link prev-link" rel="prev">
-              <span class="pagination-title">← Previous</span>
-              <span class="pagination-meta">{{ previousPost.data.title | truncate(70) }}</span>
+              ← {{ previousPost.data.title | truncate(60) }}
             </a>
-          {% else %}
-            <span class="pagination-spacer" aria-hidden="true"></span>
           {% endif %}
         </div>
 
         <div class="pagination-center">
-          <span class="pagination-info">
-            More in <a href="{{ collectionPath }}" class="pagination-center-link">{{ collectionLabel }}</a>
-          </span>
+          <a href="{{ collectionPath }}" class="pagination-center-link">{{ collectionLabel }}</a>
         </div>
 
         <div class="pagination-next">
           {% if nextPost %}
             <a href="{{ nextPost.url }}" class="pagination-link next-link" rel="next">
-              <span class="pagination-title">Next →</span>
-              <span class="pagination-meta">{{ nextPost.data.title | truncate(70) }}</span>
+              {{ nextPost.data.title | truncate(60) }} →
             </a>
-          {% else %}
-            <span class="pagination-spacer" aria-hidden="true"></span>
           {% endif %}
         </div>
       </div>

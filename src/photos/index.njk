@@ -1,15 +1,42 @@
 ---
 layout: layout.njk
 title: Photos
-pagination:
-  size: 5
-  data: collections.photos
-  reverse: true
-  alias: posts
 pagefindExclude: true
+eleventyExcludeFromCollections: true
+bannerImage: /img/20230917-alameda-birding-nikonos-kodak5222-rodinal-010-positive.jpg
+bannerAlt: Photographers on a birding platform at Alameda
+pagination:
+  data: collections.photosSorted
+  size: 12
+  alias: posts
+  reverse: true
 ---
-<h1 class="page-title">{{ title }}</h1>
 
-{% include "_post_templateContent.njk" %}
+<div class="photo-page">
+  <h1 class="page-title">Photos{% if pagination.pageNumber > 0 %} — Page {{ pagination.pageNumber + 1 }}{% endif %}</h1>
+
+  {% if pagination.pageNumber == 0 %}
+  <div class="page-top">
+    <p>Photography has been a big part of my life. I collect film cameras, love the practice of developing and scanning film, but I also love wildlife photography.</p>
+  </div>
+  {% endif %}
+
+  <div class="photo-grid">
+  {% for photo in posts %}
+    {% set imgSrc = photo.data.thumbnail or (photo.templateContent | firstImage) %}
+    {% set imgAlt = photo.data.thumbnailAlt or (photo.templateContent | firstImageAlt) or photo.data.title %}
+    <a href="{{ photo.url }}" class="photo-grid-item">
+      {% if imgSrc %}
+        <img src="{{ imgSrc }}" alt="{{ imgAlt }}" loading="lazy" decoding="async" sizes="(min-width: 901px) 33vw, (min-width: 481px) 50vw, 100vw">
+      {% else %}
+        <div class="photo-grid-placeholder"><span>{{ photo.data.title }}</span></div>
+      {% endif %}
+      <div class="photo-grid-overlay">
+        <span class="photo-grid-title">{{ photo.data.title }}</span>
+      </div>
+    </a>
+  {% endfor %}
+  </div>
+</div>
 
 {% include "_pagepagination.html" %}
