@@ -19,7 +19,7 @@ In the midst of a historic heatwave on continental Europe, I am here, bemoaning 
 
 I started my trip in Paris, which is always a fun stop for family and friends, then headed to Geneva for UN [AI for Good](https://aiforgood.itu.int/). I was invited to speak at a workshop on AI Testing and Evaluations, and I gave a talk named "Beyond Responsible AI", where I argued that the people who should be testing AI the most (people that AI impacts) don't get to; and proposed some recommendations on how we can do that. 
 
-The same week, also in Geneva, I also spoke on a WomenInGenAI panel at the WSIS Forum, "Responsible GenAI in Public Services: From Policy Principles to Deployable Workflows." With my co-panelists, we discussed challenges and practices with deploying AI in government, healthcare, education and more.
+The same week, also in Geneva, I also spoke on a WomenInGenAI panel at the [WSIS Forum](https://www.itu.int/net4/wsis/forum/2026/Agenda/Session/213), "Responsible GenAI in Public Services: From Policy Principles to Deployable Workflows." With my co-panelists, we discussed challenges and practices with deploying AI in government, healthcare, education and more.
 
 Geneva was abuzz the whole week, with thousands of people from many different countries. I attended the Global Dialogue on AI Governance, witnessing the leaders of many countries express interest and concern about AI. 
 
