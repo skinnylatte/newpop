@@ -1,9 +1,17 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:netlify"
   publish = "_site"
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Persist generated responsive images across builds so eleventy-img only
+# encodes new/changed images. build:netlify skips `clean`, so the restored
+# cache survives (Netlify starts from a fresh checkout each build anyway).
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = ["_site/img/opt"]
 
 [[redirects]]
   from = "/posts/schroedinger-s-lesbian"

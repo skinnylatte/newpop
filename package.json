@@ -13,7 +13,8 @@
     "start": "npx @11ty/eleventy --serve --incremental",
     "build:site": "npx @11ty/eleventy && node minify-css.js",
     "build:search": "npx pagefind --site _site --glob \"**/*.html\"",
-    "build": "npm run clean && npm run build:site && npm run build:search"
+    "build": "npm run clean && npm run build:site && npm run build:search",
+    "build:netlify": "npm run build:site && npm run build:search"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +35,7 @@
     "dayjs": "^1.11.19",
     "luxon": "^3.4.4",
     "markdown-it-anchor": "^9.2.0",
+    "netlify-plugin-cache": "^1.0.3",
     "pagefind": "^1.4.0",
     "slugify": "^1.6.6"
   }
