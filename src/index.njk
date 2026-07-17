@@ -27,10 +27,13 @@ bannerPosition: center top
     <nav class="post-pagination" aria-label="Post navigation">
       <div class="pagination-container">
         <div class="pagination-prev">
-          <a href="{{ prevPost.url }}" class="pagination-link prev-link" rel="prev">← {{ prevPost.data.title | truncate(60) }}</a>
+          <a href="{{ prevPost.url }}" class="pagination-link prev-link" rel="prev">
+            <span class="pagination-label">← Previous post</span>
+            <span class="pagination-title">{{ prevPost.data.title | truncate(60) }}</span>
+          </a>
         </div>
         <div class="pagination-center">
-          <a href="/archives" class="pagination-center-link">all posts</a>
+          <a href="/archives" class="pagination-center-link">All posts</a>
         </div>
         <div class="pagination-next"></div>
       </div>
