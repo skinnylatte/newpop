@@ -13,8 +13,8 @@
     {% set collectionPath = '/food/' %}
   {% elif '/posts' in page.url %}
     {% set collection = collections.blog %}
-    {% set collectionLabel = 'blog' %}
-    {% set collectionPath = '/' %}
+    {% set collectionLabel = 'writing' %}
+    {% set collectionPath = '/writing/' %}
   {% endif %}
 
   {% if collection %}
