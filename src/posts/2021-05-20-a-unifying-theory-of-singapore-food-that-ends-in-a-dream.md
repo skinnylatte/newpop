@@ -3,6 +3,7 @@ title: A unifying theory of Singapore food that ends in a dream
 date: 2021-05-20T04:12:16.028Z
 description: I'm in Singapore. I write about food.
 tags:
+  - bestof
   - singapore
   - food
   - dreams

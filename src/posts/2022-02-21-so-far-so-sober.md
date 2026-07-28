@@ -4,6 +4,7 @@ date: 2022-02-21T04:31:22.932Z
 description: I leave the intersection of startup hustle, disease, and alcoholism
   for a new perspective on life and everything.
 tags:
+  - bestof
   - alcohol
   - life
   - love

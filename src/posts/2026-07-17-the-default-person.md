@@ -3,6 +3,7 @@ title: "The default person"
 date: 2026-07-17
 description: "On being the default person in Singapore, life on easy mode, and the Faustian bargain underneath it."
 tags:
+  - bestof
   - singapore
   - class
   - race

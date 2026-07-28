@@ -1,6 +1,7 @@
 ---
 title: The One About Scallion Pancakes
 tags: 
+  - bestof
   - sanfrancisco
   - california
   - racism

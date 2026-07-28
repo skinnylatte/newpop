@@ -1,6 +1,7 @@
 ---
 layout: post.njk
 tags:
+  - bestof
   - india
   - bombay
   - mumbai

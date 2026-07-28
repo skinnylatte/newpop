@@ -1,5 +1,6 @@
 ---
 tags:
+  - bestof
   - lgbtq
   - life
   - love

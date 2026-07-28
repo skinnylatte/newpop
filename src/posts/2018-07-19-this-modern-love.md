@@ -2,6 +2,7 @@
 title: This Modern Love
 date: '2018-07-18T18:15:53Z'
 tags: 
+  - bestof
   - love
   - abuse
   - marriage
