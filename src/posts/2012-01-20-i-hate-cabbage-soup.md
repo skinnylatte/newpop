@@ -1,6 +1,7 @@
 ---
 layout: post.njk
 tags:
+  - bestof
     - food
     - family
     - death

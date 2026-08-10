@@ -2,6 +2,7 @@
 date: 2014-01-18T12:18:54Z
 title: I Follow Cities
 tags: 
+  - bestof
     - life
     - singapore
     - nostalgia

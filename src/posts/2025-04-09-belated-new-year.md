@@ -1,6 +1,7 @@
 ---
 title: Belated New Year
 tags: 
+  - bestof
   - lunarnewyear 
   - aapi
   - chinese

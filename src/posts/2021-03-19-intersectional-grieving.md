@@ -3,6 +3,7 @@ title: Intersectional Grieving
 date: 2021-03-19T20:55:03.119Z
 description: It's a rough week. Some notes on grief.
 tags:
+  - bestof
   - racism
   - blog
 layout: post.njk

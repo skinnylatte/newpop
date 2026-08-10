@@ -3,6 +3,7 @@ layout: post.njk
 title: Split Language Disorders
 date: 2015-08-03
 tags:
+  - bestof
   - life
   - singapore
   - indonesia

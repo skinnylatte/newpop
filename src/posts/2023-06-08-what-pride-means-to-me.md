@@ -4,6 +4,7 @@ date: 2023-06-08T19:11:11-07:00
 draft: false 
 description: A few thoughts on Pride 2023 and my very gay life so far.
 tags: 
+  - bestof
   - life
   - lgbtq
   - queer
