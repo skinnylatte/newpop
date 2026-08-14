@@ -12,6 +12,8 @@ tags:
   - immigration
   - blog
 layout: post.njk
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 I am, by the accident of who I was born as, the default person in Singapore.
