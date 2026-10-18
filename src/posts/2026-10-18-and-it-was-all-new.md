@@ -39,3 +39,7 @@ To say that it killed me slowly inside would be an under-statement.
 I tried so hard to make the most out of my situation — after all, the Bay Area is a lovely and wonderful place to get 'stuck' in! But I wasn't able to be who I truly am, which was especially difficult given that San Francisco is the best place in the world to do the sorts of things I love doing! 
 
 All to say, that part of my life is over, [I can do anything I want now](posts/our-visa-to-green-card-journey/), I've spent the last couple of months collaborating with incredible folks, and I can't wait to be able to share what I've been up to.
+
+We're taking a couple of weeks off life and work to return to Asia, reconnect with friends, family, and places that we were not able to see for the last couple of years. So far, our travels have taken us to Singapore, Malaysia, India and Nepal. 
+
+Being in this part of the world is where I am happiest. All of it is home, to me.
