@@ -1,10 +1,9 @@
-{% if tags %}
+{% set visibleTags = tags | displayTags %}
+{% if visibleTags.length > 0 %}
 <div class="post-tags">
 <span class="post-tags-label">Tagged</span>
-{% for tag in tags %}
-{% if tag != 'posts' and tag != 'all' %}
+{% for tag in visibleTags %}
 <a href="/tags/{{ tag | slugify }}/" class="tag-item">{{ tag }}<span class="visually-hidden"> (view all posts tagged {{ tag }})</span></a>
-{% endif %}
 {% endfor %}
 </div>
 {% endif %}
