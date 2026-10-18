@@ -40,6 +40,8 @@ I tried so hard to make the most out of my situation — after all, the Bay Area
 
 All to say, that part of my life is over, [I can do anything I want now](posts/our-visa-to-green-card-journey/), I've spent the last couple of months collaborating with incredible folks, and I can't wait to be able to share what I've been up to.
 
+In the meantime, [my AI testing and evaluation consulting business](https://futureethics.ai) and my [evals training](https://asianaieval.org) are keeping me plenty busy. (Believe it or not, these are NOT the things I am starting..)
+
 We're taking a couple of weeks off life and work to return to Asia, reconnect with friends, family, and places that we were not able to see for the last couple of years. So far, our travels have taken us to Singapore, Malaysia, India and Nepal. 
 
 Being in this part of the world is where I am happiest. All of it is home, to me.
